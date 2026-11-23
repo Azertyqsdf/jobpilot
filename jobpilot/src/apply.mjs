@@ -76,6 +76,29 @@ for (const id of ids) {
   }
   if (!job) { report.push({ id, error: 'offre introuvable dans data/jobs.json' }); continue; }
 
+  // Dossier personnalisé à la main (fichier « personnalise ») : on réutilise ses documents tels quels.
+  const custom = applicationFolder(id);
+  const customDir = new URL(`data/applications/${custom}/`, root);
+  if (await access(new URL('personnalise', customDir)).then(() => true, () => false)) {
+    const letter = await readFile(new URL('lettre.txt', customDir), 'utf8');
+    const name = `${profile.identity.firstName} ${profile.identity.lastName}`;
+    let sent = "non — postuler via le lien de l'offre";
+    if (isEmail(job.contactEmail) && (env.AUTO_SEND === 'true' || env.FORCE_SEND === 'true')) {
+      try {
+        sent = await sendMail({ to: job.contactEmail, subject: job.mailSubject || `Candidature — ${job.title} — ${name}`, text: letter,
+          attachments: [
+            { filename: `CV - ${name}.pdf`, path: fileURLToPath(new URL('cv.pdf', customDir)) },
+            { filename: `Lettre de motivation - ${name}.pdf`, path: fileURLToPath(new URL('lettre.pdf', customDir)) },
+          ] });
+      } catch (e) { sent = `échec de l'envoi : ${e.message}`; }
+    }
+    const meta = JSON.parse(await readFile(new URL('meta.json', customDir), 'utf8').catch(() => '{}'));
+    Object.assign(meta, { contactEmail: job.contactEmail, contactEmailSource: job.contactEmailSource || null, sent, letterSource: 'personnalisée' });
+    await writeFile(new URL('meta.json', customDir), JSON.stringify(meta, null, 2));
+    if (sent === 'envoyé') await writeFile(new URL('envoi.json', customDir), JSON.stringify({ to: job.contactEmail, at: new Date().toISOString() }));
+    console.log(`✔ ${job.company} — ${job.title} (documents personnalisés)\n  envoi : ${sent}`);
+    continue;
+  }
   const cv = tailorCv(profile, job);
   const lies = honestyCheck(cv, profile);
   if (lies.length) throw new Error(`Contrôle d'honnêteté échoué pour ${id} : ${lies.join(' | ')}`);

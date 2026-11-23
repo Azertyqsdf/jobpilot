@@ -15,7 +15,7 @@
    "company": "Skaelia",
    "location": "Lyon 6e (69)",
    "url": "https://www.hellowork.com/fr-fr/emplois/85759165.html",
-   "contactEmail": null,
+   "contactEmail": "contact@skaelia.com",
    "contract": "CDI — télétravail partiel (2 jours sur site minimum)",
    "salary": "60 000 - 90 000 € / an",
    "postedAt": "2026-11-21T09:00:00.000Z",
@@ -46,7 +46,9 @@
     "known": true,
     "label": "60 k–90 k € / an"
    },
-   "summary": "Rattaché à la direction, avec des perspectives de création et de management d une Business Unit dédiée et un accès à un dispositif d intéressement au capital (BSPCE) selon les résultats. Rémunération fixe de 60 à 90 K€ selon profil, plus un variable avec avance garantie pendant les 8 à 9 premiers mois."
+   "summary": "Rattaché à la direction, avec des perspectives de création et de management d une Business Unit dédiée et un accès à un dispositif d intéressement au capital (BSPCE) selon les résultats. Rémunération fixe de 60 à 90 K€ selon profil, plus un variable avec avance garantie pendant les 8 à 9 premiers mois.",
+   "contactEmailSource": "https://www.skaelia.com/contact",
+   "mailSubject": "Candidature — Business Manager IT, Lyon (réf. SKA-00277--NK11) — Amaury Bertrand"
   },
   {
    "id": "adzuna-5974608493",
