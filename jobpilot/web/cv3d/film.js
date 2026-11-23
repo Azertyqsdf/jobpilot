@@ -282,6 +282,7 @@ document.querySelector('.start-hint').textContent = `≈ ${Math.max(1, Math.roun
 const el = { kicker: $('kicker'), headline: $('headline'), sub: $('sub'), subtitle: $('subtitle') };
 const shown = { kicker: '', headline: '', sub: '', subtitle: '', who: '' };
 function setText(state) {
+  document.body.classList.toggle('titling', !!state.headline);
   for (const k of ['kicker', 'headline', 'sub', 'subtitle']) {
     const v = state[k] || '';
     if (v === shown[k] && (k !== 'subtitle' || state.who === shown.who)) continue;
@@ -387,6 +388,8 @@ function frame(now) {
   const k = ease(Math.min(1, lt / Math.min(s.dur, reduced ? 2 : 4.5)));
   tmpCam.lerpVectors(s.from.cam, s.cam, k);
   tmpLook.lerpVectors(s.from.look, s.look, k);
+  // Mouvement de grue : la caméra s'élève en arc entre deux plans pour passer au-dessus des panneaux.
+  if (s.station) tmpCam.y += Math.sin(Math.PI * k) * 6;
   if (camera.aspect < 1) tmpCam.sub(tmpLook).multiplyScalar(Math.min(1.8, 0.75 / camera.aspect)).add(tmpLook); // recul en portrait
   if (!reduced) { // respiration de caméra à l'épaule
     tmpCam.x += Math.sin(now / 2100) * 0.25;

@@ -61,3 +61,7 @@ body.cinema .bar { height: var(--bar); }
 .track .mark { position: absolute; top: -3px; width: 2px; height: 10px; background: #ffffff70; }
 .chapter-label { font-size: 12px; color: var(--dim); white-space: nowrap; max-width: 30%; overflow: hidden; text-overflow: ellipsis; }
 @media (max-width: 600px) { .chapter-label { display: none; } :root { --bar: 8vh; } }
+
+/* Voile sombre derrière les cartons de titre, pour qu'ils restent lisibles pendant les mouvements de caméra. */
+#stage::before { content: ""; position: fixed; inset: 0; z-index: -1; background: radial-gradient(ellipse 60% 45% at 50% 50%, #05070de0 0%, #05070d99 45%, transparent 75%); opacity: 0; transition: opacity .8s ease; }
+body.titling #stage::before { opacity: 1; }
