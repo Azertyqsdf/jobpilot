@@ -186,8 +186,18 @@
     "name": "Alan",
     "website": "https://alan.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:06.825Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "908311103",
+      "818353070"
+    ],
+    "generic": {
+      "email": "contact@alan.com",
+      "source": "https://alan.com/fr-fr/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T20:16:54.284Z"
   },
   "manpower": {
     "name": "Manpower",
@@ -441,8 +451,12 @@
   "renovel": {
     "name": "RENOVEL",
     "website": "https://www.renovel.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:14:57.202Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:55.154Z"
   },
   "aesthetic modeline en abrege ae modelin": {
     "name": "AESTHETIC MODELINE EN ABREGE \"AE MODELIN",
@@ -453,7 +467,8 @@
   "societe de publicite audiovisuelle": {
     "name": "SOCIETE DE PUBLICITE AUDIOVISUELLE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:22.027Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T20:19:12.741Z"
   },
   "funke france": {
     "name": "FUNKE FRANCE",
@@ -1094,5 +1109,380 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-23T20:13:00.722Z"
+  },
+  "fab group": {
+    "name": "FAB GROUP",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:16:27.204Z"
+  },
+  "interaction expert": {
+    "name": "INTERACTION EXPERT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:16:28.733Z"
+  },
+  "michael page": {
+    "name": "Michael Page",
+    "website": "https://www.michaelpage.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "399256890"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:16:31.711Z"
+  },
+  "expert manager levallois": {
+    "name": "Expert & Manager Levallois",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:16:50.944Z"
+  },
+  "world economic forum": {
+    "name": "World Economic Forum",
+    "website": "https://www.weforum.org/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:16:53.953Z"
+  },
+  "snow group": {
+    "name": "Snow Group",
+    "website": "https://www.snow-group.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "889067401"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:16:55.451Z"
+  },
+  "vivacy": {
+    "name": "Vivacy",
+    "website": "https://vivacy.com/en",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "informacion@vivacy.com",
+      "source": "https://vivacy.com/en/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T20:16:57.358Z"
+  },
+  "talan": {
+    "name": "Talan",
+    "website": "https://www.talan.com/americas/en",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:16:59.822Z"
+  },
+  "apec diffusion sa": {
+    "name": "Apec Diffusion SA",
+    "website": "https://www.apecdiffusion.ch/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:17:00.940Z"
+  },
+  "samsic facility": {
+    "name": "Samsic Facility",
+    "website": "https://www.samsic.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "403227796",
+      "444724462"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:17:02.412Z"
+  },
+  "michael page switzerland": {
+    "name": "Michael Page Switzerland",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:26.313Z"
+  },
+  "skolae": {
+    "name": "Skolae",
+    "website": "https://skolae.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "531598258"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:17:28.091Z"
+  },
+  "groupe cam": {
+    "name": "GROUPE CAM",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:30.844Z"
+  },
+  "automatique et industrie": {
+    "name": "Automatique et Industrie",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:36.441Z"
+  },
+  "hays france": {
+    "name": "Hays France",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:42.116Z"
+  },
+  "le cabrh": {
+    "name": "le CabRH",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:43.942Z"
+  },
+  "delices des bois": {
+    "name": "Délices des bois",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:46.783Z"
+  },
+  "rosen et beaumont": {
+    "name": "Rosen et Beaumont",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:17:46.909Z"
+  },
+  "invenio": {
+    "name": "INVENIO",
+    "website": "https://www.invenio.eu/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:17:53.122Z"
+  },
+  "skill hunter": {
+    "name": "SKILL HUNTER",
+    "website": "https://skillhunter.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "814072237"
+    ],
+    "generic": {
+      "email": "contact@skillhunter.fr",
+      "source": "https://skillhunter.fr/contact/"
+    },
+    "genericVerdict": "petite entreprise (6 à 9 salariés)",
+    "email": "contact@skillhunter.fr",
+    "source": "https://skillhunter.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (6 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:18:00.435Z"
+  },
+  "aswe partners": {
+    "name": "Aswe Partners",
+    "website": "https://www.aswe.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "contact@aswe.fr",
+      "source": "https://www.aswe.fr/contact"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@aswe.fr",
+    "source": "https://www.aswe.fr/contact",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:18:00.700Z"
+  },
+  "abylsen": {
+    "name": "Abylsen",
+    "website": "https://abylsen.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "810001883",
+      "479973521"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:00.849Z"
+  },
+  "actual talent": {
+    "name": "Actual talent",
+    "website": "https://www.actual-talent.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:04.104Z"
+  },
+  "fiderim lyon": {
+    "name": "FIDERIM LYON",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:08.629Z"
+  },
+  "som saint priest": {
+    "name": "SOM Saint Priest",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:12.899Z"
+  },
+  "heliatec": {
+    "name": "Heliatec",
+    "website": "https://heliatec.seres-technologies.com/heliatec/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "508458494"
+    ],
+    "generic": {
+      "email": "contact@seres-technologies.com",
+      "source": "https://heliatec.seres-technologies.com/en/contact-us/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T20:18:15.859Z"
+  },
+  "heliatec ingenierie": {
+    "name": "HELIATEC Ingénierie",
+    "website": "https://heliatec.seres-technologies.com/heliatec/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "508458494"
+    ],
+    "generic": {
+      "email": "contact@seres-technologies.com",
+      "source": "https://heliatec.seres-technologies.com/en/contact-us/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T20:18:16.163Z"
+  },
+  "sbmd": {
+    "name": "SBMD",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:17.729Z"
+  },
+  "lhh recruitment solutions": {
+    "name": "LHH Recruitment Solutions",
+    "website": "https://www.lhh.com/fr-fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:22.876Z"
+  },
+  "ikigai": {
+    "name": "Ikigaï",
+    "website": "https://ikigai.ch/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:28.587Z"
+  },
+  "l industrie recrute": {
+    "name": "L'industrie recrute",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:42.936Z"
+  },
+  "cogepart": {
+    "name": "Cogepart",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:45.068Z"
+  },
+  "dymasco": {
+    "name": "DYMASCO",
+    "website": "https://www.dymasco.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "853714483"
+    ],
+    "generic": {
+      "email": "contact@dymasco.com",
+      "source": "https://www.dymasco.com/contact"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@dymasco.com",
+    "source": "https://www.dymasco.com/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:18:48.215Z"
+  },
+  "forums talents handicap": {
+    "name": "Forums Talents Handicap",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:18:50.902Z"
+  },
+  "exaltan rh": {
+    "name": "Exaltan RH",
+    "website": "https://exaltan-rh.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "800715906",
+      "501947204",
+      "431303775"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:53.623Z"
+  },
+  "rheactive": {
+    "name": "RHeactive",
+    "website": "https://www.rheactive.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:18:54.528Z"
+  },
+  "davricourt": {
+    "name": "DAVRICOURT",
+    "website": "https://davricourt.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "538491622"
+    ],
+    "generic": {
+      "email": "contact@davricourt.com",
+      "source": "https://davricourt.com/contact/"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T20:19:12.349Z"
   }
 }
