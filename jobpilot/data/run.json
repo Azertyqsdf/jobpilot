@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-23T16:57:00.660Z",
+  "startedAt": "2026-11-23T16:58:59.821Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
@@ -7,8 +7,8 @@
     "adzuna": "299 offres",
     "laBonneBoite": "erreur : refus de l'API (recherche 500 / company 403)"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-23T16:57:23.542Z",
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 429, gemini-3.7-flash: 503, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-23T16:59:30.550Z",
   "fetched": 1289,
   "unique": 1105,
   "kept": 24
