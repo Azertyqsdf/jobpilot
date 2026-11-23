@@ -616,7 +616,7 @@ function viewKeys() {
     ${g.keys.map(secretRow).join('')}</div>`).join('')}
   <div class="card stack">
     <div><h3>Envoi automatique par e-mail</h3>
-    <p class="muted small" style="margin:2px 0 0">Quand une offre donne une adresse de candidature, le robot peut envoyer lui-même le CV et la lettre depuis ta boîte. Avec Gmail : active la validation en deux étapes, puis crée un <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener">mot de passe d'application</a>. Les réponses des recruteurs arriveront sur ${esc(S.profile?.identity?.email || 'ton adresse')}.</p></div>
+    <p class="muted small" style="margin:2px 0 0">Quand une offre donne une adresse de candidature, le robot peut envoyer lui-même le CV et la lettre depuis ta boîte. Outlook.com n'autorise plus l'envoi par un programme : utilise une adresse Gmail dédiée à l'envoi. Active sa validation en deux étapes, puis crée un <a href="https://myaccount.google.com/apppasswords" target="_blank" rel="noopener">mot de passe d'application</a>. Les recruteurs verront ton nom ; leurs réponses et une copie de chaque envoi arriveront sur ${esc(S.profile?.identity?.email || 'ton adresse')}.</p></div>
     <div class="row"><button class="btn sm ghost" data-act="smtp-gmail">Préremplir pour Gmail</button></div>
     ${[['SMTP_HOST', 'Serveur SMTP'], ['SMTP_PORT', 'Port'], ['SMTP_USER', 'Adresse e-mail d’envoi'], ['SMTP_PASS', "Mot de passe d'application"]].map(secretRow).join('')}
     <label class="switch"><input type="checkbox" id="autosend"${autoSend ? ' checked' : ''}> Envoyer automatiquement les candidatures quand c'est possible</label>

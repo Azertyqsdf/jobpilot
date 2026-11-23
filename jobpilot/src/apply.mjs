@@ -57,7 +57,8 @@ async function sendMail({ to, subject, text, attachments }) {
   const { default: nodemailer } = await import('nodemailer');
   const t = nodemailer.createTransport({ host: env.SMTP_HOST, port: +(env.SMTP_PORT || 465), secure: (env.SMTP_PORT || '465') === '465', auth: { user: env.SMTP_USER, pass: env.SMTP_PASS } });
   const from = `${profile.identity.firstName} ${profile.identity.lastName} <${env.SMTP_FROM || env.SMTP_USER}>`;
-  await t.sendMail({ from, to, bcc: env.SMTP_USER, replyTo: profile.identity.email, subject, text, attachments });
+  // Les réponses des recruteurs et une copie de chaque envoi arrivent sur ta boîte principale (profil).
+  await t.sendMail({ from, to, bcc: profile.identity.email || env.SMTP_USER, replyTo: profile.identity.email, subject, text, attachments });
   return 'envoyé';
 }
 
