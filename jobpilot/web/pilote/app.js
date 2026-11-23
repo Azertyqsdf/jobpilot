@@ -112,8 +112,8 @@ async function downloadFile(path, filename) {
     sync('ok');
   } catch (e) { sync('err'); toast(`Téléchargement impossible : ${e.message}`, true); }
 }
-async function dispatch(applyIds = []) {
-  await gh(R('/actions/workflows/jobpilot.yml/dispatches'), { method: 'POST', body: { ref: S.branch, inputs: { apply: applyIds.join(' ') } } });
+async function dispatch(applyIds = [], send = false) {
+  await gh(R('/actions/workflows/jobpilot.yml/dispatches'), { method: 'POST', body: { ref: S.branch, inputs: { apply: applyIds.join(' '), send: String(send) } } });
   watchRobot();
 }
 
@@ -212,7 +212,7 @@ function effective(id, a) {
   if (stage === 'preparation' && app?.ready) stage = 'a_envoyer';
   if (['preparation', 'a_envoyer'].includes(stage) && app?.sent) stage = 'envoyee';
   const column = { preparation: 'a_envoyer', a_envoyer: 'a_envoyer', envoyee: 'envoyee', relancee: 'envoyee', entretien: 'entretien', offre: 'terminee', refus: 'terminee', abandon: 'terminee' }[stage] || 'a_envoyer';
-  const sentAt = a.sentAt || (app?.sent ? a.at : null);
+  const sentAt = a.sentAt || (app?.sent ? (a.mailAt || a.at) : null);
   const due = (stage === 'envoyee' && daysSince(sentAt) >= 7) || (stage === 'relancee' && daysSince(a.relanceAt) >= 10);
   return { stage, column, job, sentAt, due, folder: app?.ready ? app.folder : null };
 }
@@ -432,7 +432,9 @@ function appCard(x) {
       <button class="btn sm" data-dl="data/applications/${esc(folder)}/lettre.pdf" data-name="Lettre - ${esc(a.company)}.pdf">Lettre PDF</button>
       <button class="btn sm ghost" data-dl="data/applications/${esc(folder)}/lettre.txt" data-name="Lettre - ${esc(a.company)}.txt">Texte</button></div>`
     : stage === 'preparation' ? `<div class="small muted" style="margin-top:6px">⏳ Le robot prépare le CV et la lettre…</div>` : '';
-  const quick = stage === 'a_envoyer' && !a.manual ? `<button class="btn sm primary" data-act="mark-sent" data-id="${esc(id)}">J'ai envoyé</button>`
+  const email = x.job?.contactEmail;
+  const quick = stage === 'a_envoyer' && email && folder ? `<button class="btn sm primary" data-act="send-mail" data-id="${esc(id)}">✉️ Envoyer par e-mail</button><button class="btn sm" data-act="mark-sent" data-id="${esc(id)}">J'ai envoyé</button>`
+    : stage === 'a_envoyer' && !a.manual ? `<button class="btn sm primary" data-act="mark-sent" data-id="${esc(id)}">J'ai envoyé</button>`
     : due ? `<button class="btn sm primary" data-act="mark-relance" data-id="${esc(id)}">C'est relancé</button>` : '';
   return `<article class="card app">
     ${due ? `<div class="due">⏰ À relancer</div>` : ''}
@@ -709,6 +711,16 @@ view.addEventListener('click', async e => {
     case 'ignore': track(d.id, { stage: 'ignoree' }); saveTracking(); return render();
     case 'unignore': delete S.tracking.apps[d.id]; saveTracking(); return render();
     case 'mark-sent': track(d.id, { stage: 'envoyee', sentAt: new Date().toISOString() }); saveTracking(); toast('Bravo ! Relance suggérée dans 7 jours.'); return render();
+    case 'send-mail': {
+      const missing = ['SMTP_HOST', 'SMTP_USER', 'SMTP_PASS'].filter(n => !S.secrets.includes(n));
+      if (missing.length) { toast(`Configure d'abord l'envoi d'e-mails dans « Clés & envoi » (${missing.join(', ')}).`, true); return; }
+      const to = jobById(d.id)?.contactEmail;
+      if (!confirm(`Envoyer le CV et la lettre à ${to} ?`)) return;
+      sync('busy');
+      try { await dispatch([d.id], true); track(d.id, { stage: 'preparation', mailAt: new Date().toISOString() }); saveTracking(); toast('Envoi en cours (≈ 1 min)…'); render(); }
+      catch (err) { sync('err'); toast(`Impossible de lancer l'envoi : ${err.message}`, true); }
+      return;
+    }
     case 'mark-relance': track(d.id, { stage: 'relancee', relanceAt: new Date().toISOString() }); saveTracking(); return render();
     case 'manual-toggle': { const f = $('#manualForm'); f.hidden = !f.hidden; if (!f.hidden) f.querySelector('input').focus(); return; }
     case 'search-now':

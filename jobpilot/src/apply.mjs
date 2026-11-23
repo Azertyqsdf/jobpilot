@@ -113,7 +113,8 @@ for (const id of ids) {
 
   // Envoi automatique uniquement quand l'offre donne une adresse e-mail de candidature.
   let sent = 'non — postuler via le lien de l\'offre';
-  if (job.contactEmail && env.AUTO_SEND === 'true' && pdf) {
+  const wantSend = env.AUTO_SEND === 'true' || env.FORCE_SEND === 'true'; // FORCE_SEND : bouton « Envoyer par e-mail »
+  if (job.contactEmail && wantSend && pdf) {
     const name = `${profile.identity.firstName} ${profile.identity.lastName}`;
     try {
       sent = await sendMail({
@@ -127,7 +128,7 @@ for (const id of ids) {
       });
     } catch (e) { sent = `échec de l'envoi : ${e.message}`; }
   } else if (job.contactEmail) {
-    sent = env.AUTO_SEND === 'true' ? 'non — PDF indisponible' : `non — envoi auto désactivé (AUTO_SEND) ; e-mail : ${job.contactEmail}`;
+    sent = wantSend ? 'non — PDF indisponible' : `non — envoi automatique désactivé ; e-mail : ${job.contactEmail}`;
   }
 
   const meta = { id, folder, auto: env.AUTO_MODE === '1', title: job.title, company: job.company, url: job.url, contactEmail: job.contactEmail, lang, letterSource, pdf, sent, matched: cv.matched, missing: cv.missing, createdAt: new Date().toISOString() };

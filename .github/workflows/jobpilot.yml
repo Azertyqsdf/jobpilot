@@ -15,6 +15,10 @@ on:
         description: "Identifiants d'offres pour lesquelles postuler (vide = recherche)"
         required: false
         default: ''
+      send:
+        description: "Envoyer l'e-mail même si l'envoi automatique est désactivé (true/false)"
+        required: false
+        default: 'false'
   push:
     paths:
       - 'jobpilot/profile/**'
@@ -53,6 +57,7 @@ jobs:
       SMTP_USER: ${{ secrets.SMTP_USER }}
       SMTP_PASS: ${{ secrets.SMTP_PASS }}
       AUTO_SEND: ${{ vars.AUTO_SEND }}
+      FORCE_SEND: ${{ inputs.send }}
       CV_PHONE: ${{ secrets.CV_PHONE }}
       CHROME_PATH: /usr/bin/google-chrome
     steps:
