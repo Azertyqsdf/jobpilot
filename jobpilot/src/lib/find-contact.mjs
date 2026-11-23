@@ -107,13 +107,15 @@ export async function findContact(c, budgetMs = 25000) {
     .map(p => `${origin}/${p}`);
   const seen = new Set([site.url]);
   const pages = [site];
-  const fetchAll = async urls => {
-    const fresh = urls.filter(u => !seen.has(u)).slice(0, 10);
+  const fetchAll = async (urls, max = 14) => {
+    const fresh = [...new Set(urls)].filter(u => !seen.has(u)).slice(0, max);
     fresh.forEach(u => seen.add(u));
     if (Date.now() > deadline + 15000) return [];
     return (await Promise.all(fresh.map(u => get(u, 7000)))).filter(p => p && new URL(p.url).hostname === new URL(site.url).hostname);
   };
-  const first = await fetchAll([...links(site.html, site.url), ...usual]);
+  // Pages essentielles d'abord (contact, mentions légales, recrutement), puis les liens trouvés sur la page d'accueil.
+  const key = ['contact', 'mentions-legales', 'recrutement', 'carrieres', 'nous-rejoindre', 'jobs'].map(p => `${origin}/${p}`);
+  const first = await fetchAll([...key, ...links(site.html, site.url).filter(u => /(contact|mention|legal)/i.test(u)), ...usual, ...links(site.html, site.url)]);
   pages.push(...first);
   const careers = first.filter(p => CAREER.test(p.url));
   pages.push(...await fetchAll(careers.flatMap(p => links(p.html, p.url, true))));
@@ -135,6 +137,23 @@ export async function findContact(c, budgetMs = 25000) {
   }
   scored.sort((a, b) => b.r - a.r);
   const best = scored.find(s => s.r >= 3);
-  if (!best) return { website: site.url, reason: "aucune adresse de recrutement publiée sur le site", v: 2 };
-  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom', kind: 'recrutement', v: 2 };
+
+  // Indices pour juger si l'adresse générale est pertinente (décision prise ensuite, avec la taille de l'entreprise) :
+  // l'entreprise est-elle un cabinet de recrutement / une agence d'emploi ? quelle est son adresse de contact ?
+  const allText = normalize(pages.map(p => p.html.replace(/<[^>]+>/g, ' ')).join(' ').slice(0, 400000));
+  const isRecruiter = /(cabinet de recrutement|cabinet de chasse|chasseur de tetes|executive search|recrutement par approche directe|agence d.interim|agence de recrutement|societe de portage|cabinet rh)/.test(allText);
+  let generic = null;
+  for (const p of pages) for (const e of emailsIn(p.html)) {
+    const local = e.split('@')[0];
+    if (!/^(contact|info|infos|bonjour|hello|accueil|agence|direction)/i.test(local)) continue;
+    if (rankEmail(e, host) < 2) continue; // même domaine que le site uniquement
+    const score = /contact/i.test(p.url) ? 2 : 1;
+    if (!generic || score > generic.score) generic = { email: e, source: p.url, score };
+  }
+  // Numéros SIREN cités sur le site (mentions légales) : servent à confirmer l'identité dans l'annuaire officiel.
+  const sirens = [...new Set([...pages.map(p => p.html).join(' ').matchAll(/(?:siren|siret|rcs)[^0-9]{0,40}((?:\d[\s.]?){9})/gi)].map(m => m[1].replace(/\D/g, '').slice(0, 9)))];
+  const hints = { isRecruiter, sirens, generic: generic && { email: generic.email, source: generic.source } };
+
+  if (!best) return { website: site.url, reason: "aucune adresse de recrutement publiée sur le site", v: 2, ...hints };
+  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom', kind: 'recrutement', v: 2, ...hints };
 }

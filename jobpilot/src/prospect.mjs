@@ -4,6 +4,7 @@
 // de nouvelles entreprises, et une entreprise sans adresse est revérifiée au bout de 30 jours.
 import { readFile, writeFile } from 'node:fs/promises';
 import { findContact } from './lib/find-contact.mjs';
+import { companyInfo, genericContactVerdict } from './lib/company-size.mjs';
 import { normalize, isEmail } from './lib/text.mjs';
 
 const root = new URL('..', import.meta.url);
@@ -28,13 +29,13 @@ for (const j of [...jobsDb.jobs].sort((a, b) => b.score - a.score)) {
 }
 for (const c of compDb.companies) {
   const k = key(c.name);
-  if (k && !SKIP.test(k) && !targets.has(k)) targets.set(k, { name: c.name, siret: c.siret, city: c.city, website: c.website });
+  if (k && !SKIP.test(k) && !targets.has(k)) targets.set(k, { name: c.name, siret: c.siret, city: c.city, postcode: c.postcode, website: c.website, headcount: c.headcount });
 }
 
 const due = [...targets.entries()].filter(([k]) => {
   const c = cache[k];
   if (!c) return true;
-  if (c.v !== 2) return true; // résultat obtenu avec l'ancienne règle : on revérifie
+  if (c.v !== 3) return true; // résultat obtenu avec une ancienne règle : on revérifie
   if (c.email) return false;
   return (Date.now() - new Date(c.checkedAt)) / 864e5 > RECHECK_DAYS;
 }).slice(0, PER_RUN);
@@ -44,25 +45,36 @@ let found = 0;
 for (let i = 0; i < due.length; i += 4) {
   await Promise.all(due.slice(i, i + 4).map(async ([k, t]) => {
     const r = await findContact(t).catch(e => ({ reason: e.message }));
-    cache[k] = { name: t.name, ...r, checkedAt: new Date().toISOString() };
+    // Pas d'adresse de recrutement mais une adresse générale : on juge si elle est pertinente
+    // (taille et activité d'après l'annuaire public, cabinet de recrutement ou non).
+    if (!r.email && r.generic?.email) {
+      let info = await companyInfo({ name: t.name, siret: t.siret, postcode: t.postcode });
+      // Identité confirmée seulement si le SIREN de l'annuaire est celui de la source ou figure sur le site (homonymes).
+      const confirmed = info && ((t.siret && String(t.siret).startsWith(info.siren)) || (r.sirens || []).includes(info.siren));
+      if (!confirmed) info = null;
+      const verdict = genericContactVerdict({ info, isRecruiter: r.isRecruiter, lbbHeadcount: t.headcount });
+      r.genericVerdict = verdict.why;
+      if (verdict.ok) Object.assign(r, { email: r.generic.email, source: r.generic.source, kind: 'contact-pertinent', why: verdict.why, verified: r.verified || 'nom' });
+    }
+    cache[k] = { name: t.name, ...r, v: 3, checkedAt: new Date().toISOString() };
     if (r.email) found++;
-    console.log(`${t.name.padEnd(34).slice(0, 34)} ${r.email ? `✉️  ${r.email} (vérifié par ${r.verified})` : `— ${r.reason}`}`);
+    console.log(`${t.name.padEnd(34).slice(0, 34)} ${r.email ? `✉️  ${r.email} (${r.kind === 'contact-pertinent' ? r.why : 'recrutement'})` : `— ${r.genericVerdict || r.reason}`}`);
   }));
 }
 
 // Seule une adresse de recrutement est utilisée (jamais contact@ / service client).
-const usable = c => c?.email && c.kind === 'recrutement' && c.v === 2; // uniquement une adresse de recrutement
+const usable = c => c?.email && c.v === 3 && (c.kind === 'recrutement' || c.kind === 'contact-pertinent');
 
 // Rattache les adresses trouvées aux offres et aux entreprises (sans écraser une adresse donnée par l'offre).
 let jobsWith = 0, compWith = 0;
 for (const j of jobsDb.jobs) {
   const c = cache[key(j.company)];
-  if (!isEmail(j.contactEmail) && usable(c)) { j.contactEmail = c.email; j.contactEmailSource = c.source; }
+  if (!isEmail(j.contactEmail) && usable(c)) { j.contactEmail = c.email; j.contactEmailSource = c.source; j.contactEmailWhy = c.why || 'adresse de recrutement'; }
   if (isEmail(j.contactEmail)) jobsWith++;
 }
 for (const co of compDb.companies) {
   const c = cache[key(co.name)];
-  if (!isEmail(co.email) && usable(c)) { co.email = c.email; co.emailSource = c.source; co.website ||= c.website; }
+  if (!isEmail(co.email) && usable(c)) { co.email = c.email; co.emailSource = c.source; co.emailWhy = c.why || 'adresse de recrutement'; co.website ||= c.website; }
   if (isEmail(co.email)) compWith++;
 }
 
