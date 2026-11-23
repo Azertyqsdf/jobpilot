@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T15:27:53.869Z",
+ "updatedAt": "2026-11-23T15:31:15.602Z",
  "jobs": [
   {
    "id": "arbeitnow-senior-account-executive-france-lyon-366320",
@@ -30,7 +30,64 @@
     "CRM"
    ],
    "status": "ready",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "min": 100000,
+    "max": 150000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "100 k–150 k € / an"
+   },
+   "summary": "As a Mid-Market Account Executive, your mission is to grow our business by winning new customers in the French mid-market segment. What you'll do Discovery & qualification • • Take ownership of the qualified opportunities passed on by the SDR team, from discovery through to signature."
+  },
+  {
+   "tags": [
+    "direction commerciale",
+    "business development",
+    "management"
+   ],
+   "remote": false,
+   "id": "test-directeur-commercial-74",
+   "source": "Offre de test",
+   "title": "[TEST] Directeur Commercial & Opérations H/F",
+   "company": "Entreprise Test JobPilot",
+   "location": "Annemasse (74)",
+   "url": "https://azertyqsdf.github.io/jobpilot/",
+   "contactEmail": "samia.dewame@gmail.com",
+   "contract": "CDI — temps plein",
+   "salary": "Annuel de 55000 Euros à 65000 Euros",
+   "postedAt": "2026-11-23T16:00:00.000Z",
+   "description": "OFFRE FICTIVE CRÉÉE POUR TESTER JOBPILOT. Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Vous managez une équipe commerciale de 6 personnes et développez un portefeuille de grands comptes. Vous êtes en charge de la négociation avec les partenaires clés, de la prospection de nouveaux marchés à l'export et de la coordination des opérations (logistique, supply chain, stocks). Profil recherché : expérience confirmée en direction commerciale ou business development, leadership, goût du terrain et de la négociation, capacité à structurer une offre et à piloter la croissance. Une expérience entrepreneuriale est un plus. Rémunération : 55 000 € à 65 000 € brut annuel + variable. Véhicule de fonction. Candidature par e-mail.",
+   "manual": true,
+   "score": 100,
+   "reasons": [
+    "Compétences : Direction commerciale, Business development, Management d'équipe, Négociation grands comptes, Prospection B2B, Pilotage stratégique, Développement international, Supply chain & logistique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Business development",
+    "Management d'équipe",
+    "Négociation grands comptes",
+    "Prospection B2B",
+    "Pilotage stratégique",
+    "Développement international",
+    "Supply chain & logistique"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T15:31:08.870Z",
+   "salaryAnnual": {
+    "min": 55000,
+    "max": 65000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "55 k–65 k € / an"
+   },
+   "summary": "Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Une expérience entrepreneuriale est un plus."
   },
   {
    "id": "adzuna-5973699147",
@@ -44,6 +101,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "35000–70000 €",
+   "salaryMin": 35000,
+   "salaryMax": 70000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-21T08:16:25Z",
    "tags": [
     "Emplois Autres/Général"
@@ -59,7 +119,17 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 35000,
+    "max": 70000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "35 k–70 k € / an"
+   },
+   "summary": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à l"
   },
   {
    "id": "adzuna-5973699128",
@@ -73,6 +143,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "35000–70000 €",
+   "salaryMin": 35000,
+   "salaryMax": 70000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-21T08:16:25Z",
    "tags": [
     "Emplois Autres/Général"
@@ -88,7 +161,17 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 35000,
+    "max": 70000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "35 k–70 k € / an"
+   },
+   "summary": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à l"
   },
   {
    "id": "arbeitnow-technical-account-manager-technical-advisory-geneva-400048",
@@ -116,7 +199,12 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Sonar enables organizations to ship agentic code with confidence. Code creation is abundant, but confidence is scarce. Our core platform, SonarQube, verifies over 750 billion lines of code every day, delivering agentic verification and governance for all code."
   },
   {
    "id": "adzuna-5974087582",
@@ -130,6 +218,9 @@
    "contactEmail": null,
    "contract": "permanent, full_time",
    "salary": "90000–110000 €",
+   "salaryMin": 90000,
+   "salaryMax": 110000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-21T14:12:20Z",
    "tags": [
     "Emplois Autres/Général"
@@ -144,7 +235,17 @@
     "Développement international"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 90000,
+    "max": 110000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "90 k–110 k € / an"
+   },
+   "summary": "Notre client Notre client est un groupe industriel international de référence, spécialisé dans la conception et la fabrication de solutions technologiques à forte valeur ajoutée destinées aux industriels."
   },
   {
    "id": "adzuna-5954702394",
@@ -158,6 +259,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-05T23:58:19Z",
    "tags": [
     "Unknown"
@@ -172,7 +276,12 @@
     "Développement international"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Un groupe industriel en pleine expansion, des ambitions fortes et de nouveaux marchés à conquérir ! Acteur reconnu dans les solutions de fixation technique et d'assemblage à haute valeur ajoutée, notre groupe industriel poursuit son expansion en France et à l'international."
   },
   {
    "id": "adzuna-5954982901",
@@ -186,6 +295,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-06T02:28:55Z",
    "tags": [
     "Unknown"
@@ -200,7 +312,12 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Véritable développeur(se) d'affaires, vous intervenez sur l'ensemble du cyclecommercial :- Prospecter et identifier de nouvelles opportunités de développement- Développer et fidéliser un portefeuille clients BtoB- Réaliser les rendez-vous commerciaux et analyser les besoins des clients- Élaborer "
   },
   {
    "id": "arbeitnow-enterprise-account-executive-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-",
@@ -230,7 +347,12 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies."
   },
   {
    "id": "arbeitnow-remote-new-business-account-executive-nordics-119212",
@@ -262,7 +384,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "GitLab is the intelligent orchestration platform for DevSecOps. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. All of our roles are remote, however some roles may carry specific location-based eligibility requirements."
   },
   {
    "id": "arbeitnow-field-sales-fr-account-executive-lyon-386348",
@@ -292,7 +419,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Vos missions dans l'équipe commerciale La santé est l'une des choses les plus précieuses que nous ayons. Or, les soignants manquent parfois de temps et de moyens pour mener leur mission à bien. Chez Doctolib, nous voulons améliorer leur quotidien grâce à des services efficaces et innovants."
   },
   {
    "id": "remotive-2091136",
@@ -371,7 +503,12 @@
     "Python"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:25:37.470Z"
+   "firstSeen": "2026-11-23T14:25:37.470Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Two ways to work with clients • Contract: most roles are contract-based."
   },
   {
    "id": "remotive-2091165",
@@ -428,7 +565,17 @@
     "API REST / GraphQL"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:25:37.470Z"
+   "firstSeen": "2026-11-23T14:25:37.470Z",
+   "salaryAnnual": {
+    "min": 42000,
+    "max": 60000,
+    "currency": "USD",
+    "from": "month",
+    "estimated": false,
+    "known": true,
+    "label": "42 k–60 k $ / an (calculé depuis un montant mensuel)"
+   },
+   "summary": "You’ll work closely with and report to our Senior AI & Design Lead to turn product requirements into robust, secure, and well-documented applications, as well as maintain existing ones. All employment decisions are based on business needs, job requirements and individual qualifications."
   },
   {
    "id": "remotive-2091135",
@@ -506,7 +653,12 @@
     "Python"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:25:37.470Z"
+   "firstSeen": "2026-11-23T14:25:37.470Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. You will be redirected to the career page with offers from the client on our website. How it works • Apply and complete your profile • Verify your role • Once approved, we match you with a project."
   },
   {
    "id": "adzuna-5952253258",
@@ -520,6 +672,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-04T03:03:32Z",
    "tags": [
     "Unknown"
@@ -534,7 +689,12 @@
     "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Entreprise : Le Cabinet Fidérim Consulting est LE spécialiste des recrutements Tertiaires et Cadres : notre équipe accueillante et réactive vous attend pour vous accompagner dans votre futur projet professionnel. Chez Fiderim le process de recrutement est rapide et simple : Postulez en un clic."
   },
   {
    "id": "adzuna-5944432555",
@@ -548,6 +708,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-10-28T12:27:55Z",
    "tags": [
     "Unknown"
@@ -562,7 +725,12 @@
     "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Vous aimez le contact avec les chefs d'entreprise, le développement de réseaux professionnels et les missions de terrain ? Vous souhaitez mettre vos compétences commerciales au service des professionnels de l'hôtellerie, de la restauration et du tourisme ?"
   },
   {
    "id": "adzuna-5951264839",
@@ -576,6 +744,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "60000–80000 €",
+   "salaryMin": 60000,
+   "salaryMax": 80000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-03T03:52:38Z",
    "tags": [
     "Emplois Fabrication"
@@ -591,7 +762,17 @@
     "Pilotage stratégique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 60000,
+    "max": 80000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "60 k–80 k € / an"
+   },
+   "summary": "Rattaché(e) à la direction commerciale, vous êtes responsable du développement de votre activité sur votre secteur géographique. À ce titre, vos principales responsabilités sont les suivantes : - Développer les projets de modernisation : prendre en charge les projets de transformation et de remplacement complet …"
   },
   {
    "id": "adzuna-5972455229",
@@ -605,6 +786,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-20T05:52:35Z",
    "tags": [
     "Unknown"
@@ -618,7 +802,12 @@
     "Direction commerciale"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ?Vous avez fait vos preuves. Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats."
   },
   {
    "id": "arbeitnow-account-executive-mid-market-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-",
@@ -646,7 +835,12 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "But that’s exactly how healthcare works today. You will join a team that focuses on companies from one of the following segments: Tech & Engineering, Business Services & Media, Retail, Transport, HCR, Learn & Care, Food & Beverage or Metallurgy. You will interact with everyone from HR executives to CEOs."
   },
   {
    "id": "adzuna-5951264838",
@@ -660,6 +854,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "50000–70000 €",
+   "salaryMin": 50000,
+   "salaryMax": 70000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-03T03:52:38Z",
    "tags": [
     "Emplois Fabrication"
@@ -674,7 +871,17 @@
     "Pilotage stratégique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 50000,
+    "max": 70000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "50 k–70 k € / an"
+   },
+   "summary": "Rattaché(e) au Directeur Régional, vous êtes responsable du développement commercial de votre secteur sur la région Midi-Pyrénées. Votre objectif est de développer les ventes d'équipements neufs, de conquérir de nouveaux marchés et de construire des relations durables avec les acteurs locaux."
   },
   {
    "id": "adzuna-5973458770",
@@ -688,6 +895,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-21T04:31:11Z",
    "tags": [
     "Unknown"
@@ -702,7 +912,12 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Rattaché(e) au Responsable du développement commercial, vous êtes amené à : - Viser la conquête de nouveaux clients au travers de différentes actions de prospection définies (approche directe, réseautage, communication, petit déjeuner, etc) - Participer à l'ouverture de nouveaux comptes suite au "
   },
   {
    "id": "adzuna-5976140761",
@@ -716,6 +931,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-23T14:23:15Z",
    "tags": [
     "Emplois Comptabilité et Finance"
@@ -730,7 +948,12 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Rattaché(e) au Responsable du développement commercial, vous êtes amené à : - Viser la conquête de nouveaux clients au travers de différentes actions de prospection définies (approche directe, réseautage, communication, petit déjeuner, etc) - Participer à l'ouverture de nouveaux comptes suite au "
   },
   {
    "id": "adzuna-5968481691",
@@ -744,6 +967,9 @@
    "contactEmail": null,
    "contract": "full_time",
    "salary": "28800–70000 €",
+   "salaryMin": 28800,
+   "salaryMax": 70000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-17T04:19:21Z",
    "tags": [
     "Unknown"
@@ -758,7 +984,17 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 28800,
+    "max": 70000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "29 k–70 k € / an"
+   },
+   "summary": "Rattaché(e) au Directeur du Développement Groupe, vous contribuez activement à la croissance de l'agence d'Annecy en assurant la conquête de nouveaux clients, le développement du chiffre d'affaires et la fidélisation de vos comptes : - Conquête et ouverture de nouveaux comptes : mener des actions de prospection multica"
   },
   {
    "id": "arbeitnow-remote-senior-solutions-architect-i-pre-sales-uk-defence-intelligence-15004",
@@ -790,7 +1026,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "We believe in using space to help life on Earth. Join Planet and be a part of our mission to change the way people see the world. You will act as a trusted advisor and value driver to prospective customers while working closely with product, engineering, and sales teams across Planet to champion customer needs."
   },
   {
    "id": "adzuna-5961097510",
@@ -804,6 +1045,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-11T05:44:25Z",
    "tags": [
     "Unknown"
@@ -818,7 +1062,12 @@
     "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Chez Mistertemp' Group, nous allions innovation digitale et proximité locale pour révolutionner le monde du recrutement (intérim/CDD/CDI)."
   },
   {
    "id": "adzuna-5974639761",
@@ -832,6 +1081,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-22T04:58:29Z",
    "tags": [
     "Unknown"
@@ -848,7 +1100,12 @@
     "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Rattaché(e) au responsable de site, vous aurez pour mission de développer le portefeuille clients, conquérir de nouveaux marchés et contribuer à la croissance du chiffre d'affaires. Vos missions - Prospecter de nouveaux clients en France et à l'international. - Identifier les opportunités commerciale…"
   },
   {
    "id": "adzuna-5968590281",
@@ -862,6 +1119,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-17T05:48:58Z",
    "tags": [
     "Unknown"
@@ -875,7 +1135,12 @@
     "Direction commerciale"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : À propos de la mission Rattaché(e) au Directeur Commercial, vous jouez un rôle clé dans l'analyse et la sécurisation des affaires. Vos principales responsabilités : Études techniques et chiffrage : - Réali…"
   },
   {
    "id": "arbeitnow-remote-engineering-manager-eu-uk-berlin-491641",
@@ -906,7 +1171,12 @@
     "Supply chain & logistique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Our cutting-edge software enables teams to design, prototype, and manufacture with transparency, efficiency, and responsibility—reducing environmental impact while optimizing performance. We're a fast-growing, innovative company that thrives on creativity, collaboration, and continuous learning."
   },
   {
    "id": "arbeitnow-product-manager-geneva-470684",
@@ -935,7 +1205,12 @@
     "Supply chain & logistique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Travel: Up to 10% Job ID: 1771 The Role: As a Product Manager within the Quantum Platform – Devices division, you will play a key role in supporting a growing portfolio of cutting-edge products by taking ownership of day-to-day product operations. We are proud to be an Equal Employment Opportunity employer."
   },
   {
    "id": "arbeitnow-senior-project-manager-strategic-initiatives-geneva-306337",
@@ -965,7 +1240,12 @@
     "MySQL / MariaDB"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Project Manager, Strategic Initiatives, you will lead some of these initiatives from fuzzy intent to measurable outcome with pace and focus, as a trusted thought partner to leadership. Over time, you will lead initiatives across the company, in domains you may not know yet. Be fluent in English, written and spoken."
   },
   {
    "id": "adzuna-5970816397",
@@ -979,6 +1259,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-19T00:08:21Z",
    "tags": [
     "Unknown"
@@ -993,7 +1276,12 @@
     "Marketing digital (Meta Ads)"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Actual Talent est le spécialiste européen en Acquisition et Évaluation de talents d'Actual group, sixième acteur de l'emploi et du travail en France."
   },
   {
    "id": "arbeitnow-remote-backend-software-developer-hilversum-417173",
@@ -1023,7 +1311,17 @@
     "API REST / GraphQL"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:25:37.470Z"
+   "firstSeen": "2026-11-23T14:25:37.470Z",
+   "salaryAnnual": {
+    "min": 48000,
+    "max": 72000,
+    "currency": "EUR",
+    "from": "month",
+    "estimated": false,
+    "known": true,
+    "label": "48 k–72 k € / an (calculé depuis un montant mensuel)"
+   },
+   "summary": "Backend Software Developer – Maatwerk Software met Impact Wij weten dat wat op het eerste gezicht eenvoudig lijkt, vaak complexer is dan men denkt. Je bent analytisch sterk en je krijgt er energie van om technische requirements te vertalen naar logische cloud-infrastructuren die je vervolgens zélf bouwt."
   },
   {
    "id": "arbeitnow-senior-manager-product-structure-systems-plm-mes-zurich-switzerland-409052",
@@ -1051,7 +1349,12 @@
     "Création d'entreprise"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "ANYbotics is a fast-growing tech company dedicated to shaping the future of mobile robotics across multiple industries. You will govern the product architecture for our complex mechatronic systems, ensuring that our Engineering BOM (EBOM), Manufacturing BOM (MBOM), and Service BOM (SBOM) are perfectly synchronized."
   },
   {
    "id": "adzuna-5954984171",
@@ -1065,6 +1368,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-06T02:29:05Z",
    "tags": [
     "Unknown"
@@ -1078,7 +1384,12 @@
     "Business development"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : -> Une opportunité pour entreprendre sereinement Vous souhaitez entreprendre tout en vous appuyant sur un concept solide et reconnu ?"
   },
   {
    "id": "adzuna-5969147457",
@@ -1092,6 +1403,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-17T16:04:34Z",
    "tags": [
     "Unknown"
@@ -1105,7 +1419,12 @@
     "Business development"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Classé 38ᵉ éditeur de logiciels français (EY), Plus que pro est le leader français des avis clients contrôlés. Notre ambition est simple : remplacer les promesses par des preuves , protéger les consommateurs et mettre en lumière le savoir-faire des entreprises françaises. Votre rémunération doit suivre vos résultats."
   },
   {
    "id": "adzuna-5973790632",
@@ -1119,6 +1438,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-21T08:39:23Z",
    "tags": [
     "Unknown"
@@ -1133,7 +1455,12 @@
     "Pilotage stratégique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Missions et Attributions : Au coeur de la stratégie de développement commercial, Commercial.e sédentaire, chargé de développement commercial est un poste pivot entre le marketing opérationnel et les équipes commerciales terrain."
   },
   {
    "id": "adzuna-5972454970",
@@ -1147,6 +1474,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-20T05:52:30Z",
    "tags": [
     "Unknown"
@@ -1161,7 +1491,12 @@
     "Pilotage stratégique"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Rattaché(e) au Directeur Régional, vous êtes responsable du développement commercial de votre secteur sur la région Midi-Pyrénées."
   },
   {
    "id": "arbeitnow-pre-sales-sales-engineer-paris-france-marseille-france-bordeaux-france-nantes-france-strasbourg-france-lyon-fr",
@@ -1189,7 +1524,12 @@
     "Marketing digital (Meta Ads)"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "You will actively participate in developing this growing function within Alan and edit the company to make our Sales teams the most successful of all! Important note: we hire people, not roles. If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?"
   },
   {
    "id": "remotive-2086540",
@@ -1221,7 +1561,17 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "min": 25000,
+    "max": 35000,
+    "currency": "USD",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "25 k–35 k $ / an"
+   },
+   "summary": "Compensation Structure This role is 100% commission-based , which means your earning potential is unlimited. Training Period (Weeks 1–4) We invest in your success and want to make sure you’re supported as you get up to speed: • Week 1: Commission-only (a chance to start earning right away while learning the ropes)."
   },
   {
    "id": "arbeitnow-remote-senior-project-manager-koln-48801",
@@ -1250,7 +1600,12 @@
     "Gestion de projets"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Du bist jemand, der gerne Verantwortung übernimmt und Projekte von der Planung bis zum erfolgreichen Abschluss begleitet? Unsere Mission: epilot revolutioniert die Zusammenarbeit von allen Marktpartnern, die in der Energiewelt zur Erbringung von Produkten und Dienstleistungen zusammenarbeiten."
   },
   {
    "id": "arbeitnow-technical-product-manager-code-quality-geneva-417470",
@@ -1277,7 +1632,12 @@
     "Prospection B2B"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "The team: You will join the Code Quality product team, part of Sonar's Product Management group. Decisions on which new languages Sonar should support, and where we should not compete. What you will do You’ll enjoy this role if you care about well-crafted software and like owning a topic end to end."
   },
   {
    "id": "adzuna-5960923742",
@@ -1291,6 +1651,9 @@
    "contactEmail": null,
    "contract": "contract",
    "salary": "28000–28000 €",
+   "salaryMin": 28000,
+   "salaryMax": 28000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-11T04:13:35Z",
    "tags": [
     "Emplois Administration"
@@ -1304,7 +1667,17 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 28000,
+    "max": 28000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "28 k€ / an"
+   },
+   "summary": "Nous recherchons pour le compte de notre client, une entreprise industrielle reconnue de la Vallée de l'Arve, spécialisée dans la fabrication de composants mécaniques de précision à forte valeur ajoutée. Rattaché(e) au Responsable Commercial, vous pilotez le traitement administratif des commande…"
   },
   {
    "id": "adzuna-5961098333",
@@ -1318,6 +1691,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-11T05:44:33Z",
    "tags": [
     "Unknown"
@@ -1331,7 +1707,12 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Nous recherchons pour le compte de notre client, une entreprise industrielle reconnue de la Vallée de l'Arve, spécialisée dans la fabrication de composants mécaniques de précision à forte valeur ajoutée."
   },
   {
    "id": "arbeitnow-dynamics-365-crm-solution-architect-zurich-68801",
@@ -1357,7 +1738,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Our client is an international IT consulting company with a strong focus on Microsoft technologies. As a Microsoft implementation partner, the company delivers CRM projects based on Microsoft Dynamics 365 for well known clients across various industries."
   },
   {
    "id": "arbeitnow-remote-principal-enterprise-architect-ai-cloud-integrations-162065",
@@ -1390,7 +1776,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Join our mission to make processes work for people, companies, and the planet. We are looking for a curious, smart, and “learn it all” Architect with proven experience and a passion for designing transformative solution architectures for our prospects and customers."
   },
   {
    "id": "arbeitnow-senior-pmo-analyst-zurich-378257",
@@ -1422,7 +1813,12 @@
     "API REST / GraphQL"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "As a Senior PMO Analyst, you will play a key role in bringing structure, visibility, and execution discipline to complex programs, ensuring our Program Managers can focus on delivering groundbreaking technologies. At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs)."
   },
   {
    "id": "remotive-2091137",
@@ -1504,7 +1900,12 @@
     "Python"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:25:37.470Z"
+   "firstSeen": "2026-11-23T14:25:37.470Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. Two ways to work with clients • Contract: most roles are contract-based."
   },
   {
    "id": "adzuna-5975062120",
@@ -1518,6 +1919,9 @@
    "contactEmail": null,
    "contract": "permanent, full_time",
    "salary": "60000–90000 €",
+   "salaryMin": 60000,
+   "salaryMax": 90000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-22T14:12:10Z",
    "tags": [
     "Unknown"
@@ -1531,7 +1935,17 @@
     "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 60000,
+    "max": 90000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "60 k–90 k € / an"
+   },
+   "summary": "Notre client, acteur majeur du conseil et du courtage en assurances, souhaite renforcer ses équipes commerciales en région Auvergne-Rhône-Alpes avec le recrutement d'un Directeur de clientèle Grands Comptes. Nous recherchons avant tout un véritable développeur commercial, doté d'un tempérament de chasseur…"
   },
   {
    "id": "arbeitnow-remote-client-director-mice-france-445910",
@@ -1561,7 +1975,12 @@
     "Développement international"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "About Kuoni Tumlare: Kuoni Tumlare is seeking a dynamic and results-driven Client Director to lead, manage and develop our Accounts for MICE in the France. The Client Director will be responsible for driving sales growth, developing new business opportunities, and delivering exceptional service to our clients."
   },
   {
    "id": "adzuna-5964043381",
@@ -1575,6 +1994,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-13T05:44:20Z",
    "tags": [
     "Unknown"
@@ -1589,7 +2011,12 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Rattaché(e) au/à la Manager Régional ,vous gérez votre portefeuille clients confié sur les départements suivants : la Savoie (73) et la Haute-Savoie (74).De l'identification du prospect à la signature du contrat, votre mission ne s'arrête pas là : vous fidélisez vos clients et les suivez tout au "
   },
   {
    "id": "adzuna-5961617260",
@@ -1603,6 +2030,9 @@
    "contactEmail": null,
    "contract": "permanent, full_time",
    "salary": "30000–40000 €",
+   "salaryMin": 30000,
+   "salaryMax": 40000,
+   "salaryPredicted": false,
    "postedAt": "2026-11-11T14:08:51Z",
    "tags": [
     "Unknown"
@@ -1617,7 +2047,17 @@
     "Gestion de portefeuille clients"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 30000,
+    "max": 40000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "30 k–40 k € / an"
+   },
+   "summary": "Rattaché(e) au/à la Manager Régional ,vous gérez votre portefeuille clients confié sur les départements suivants : la Savoie (73) et la Haute-Savoie (74)."
   },
   {
    "id": "adzuna-5975973911",
@@ -1631,6 +2071,9 @@
    "contactEmail": null,
    "contract": "permanent",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-23T10:55:51Z",
    "tags": [
     "Emplois Vente"
@@ -1644,7 +2087,12 @@
     "Direction commerciale"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Nous recherchons un technico-commercial ou une technico-commerciale passionné(e) et dynamique pour renforcer notre équipe. Les informations suivantes doivent être lues attentivement par tous les candidats. Rattaché(e) au responsable commercial de votre secteur, vous serez en charge de développer notre portefeuille cl…"
   },
   {
    "id": "adzuna-5972451222",
@@ -1658,6 +2106,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-20T05:51:41Z",
    "tags": [
     "Unknown"
@@ -1671,7 +2122,12 @@
     "Business development"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Tes missions principales seront les suivantes : - Développer et fidéliser ton portefeuille de clients dans un environnement BtoB - Prospecter de nouveaux clien…"
   },
   {
    "id": "adzuna-5944426411",
@@ -1685,6 +2141,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-10-28T12:26:57Z",
    "tags": [
     "Unknown"
@@ -1698,7 +2157,12 @@
     "Business development"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Vous êtes un véritable as de la vente, prêt(e) à conquérir le monde du business Enthousiaste et persévérant(e), vous êtes responsable du développement commercial de votre secteur géographique. En binôme avec un technico-commercial sédentaire, vous formez une équipe imbattable. …"
   },
   {
    "id": "adzuna-5971206197",
@@ -1712,6 +2176,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "24000–28800 €",
+   "salaryMin": 24000,
+   "salaryMax": 28800,
+   "salaryPredicted": false,
    "postedAt": "2026-11-19T07:44:53Z",
    "tags": [
     "Emplois Vente"
@@ -1725,7 +2192,17 @@
     "Business development"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "min": 24000,
+    "max": 28800,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "24 k–29 k € / an"
+   },
+   "summary": "Vous êtes un véritable as de la vente, prêt(e) à conquérir le monde du business Enthousiaste et persévérant(e), vous êtes responsable du développement commercial de votre secteur géographique. En binôme avec un technico-commercial sédentaire, vous formez une équipe imbattable."
   },
   {
    "id": "arbeitnow-remote-ai-engineer-rotterdam-22878",
@@ -1755,7 +2232,12 @@
     "API REST / GraphQL"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "You'll transform defined business use cases into production-ready agentic solutions, leveraging modern AI technologies, Azure services, and Model Context Protocol (MCP) architecture. Translate product requirements and use cases into scalable, production-ready solutions."
   },
   {
    "id": "arbeitnow-head-of-business-automation-zurich-switzerland-78161",
@@ -1783,7 +2265,12 @@
     "CRM"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z"
+   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "You will own internal productivity as a measurable outcome, not a theoretical initiative. You will build solutions directly using n8n, Claude, or whatever tool the problem requires. You will work alongside strong peers in IT Infrastructure and Data without managing direct reports."
   },
   {
    "id": "adzuna-5972449232",
@@ -1797,6 +2284,9 @@
    "contactEmail": null,
    "contract": "",
    "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
    "postedAt": "2026-11-20T05:50:59Z",
    "tags": [
     "Unknown"
@@ -1807,7 +2297,12 @@
    ],
    "matchedSkills": [],
    "status": "new",
-   "firstSeen": "2026-11-23T15:26:00.751Z"
+   "firstSeen": "2026-11-23T15:26:00.751Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Présente dans plus de 100 pays, elle s'appuie sur des équipes expertes intervenant à chaque étape du cycle de vie des installations, avec une exigence constante en matière de qualité, de sécurité et de satisfaction client."
   }
  ]
 }
