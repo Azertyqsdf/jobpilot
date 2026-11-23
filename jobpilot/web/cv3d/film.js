@@ -316,7 +316,7 @@ function buildCredits() {
     ${section('Hors champ', [(profile.interests || []).map(esc).join(' · ')])}
     ${section('Tournage', [esc(id.city || '')])}
   </div>
-  <div class="final" id="final"><div class="fin">Et la suite ?</div><p style="color:var(--dim);margin:0">${forCompany ? `Elle pourrait s'écrire chez ${esc(forCompany)}.` : 'Elle pourrait s\'écrire avec vous.'}</p><div class="links">${links}</div></div>`;
+  <div class="final" id="final"><img class="fin-photo" src="../photo.jpg" alt="" onerror="this.remove()"><div class="fin">Et la suite ?</div><p style="color:var(--dim);margin:0">${forCompany ? `Elle pourrait s'écrire chez ${esc(forCompany)}.` : 'Elle pourrait s\'écrire avec vous.'}</p><div class="links">${links}</div></div>`;
   $('replay').addEventListener('click', e => { e.preventDefault(); seek(0); play(); });
 }
 buildCredits();

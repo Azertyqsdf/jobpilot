@@ -17,7 +17,7 @@ export const FILM_ICON = `<svg viewBox="0 0 48 48" width="44" height="44" aria-h
 <path d="M21 24.5v8l7-4z" fill="#0b0f1a"/>
 </svg>`;
 
-export function renderCv(profile, cv, { filmUrl, job } = {}) {
+export function renderCv(profile, cv, { filmUrl, job, photo } = {}) {
   const id = profile.identity;
   const contact = [id.city, id.email, id.phone].filter(Boolean).map(h);
   if (id.availability) contact.push(`<strong>${h(id.availability)}</strong>`);
@@ -27,6 +27,8 @@ export function renderCv(profile, cv, { filmUrl, job } = {}) {
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CV — ${h(id.firstName)} ${h(id.lastName)}${job ? ` — ${h(job.company)}` : ''}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; }
@@ -34,9 +36,11 @@ export function renderCv(profile, cv, { filmUrl, job } = {}) {
 html { background:#e9ecf2; }
 body { margin:0; font: 9.8pt/1.4 "Inter", "Segoe UI", system-ui, -apple-system, sans-serif; color:var(--ink); }
 .page { width:210mm; min-height:297mm; margin:24px auto; background:#fff; padding:14mm 15mm 12mm; box-shadow:0 10px 40px #0002; display:grid; grid-template-columns: 1fr 58mm; gap:0 9mm; }
-@media print { html{background:#fff} .page{ margin:0; box-shadow:none; min-height:0; } }
+@media print { html, body { background:#fff; } .page{ margin:0; box-shadow:none; min-height:0; padding-bottom:6mm; } }
 @media screen and (max-width: 820px) { .page{ width:auto; min-height:0; margin:0; grid-template-columns:1fr; padding:20px 16px; } }
-header { grid-column:1/-1; display:flex; justify-content:space-between; align-items:flex-start; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:10px; }
+.who { display:flex; align-items:center; gap:14px; min-width:0; }
+.photo { width:27mm; height:27mm; border-radius:50%; object-fit:cover; object-position:50% 30%; flex-shrink:0; border:2px solid #fff; box-shadow:0 0 0 1px var(--line); }
+header { grid-column:1/-1; display:flex; justify-content:space-between; align-items:center; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:10px; }
 h1 { font-size:22pt; line-height:1.05; margin:0; letter-spacing:-.02em; }
 .role { color:var(--accent); font-weight:600; font-size:12pt; margin-top:3px; }
 .contact { color:var(--muted); font-size:9pt; margin-top:5px; }
@@ -58,11 +62,11 @@ aside small { color:var(--muted); }
 </style></head>
 <body><div class="page">
 <header>
-  <div>
+  <div class="who">${photo ? `<img class="photo" src="${photo}" alt="">` : ''}<div>
     <h1>${h(id.firstName)} ${h(id.lastName)}</h1>
     <div class="role">${h(cv.title)}</div>
     <div class="contact">${contact.join(' · ')}${links.length ? ' · ' + links.join(' · ') : ''}</div>
-  </div>
+  </div></div>
   ${filmUrl ? `<a class="film" href="${h(filmUrl)}" title="Voir mon parcours en film 3D">${FILM_ICON}<div><b>Mon CV en film 3D</b><span>Cliquez pour lancer ▶</span></div></a>` : ''}
 </header>
 <main>
@@ -83,7 +87,18 @@ aside small { color:var(--muted); }
   ${cv.languages?.length ? `<h2>Langues</h2>${cv.languages.map(l => `<p>${h(l.name)} <small>— ${h(l.level)}</small></p>`).join('')}` : ''}
   ${cv.interests?.length ? `<h2>Centres d'intérêt</h2><p>${cv.interests.map(h).join(' · ')}</p>` : ''}
 </aside>
-</div></body></html>`;
+</div>
+<script>
+// Garantit une seule page A4 lors de la création du PDF : si le contenu dépasse (les polices varient selon
+// la machine), on le resserre légèrement au lieu de déborder sur une deuxième page vide.
+if (/HeadlessChrome/.test(navigator.userAgent) || navigator.webdriver) (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () {
+  var page = document.querySelector('.page'), max = 297 * 96 / 25.4 - 4;
+  page.style.minHeight = '0'; page.style.paddingBottom = '6mm';
+  var hgt = page.getBoundingClientRect().height;
+  if (hgt > max) page.style.zoom = Math.max(0.8, max / hgt).toFixed(3);
+});
+</script>
+</body></html>`;
 }
 
 export function renderLetter(text, profile) {

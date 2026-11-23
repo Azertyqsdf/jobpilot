@@ -33,6 +33,8 @@ function spontaneousJob(c) {
     description: `${title}. ${c.sector || ''}. Entreprise ${c.headcount || ''} à ${c.city || ''}. développement commercial direction commerciale business development management opérations`,
   };
 }
+// Photo du profil (profile/photo.jpg), intégrée dans le CV.
+const photo = await readFile(new URL('profile/photo.jpg', root)).then(b => `data:image/jpeg;base64,${b.toString('base64')}`, () => null);
 const siteUrl = (env.SITE_URL || '').replace(/\/?$/, '/');
 
 async function findChrome() {
@@ -49,7 +51,7 @@ async function findChrome() {
 }
 
 async function toPdf(chrome, htmlPath, pdfPath) {
-  await run(chrome, ['--headless', '--no-sandbox', '--disable-gpu', '--no-pdf-header-footer', `--print-to-pdf=${fileURLToPath(pdfPath)}`, htmlPath.href], { timeout: 60000 });
+  await run(chrome, ['--headless', '--no-sandbox', '--disable-gpu', '--no-pdf-header-footer', '--virtual-time-budget=8000', '--window-size=1240,1754', '--run-all-compositor-stages-before-draw', `--print-to-pdf=${fileURLToPath(pdfPath)}`, htmlPath.href], { timeout: 90000 });
 }
 
 async function sendMail({ to, subject, text, attachments }) {
@@ -97,7 +99,7 @@ for (const id of ids) {
   const filmUrl = `${siteUrl || '../../'}cv3d/?pour=${encodeURIComponent(job.company)}`;
   // Le téléphone (secret CV_PHONE) n'apparaît que dans le PDF envoyé, jamais dans les pages publiques.
   const withPhone = env.CV_PHONE ? { ...profile, identity: { ...profile.identity, phone: env.CV_PHONE } } : profile;
-  await writeFile(new URL('cv.html', dir), renderCv(withPhone, cv, { filmUrl, job }));
+  await writeFile(new URL('cv.html', dir), renderCv(withPhone, cv, { filmUrl, job, photo }));
   await writeFile(new URL('lettre.html', dir), renderLetter(letter, profile));
   await writeFile(new URL('lettre.txt', dir), letter);
 
@@ -109,7 +111,7 @@ for (const id of ids) {
       pdf = true;
     } catch (e) { console.warn('PDF impossible :', e.message); }
   }
-  if (withPhone !== profile) await writeFile(new URL('cv.html', dir), renderCv(profile, cv, { filmUrl, job }));
+  if (withPhone !== profile) await writeFile(new URL('cv.html', dir), renderCv(profile, cv, { filmUrl, job, photo }));
 
   // Envoi automatique uniquement quand l'offre donne une adresse e-mail de candidature.
   let sent = 'non — postuler via le lien de l\'offre';

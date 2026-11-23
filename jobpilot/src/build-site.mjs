@@ -29,7 +29,9 @@ const generic = {
   languages: profile.languages,
   interests: profile.interests,
 };
-await writeFile(new URL('index.html', out), renderCv(profile, generic, { filmUrl: 'cv3d/' }));
+const photoBuf = await readFile(new URL('profile/photo.jpg', root)).catch(() => null);
+if (photoBuf) await writeFile(new URL('photo.jpg', out), photoBuf);
+await writeFile(new URL('index.html', out), renderCv(profile, generic, { filmUrl: 'cv3d/', photo: photoBuf ? 'photo.jpg' : null }));
 
 // Interface de pilotage (les données sont lues via l'API GitHub avec le jeton de l'utilisateur :
 // rien de personnel — offres, suivi, lettres — n'est publié sur le site).

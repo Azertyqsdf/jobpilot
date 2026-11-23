@@ -379,6 +379,23 @@ async function applyTo(ids) {
   } catch (e) { sync('err'); toast(`Impossible de lancer le robot : ${e.message}`, true); }
 }
 
+// Photo : recadrée en carré 600 px côté navigateur, puis enregistrée dans profile/photo.jpg.
+async function uploadPhoto(file) {
+  sync('busy');
+  try {
+    const img = await createImageBitmap(file);
+    const side = Math.min(img.width, img.height), c = Object.assign(document.createElement('canvas'), { width: 600, height: 600 });
+    c.getContext('2d').drawImage(img, (img.width - side) / 2, (img.height - side) / 2, side, side, 0, 0, 600, 600);
+    const b64 = c.toDataURL('image/jpeg', 0.88).split(',')[1];
+    let sha;
+    try { sha = (await gh(R(`/contents/${P('profile/photo.jpg')}?ref=${S.branch}`))).sha; } catch {}
+    await gh(R(`/contents/${P('profile/photo.jpg')}`), { method: 'PUT', body: { message: 'JobPilot : nouvelle photo', content: b64, branch: S.branch, ...(sha ? { sha } : {}) } });
+    S.photoV = Date.now(); sync('ok');
+    toast('Photo enregistrée ✔ Elle apparaîtra sur tes prochains CV et sur le site dans 1 à 2 minutes.');
+    watchRobot(); render();
+  } catch (err) { sync('err'); toast(`Photo non enregistrée : ${err.message}`, true); }
+}
+
 // ------------------------------------------------------------------ Entreprises (candidatures spontanées)
 function viewCompanies() {
   const q = filters.q.toLowerCase();
@@ -499,7 +516,11 @@ function viewProfile() {
   const id = 'identity';
   return `<div class="head"><div><h2>Mon profil</h2><div class="muted small">Ta source de vérité : le CV adapté ne contiendra <b>que</b> ce qui est écrit ici. Plus tu proposes de variantes vraies, mieux il s'adapte.</div></div></div>
   <div class="card">
-    <h3>Identité & contact</h3>
+    <div class="row" style="gap:14px;margin-bottom:6px">
+      <img src="../photo.jpg?v=${S.photoV || 0}" alt="" style="width:72px;height:72px;border-radius:50%;object-fit:cover;object-position:50% 30%;background:var(--soft)" onerror="this.style.visibility='hidden'">
+      <div><h3>Identité & contact</h3><label class="btn sm" style="margin-top:6px">Changer la photo<input type="file" accept="image/*" id="photoInput" hidden></label>
+      <div class="hint">Utilisée sur ton CV et dans ton film 3D.</div></div>
+    </div>
     <div class="grid2" style="margin-top:10px">
       ${inp(`${id}.firstName`, 'Prénom')}${inp(`${id}.lastName`, 'Nom')}
       ${inp(`${id}.email`, 'E-mail', { type: 'email' })}${inp(`${id}.city`, 'Ville')}
@@ -684,6 +705,7 @@ view.addEventListener('input', e => {
 });
 view.addEventListener('change', e => {
   const el = e.target;
+  if (el.id === 'photoInput' && el.files[0]) return uploadPhoto(el.files[0]);
   if (el.id === 'fstatus') { filters.status = el.value; render(); }
   if (el.id === 'fmin') { filters.min = +el.value; render(); }
   if (el.dataset.pick) { el.checked ? picked.add(el.dataset.pick) : picked.delete(el.dataset.pick); render(); }

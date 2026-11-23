@@ -65,3 +65,5 @@ body.cinema .bar { height: var(--bar); }
 /* Voile sombre derrière les cartons de titre, pour qu'ils restent lisibles pendant les mouvements de caméra. */
 #stage::before { content: ""; position: fixed; inset: 0; z-index: -1; background: radial-gradient(ellipse 60% 45% at 50% 50%, #05070de0 0%, #05070d99 45%, transparent 75%); opacity: 0; transition: opacity .8s ease; }
 body.titling #stage::before { opacity: 1; }
+.start-photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; display: block; margin: 18px auto 0; border: 2px solid var(--gold); box-shadow: 0 10px 40px #0008; }
+.final .fin-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; border: 2px solid var(--gold); }
