@@ -246,10 +246,10 @@
   },
   "_zones": "Zones : Lyon et 5 km autour, canton de Genève uniquement, Haute-Savoie. Les offres 100 % télétravail sont désactivées (case à cocher dans l'onglet Recherche).",
   "autoApply": {
-    "enabled": false,
+    "enabled": true,
     "minScore": 80,
     "maxPerDay": 5,
-    "onlyWithEmail": false,
-    "spontaneous": false
+    "onlyWithEmail": true,
+    "spontaneous": true
   }
 }
