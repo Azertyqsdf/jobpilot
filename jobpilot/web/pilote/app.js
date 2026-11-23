@@ -465,7 +465,7 @@ function appCard(x) {
       <button class="btn sm" data-dl="data/applications/${esc(folder)}/lettre.pdf" data-name="Lettre - ${esc(a.company)}.pdf">Lettre PDF</button>
       <button class="btn sm ghost" data-dl="data/applications/${esc(folder)}/lettre.txt" data-name="Lettre - ${esc(a.company)}.txt">Texte</button></div>`
     : stage === 'preparation' ? `<div class="small muted" style="margin-top:6px">⏳ Le robot prépare le CV et la lettre…</div>` : '';
-  const email = x.job?.contactEmail;
+  const email = /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(x.job?.contactEmail || '') ? x.job.contactEmail : null;
   const quick = stage === 'a_envoyer' && email && folder ? `<button class="btn sm primary" data-act="send-mail" data-id="${esc(id)}">✉️ Envoyer par e-mail</button><button class="btn sm" data-act="mark-sent" data-id="${esc(id)}">J'ai envoyé</button>`
     : stage === 'a_envoyer' && !a.manual ? `<button class="btn sm primary" data-act="mark-sent" data-id="${esc(id)}">J'ai envoyé</button>`
     : due ? `<button class="btn sm primary" data-act="mark-relance" data-id="${esc(id)}">C'est relancé</button>` : '';

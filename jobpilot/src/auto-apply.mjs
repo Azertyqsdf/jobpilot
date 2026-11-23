@@ -6,7 +6,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { applicationFolder } from './lib/text.mjs';
+import { applicationFolder, isEmail } from './lib/text.mjs';
 
 const root = new URL('..', import.meta.url);
 const read = async (p, d) => JSON.parse(await readFile(new URL(p, root), 'utf8').catch(() => JSON.stringify(d)));
@@ -32,11 +32,11 @@ if (!budget) { console.log(`Limite atteinte (${cfg.maxPerDay} par jour).`); proc
 
 const free = j => !apps[j.id] && !folders.has(applicationFolder(j.id));
 const candidates = jobs
-  .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && (!cfg.onlyWithEmail || j.contactEmail))
-  .sort((a, b) => !!b.contactEmail - !!a.contactEmail || b.score - a.score)
+  .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && (!cfg.onlyWithEmail || isEmail(j.contactEmail)))
+  .sort((a, b) => isEmail(b.contactEmail) - isEmail(a.contactEmail) || b.score - a.score)
   .map(j => j.id);
 if (cfg.spontaneous) {
-  candidates.push(...companies.filter(c => free(c) && c.email).map(c => c.id)); // spontanée : seulement si un e-mail est connu
+  candidates.push(...companies.filter(c => free(c) && isEmail(c.email)).map(c => c.id)); // spontanée : seulement si un e-mail est connu
 }
 const ids = candidates.slice(0, budget);
 if (!ids.length) { console.log('Aucune nouvelle offre ne remplit les critères.'); process.exit(0); }

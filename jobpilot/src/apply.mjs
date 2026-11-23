@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { tailorCv, honestyCheck, detectLang } from './lib/tailor.mjs';
 import { templateLetter, aiLetter, factCheck } from './lib/letter.mjs';
 import { renderCv, renderLetter } from './lib/render.mjs';
-import { applicationFolder } from './lib/text.mjs';
+import { applicationFolder, isEmail } from './lib/text.mjs';
 
 const run = promisify(execFile);
 const root = new URL('..', import.meta.url);
@@ -29,7 +29,7 @@ function spontaneousJob(c) {
   const title = ROME_TITLES[c.rome] || 'Candidature spontanée';
   return {
     id: c.id, spontaneous: true, source: 'La Bonne Boîte', title, company: c.name, location: [c.postcode, c.city].filter(Boolean).join(' '),
-    remote: false, url: c.website || '', contactEmail: c.email || null, tags: [],
+    remote: false, url: c.website || '', contactEmail: isEmail(c.email) ? c.email : null, tags: [],
     description: `${title}. ${c.sector || ''}. Entreprise ${c.headcount || ''} à ${c.city || ''}. développement commercial direction commerciale business development management opérations`,
   };
 }
@@ -69,6 +69,7 @@ const report = [];
 
 for (const id of ids) {
   let job = db.jobs.find(j => j.id === id);
+  if (job && !isEmail(job.contactEmail)) job = { ...job, contactEmail: null };
   if (!job && id.startsWith('lbb-')) {
     const c = companies?.companies?.find(x => x.id === id);
     if (c) job = spontaneousJob(c);

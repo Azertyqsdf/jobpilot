@@ -33,7 +33,8 @@ function normalize(x, rome) {
     sector: pick(x, 'secteur', 'naf_label', 'nafLabel', 'libelleNaf', 'naf_text', 'sector'),
     headcount: pick(x, 'trancheEffectif', 'headcount_text', 'headcount', 'effectif'),
     score: Number(pick(x, 'score', 'stars', 'hiring_potential')) || 0,
-    email: pick(x, 'email', 'contact.email'),
+    // L'API indique parfois seulement qu'un e-mail existe (« yes ») : on ne garde qu'une vraie adresse.
+    email: /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(String(pick(x, 'email', 'contact.email'))) ? pick(x, 'email', 'contact.email') : '',
     phone: pick(x, 'telephone', 'phone'),
     website: pick(x, 'website', 'siteWeb', 'url'),
     distance: Number(pick(x, 'distance')) || null,

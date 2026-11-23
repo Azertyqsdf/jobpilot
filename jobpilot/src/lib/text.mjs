@@ -79,3 +79,6 @@ export function slugify(s = '') {
 export function applicationFolder(id) {
   return String(id).toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-|-$/g, '').slice(0, 100);
 }
+
+/** Vrai si la valeur est une adresse e-mail plausible. */
+export const isEmail = v => /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(String(v || '').trim());
