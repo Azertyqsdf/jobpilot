@@ -58,14 +58,17 @@ export async function laBonneBoite(prefs, env) {
     (rome, z) => `${BASE}/company/?${new URLSearchParams({ rome_codes: rome, latitude: z.latitude, longitude: z.longitude, distance: z.distance || 30 })}`,
   ];
   const out = new Map();
+  const errors = new Set();
   let working = null;
   for (const z of zones) for (const rome of cfg.romes) {
     const tries = working ? [working] : variants;
+    const statuses = [];
     for (const v of tries) {
       await new Promise(r => setTimeout(r, 600)); // limite de l'API : 2 appels par seconde
-      const res = await fetch(v(rome, z), { headers: { Authorization: `Bearer ${access}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30000) });
+      const url = v(rome, z);
+      const res = await fetch(url, { headers: { Authorization: `Bearer ${access}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30000) }).catch(e => ({ ok: false, status: e.message }));
       if (res.status === 204) { working = v; break; }
-      if (!res.ok) { lastErr = new Error(`${res.status} sur ${new URL(v(rome, z)).pathname}`); continue; }
+      if (!res.ok) { statuses.push(`${new URL(url).pathname.split('/').filter(Boolean).pop()} ${res.status}`); continue; }
       working = v;
       const j = await res.json();
       const list = Array.isArray(j) ? j : j.items || j.hits || j.companies || j.results || j.resultats || [];
@@ -73,9 +76,11 @@ export async function laBonneBoite(prefs, env) {
         const c = normalize(x, rome);
         if (c.name && !out.has(c.id)) out.set(c.id, c);
       }
+      statuses.length = 0;
       break;
     }
-    if (!working) throw lastErr;
+    if (statuses.length) errors.add(statuses.join(' / '));
   }
+  if (!out.size && errors.size) throw new Error(`refus de l'API (${[...errors].slice(0, 2).join(' ; ')})`);
   return [...out.values()].sort((a, b) => b.score - a.score);
 }

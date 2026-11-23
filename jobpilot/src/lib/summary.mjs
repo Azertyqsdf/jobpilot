@@ -1,6 +1,7 @@
 // Résumé rapide d'une offre (le détail complet reste accessible via « Voir l'offre »).
 // Avec une clé Gemini : résumé rédigé par l'IA, par lots, uniquement à partir du texte de l'offre.
 // Sans clé (ou en cas d'erreur) : résumé extractif — les phrases les plus parlantes de l'offre.
+import { gemini } from './gemini.mjs';
 
 const MISSION = /(vous (serez|aurez|êtes|intervenez|prenez|pilotez|managez|développez)|missions?|rattaché|responsable de|en charge|votre rôle|you will|you'll|your role|responsibilit|we are looking|nous recherchons|profil recherché|requirements|vous justifiez|expérience)/i;
 
@@ -22,7 +23,6 @@ export function extractiveSummary(text = '', max = 320) {
 export async function aiSummaries(jobs, env) {
   const key = env.GEMINI_API_KEY;
   if (!key || !jobs.length) return {};
-  const model = env.GEMINI_MODEL || 'gemini-flash-latest';
   const out = {};
   for (let i = 0; i < jobs.length; i += 8) {
     const batch = jobs.slice(i, i + 8);
@@ -32,15 +32,7 @@ N'utilise QUE les informations du texte de l'offre. N'invente rien. Ne mentionne
 Réponds uniquement en JSON : [{"id": "...", "resume": "..."}].
 
 ${batch.map(j => `### id: ${j.id}\nTitre : ${j.title}\nEntreprise : ${j.company}\nLieu : ${j.location}\n${j.description.slice(0, 3500)}`).join('\n\n')}`;
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2, responseMimeType: 'application/json' } }),
-      signal: AbortSignal.timeout(90000),
-    });
-    if (!res.ok) throw new Error(`Gemini ${res.status}`);
-    const j = await res.json();
-    const text = j.candidates?.[0]?.content?.parts?.map(p => p.text).join('') || '[]';
+    const text = await gemini(prompt, env, { json: true, temperature: 0.2 }) || '[]';
     for (const r of JSON.parse(text.replace(/^```(json)?|```$/g, ''))) if (r?.id && r.resume) out[r.id] = String(r.resume).trim();
   }
   return out;

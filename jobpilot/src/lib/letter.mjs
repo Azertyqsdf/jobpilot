@@ -2,6 +2,7 @@
 // Optionnel (gratuit) : si GEMINI_API_KEY est défini, l'IA reformule la lettre dans la langue de l'offre,
 // puis un garde-fou rejette toute lettre contenant un chiffre ou un nom propre absent du profil / de l'offre.
 import { normalize, hasTerm } from './text.mjs';
+import { gemini } from './gemini.mjs';
 
 function pickMotivation(profile, job) {
   const n = normalize(`${job.title} ${job.description}`);
@@ -58,7 +59,6 @@ export function factCheck(text, profile, job) {
 export async function aiLetter(profile, job, cv, lang, env) {
   const key = env.GEMINI_API_KEY;
   if (!key) return null;
-  const model = env.GEMINI_MODEL || 'gemini-flash-latest';
   const langName = { fr: 'français', en: 'anglais', de: 'allemand' }[lang] || 'français';
   const facts = {
     identite: profile.identity, titre: cv.title, resume: cv.summary,
@@ -81,15 +81,7 @@ Lieu : ${job.location}
 Description :
 ${job.description.slice(0, 6000)}`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
-    signal: AbortSignal.timeout(60000),
-  });
-  if (!res.ok) throw new Error(`Gemini ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  const j = await res.json();
-  const text = j.candidates?.[0]?.content?.parts?.map(p => p.text).join('').trim();
+  const text = await gemini(prompt, env, { temperature: 0.4 });
   if (!text) throw new Error('Gemini : réponse vide');
   return text;
 }
