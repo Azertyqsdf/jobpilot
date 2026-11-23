@@ -536,6 +536,23 @@
       "end": "2016",
       "bullets": [
         {
+          "text": "Création et lancement de Wouf, première plateforme de recrutement numérique en France.",
+          "tags": [
+            "recrutement",
+            "plateforme",
+            "numerique",
+            "digital",
+            "startup",
+            "rh",
+            "hr tech",
+            "mise en relation",
+            "marketplace",
+            "talent",
+            "entrepreneur",
+            "web"
+          ]
+        },
+        {
           "text": "Conception et lancement d'une plateforme de mise en relation B2B, recherche de partenaires et négociation.",
           "tags": [
             "startup",
@@ -551,7 +568,10 @@
             "saas",
             "smb",
             "mid-market",
-            "enterprise"
+            "enterprise",
+            "marketplace",
+            "mise en relation",
+            "recrutement"
           ]
         }
       ]
