@@ -109,5 +109,7 @@ export async function findContact(c, budgetMs = 25000) {
   scored.sort((a, b) => b.r - a.r);
   const best = scored.find(s => s.r >= 2);
   if (!best) return { website: site.url, reason: 'aucune adresse de recrutement ou de contact publiée' };
-  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom' };
+  // « recrutement » : adresse RH / recrutement ; « contact » : adresse générale de l'entreprise.
+  const kind = RANK[0][0].test(best.e.split('@')[0]) || /(recrut|carri|career|emploi|jobs?|rejoindre)/i.test(best.from) ? 'recrutement' : 'contact';
+  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom', kind };
 }
