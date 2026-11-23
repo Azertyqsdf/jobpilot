@@ -696,7 +696,10 @@ function viewRobot() {
   </div></div>
   <div class="card"><h3>Dernière recherche</h3>
     ${S.run.sources ? `<ul class="small">${Object.entries(S.run.sources).map(([k, v]) => `<li><b>${esc(k)}</b> : ${esc(v)}</li>`).join('')}</ul>
-    <p class="small muted">${S.run.fetched ?? '?'} offres lues, ${S.run.kept ?? '?'} retenues · ${fmtWhen(S.run.finishedAt)}</p>` : '<p class="muted small">Pas encore de données.</p>'}
+    <p class="small muted">${S.run.fetched ?? '?'} offres lues, ${S.run.kept ?? '?'} retenues · ${fmtWhen(S.run.finishedAt)}</p>
+    ${S.run.prospection ? `<p class="small"><b>Prospection</b> : ${esc(S.run.prospection)}</p>` : ''}
+    ${S.run.zones ? `<h3 style="margin-top:14px">Par zone</h3><ul class="small">${Object.entries(S.run.zones).filter(([z]) => z !== 'autres').map(([z, v]) =>
+      `<li><b>${esc(z)}</b> : ${v.trouvees} trouvées, <b>${v.retenues} retenues</b>${Object.keys(v.exclues).length ? ` — écartées : ${Object.entries(v.exclues).map(([k, n]) => `${esc(k)} (${n})`).join(', ')}` : ''}</li>`).join('')}</ul>` : ''}` : '<p class="muted small">Pas encore de données.</p>'}
   </div>`;
 }
 

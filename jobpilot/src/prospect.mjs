@@ -32,7 +32,12 @@ for (const c of compDb.companies) {
   if (k && !SKIP.test(k) && !targets.has(k)) targets.set(k, { name: c.name, siret: c.siret, city: c.city, postcode: c.postcode, website: c.website, headcount: c.headcount });
 }
 
-const due = [...targets.entries()].filter(([k]) => {
+// Priorité à la Haute-Savoie (lieu de vie), puis Genève, puis le reste.
+const HOME = /(haute-savoie|\b74\d{0,3}\b|annecy|annemasse|thonon|evian|cluses|sallanches|bonneville|roche-sur-foron|saint-julien|marignier|marnaz|scionzier|rumilly|passy|chamonix|saint-jeoire|reignier|douvaine|gaillard)/i;
+const GENEVA = /(gen[eè]ve|geneva|genf|carouge|lancy|vernier|meyrin)/i;
+const prio = t => (HOME.test(`${t.city || ''} ${t.postcode || ''}`) ? 0 : GENEVA.test(t.city || '') ? 1 : 2);
+const ordered = [...targets.entries()].sort((a, b) => prio(a[1]) - prio(b[1]));
+const due = ordered.filter(([k]) => {
   const c = cache[k];
   if (!c) return true;
   if (c.v !== 3) return true; // résultat obtenu avec une ancienne règle : on revérifie

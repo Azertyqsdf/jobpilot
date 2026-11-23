@@ -46,8 +46,17 @@ const unique = raw.filter(j => {
 });
 
 const kept = [];
+// Décompte par zone : offres trouvées, retenues, et raisons d'exclusion (affiché dans l'onglet Robot).
+const zoneOf = j => /(haute-savoie|annecy|annemasse|thonon|evian|cluses|sallanches|bonneville|roche-sur-foron|saint-julien|marignier|marnaz|scionzier|rumilly|passy|chamonix|\(74\)|^74)/i.test(j.location) ? 'Haute-Savoie'
+  : /(gen[eè]ve|geneva|genf|carouge|lancy|vernier|meyrin)/i.test(j.location) ? 'Genève' : /lyon|villeurbanne|rh[oô]ne/i.test(j.location) ? 'Lyon' : 'autres';
+const zones = {};
+const tally = (z, k) => { zones[z] ||= { trouvees: 0, retenues: 0, exclues: {} }; if (k === 'trouvees' || k === 'retenues') zones[z][k]++; else zones[z].exclues[k] = (zones[z].exclues[k] || 0) + 1; };
 for (const job of unique) {
   const s = scoreJob(job, profile, prefs);
+  const z = zoneOf(job); tally(z, 'trouvees');
+  if (s.excluded) tally(z, s.excluded.replace(/ \(.*$/, ''));
+  else if (s.score < prefs.minScore) tally(z, `note < ${prefs.minScore}`);
+  else tally(z, 'retenues');
   if (!job.manual && (s.excluded || s.score < prefs.minScore)) continue;
   const prev = prevById.get(job.id);
   kept.push({ ...job, description: job.description.slice(0, 12000), score: s.score, reasons: s.reasons, matchedSkills: s.skills, status: prev?.status || 'new', firstSeen: prev?.firstSeen || run.startedAt });
@@ -107,6 +116,7 @@ run.finishedAt = new Date().toISOString();
 run.fetched = raw.length;
 run.unique = unique.length;
 run.kept = jobs.length;
+run.zones = zones;
 await mkdir(new URL('data/', root), { recursive: true });
 await writeFile(new URL('data/jobs.json', root), JSON.stringify({ updatedAt: run.finishedAt, jobs }, null, 1));
 await writeFile(new URL('data/run.json', root), JSON.stringify(run, null, 2));
