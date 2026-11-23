@@ -6,8 +6,9 @@
       "company": "Entreprise Test JobPilot",
       "url": "https://azertyqsdf.github.io/jobpilot/",
       "location": "Annemasse (74)",
-      "stage": "a_envoyer",
-      "updatedAt": "2026-11-23T15:59:51.156Z"
+      "stage": "envoyee",
+      "updatedAt": "2026-11-23T15:59:54.432Z",
+      "sentAt": "2026-11-23T15:59:54.432Z"
     }
   }
 }
