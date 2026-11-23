@@ -11,7 +11,7 @@ const root = new URL('..', import.meta.url);
 const read = async (p, d) => JSON.parse(await readFile(new URL(p, root), 'utf8').catch(() => JSON.stringify(d)));
 const save = (p, v, pretty = 1) => writeFile(new URL(p, root), JSON.stringify(v, null, pretty));
 
-const PER_RUN = +(process.env.PROSPECT_PER_RUN || 25);
+const PER_RUN = +(process.env.PROSPECT_PER_RUN || 40);
 const RECHECK_DAYS = 30;
 // Éditeurs d'annonces ou noms génériques : ce ne sont pas les employeurs.
 const SKIP = /^(france travail|pole emploi|direct emploi|entreprise \(non communiquee\)|confidentiel|confidential|anonyme|.*interim.*|.*recrutement.*)$/;
