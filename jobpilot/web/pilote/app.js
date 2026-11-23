@@ -323,9 +323,10 @@ function jobCard(j) {
     <div class="score" style="--s:${j.score}">${j.score}</div>
     <div class="body">
       <h3>${esc(j.title)}</h3>
-      <div class="meta">${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${j.salary ? ` · ${esc(j.salary)}` : ''}${j.contactEmail ? ' · ✉️ candidature par e-mail' : ''}</div>
+      <div class="meta">${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''}${j.contract ? ` · ${esc(j.contract)}` : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${j.contactEmail ? ' · ✉️ candidature par e-mail' : ''}</div>
+      <div class="salary${j.salaryAnnual?.known ? '' : ' unknown'}">💰 ${esc(j.salaryAnnual?.label || 'Salaire annuel non indiqué')}</div>
+      <p class="summary">${esc(j.summary || '')}</p>
       <div class="chips">${(j.matchedSkills || []).map(s => `<span class="chip gold">${esc(s)}</span>`).join('')}</div>
-      <details><summary>Description</summary><p class="desc">${esc((j.description || '').slice(0, 3000))}</p></details>
       <div class="row" style="margin-top:10px">
         ${inTrack ? `<button class="btn sm" data-tab-go="suivi">Voir dans le suivi</button>`
           : `<button class="btn sm primary" data-act="apply" data-id="${esc(j.id)}">Postuler</button>`}

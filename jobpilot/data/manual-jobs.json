@@ -1,0 +1,20 @@
+{
+  "_note": "Offres ajoutées à la main. Elles apparaissent toujours dans l'onglet Offres. Supprime l'offre de test une fois l'essai terminé.",
+  "jobs": [
+    {
+      "id": "test-directeur-commercial-74",
+      "source": "Offre de test",
+      "title": "[TEST] Directeur Commercial & Opérations H/F",
+      "company": "Entreprise Test JobPilot",
+      "location": "Annemasse (74)",
+      "remote": false,
+      "url": "https://azertyqsdf.github.io/jobpilot/",
+      "contactEmail": "samia.dewame@gmail.com",
+      "contract": "CDI — temps plein",
+      "salary": "Annuel de 55000 Euros à 65000 Euros",
+      "postedAt": "2026-11-23T16:00:00.000Z",
+      "tags": ["direction commerciale", "business development", "management"],
+      "description": "OFFRE FICTIVE CRÉÉE POUR TESTER JOBPILOT. Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Vous managez une équipe commerciale de 6 personnes et développez un portefeuille de grands comptes. Vous êtes en charge de la négociation avec les partenaires clés, de la prospection de nouveaux marchés à l'export et de la coordination des opérations (logistique, supply chain, stocks). Profil recherché : expérience confirmée en direction commerciale ou business development, leadership, goût du terrain et de la négociation, capacité à structurer une offre et à piloter la croissance. Une expérience entrepreneuriale est un plus. Rémunération : 55 000 € à 65 000 € brut annuel + variable. Véhicule de fonction. Candidature par e-mail."
+    }
+  ]
+}

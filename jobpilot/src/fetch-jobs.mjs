@@ -4,6 +4,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { SOURCES } from './sources/index.mjs';
 import { scoreJob } from './lib/match.mjs';
 import { laBonneBoite } from './sources/labonneboite.mjs';
+import { annualSalary } from './lib/salary.mjs';
+import { extractiveSummary, aiSummaries } from './lib/summary.mjs';
 
 const root = new URL('..', import.meta.url);
 const read = async p => JSON.parse(await readFile(new URL(p, root), 'utf8'));
@@ -28,6 +30,10 @@ for (const [name, fn] of Object.entries(SOURCES)) {
   console.log(`${name.padEnd(14)} ${run.sources[name]}`);
 }
 
+// Offres ajoutées à la main (ex. offre de test) : toujours prises en compte.
+const manual = (await readOr('data/manual-jobs.json', { jobs: [] })).jobs || [];
+if (manual.length) { raw = raw.concat(manual.map(j => ({ tags: [], remote: false, ...j, source: j.source || 'Ajout manuel', manual: true }))); run.sources.manuel = `${manual.length} offre(s)`; }
+
 // Dédoublonnage (même entreprise + même titre).
 const seen = new Set();
 const unique = raw.filter(j => {
@@ -40,7 +46,7 @@ const unique = raw.filter(j => {
 const kept = [];
 for (const job of unique) {
   const s = scoreJob(job, profile, prefs);
-  if (s.excluded || s.score < prefs.minScore) continue;
+  if (!job.manual && (s.excluded || s.score < prefs.minScore)) continue;
   const prev = prevById.get(job.id);
   kept.push({ ...job, description: job.description.slice(0, 12000), score: s.score, reasons: s.reasons, matchedSkills: s.skills, status: prev?.status || 'new', firstSeen: prev?.firstSeen || run.startedAt });
 }
@@ -50,7 +56,22 @@ for (const p of previous.jobs) {
   if (p.status !== 'new' && !kept.some(k => k.id === p.id)) kept.push(p);
 }
 
-kept.sort((a, b) => (a.status === 'new') - (b.status === 'new') || b.score - a.score);
+// Salaire annuel (toujours affiché, « non indiqué » si l'offre ne le donne pas) et résumé rapide.
+for (const j of kept) {
+  j.salaryAnnual = annualSalary(j);
+  const prev = prevById.get(j.id);
+  if (!j.summary) j.summary = prev?.summaryAi ? prev.summary : null;
+  if (prev?.summaryAi && j.summary) j.summaryAi = true;
+}
+try {
+  const todo = kept.filter(j => !j.summaryAi).slice(0, 80);
+  const ai = await aiSummaries(todo, process.env);
+  for (const j of todo) if (ai[j.id]) { j.summary = ai[j.id]; j.summaryAi = true; }
+  run.summaries = process.env.GEMINI_API_KEY ? `${Object.keys(ai).length} résumés IA` : 'résumés automatiques (sans IA)';
+} catch (e) { run.summaries = `résumés automatiques (IA indisponible : ${e.message})`; }
+for (const j of kept) if (!j.summary) j.summary = extractiveSummary(j.description);
+
+kept.sort((a, b) => (a.status === 'new') - (b.status === 'new') || !!b.manual - !!a.manual || b.score - a.score);
 const jobs = kept.slice(0, prefs.maxJobs || 200);
 
 // Entreprises qui recrutent (candidatures spontanées), conservées séparément des offres.

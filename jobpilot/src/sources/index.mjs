@@ -145,6 +145,9 @@ export async function adzuna(prefs, env) {
         contactEmail: null,
         contract: [x.contract_type, x.contract_time].filter(Boolean).join(', '),
         salary: x.salary_min ? `${Math.round(x.salary_min)}–${Math.round(x.salary_max || x.salary_min)} €` : '',
+        salaryMin: x.salary_min || null,
+        salaryMax: x.salary_max || null,
+        salaryPredicted: String(x.salary_is_predicted) === '1',
         postedAt: x.created,
         tags: [x.category?.label].filter(Boolean),
       });
