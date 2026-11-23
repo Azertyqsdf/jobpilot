@@ -37,7 +37,7 @@ html { background:#e9ecf2; }
 body { margin:0; font: 9.8pt/1.4 "Inter", "Segoe UI", system-ui, -apple-system, sans-serif; color:var(--ink); }
 .page { width:210mm; min-height:297mm; margin:24px auto; background:#fff; padding:14mm 15mm 12mm; box-shadow:0 10px 40px #0002; display:grid; grid-template-columns: 1fr 58mm; gap:0 9mm; }
 @media print { html, body { background:#fff; } .page{ margin:0; box-shadow:none; min-height:0; padding-bottom:6mm; } }
-@media screen and (max-width: 820px) { .page{ width:auto; min-height:0; margin:0; grid-template-columns:1fr; padding:20px 16px; } }
+main, aside { min-width:0; }
 .who { display:flex; align-items:center; gap:14px; min-width:0; }
 .photo { width:27mm; height:27mm; border-radius:50%; object-fit:cover; object-position:50% 30%; flex-shrink:0; border:2px solid #fff; box-shadow:0 0 0 1px var(--line); }
 header { grid-column:1/-1; display:flex; justify-content:space-between; align-items:center; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:10px; }
@@ -59,6 +59,30 @@ aside .chip { display:inline-block; border:1px solid var(--line); border-radius:
 aside .chip.m { background:var(--hl); border-color:#f0d77a; font-weight:600; }
 aside p { margin:0 0 5px; font-size:9.2pt; }
 aside small { color:var(--muted); }
+@media screen and (max-width: 820px) {
+  html { background:#fff; }
+  body { font-size:15.5px; line-height:1.6; }
+  .page { width:auto; min-height:0; margin:0; box-shadow:none; grid-template-columns:minmax(0,1fr); padding:28px 20px 40px; }
+  header { flex-direction:column; align-items:center; text-align:center; gap:18px; padding-bottom:22px; margin-bottom:8px; border-bottom-width:1px; }
+  .who { flex-direction:column; gap:14px; }
+  .photo { width:118px; height:118px; }
+  h1 { font-size:30px; }
+  .role { font-size:17px; margin-top:6px; line-height:1.35; }
+  .contact { font-size:14px; margin-top:10px; line-height:1.7; }
+  .film { width:100%; justify-content:center; padding:10px 14px; border-radius:16px; }
+  .film b { font-size:15px; } .film span { font-size:13px; }
+  h2 { font-size:13px; margin:30px 0 12px; }
+  .summary { font-size:16px; }
+  .xp { margin-bottom:0; padding:16px 0; border-top:1px solid var(--line); }
+  .xp:first-of-type { border-top:0; padding-top:4px; }
+  .xp-head { flex-direction:column; gap:2px; }
+  .xp-head strong { font-size:17px; } .xp-head small { font-size:13px; white-space:normal; }
+  .xp-co { font-size:14.5px; margin-bottom:4px; }
+  ul { padding-left:20px; } li { margin:7px 0; }
+  aside { border-top:1px solid var(--line); margin-top:10px; }
+  aside .chip { font-size:13.5px; padding:4px 12px; margin:0 6px 8px 0; }
+  aside p { font-size:15px; margin-bottom:10px; }
+}
 </style></head>
 <body><div class="page">
 <header>
