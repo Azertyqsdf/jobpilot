@@ -1,3 +1,13 @@
 {
-  "apps": {}
+  "apps": {
+    "test-directeur-commercial-74": {
+      "at": "2026-11-23T16:09:51.256Z",
+      "title": "[TEST] Directeur Commercial & Opérations H/F",
+      "company": "Entreprise Test JobPilot",
+      "url": "https://azertyqsdf.github.io/jobpilot/",
+      "location": "Annemasse (74)",
+      "stage": "preparation",
+      "updatedAt": "2026-11-23T16:09:51.256Z"
+    }
+  }
 }
