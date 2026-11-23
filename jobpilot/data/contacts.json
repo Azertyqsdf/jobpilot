@@ -16,17 +16,17 @@
   "pepite conseil": {
     "name": "PEPITE CONSEIL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:17:36.230Z"
+    "checkedAt": "2026-11-23T17:39:25.054Z"
   },
   "ntn snr": {
     "name": "NTN SNR",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:17:37.749Z"
+    "checkedAt": "2026-11-23T17:39:23.371Z"
   },
   "de graet consulting": {
     "name": "DE GRAËT CONSULTING",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:17:55.756Z"
+    "checkedAt": "2026-11-23T17:39:18.557Z"
   },
   "mercato de l emploi": {
     "name": "Mercato de l'Emploi",
@@ -59,7 +59,7 @@
   "m j trusted partners": {
     "name": "M&J TRUSTED PARTNERS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:17:56.569Z"
+    "checkedAt": "2026-11-23T17:39:21.114Z"
   },
   "talents commerciaux": {
     "name": "talents commerciaux",
@@ -98,7 +98,7 @@
   "epsa innovation": {
     "name": "EPSA Innovation",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:18:03.705Z"
+    "checkedAt": "2026-11-23T17:39:31.334Z"
   },
   "agicap": {
     "name": "Agicap",
@@ -124,7 +124,7 @@
   "doctolib": {
     "name": "Doctolib",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:18:32.693Z"
+    "checkedAt": "2026-11-23T17:39:51.615Z"
   },
   "voluntae": {
     "name": "VOLUNTAE",
@@ -143,12 +143,12 @@
   "plg": {
     "name": "PLG",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:18:45.278Z"
+    "checkedAt": "2026-11-23T17:39:37.867Z"
   },
   "bnp paribas personal finance": {
     "name": "BNP PARIBAS PERSONAL FINANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:18:57.717Z"
+    "checkedAt": "2026-11-23T17:39:50.074Z"
   },
   "naos": {
     "name": "NAOS",
@@ -160,93 +160,96 @@
   "comodis": {
     "name": "COMODIS",
     "website": "https://comodis.eu/",
-    "source": "https://comodis.eu/",
-    "verified": "SIREN",
-    "checkedAt": "2026-11-23T17:11:41.425Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:39:54.686Z"
   },
   "societe generale": {
     "name": "SOCIETE GENERALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:19:02.037Z"
+    "checkedAt": "2026-11-23T17:39:57.109Z"
   },
   "fiducial informatique": {
     "name": "FIDUCIAL INFORMATIQUE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:12:07.237Z"
+    "checkedAt": "2026-11-23T17:40:21.683Z"
   },
   "groupe seb france": {
     "name": "GROUPE SEB FRANCE",
     "website": "https://www.seb.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:12:08.309Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:40:23.459Z"
   },
   "isoskele": {
     "name": "ISOSKELE",
     "website": "https://isoskele.fr/",
-    "source": "https://isoskele.fr/contact/",
-    "verified": "SIREN",
-    "checkedAt": "2026-11-23T17:12:11.543Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:39:58.301Z"
   },
   "lease protect france": {
     "name": "LEASE PROTECT FRANCE",
     "website": "https://www.leaseprotect.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:12:12.090Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:40:29.720Z"
   },
   "dcarte engineering sa": {
     "name": "DCARTE ENGINEERING SA",
     "website": "https://dcarteengineering.com/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:12:14.451Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:40:30.789Z"
   },
   "14 septembre": {
     "name": "14 SEPTEMBRE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:12:16.982Z"
+    "checkedAt": "2026-11-23T17:40:34.226Z"
   },
   "banque de france": {
     "name": "BANQUE DE FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:12:18.747Z"
+    "checkedAt": "2026-11-23T17:40:36.301Z"
   },
   "trading el": {
     "name": "TRADING EL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:12:19.508Z"
+    "checkedAt": "2026-11-23T17:40:38.050Z"
   },
   "eolys beaute": {
     "name": "EOLYS BEAUTE",
     "website": "https://www.eolys-beaute.com/",
-    "source": "https://www.eolys-beaute.com/",
-    "verified": "SIREN",
-    "checkedAt": "2026-11-23T17:12:20.700Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:40:23.550Z"
   },
   "deliveroo france sas": {
     "name": "DELIVEROO FRANCE SAS",
     "website": "https://deliveroo.fr/fr/",
-    "source": "https://deliveroo.fr/fr/",
-    "verified": "SIREN",
-    "checkedAt": "2026-11-23T17:12:22.476Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:40:32.845Z"
   },
   "france frais rhone alpes": {
     "name": "FRANCE FRAIS RHONE ALPES",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:17.988Z"
+    "checkedAt": "2026-11-23T17:40:49.337Z"
   },
   "signalisation commerciale": {
     "name": "SIGNALISATION COMMERCIALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:25.076Z"
+    "checkedAt": "2026-11-23T17:40:58.005Z"
   },
   "etablissements descours et cabaud rhone": {
     "name": "ETABLISSEMENTS DESCOURS ET CABAUD RHONE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:25.791Z"
+    "checkedAt": "2026-11-23T17:40:57.246Z"
   },
   "chambre de commerce et d industrie de re": {
     "name": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE RE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:28.630Z"
+    "checkedAt": "2026-11-23T17:40:59.070Z"
   },
   "rex rotary": {
     "name": "REX ROTARY",
@@ -262,7 +265,7 @@
   "babolat vs": {
     "name": "BABOLAT VS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:44.625Z"
+    "checkedAt": "2026-11-23T17:41:11.407Z"
   },
   "carre sante beaute": {
     "name": "CARRE SANTE BEAUTE",
