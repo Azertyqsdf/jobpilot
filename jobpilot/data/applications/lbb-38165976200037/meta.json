@@ -1,7 +1,7 @@
 {
   "id": "lbb-38165976200037",
   "folder": "lbb-38165976200037",
-  "auto": true,
+  "auto": false,
   "title": "Responsable grands comptes / Business developer",
   "company": "ONIKA",
   "url": "https://www.onika.com/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : info@onika.com",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Négociation grands comptes"
   ],
   "missing": [],
-  "createdAt": "2026-11-23T20:13:34.565Z"
+  "createdAt": "2026-11-23T20:15:20.591Z"
 }

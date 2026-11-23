@@ -1,7 +1,7 @@
 {
   "id": "lbb-48780775200042",
   "folder": "lbb-48780775200042",
-  "auto": true,
+  "auto": false,
   "title": "Responsable grands comptes / Business developer",
   "company": "LE VERRE GOURMAND",
   "url": "https://verregourmand.com/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : info@verregourmand.com",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Négociation grands comptes"
   ],
   "missing": [],
-  "createdAt": "2026-11-23T20:13:38.490Z"
+  "createdAt": "2026-11-23T20:15:37.998Z"
 }

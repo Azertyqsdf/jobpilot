@@ -1,7 +1,7 @@
 {
   "id": "lbb-44132792100041",
   "folder": "lbb-44132792100041",
-  "auto": true,
+  "auto": false,
   "title": "Stratégie et développement commercial",
   "company": "TRB CHEMEDICA",
   "url": "https://trbchemedica.fr/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : info@trbchemedica.fr",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Pilotage stratégique"
   ],
   "missing": [],
-  "createdAt": "2026-11-23T20:13:35.919Z"
+  "createdAt": "2026-11-23T20:15:27.293Z"
 }
