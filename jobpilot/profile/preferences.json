@@ -2,14 +2,17 @@
   "_note": "Ce que tu cherches. 'queries' = recherches envoyées aux sites d'offres ; 'mustHave' = au moins un de ces mots (ou début de mot) doit apparaître dans l'offre ; 'exclude' = offre écartée si le titre contient un de ces mots.",
   "queries": [
     "directeur commercial",
-    "business developer",
     "responsable commercial",
-    "directeur des opérations",
-    "responsable développement commercial",
+    "business developer",
+    "business manager",
+    "ingénieur d'affaires",
     "key account manager",
-    "head of sales",
-    "sales manager",
-    "développeur PHP"
+    "responsable développement commercial",
+    "directeur des opérations",
+    "responsable d'agence",
+    "consultant en recrutement",
+    "responsable e-commerce",
+    "export manager"
   ],
   "mustHave": [
     "commercial",
@@ -26,7 +29,15 @@
     "développeur php",
     "php developer",
     "full stack",
-    "full-stack"
+    "full-stack",
+    "business",
+    "affaires",
+    "agence",
+    "recrut",
+    "e-commerce",
+    "ecommerce",
+    "comptes clés",
+    "développement"
   ],
   "exclude": [
     "stage",
@@ -255,5 +266,6 @@
     "maxPerDay": 5,
     "onlyWithEmail": true,
     "spontaneous": true
-  }
+  },
+  "_familles": "Familles de postes ciblées : direction et développement commercial, business management / ingénieur d'affaires (dont IT/ESN), grands comptes, direction des opérations, direction d'agence, recrutement, e-commerce, export."
 }

@@ -30,7 +30,12 @@
         "directeur du developpement",
         "country manager",
         "head of business development",
-        "regional manager"
+        "regional manager",
+        "directeur d'agence",
+        "responsable d'agence",
+        "directeur de centre de profit",
+        "business unit manager",
+        "head of business"
       ]
     },
     {
@@ -53,7 +58,38 @@
         "charge d'affaires",
         "charge de developpement",
         "business development manager",
-        "new business"
+        "new business",
+        "business manager",
+        "ingenieur d'affaires",
+        "ingénieur d'affaires",
+        "chargé d'affaires",
+        "key account",
+        "comptes cles",
+        "export manager",
+        "area manager",
+        "responsable export",
+        "developpeur d'affaires",
+        "développeur d'affaires",
+        "customer success"
+      ]
+    },
+    {
+      "text": "Business Developer — double compétence commerciale et technique (web, e-commerce, CRM)",
+      "tags": [
+        "business manager",
+        "ingenieur d'affaires",
+        "ingénieur d'affaires",
+        "esn",
+        "it",
+        "informatique",
+        "digital",
+        "numerique",
+        "saas",
+        "solutions",
+        "e-commerce",
+        "crm",
+        "logiciel",
+        "tech"
       ]
     },
     {
@@ -71,7 +107,10 @@
         "responsable d'exploitation",
         "operations manager",
         "head of operations",
-        "directeur de site"
+        "directeur de site",
+        "responsable logistique",
+        "supply chain manager",
+        "responsable supply chain"
       ]
     },
     {
@@ -92,7 +131,28 @@
         "developpeur web",
         "backend",
         "back-end",
-        "integrateur"
+        "integrateur",
+        "chef de projet digital",
+        "chef de projet web",
+        "responsable e-commerce",
+        "e-commerce manager",
+        "product owner"
+      ]
+    },
+    {
+      "text": "Consultant en recrutement & développement commercial B2B",
+      "tags": [
+        "consultant en recrutement",
+        "charge de recrutement",
+        "chargé de recrutement",
+        "talent acquisition",
+        "recruteur",
+        "recrutement",
+        "responsable d'agence",
+        "agence",
+        "interim",
+        "intérim",
+        "rh"
       ]
     }
   ],
@@ -633,7 +693,10 @@
         "negotiation",
         "grands comptes",
         "key account",
-        "key accounts"
+        "key accounts",
+        "comptes clés",
+        "comptes cles",
+        "comptes stratégiques"
       ]
     },
     {
@@ -644,7 +707,9 @@
         "b2b",
         "chasse",
         "hunting",
-        "lead generation"
+        "lead generation",
+        "développement du portefeuille",
+        "new business"
       ]
     },
     {
@@ -655,7 +720,9 @@
         "account management",
         "account manager",
         "fidélisation",
-        "relation client"
+        "relation client",
+        "portefeuille",
+        "gestion de comptes"
       ]
     },
     {
@@ -714,7 +781,10 @@
       "aliases": [
         "sourcing",
         "ressources humaines",
-        "rh"
+        "rh",
+        "recrutement",
+        "recruteur",
+        "talent acquisition"
       ]
     },
     {

@@ -129,7 +129,7 @@ export async function adzuna(prefs, env) {
   const out = [];
   // Zones : une chaîne (« Haute-Savoie ») ou une liste de { where, distance } (km autour de la ville).
   const zones = [].concat(prefs.adzuna?.zones || prefs.adzuna?.where || [null]).map(z => typeof z === 'string' || !z ? { where: z } : z);
-  for (const zone of zones) for (const q of prefs.queries.slice(0, 6)) {
+  for (const zone of zones) for (const q of prefs.queries.slice(0, 12)) {
     const params = new URLSearchParams({ app_id: id, app_key: key, what: q, results_per_page: '50', max_days_old: String(prefs.maxAgeDays || 30) });
     if (zone.where) params.set('where', zone.where);
     if (zone.distance) params.set('distance', String(zone.distance));
