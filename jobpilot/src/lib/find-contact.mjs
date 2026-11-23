@@ -13,6 +13,7 @@ const RANK = [
   [/(recrut|recruit|rh\b|^rh|drh|hr\b|^hr|jobs?|emploi|career|carriere|candidat|talent|rejoindre|join)/i, 3],
   [/^(contact|info|infos|accueil|bonjour|hello|direction|commercial|administration|secretariat)/i, 2],
 ];
+const CAREER = /(recrut|carri|career|emploi|jobs?|rejoindre|rejoignez|join|candidat|talent|travailler)/i;
 const PAGE_HINT = /(recrut|carri|career|emploi|jobs?|rejoindre|join-us|nous-rejoindre|contact|mentions|legal|a-propos|about|qui-sommes)/i;
 
 async function get(url, ms = 8000) {
@@ -53,15 +54,15 @@ function emailsIn(html) {
   });
 }
 
-function links(html, base) {
+function links(html, base, careersOnly = false) {
   const out = new Set();
   for (const m of html.matchAll(/href=["']([^"'#]+)["']/gi)) {
     try {
       const u = new URL(m[1], base);
-      if (u.hostname === new URL(base).hostname && PAGE_HINT.test(u.pathname)) out.add(u.href.split('#')[0]);
+      if (u.hostname === new URL(base).hostname && (careersOnly ? CAREER : PAGE_HINT).test(u.pathname)) out.add(u.href.split('#')[0]);
     } catch {}
   }
-  return [...out].slice(0, 6);
+  return [...out].slice(0, 8);
 }
 
 function rankEmail(email, siteHost) {
@@ -98,18 +99,42 @@ export async function findContact(c, budgetMs = 25000) {
   if (!site) return { reason: 'site officiel introuvable' };
   const host = new URL(site.url).hostname;
 
-  // 2) Pages utiles du site (recrutement, contact, mentions légales) et adresses publiées.
-  const pages = [site, ...(await Promise.all(links(site.html, site.url).map(u => get(u))))].filter(Boolean);
+  // 2) Pages carrières / recrutement : liens du site + chemins usuels, puis un niveau de liens en plus
+  //    depuis les pages carrières (offres, « candidature spontanée »).
+  const origin = new URL(site.url).origin;
+  const usual = ['recrutement', 'carrieres', 'carriere', 'careers', 'career', 'emploi', 'emplois', 'jobs', 'nous-rejoindre',
+    'rejoignez-nous', 'rejoindre', 'join-us', 'offres-emploi', 'candidature-spontanee', 'travailler-chez-nous', 'contact', 'mentions-legales']
+    .map(p => `${origin}/${p}`);
+  const seen = new Set([site.url]);
+  const pages = [site];
+  const fetchAll = async urls => {
+    const fresh = urls.filter(u => !seen.has(u)).slice(0, 10);
+    fresh.forEach(u => seen.add(u));
+    if (Date.now() > deadline + 15000) return [];
+    return (await Promise.all(fresh.map(u => get(u, 7000)))).filter(p => p && new URL(p.url).hostname === new URL(site.url).hostname);
+  };
+  const first = await fetchAll([...links(site.html, site.url), ...usual]);
+  pages.push(...first);
+  const careers = first.filter(p => CAREER.test(p.url));
+  pages.push(...await fetchAll(careers.flatMap(p => links(p.html, p.url, true))));
   if (proof < 2 && siren && pages.some(p => belongs(p.html, c.name, siren) === 2)) proof = 2;
+
+  // 3) Seule une adresse de RECRUTEMENT est retenue : soit son nom l'indique (recrutement@, rh@, jobs@…),
+  //    soit elle est publiée sur une page carrières / candidature du site, donc destinée aux candidats.
+  //    Les adresses générales ou de service client (contact@, info@, hello@…) hors pages carrières sont écartées.
   const scored = [];
+  // Adresses du pied de page (présentes sur la page d'accueil) : elles ne sont pas propres au recrutement.
+  const everywhere = new Set(emailsIn(site.html));
   for (const p of pages) for (const e of emailsIn(p.html)) {
-    const r = rankEmail(e, host) + (/(recrut|carri|career|emploi|jobs?|rejoindre)/i.test(p.url) ? 1 : 0);
-    scored.push({ e, r, from: p.url });
+    const local = e.split('@')[0];
+    const named = RANK[0][0].test(local);
+    const onCareerPage = CAREER.test(p.url) && !everywhere.has(e);
+    if (!named && !onCareerPage) continue;
+    if (/^(sav|service-?client|client|customer|support|help|aide|commande|reservation|booking)/i.test(local)) continue;
+    scored.push({ e, r: rankEmail(e, host) + (named ? 2 : 0) + (onCareerPage ? 1 : 0), from: p.url });
   }
   scored.sort((a, b) => b.r - a.r);
-  const best = scored.find(s => s.r >= 2);
-  if (!best) return { website: site.url, reason: 'aucune adresse de recrutement ou de contact publiée' };
-  // « recrutement » : adresse RH / recrutement ; « contact » : adresse générale de l'entreprise.
-  const kind = RANK[0][0].test(best.e.split('@')[0]) || /(recrut|carri|career|emploi|jobs?|rejoindre)/i.test(best.from) ? 'recrutement' : 'contact';
-  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom', kind };
+  const best = scored.find(s => s.r >= 3);
+  if (!best) return { website: site.url, reason: "aucune adresse de recrutement publiée sur le site", v: 2 };
+  return { website: site.url, email: best.e, source: best.from, verified: proof === 2 ? 'SIREN' : 'nom', kind: 'recrutement', v: 2 };
 }

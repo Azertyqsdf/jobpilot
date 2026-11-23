@@ -34,7 +34,8 @@ for (const c of compDb.companies) {
 const due = [...targets.entries()].filter(([k]) => {
   const c = cache[k];
   if (!c) return true;
-  if (c.email && c.kind) return false;
+  if (c.v !== 2) return true; // résultat obtenu avec l'ancienne règle : on revérifie
+  if (c.email) return false;
   return (Date.now() - new Date(c.checkedAt)) / 864e5 > RECHECK_DAYS;
 }).slice(0, PER_RUN);
 
@@ -49,25 +50,19 @@ for (let i = 0; i < due.length; i += 4) {
   }));
 }
 
-// Une adresse générale (contact@, hello@…) n'est utilisée que pour une petite entreprise :
-// dans une grande, elle mène presque toujours au service client. Il faut alors une adresse de recrutement.
-const sizeOf = name => {
-  const co = compDb.companies.find(x => key(x.name) === key(name));
-  const n = parseInt(String(co?.headcount || '').replace(/\s/g, '').match(/\d+/)?.[0] || '', 10);
-  return Number.isFinite(n) ? n : null;
-};
-const usable = (c, name) => c?.email && (c.kind === 'recrutement' || (c.kind === 'contact' && sizeOf(name) !== null && sizeOf(name) < 250));
+// Seule une adresse de recrutement est utilisée (jamais contact@ / service client).
+const usable = c => c?.email && c.kind === 'recrutement' && c.v === 2; // uniquement une adresse de recrutement
 
 // Rattache les adresses trouvées aux offres et aux entreprises (sans écraser une adresse donnée par l'offre).
 let jobsWith = 0, compWith = 0;
 for (const j of jobsDb.jobs) {
   const c = cache[key(j.company)];
-  if (!isEmail(j.contactEmail) && usable(c, j.company)) { j.contactEmail = c.email; j.contactEmailSource = c.source; }
+  if (!isEmail(j.contactEmail) && usable(c)) { j.contactEmail = c.email; j.contactEmailSource = c.source; }
   if (isEmail(j.contactEmail)) jobsWith++;
 }
 for (const co of compDb.companies) {
   const c = cache[key(co.name)];
-  if (!isEmail(co.email) && usable(c, co.name)) { co.email = c.email; co.emailSource = c.source; co.website ||= c.website; }
+  if (!isEmail(co.email) && usable(c)) { co.email = c.email; co.emailSource = c.source; co.website ||= c.website; }
   if (isEmail(co.email)) compWith++;
 }
 

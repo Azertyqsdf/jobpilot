@@ -7,7 +7,6 @@
   "uptoo": {
     "name": "UPTOO",
     "website": "https://uptoo.fr/",
-    "email": "contact@uptoo.fr",
     "source": "https://uptoo.fr/recrutement/",
     "verified": "nom",
     "checkedAt": "2026-11-23T17:08:49.325Z"
@@ -36,7 +35,6 @@
   "findyourstaff": {
     "name": "Findyourstaff",
     "website": "https://findyourstaff.com/",
-    "email": "hello@findyourstaff.com",
     "source": "https://findyourstaff.com/",
     "verified": "nom",
     "checkedAt": "2026-11-23T17:09:01.695Z"
@@ -61,7 +59,6 @@
   "talents commerciaux": {
     "name": "talents commerciaux",
     "website": "https://www.talentscommerciaux.fr/",
-    "email": "contact@talentscommerciaux.fr",
     "source": "https://www.talentscommerciaux.fr/emplois/",
     "verified": "nom",
     "checkedAt": "2026-11-23T17:09:13.730Z"
@@ -104,7 +101,6 @@
   "alan": {
     "name": "Alan",
     "website": "https://alan.com/",
-    "email": "contact@alan.com",
     "source": "https://alan.com/en/careers",
     "verified": "nom",
     "checkedAt": "2026-11-23T17:10:46.130Z"
@@ -151,7 +147,6 @@
   "comodis": {
     "name": "COMODIS",
     "website": "https://comodis.eu/",
-    "email": "contact@comodis.eu",
     "source": "https://comodis.eu/",
     "verified": "SIREN",
     "checkedAt": "2026-11-23T17:11:41.425Z"
@@ -175,7 +170,6 @@
   "isoskele": {
     "name": "ISOSKELE",
     "website": "https://isoskele.fr/",
-    "email": "contact@isoskele.fr",
     "source": "https://isoskele.fr/contact/",
     "verified": "SIREN",
     "checkedAt": "2026-11-23T17:12:11.543Z"
@@ -210,7 +204,6 @@
   "eolys beaute": {
     "name": "EOLYS BEAUTE",
     "website": "https://www.eolys-beaute.com/",
-    "email": "contact@eolys-beaute.com",
     "source": "https://www.eolys-beaute.com/",
     "verified": "SIREN",
     "checkedAt": "2026-11-23T17:12:20.700Z"
@@ -218,7 +211,6 @@
   "deliveroo france sas": {
     "name": "DELIVEROO FRANCE SAS",
     "website": "https://deliveroo.fr/fr/",
-    "email": "hello@deliveroo.fr",
     "source": "https://deliveroo.fr/fr/",
     "verified": "SIREN",
     "checkedAt": "2026-11-23T17:12:22.476Z"

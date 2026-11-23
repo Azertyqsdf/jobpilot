@@ -217,6 +217,10 @@
       {
         "where": "Lyon",
         "distance": 5
+      },
+      {
+        "country": "ch",
+        "where": "Genève"
       }
     ]
   },

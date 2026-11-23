@@ -81,6 +81,6 @@ export function annualSalary(job) {
   const k = v => (v >= 10000 ? `${Math.round(v / 1000)} k` : `${v}`);
   const sym = SYMBOL[r.currency] || r.currency;
   const range = r.min === r.max ? `${k(r.min)}${sym}` : `${k(r.min)}–${k(r.max)} ${sym}`;
-  const note = estimated ? ' (estimation Adzuna)' : r.from !== 'year' ? ` (calculé depuis un montant ${{ hour: 'horaire', day: 'journalier', month: 'mensuel' }[r.from]})` : '';
+  const note = estimated ? ' (estimation)' : r.from !== 'year' ? ` (calculé depuis un montant ${{ hour: 'horaire', day: 'journalier', month: 'mensuel' }[r.from]})` : '';
   return { ...r, estimated, known: true, label: `${estimated ? '≈ ' : ''}${range} / an${note}` };
 }

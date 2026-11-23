@@ -133,12 +133,13 @@ export async function adzuna(prefs, env) {
     const params = new URLSearchParams({ app_id: id, app_key: key, what: q, results_per_page: '50', max_days_old: String(prefs.maxAgeDays || 30) });
     if (zone.where) params.set('where', zone.where);
     if (zone.distance) params.set('distance', String(zone.distance));
-    const j = await getJson(`https://api.adzuna.com/v1/api/jobs/${country}/search/1?${params}`);
+    const ctry = zone.country || country; // ex. « ch » pour la Suisse (canton de Genève)
+    const j = await getJson(`https://api.adzuna.com/v1/api/jobs/${ctry}/search/1?${params}`);
     for (const x of j.results || []) {
       const description = htmlToText(x.description);
       out.push({
         id: `adzuna-${x.id}`,
-        source: 'Adzuna',
+        source: ctry === 'ch' ? 'Adzuna Suisse' : 'Adzuna',
         title: htmlToText(x.title),
         company: x.company?.display_name || '',
         location: x.location?.display_name || '',
@@ -147,10 +148,11 @@ export async function adzuna(prefs, env) {
         description,
         contactEmail: null,
         contract: [x.contract_type, x.contract_time].filter(Boolean).join(', '),
-        salary: x.salary_min ? `${Math.round(x.salary_min)}–${Math.round(x.salary_max || x.salary_min)} €` : '',
+        salary: x.salary_min ? `${Math.round(x.salary_min)}–${Math.round(x.salary_max || x.salary_min)} ${ctry === 'ch' ? 'CHF' : '€'}` : '',
         salaryMin: x.salary_min || null,
         salaryMax: x.salary_max || null,
         salaryPredicted: String(x.salary_is_predicted) === '1',
+        salaryCurrency: ctry === 'ch' ? 'CHF' : 'EUR',
         postedAt: x.created,
         tags: [x.category?.label].filter(Boolean),
       });
