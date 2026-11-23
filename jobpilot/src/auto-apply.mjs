@@ -1,7 +1,8 @@
 // Candidatures automatiques : après chaque recherche, prépare (et envoie quand l'offre donne un e-mail
 // et que l'envoi automatique est activé) les candidatures pour les meilleures offres, dans la limite
 // d'un nombre par jour. Les offres ignorées ou déjà traitées dans le suivi sont laissées de côté.
-// Réglages : profile/preferences.json → autoApply (modifiables dans l'onglet « Recherche »).
+// Désactivé par défaut : seul l'utilisateur l'active ou le désactive (onglet « Recherche » de l'interface).
+// Réglages : profile/preferences.json → autoApply.
 import { readFile, readdir } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
