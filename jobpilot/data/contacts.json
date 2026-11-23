@@ -229,135 +229,208 @@
     "name": "SOGELINK",
     "website": "https://www.sogelink.com/fr-fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:37.358Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:37:48.841Z"
   },
   "plg": {
     "name": "PLG",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:14.614Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:31.099Z"
   },
   "bnp paribas personal finance": {
     "name": "BNP PARIBAS PERSONAL FINANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:02.540Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:38.643Z"
   },
   "naos": {
     "name": "NAOS",
     "website": "https://naos.com/fr-FR",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:37.435Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:37:46.228Z"
   },
   "comodis": {
     "name": "COMODIS",
     "website": "https://comodis.eu/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:39:54.686Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "326981560",
+      "487618076"
+    ],
+    "generic": {
+      "email": "contact@comodis.eu",
+      "source": "https://comodis.eu/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T19:37:57.040Z"
   },
   "societe generale": {
     "name": "SOCIETE GENERALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:09.100Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:48.966Z"
   },
   "fiducial informatique": {
     "name": "FIDUCIAL INFORMATIQUE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:33.734Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:21.412Z"
   },
   "groupe seb france": {
     "name": "GROUPE SEB FRANCE",
     "website": "https://www.seb.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:40:23.459Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "440410637",
+      "429840853"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:38:23.274Z"
   },
   "isoskele": {
     "name": "ISOSKELE",
     "website": "https://isoskele.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:39:58.301Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "415068345"
+    ],
+    "generic": {
+      "email": "contact@isoskele.fr",
+      "source": "https://isoskele.fr/contact/"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:38:00.956Z"
   },
   "lease protect france": {
     "name": "LEASE PROTECT FRANCE",
-    "website": "https://www.leaseprotect.fr/",
-    "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:40:29.720Z"
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:46.643Z"
   },
   "dcarte engineering sa": {
     "name": "DCARTE ENGINEERING SA",
     "website": "https://dcarteengineering.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:40:30.789Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:38:30.633Z"
   },
   "14 septembre": {
     "name": "14 SEPTEMBRE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:57.345Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:03.069Z"
   },
   "banque de france": {
     "name": "BANQUE DE FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:59.393Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:04.145Z"
   },
   "trading el": {
     "name": "TRADING EL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:10.528Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:16.243Z"
   },
   "eolys beaute": {
     "name": "EOLYS BEAUTE",
     "website": "https://www.eolys-beaute.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:40:23.550Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "529046054"
+    ],
+    "generic": {
+      "email": "contact@eolys-beaute.com",
+      "source": "https://www.eolys-beaute.com/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@eolys-beaute.com",
+    "source": "https://www.eolys-beaute.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:39:05.045Z"
   },
   "deliveroo france sas": {
     "name": "DELIVEROO FRANCE SAS",
     "website": "https://deliveroo.fr/fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:40:32.845Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "hello@deliveroo.fr",
+      "source": "https://deliveroo.fr/fr/contact"
+    },
+    "genericVerdict": "grande entreprise (250+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:39:39.995Z"
   },
   "france frais rhone alpes": {
     "name": "FRANCE FRAIS RHONE ALPES",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:14.146Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:45.180Z"
   },
   "signalisation commerciale": {
     "name": "SIGNALISATION COMMERCIALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:50:13.962Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:54.999Z"
   },
   "etablissements descours et cabaud rhone": {
     "name": "ETABLISSEMENTS DESCOURS ET CABAUD RHONE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:50:17.319Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:40:25.545Z"
   },
   "chambre de commerce et d industrie de re": {
     "name": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE RE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:50:16.440Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:57.328Z"
   },
   "rex rotary": {
     "name": "REX ROTARY",
     "website": "https://rexrotary.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:14:33.453Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "999999999"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:40:08.301Z"
   },
   "happy curl": {
     "name": "HAPPY CURL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:03.673Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:08.668Z"
   },
   "babolat vs": {
     "name": "BABOLAT VS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:50:28.987Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:40:17.990Z"
   },
   "carre sante beaute": {
     "name": "CARRE SANTE BEAUTE",
@@ -559,8 +632,17 @@
     "name": "jobPosting",
     "website": "https://www.jobposting.pro/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:49:02.741Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "790445001"
+    ],
+    "generic": {
+      "email": "contact@jobposting.pro",
+      "source": "https://www.jobposting.pro/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T19:37:15.667Z"
   },
   "skaelia": {
     "name": "Skaelia",
@@ -584,65 +666,120 @@
   "cristal hygiene": {
     "name": "CRISTAL HYGIENE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:03.637Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:43.031Z"
   },
   "smg": {
     "name": "SMG",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:39.256Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:54.777Z"
   },
   "imprimerie du messager sa": {
     "name": "IMPRIMERIE DU MESSAGER SA",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:15.004Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:37:51.304Z"
   },
   "pilot corporation of europe": {
     "name": "PILOT CORPORATION OF EUROPE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:54.290Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:40.139Z"
   },
   "roch": {
     "name": "ROCH",
     "website": "https://www.roch.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:59:10.849Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:38:45.015Z"
   },
   "union des producteurs locaux d electrici": {
     "name": "UNION DES PRODUCTEURS LOCAUX D'ELECTRICI",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:00.845Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:47.387Z"
   },
   "met energie france": {
     "name": "MET ENERGIE FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:46.714Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:33.704Z"
   },
   "energy pool developpement": {
     "name": "ENERGY POOL DEVELOPPEMENT",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:54.499Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:38:59.690Z"
   },
   "statkraft markets gmbh": {
     "name": "STATKRAFT MARKETS GMBH",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:13.992Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:19.193Z"
   },
   "arthrex france": {
     "name": "ARTHREX FRANCE",
     "website": "https://arthrex.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:59:32.756Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "402099949",
+      "424761419"
+    ],
+    "generic": {
+      "email": "info@arthrex.fr",
+      "source": "https://arthrex.fr/contact/"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:39:17.921Z"
   },
   "credit agricole technologies et services": {
     "name": "CREDIT AGRICOLE TECHNOLOGIES ET SERVICES",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:29.939Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:34.393Z"
   },
   "afb france": {
     "name": "AFB FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:55:35.129Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:40.528Z"
+  },
+  "rexel france": {
+    "name": "REXEL FRANCE",
+    "website": "https://www.rexel.fr/frx/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact.rexel@rexel.fr",
+      "source": "https://www.rexel.fr/frx/mentions-legales"
+    },
+    "genericVerdict": "grande entreprise (2000+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:39:39.464Z"
+  },
+  "b c associes": {
+    "name": "B&C ASSOCIES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T19:39:57.850Z"
+  },
+  "eurl jura mont blanc": {
+    "name": "EURL JURA MONT BLANC",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T19:40:04.705Z"
+  },
+  "ansys france": {
+    "name": "ANSYS FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T19:40:09.956Z"
   }
 }

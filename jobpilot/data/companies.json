@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:04:01.402Z",
+ "updatedAt": "2026-11-23T19:37:13.518Z",
  "companies": [
   {
    "id": "lbb-54209790203816",
@@ -315,11 +315,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté",
    "headcount": "",
    "score": 9.520441563599999,
-   "email": "",
+   "email": "contact@eolys-beaute.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.eolys-beaute.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.eolys-beaute.com/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-41395864600080",

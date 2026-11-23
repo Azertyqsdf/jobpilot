@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:04:01.403Z",
+ "updatedAt": "2026-11-23T19:37:13.519Z",
  "jobs": [
   {
    "tags": [
@@ -187,6 +187,47 @@
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
+   "id": "adzuna-5973749841",
+   "source": "Adzuna",
+   "title": "Consultant en recrutement Life Science",
+   "company": "KARPOS RH",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
+   "description": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découverte • Cadrer le besoin, construire la proposition commerciale et conclure les mandats • Fidéliser dans la durée : suivi de l’intégration, satisfaction, mandats récurrents • Représe…",
+   "contactEmail": "contact@karpos-rh.com",
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-21T08:34:12Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 95,
+   "reasons": [
+    "Compétences : Négociation grands comptes, Gestion de portefeuille clients, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Négociation grands comptes",
+    "Gestion de portefeuille clients",
+    "Recrutement"
+   ],
+   "status": "ready",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "application": "adzuna-5973749841",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver",
+   "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
+   "contactEmailWhy": "petite entreprise (10 à 19 salariés)"
+  },
+  {
    "id": "arbeitnow-senior-account-executive-france-lyon-366320",
    "source": "Arbeitnow",
    "title": "Senior Account Executive - FRANCE",
@@ -226,6 +267,86 @@
     "label": "100 k–150 k € / an"
    },
    "summary": "As a Mid-Market Account Executive, your mission is to grow our business by winning new customers in the French mid-market segment. What you'll do Discovery & qualification • • Take ownership of the qualified opportunities passed on by the SDR team, from discovery through to signature."
+  },
+  {
+   "id": "adzuna-5970817182",
+   "source": "Adzuna",
+   "title": "Responsable commercial - Supports impresions H/F (CDI)",
+   "company": "Talents Commerciaux",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5970817182?utm_medium=api&utm_source=d81896fb",
+   "description": "Talents Commerciaux s'appuie sur l'expertise, le dynamisme et l'expérience professionnelle de son équipe pour accompagner chaque entreprise dans la recherche de son futur collaborateur commercial, et chaque candidat dans la concrétisation de ses projets professionnels. Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
+   "contactEmail": "contact@talentscommerciaux.fr",
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T00:09:34Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Direction commerciale, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Recrutement"
+   ],
+   "status": "ready",
+   "firstSeen": "2026-11-23T15:33:21.348Z",
+   "application": "adzuna-5970817182",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
+   "contactEmailSource": "https://www.talentscommerciaux.fr/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
+   "id": "adzuna-5976120783",
+   "source": "Adzuna",
+   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
+   "company": "VOLUNTAE",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
+   "description": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un(e) Responsable d'Agenc…",
+   "contactEmail": "contact@voluntae.fr",
+   "contract": "permanent, full_time",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-23T14:11:48Z",
+   "tags": [
+    "Emplois Vente"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Business development, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Recrutement"
+   ],
+   "status": "ready",
+   "firstSeen": "2026-11-23T15:33:21.348Z",
+   "application": "adzuna-5976120783",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
+   "contactEmailSource": "https://voluntae.fr/contact/",
+   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
   },
   {
    "id": "adzuna-5973699147",
@@ -682,46 +803,6 @@
    "summary": "Vous souhaitez évoluer dans un environnement dynamique, au coeur des enjeux de l'emploi et du secteur du BTP ? Vous aimez les challenges commerciaux, le recrutement et la relation client ? Vos missions Rattaché(e) à notre agence de Lyon 7e, vous intervenez sur trois grands volets : 1."
   },
   {
-   "id": "adzuna-5973749841",
-   "source": "Adzuna",
-   "title": "Consultant en recrutement Life Science",
-   "company": "KARPOS RH",
-   "location": "Lyon, Rhône",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
-   "description": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découverte • Cadrer le besoin, construire la proposition commerciale et conclure les mandats • Fidéliser dans la durée : suivi de l’intégration, satisfaction, mandats récurrents • Représe…",
-   "contactEmail": "contact@karpos-rh.com",
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-21T08:34:12Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 95,
-   "reasons": [
-    "Compétences : Négociation grands comptes, Gestion de portefeuille clients, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Négociation grands comptes",
-    "Gestion de portefeuille clients",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T17:47:41.741Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver",
-   "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
-   "contactEmailWhy": "petite entreprise (10 à 19 salariés)"
-  },
-  {
    "id": "adzuna-5973743880",
    "source": "Adzuna",
    "title": "Consultant en Recrutement Senior BTP (H/F)",
@@ -1112,84 +1193,6 @@
     "label": "28 k–40 k € / an"
    },
    "summary": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Ton quotidien chez EPSA ? : - Contacter les dirigeants de…"
-  },
-  {
-   "id": "adzuna-5970817182",
-   "source": "Adzuna",
-   "title": "Responsable commercial - Supports impresions H/F (CDI)",
-   "company": "Talents Commerciaux",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5970817182?utm_medium=api&utm_source=d81896fb",
-   "description": "Talents Commerciaux s'appuie sur l'expertise, le dynamisme et l'expérience professionnelle de son équipe pour accompagner chaque entreprise dans la recherche de son futur collaborateur commercial, et chaque candidat dans la concrétisation de ses projets professionnels. Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
-   "contactEmail": "contact@talentscommerciaux.fr",
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T00:09:34Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Direction commerciale, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T15:33:21.348Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
-   "contactEmailSource": "https://www.talentscommerciaux.fr/",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
-  },
-  {
-   "id": "adzuna-5976120783",
-   "source": "Adzuna",
-   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
-   "company": "VOLUNTAE",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
-   "description": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un(e) Responsable d'Agenc…",
-   "contactEmail": "contact@voluntae.fr",
-   "contract": "permanent, full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-23T14:11:48Z",
-   "tags": [
-    "Emplois Vente"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Business development, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T15:33:21.348Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
-   "contactEmailSource": "https://voluntae.fr/contact/",
-   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
   },
   {
    "id": "adzuna-5975769998",
