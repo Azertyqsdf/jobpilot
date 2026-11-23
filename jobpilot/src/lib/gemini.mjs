@@ -23,7 +23,9 @@ export async function gemini(prompt, env, { json = false, temperature = 0.3, fas
   if (!key) return null;
   const models = [...new Set([env.GEMINI_MODEL, ...(await availableModels(key)), 'gemini-flash-latest', 'gemini-flash-lite-latest'].filter(Boolean))].slice(0, fast ? 3 : 5);
   const errors = [];
+  const deadline = Date.now() + (fast ? 25000 : 60000); // budget total : on n'attend jamais Gemini indéfiniment
   for (const model of models) {
+    if (Date.now() > deadline) break;
     for (let attempt = 0; attempt < (fast ? 1 : 3); attempt++) {
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
         method: 'POST',
@@ -40,7 +42,8 @@ export async function gemini(prompt, env, { json = false, temperature = 0.3, fas
       }
       errors.push(`${model}: ${res.status}`);
       if (!RETRY.has(res.status)) break; // 400/403/404 : inutile d'insister sur ce modèle
-      await sleep(res.status === 429 ? 20000 : 3000 * (attempt + 1));
+      if (res.status === 429 || Date.now() > deadline) break; // quota atteint : modèle suivant
+      await sleep(3000 * (attempt + 1));
     }
   }
   throw new Error(`Gemini indisponible (${[...new Set(errors)].slice(-3).join(', ')})`);

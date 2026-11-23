@@ -118,17 +118,30 @@ jobs:
           done
           exit 1
 
-      - name: Construire le site
-        if: env.MODE == 'search'
-        run: node src/build-site.mjs
+
+  # Le site (CV, film, interface) est publié sans attendre la fin de la recherche d'offres.
+  site:
+    if: ${{ inputs.apply == '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: jobpilot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: jobpilot/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: node src/build-site.mjs
       - uses: actions/upload-pages-artifact@v3
-        if: env.MODE == 'search'
         with:
           path: jobpilot/site
 
   deploy:
-    needs: run
-    if: ${{ inputs.apply == '' }}
+    needs: site
     runs-on: ubuntu-latest
     environment:
       name: github-pages

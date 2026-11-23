@@ -112,6 +112,20 @@ async function downloadFile(path, filename) {
     sync('ok');
   } catch (e) { sync('err'); toast(`Téléchargement impossible : ${e.message}`, true); }
 }
+// Aperçu d'un document de candidature dans l'interface (lisible sur téléphone).
+async function preview(path) {
+  sync('busy');
+  try {
+    const html = await (await gh(R(`/contents/${encodeURI(P(path))}?ref=${S.branch}`), { raw: true })).text();
+    const box = Object.assign(document.createElement('div'), { className: 'preview' });
+    box.innerHTML = `<div class="preview-bar"><b>Aperçu</b><button class="btn sm" type="button">Fermer ✕</button></div>`;
+    const frame = Object.assign(document.createElement('iframe'), { srcdoc: html, title: 'Aperçu' });
+    box.appendChild(frame);
+    box.querySelector('button').onclick = () => { box.remove(); document.body.style.overflow = ''; };
+    document.body.appendChild(box); document.body.style.overflow = 'hidden';
+    sync('ok');
+  } catch (e) { sync('err'); toast(`Aperçu impossible : ${e.message}`, true); }
+}
 async function dispatch(applyIds = [], send = false) {
   await gh(R('/actions/workflows/jobpilot.yml/dispatches'), { method: 'POST', body: { ref: S.branch, inputs: { apply: applyIds.join(' '), send: String(send) } } });
   watchRobot();
@@ -445,6 +459,8 @@ function viewTracking() {
 function appCard(x) {
   const { id, a, stage, sentAt, due, folder } = x;
   const docs = folder ? `<div class="row" style="margin-top:8px">
+      <button class="btn sm primary" data-preview="data/applications/${esc(folder)}/cv.html">Aperçu du CV</button>
+      <button class="btn sm ghost" data-preview="data/applications/${esc(folder)}/lettre.html">Aperçu de la lettre</button>
       <button class="btn sm" data-dl="data/applications/${esc(folder)}/cv.pdf" data-name="CV - ${esc(a.company)}.pdf">CV PDF</button>
       <button class="btn sm" data-dl="data/applications/${esc(folder)}/lettre.pdf" data-name="Lettre - ${esc(a.company)}.pdf">Lettre PDF</button>
       <button class="btn sm ghost" data-dl="data/applications/${esc(folder)}/lettre.txt" data-name="Lettre - ${esc(a.company)}.txt">Texte</button></div>`
@@ -723,6 +739,7 @@ view.addEventListener('click', async e => {
   const d = t.dataset;
   if (d.tabGo) return go(d.tabGo);
   if (d.dl) return downloadFile(d.dl, d.name);
+  if (d.preview) return preview(d.preview);
   if (d.add) { const arr = getPath(draft, d.add) || (setPath(draft, d.add, []), getPath(draft, d.add)); arr.push(TPL[d.tpl]()); markDirty(); return render(); }
   if (d.del) { const ks = d.del.split('.'); const i = +ks.pop(); getPath(draft, ks.join('.')).splice(i, 1); markDirty(); return render(); }
   if (d.up) { const ks = d.up.split('.'); const i = +ks.pop(); const arr = getPath(draft, ks.join('.')); [arr[i - 1], arr[i]] = [arr[i], arr[i - 1]]; markDirty(); return render(); }
