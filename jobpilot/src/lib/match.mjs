@@ -27,8 +27,17 @@ export function scoreJob(job, profile, prefs) {
 
   // Une offre en télétravail réservée à une zone (« USA only ») n'est retenue que si la zone te convient.
   const locNorm = normalize(job.location);
+  // Une offre peut lister plusieurs lieux (« Paris; Lyon; Annecy ») : il suffit qu'un des lieux soit dans ta zone.
+  // Pour chaque lieu, seule la commune compte (« Saint-Priest, Lyon » = Saint-Priest, pas Lyon),
+  // sauf les arrondissements (« 1er-Arrondissement, Lyon » = Lyon).
+  const places = String(job.location || '').split(/;|\|/).map(seg => {
+    const parts = seg.split(',').map(x => x.trim()).filter(Boolean);
+    if (!parts.length) return '';
+    return normalize(/arrondissement/i.test(parts[0]) && parts[1] ? parts[1] : parts[0]);
+  }).filter(Boolean);
+  const placeOk = places.some(pl => prefs.locations.some(l => hasPrefix(pl, l)));
   const genericRemote = job.remote && (!locNorm || /^(remote|remote job|anywhere|worldwide|werken op afstand|teletravail)$/.test(locNorm));
-  const locOk = !prefs.locations.length || prefs.locations.some(l => hasPrefix(locNorm, l)) || (prefs.acceptRemote && genericRemote);
+  const locOk = !prefs.locations.length || placeOk || (prefs.acceptRemote && genericRemote);
   if (!locOk) return { score: 0, excluded: `lieu hors zone (${job.location})`, reasons };
 
   if (prefs.maxAgeDays && job.postedAt) {
