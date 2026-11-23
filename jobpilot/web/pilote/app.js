@@ -366,7 +366,7 @@ function jobCard(j) {
     <div class="score" style="--s:${j.score}">${j.score}</div>
     <div class="body">
       <h3>${esc(j.title)}</h3>
-      <div class="meta">${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''}${j.contract ? ` · ${esc(j.contract)}` : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${j.contactEmail ? ' · ✉️ candidature par e-mail' : ''}</div>
+      <div class="meta">${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''}${j.contract ? ` · ${esc(j.contract)}` : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${/@/.test(j.contactEmail || '') ? ` · ✉️ <span title="${esc(j.contactEmailSource ? 'Adresse trouvée sur ' + j.contactEmailSource : 'Adresse donnée par l\'offre')}">${esc(j.contactEmail)}</span>` : ''}</div>
       <div class="salary${j.salaryAnnual?.known ? '' : ' unknown'}">💰 ${esc(j.salaryAnnual?.label || 'Salaire annuel non indiqué')}</div>
       <p class="summary">${esc(j.summary || '')}</p>
       <div class="chips">${(j.matchedSkills || []).map(s => `<span class="chip gold">${esc(s)}</span>`).join('')}</div>
@@ -426,6 +426,7 @@ function viewCompanies() {
       <h3>${esc(c.name)}</h3>
       <div class="meta">${esc([c.postcode, c.city].filter(Boolean).join(' '))}${c.distance ? ` · ${Math.round(c.distance)} km` : ''}${c.headcount ? ` · ${esc(c.headcount)}` : ''}</div>
       ${c.sector ? `<div class="chips"><span class="chip">${esc(c.sector)}</span></div>` : ''}
+      ${/@/.test(c.email || '') ? `<div class="meta">✉️ ${esc(c.email)}${c.emailSource ? ` · <a href="${esc(c.emailSource)}" target="_blank" rel="noopener">trouvée sur leur site</a>` : ''}</div>` : ''}
       <div class="row" style="margin-top:10px">
         <button class="btn sm primary" data-act="apply" data-id="${esc(c.id)}">Candidature spontanée</button>
         <a class="btn sm ghost" href="https://www.google.com/search?q=${encodeURIComponent(`${c.name} ${c.city || ''} recrutement`)}" target="_blank" rel="noopener">Rechercher l'entreprise ↗</a>

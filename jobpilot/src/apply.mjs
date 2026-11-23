@@ -134,7 +134,7 @@ for (const id of ids) {
     sent = wantSend ? 'non — PDF indisponible' : `non — envoi automatique désactivé ; e-mail : ${job.contactEmail}`;
   }
 
-  const meta = { id, folder, auto: env.AUTO_MODE === '1', title: job.title, company: job.company, url: job.url, contactEmail: job.contactEmail, lang, letterSource, pdf, sent, matched: cv.matched, missing: cv.missing, createdAt: new Date().toISOString() };
+  const meta = { id, folder, auto: env.AUTO_MODE === '1', title: job.title, company: job.company, url: job.url, contactEmail: job.contactEmail, contactEmailSource: job.contactEmailSource || null, lang, letterSource, pdf, sent, matched: cv.matched, missing: cv.missing, createdAt: new Date().toISOString() };
   await writeFile(new URL('meta.json', dir), JSON.stringify(meta, null, 2));
   if (sent === 'envoyé') await writeFile(new URL('envoi.json', dir), JSON.stringify({ to: job.contactEmail, at: meta.createdAt }));
   report.push(meta);

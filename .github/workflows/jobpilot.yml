@@ -80,6 +80,10 @@ jobs:
         if: env.MODE == 'search'
         run: node src/fetch-jobs.mjs
 
+      - name: Trouver les adresses de candidature (sites officiels des entreprises)
+        if: env.MODE == 'search'
+        run: node src/prospect.mjs
+
       - name: Candidatures automatiques
         if: env.MODE == 'search'
         run: node src/auto-apply.mjs

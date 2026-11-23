@@ -1,0 +1,75 @@
+{
+  "local fr": {
+    "name": "Local.fr",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:08:48.910Z"
+  },
+  "uptoo": {
+    "name": "UPTOO",
+    "website": "https://uptoo.fr/",
+    "email": "contact@uptoo.fr",
+    "source": "https://uptoo.fr/recrutement/",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T17:08:49.325Z"
+  },
+  "pepite conseil": {
+    "name": "PEPITE CONSEIL",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:08:50.254Z"
+  },
+  "ntn snr": {
+    "name": "NTN SNR",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:08:57.491Z"
+  },
+  "de graet consulting": {
+    "name": "DE GRAËT CONSULTING",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:08:58.088Z"
+  },
+  "mercato de l emploi": {
+    "name": "Mercato de l'Emploi",
+    "website": "https://www.mercato-emploi.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:09:00.417Z"
+  },
+  "findyourstaff": {
+    "name": "Findyourstaff",
+    "website": "https://findyourstaff.com/",
+    "email": "hello@findyourstaff.com",
+    "source": "https://findyourstaff.com/",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T17:09:01.695Z"
+  },
+  "atypique": {
+    "name": "Atypique",
+    "website": "https://www.atypique.ch/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:09:11.447Z"
+  },
+  "potentiel": {
+    "name": "POTENTIEL",
+    "website": "https://www.potentiel.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:09:12.081Z"
+  },
+  "m j trusted partners": {
+    "name": "M&J TRUSTED PARTNERS",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:09:12.152Z"
+  },
+  "talents commerciaux": {
+    "name": "talents commerciaux",
+    "website": "https://www.talentscommerciaux.fr/",
+    "email": "contact@talentscommerciaux.fr",
+    "source": "https://www.talentscommerciaux.fr/emplois/",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T17:09:13.730Z"
+  },
+  "sonarsource": {
+    "name": "Sonarsource",
+    "website": "https://www.sonarsource.com/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:09:15.080Z"
+  }
+}

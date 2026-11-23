@@ -30,7 +30,13 @@ for (const f of folders) {
 const budget = Math.max(0, cfg.maxPerDay - doneToday);
 if (!budget) { console.log(`Limite atteinte (${cfg.maxPerDay} par jour).`); process.exit(0); }
 
-const free = j => !apps[j.id] && !folders.has(applicationFolder(j.id));
+// Adresses déjà utilisées (90 derniers jours) : on n'écrit jamais deux fois à la même entreprise.
+const usedEmails = new Set();
+for (const f of folders) {
+  const m = await read(`data/applications/${f}/meta.json`, {});
+  if (m.contactEmail && (Date.now() - new Date(m.createdAt)) / 864e5 < 90) usedEmails.add(String(m.contactEmail).toLowerCase());
+}
+const free = j => !apps[j.id] && !folders.has(applicationFolder(j.id)) && !usedEmails.has(String(j.contactEmail || j.email || '').toLowerCase());
 const candidates = jobs
   .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && (!cfg.onlyWithEmail || isEmail(j.contactEmail)))
   .sort((a, b) => isEmail(b.contactEmail) - isEmail(a.contactEmail) || b.score - a.score)
@@ -38,7 +44,14 @@ const candidates = jobs
 if (cfg.spontaneous) {
   candidates.push(...companies.filter(c => free(c) && isEmail(c.email)).map(c => c.id)); // spontanée : seulement si un e-mail est connu
 }
-const ids = candidates.slice(0, budget);
+const byId = new Map([...jobs, ...companies].map(x => [x.id, x]));
+const seenMail = new Set();
+const ids = candidates.filter(id => {
+  const m = String(byId.get(id)?.contactEmail || byId.get(id)?.email || '').toLowerCase();
+  if (!m) return true;
+  if (seenMail.has(m)) return false;
+  seenMail.add(m); return true;
+}).slice(0, budget);
 if (!ids.length) { console.log('Aucune nouvelle offre ne remplit les critères.'); process.exit(0); }
 
 console.log(`Candidatures automatiques : ${ids.length} (limite du jour ${cfg.maxPerDay}, déjà ${doneToday}).`);
