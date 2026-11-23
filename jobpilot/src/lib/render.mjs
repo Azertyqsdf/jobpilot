@@ -45,8 +45,8 @@ h1 { font-size:22pt; line-height:1.05; margin:0; letter-spacing:-.02em; }
 .role { color:var(--accent); font-weight:600; font-size:12pt; margin-top:3px; }
 .contact { color:var(--muted); font-size:9pt; margin-top:5px; }
 .contact a { color:var(--muted); }
-.film { display:flex; align-items:center; gap:8px; text-decoration:none; color:var(--ink); border:1px solid var(--line); border-radius:14px; padding:6px 10px 6px 6px; flex-shrink:0; }
-.film b { display:block; font-size:9pt; } .film span { font-size:8pt; color:var(--muted); }
+.film-note { grid-column:1/-1; align-self:end; margin-top:8px; padding-top:6px; border-top:1px solid var(--line); text-align:right; font-size:7.5pt; }
+.film-note a { color:var(--muted); text-decoration:none; }
 h2 { font-size:9pt; text-transform:uppercase; letter-spacing:.12em; color:var(--accent); margin:12px 0 6px; }
 .summary { margin:0 0 4px; }
 .xp { margin-bottom:9px; break-inside:avoid; }
@@ -69,8 +69,7 @@ aside small { color:var(--muted); }
   h1 { font-size:30px; }
   .role { font-size:17px; margin-top:6px; line-height:1.35; }
   .contact { font-size:14px; margin-top:10px; line-height:1.7; }
-  .film { width:100%; justify-content:center; padding:10px 14px; border-radius:16px; }
-  .film b { font-size:15px; } .film span { font-size:13px; }
+  .film-note { font-size:13px; text-align:center; margin-top:24px; padding-top:14px; }
   h2 { font-size:13px; margin:30px 0 12px; }
   .summary { font-size:16px; }
   .xp { margin-bottom:0; padding:16px 0; border-top:1px solid var(--line); }
@@ -91,7 +90,6 @@ aside small { color:var(--muted); }
     <div class="role">${h(cv.title)}</div>
     <div class="contact">${contact.join(' · ')}${links.length ? ' · ' + links.join(' · ') : ''}</div>
   </div></div>
-  ${filmUrl ? `<a class="film" href="${h(filmUrl)}" title="Voir mon parcours en film 3D">${FILM_ICON}<div><b>Mon CV en film 3D</b><span>Cliquez pour lancer ▶</span></div></a>` : ''}
 </header>
 <main>
   <h2>Profil</h2>
@@ -111,6 +109,7 @@ aside small { color:var(--muted); }
   ${cv.languages?.length ? `<h2>Langues</h2>${cv.languages.map(l => `<p>${h(l.name)} <small>— ${h(l.level)}</small></p>`).join('')}` : ''}
   ${cv.interests?.length ? `<h2>Centres d'intérêt</h2><p>${cv.interests.map(h).join(' · ')}</p>` : ''}
 </aside>
+${filmUrl ? `<footer class="film-note"><a href="${h(filmUrl)}">▶ Mon parcours en version animée</a></footer>` : ''}
 </div>
 <script>
 // Garantit une seule page A4 lors de la création du PDF : si le contenu dépasse (les polices varient selon

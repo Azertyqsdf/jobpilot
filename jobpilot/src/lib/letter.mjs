@@ -30,7 +30,7 @@ export function templateLetter(profile, job, cv) {
     '',
     motivation ? `Ce qui me motive avant tout : ${motivation}. C'est ce que je viens chercher chez ${job.company}.` : `Je souhaite mettre cette expérience au service de ${job.company}.`,
     '',
-    "Mon CV détaillé est joint ; vous y trouverez aussi un lien vers une version animée en 3D de mon parcours.",
+    "Mon CV détaillé est joint.",
     "Je suis disponible pour en échanger avec vous lors d'un entretien.",
     '',
     'Bien cordialement,',
@@ -68,7 +68,7 @@ export async function aiLetter(profile, job, cv, lang, env) {
   const prompt = `Tu rédiges une lettre de motivation en ${langName}, 180 à 250 mots, ton sincère et direct, sans formules creuses.
 RÈGLE ABSOLUE : n'utilise QUE les faits du JSON ci-dessous. N'invente aucun chiffre, aucune entreprise, aucune compétence, aucune expérience, aucun diplôme.
 Si l'offre demande quelque chose qui n'est pas dans les faits, n'en parle pas. Tu peux traduire les faits fidèlement.
-Mentionne en une phrase que le CV joint contient un lien vers une version animée en 3D du parcours.
+Mentionne simplement que le CV est joint. Ne parle d'aucune vidéo, animation ni film.
 Commence par l'objet, puis la formule d'appel, termine par la signature (prénom nom). Texte brut, pas de markdown.
 
 FAITS (vrais) :
