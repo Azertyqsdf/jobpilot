@@ -201,8 +201,8 @@
   ],
   "acceptRemote": false,
   "contracts": [],
-  "minScore": 85,
-  "maxAgeDays": 5,
+  "minScore": 75,
+  "maxAgeDays": 10,
   "maxJobs": 200,
   "language": "fr",
   "sources": {
