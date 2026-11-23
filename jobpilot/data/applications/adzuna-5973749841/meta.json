@@ -1,0 +1,23 @@
+{
+  "id": "adzuna-5973749841",
+  "folder": "adzuna-5973749841",
+  "auto": true,
+  "title": "Consultant en recrutement Life Science",
+  "company": "KARPOS RH",
+  "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
+  "contactEmail": "contact@karpos-rh.com",
+  "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
+  "lang": "fr",
+  "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
+  "pdf": true,
+  "sent": "non — envoi automatique désactivé ; e-mail : contact@karpos-rh.com",
+  "matched": [
+    "Négociation grands comptes",
+    "Gestion de portefeuille clients",
+    "Recrutement"
+  ],
+  "missing": [
+    "Unknown"
+  ],
+  "createdAt": "2026-11-23T19:05:32.620Z"
+}

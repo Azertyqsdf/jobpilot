@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T18:53:25.293Z",
+ "updatedAt": "2026-11-23T19:04:01.403Z",
  "jobs": [
   {
    "tags": [
@@ -36,7 +36,7 @@
     "Gestion de portefeuille clients",
     "Recrutement"
    ],
-   "status": "ready",
+   "status": "sent",
    "firstSeen": "2026-11-23T17:51:13.520Z",
    "application": "hellowork-85759165",
    "salaryAnnual": {
@@ -59,7 +59,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5974608493?utm_medium=api&utm_source=d81896fb",
    "description": "Vous prendrez en charge le développement commercial de notre zone export, couvrant le bassin méditerranéen (Afrique du Nord, Grèce, Chypre, Turquie, Proche-Orient), l'Afrique et le Moyen-Orient, avec un appui ponctuel sur l'Australie et la Nouvelle-Zélande. Votre mission consistera à : - Piloter et développer un portefeuille existant d'une cinquantaine de clients actifs. - Prospecter activement pour identifier de nouveaux clients et distributeurs (60 % de votre temps), en adaptant votre approch…",
-   "contactEmail": null,
+   "contactEmail": "contact@uptoo.fr",
    "contract": "full_time",
    "salary": "70000–90000 €",
    "salaryMin": 70000,
@@ -92,7 +92,9 @@
     "known": true,
     "label": "70 k–90 k € / an"
    },
-   "summary": "Vous prendrez en charge le développement commercial de notre zone export, couvrant le bassin méditerranéen (Afrique du Nord, Grèce, Chypre, Turquie, Proche-Orient), l'Afrique et le Moyen-Orient, avec un appui ponctuel sur l'Australie et la Nouvelle-Zélande."
+   "summary": "Vous prendrez en charge le développement commercial de notre zone export, couvrant le bassin méditerranéen (Afrique du Nord, Grèce, Chypre, Turquie, Proche-Orient), l'Afrique et le Moyen-Orient, avec un appui ponctuel sur l'Australie et la Nouvelle-Zélande.",
+   "contactEmailSource": "https://uptoo.fr/contact/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5972922530",
@@ -103,7 +105,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5972922530?utm_medium=api&utm_source=d81896fb",
    "description": "Le terrain de jeu Rattaché(e) au Directeur commercial , vous êtes le relais terrain de la stratégie export sur trois marchés clés d'Europe du Sud — Espagne, Italie et Portugal . Un poste pour les profils qui aiment autant la route que les résultats. Gestion et animation des agents commerciaux en Espagne, Italie et Portugal Accompagnement des agents dans le déploiement de la stratégie commerciale Suivi de la clientèle à distance et gestion des opérations courantes Visites clients régulières sur …",
-   "contactEmail": null,
+   "contactEmail": "hello@findyourstaff.com",
    "contract": "permanent",
    "salary": "36000–42000 €",
    "salaryMin": 36000,
@@ -135,7 +137,9 @@
     "known": true,
     "label": "36 k–42 k € / an"
    },
-   "summary": "Le terrain de jeu Rattaché(e) au Directeur commercial , vous êtes le relais terrain de la stratégie export sur trois marchés clés d'Europe du Sud — Espagne, Italie et Portugal . Un poste pour les profils qui aiment autant la route que les résultats."
+   "summary": "Le terrain de jeu Rattaché(e) au Directeur commercial , vous êtes le relais terrain de la stratégie export sur trois marchés clés d'Europe du Sud — Espagne, Italie et Portugal . Un poste pour les profils qui aiment autant la route que les résultats.",
+   "contactEmailSource": "https://findyourstaff.com/contact",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5972903477",
@@ -146,7 +150,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5972903477?utm_medium=api&utm_source=d81896fb",
    "description": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Notre client, acteur spécialisé dans la vente de services en assurance santé et en formation bureautique, recherche, dans le cadre du développement de ses activités et de l'évolution de son organisation, un(e) RESPONSABLE COMMERCIAL ET PERFORMANCE H/F. Véritable MANAGER OPÉRATIONNEL, vous pilotez la performance commerciale de deux entités, repr…",
-   "contactEmail": null,
+   "contactEmail": "contact@talentscommerciaux.fr",
    "contract": "permanent, full_time",
    "salary": "55000–70000 €",
    "salaryMin": 55000,
@@ -178,7 +182,9 @@
     "known": true,
     "label": "55 k–70 k € / an"
    },
-   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Véritable MANAGER OPÉRATIONNEL, vous pilotez la performance commerciale de deux entités, repr…"
+   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Véritable MANAGER OPÉRATIONNEL, vous pilotez la performance commerciale de deux entités, repr…",
+   "contactEmailSource": "https://www.talentscommerciaux.fr/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "arbeitnow-senior-account-executive-france-lyon-366320",
@@ -188,7 +194,7 @@
    "location": "Lyon 🇫🇷",
    "remote": false,
    "url": "https://www.arbeitnow.fr/jobs/companies/agicap/senior-account-executive-france-lyon-366320",
-   "description": "About Agicap \n\n Created in Lyon in 2016 by three French entrepreneurs, Agicap is one of the fastest growing scale-ups in Europe, with over 8000 customers, 700 employees and fast revenue growth (7x between 2021 and 2024). Agicap is part of the French Tech 120, rewarding the most promising startups in France. \n\n Agicap allows Finance teams of Mid-Market companies to efficiently manage and forecast their cash, pay their suppliers and get paid. By combining a Treasury Management System, and Accounts Payable and Accounts Receivable solutions into a single platform, Agicap aims at becoming the next leading Treasury Management platform for mid-market companies. \n\n We have raised €145M since our creation, with prestigious VC funds including AVP, Greenoaks, Partech and BlackFin, with a last round in November 2024. \n\n These additional resources further fuel our product innovation, allowing us to grow significantly and accelerate our international expansion across the world. \n\n We believe our success comes from our highly passionate and dedicated teams, committed to building a company where people can grow and build their careers. We are constantly looking for great talents, aiming for excellence and ready to join our ambitious adventure! \n\n Cash is the lifeblood of every business, and it's the number one priority for CFOs. As a Mid-Market Account Executive, your mission is to grow our business by winning new customers in the French mid-market segment. \n\n You own the full sales cycle, from discovery to signature, working with an SDR who feeds your pipeline. You don't just sell software: you position Agicap as a strategic partner for companies that want to transform how they manage cash. \n\n What you'll do \n Discovery & qualification \n\n• \n\n• Take ownership of the qualified opportunities passed on by the SDR team, from discovery through to signature.\n\n• Run in-depth discovery sessions to understand each prospect's context, challenges, and cash flow needs.\n\n• Identify concrete use cases for Agicap and build a clear ROI case tailored to each prospect.\n\n• Work with your SDRs to define a sector-based development strategy and sharpen their outreach with your field feedback.\n\n Sales cycle management \n\n• \n\n• Deliver sharp product demos, based on the needs surfaced during discovery.\n\n• Map all stakeholders and the buying process, and build strong relationships with CFOs, Finance Directors, and other C-level decision-makers.\n\n• Present offers, negotiate terms, and support prospects all the way to signature, to meet and exceed your targets.\n\n Cross-functional collaboration \n\n• \n\n• Share structured feedback with the Marketing, Business Development, and Product teams to keep improving our go-to-market and our product.\n\n• Work with Customer Success to ensure a smooth handover and a strong onboarding.\n\n• Share your commercial expertise and ideas to help the whole team grow.\n\n Performance management \n\n• \n\n• \n\n• Keep your pipeline data accurate and up to date in HubSpot.\n\n• Review your performance regularly with your manager, spot areas to improve, and adjust your approach.\n\n What we are looking for: \n\n• Around 5 years of experience in B2B sales, ideally in SaaS and in the mid-market segment, or experience in a finance department / audit / consulting / TS.\n\n• A clear track record of meeting and exceeding sales targets.\n\n• Strong discovery and consultative selling skills: you start from the prospect's problem, not the product.\n\n• Comfortable selling to CFOs and Finance Directors.\n\n• Strong analytical and synthesis skills, excellent verbal communication, and real intellectual curiosity.\n\n• Discipline in using a CRM (HubSpot) and managing your pipeline.\n\n• An entrepreneurial mindset: you're comfortable in a fast-moving environment and full of ideas.\n\n• Fluent French and a good level of English.\n\n• Nice to have: experience in treasury or finance software, an existing network in the French mid-market finance/CFO community, or experience in a scale-up or fintech.\n\n Why join Agicap \n\n• An exceptional product-market fit, on a critical need: cash, the number one priority for CFOs.\n\n• A strongly differentiated solution, a leader in Europe (G2), in a huge market.\n\n• A strong culture: meritocracy, high standards, continuous learning, a European scale-up (>50% of revenue outside France).\n\n• Real opportunities to grow, both in your role and across countries: at Agicap, former Sales are now managers, Ops, recruiters… across the Sales, Product, Marketing, and Customer Success teams.\n\n• A close-knit, talented team with real team spirit.\n\n Package & benefits \n\n• Attractive package: between €100K and €150K depending on profile and performance, with uncapped commissions.\n\n• Swile meal vouchers: €11/day, with €6.50 covered by Agicap.\n\n• 100% reimbursement of public transport.\n\n• 1,000 m² offices in Vaise (Lyon 9ème).\n\n• Latest-generation work equipment.\n\n• Regular team events: afterworks, team lunches, football, running, monthly team building, and company offsites (the last one was on the privatised Île des Embiez in the South of France, for Agicap's 10th anniversary).\n\n AGICAP is committed to providing equal opportunities for everyone, and we foster an inclusive work environment that values diversity! \n\n Find more English Speaking Jobs in France on Arbeitnow",
+   "description": "About Agicap \n\n Created in Lyon in 2016 by three French entrepreneurs, Agicap is one of the fastest growing scale-ups in Europe, with over 8000 customers, 700 employees and fast revenue growth (7x between 2021 and 2024). Agicap is part of the French Tech 120, rewarding the most promising startups in France. \n\n Agicap allows Finance teams of Mid-Market companies to efficiently manage and forecast their cash, pay their suppliers and get paid. By combining a Treasury Management System, and Accounts Payable and Accounts Receivable solutions into a single platform, Agicap aims at becoming the next leading Treasury Management platform for mid-market companies. \n\n We have raised €145M since our creation, with prestigious VC funds including AVP, Greenoaks, Partech and BlackFin, with a last round in November 2024. \n\n These additional resources further fuel our product innovation, allowing us to grow significantly and accelerate our international expansion across the world. \n\n We believe our success comes from our highly passionate and dedicated teams, committed to building a company where people can grow and build their careers. We are constantly looking for great talents, aiming for excellence and ready to join our ambitious adventure! \n\n Cash is the lifeblood of every business, and it's the number one priority for CFOs. As a Mid-Market Account Executive, your mission is to grow our business by winning new customers in the French mid-market segment. \n\n You own the full sales cycle, from discovery to signature, working with an SDR who feeds your pipeline. You don't just sell software: you position Agicap as a strategic partner for companies that want to transform how they manage cash. \n\n What you'll do \n Discovery & qualification \n\n• \n\n• Take ownership of the qualified opportunities passed on by the SDR team, from discovery through to signature.\n\n• Run in-depth discovery sessions to understand each prospect's context, challenges, and cash flow needs.\n\n• Identify concrete use cases for Agicap and build a clear ROI case tailored to each prospect.\n\n• Work with your SDRs to define a sector-based development strategy and sharpen their outreach with your field feedback.\n\n Sales cycle management \n\n• \n\n• Deliver sharp product demos, based on the needs surfaced during discovery.\n\n• Map all stakeholders and the buying process, and build strong relationships with CFOs, Finance Directors, and other C-level decision-makers.\n\n• Present offers, negotiate terms, and support prospects all the way to signature, to meet and exceed your targets.\n\n Cross-functional collaboration \n\n• \n\n• Share structured feedback with the Marketing, Business Development, and Product teams to keep improving our go-to-market and our product.\n\n• Work with Customer Success to ensure a smooth handover and a strong onboarding.\n\n• Share your commercial expertise and ideas to help the whole team grow.\n\n Performance management \n\n• \n\n• \n\n• Keep your pipeline data accurate and up to date in HubSpot.\n\n• Review your performance regularly with your manager, spot areas to improve, and adjust your approach.\n\n What we are looking for: \n\n• Around 5 years of experience in B2B sales, ideally in SaaS and in the mid-market segment, or experience in a finance department / audit / consulting / TS.\n\n• A clear track record of meeting and exceeding sales targets.\n\n• Strong discovery and consultative selling skills: you start from the prospect's problem, not the product.\n\n• Comfortable selling to CFOs and Finance Directors.\n\n• Strong analytical and synthesis skills, excellent verbal communication, and real intellectual curiosity.\n\n• Discipline in using a CRM (HubSpot) and managing your pipeline.\n\n• An entrepreneurial mindset: you're comfortable in a fast-moving environment and full of ideas.\n\n• Fluent French and a good level of English.\n\n• Nice to have: experience in treasury or finance software, an existing network in the French mid-market finance/CFO community, or experience in a scale-up or fintech.\n\n Why join Agicap \n\n• An exceptional product-market fit, on a critical need: cash, the number one priority for CFOs.\n\n• A strongly differentiated solution, a leader in Europe (G2), in a huge market.\n\n• A strong culture: meritocracy, high standards, continuous learning, a European scale-up (>50% of revenue outside France).\n\n• Real opportunities to grow, both in your role and across countries: at Agicap, former Sales are now managers, Ops, recruiters… across the Sales, Product, Marketing, and Customer Success teams.\n\n• A close-knit, talented team with real team spirit.\n\n Package & benefits \n\n• Attractive package: between €100K and €150K depending on profile and performance, with uncapped commissions.\n\n• Swile meal vouchers: €11/day, with €6.50 covered by Agicap.\n\n• 100% reimbursement of public transport.\n\n• 1,000 m² offices in Vaise (Lyon 9ème).\n\n• Latest-generation work equipment.\n\n• Regular team events: afterworks, team lunches, football, running, monthly team building, and company offsites (the last one was on the privatised Île des Embiez in the South of France, for Agicap's 10th anniversary).\n\n AGICAP is committed to providing equal opportunities for everyone, and we foster an inclusive work environment that values diversity! \n\n Find Jobs in France on Arbeitnow",
    "contactEmail": null,
    "contract": "Permanent - Full-time",
    "salary": "",
@@ -684,7 +690,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
    "description": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découverte • Cadrer le besoin, construire la proposition commerciale et conclure les mandats • Fidéliser dans la durée : suivi de l’intégration, satisfaction, mandats récurrents • Représe…",
-   "contactEmail": null,
+   "contactEmail": "contact@karpos-rh.com",
    "contract": "permanent",
    "salary": "",
    "salaryMin": null,
@@ -711,7 +717,9 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver"
+   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver",
+   "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
+   "contactEmailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "adzuna-5973743880",
@@ -1114,7 +1122,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5970817182?utm_medium=api&utm_source=d81896fb",
    "description": "Talents Commerciaux s'appuie sur l'expertise, le dynamisme et l'expérience professionnelle de son équipe pour accompagner chaque entreprise dans la recherche de son futur collaborateur commercial, et chaque candidat dans la concrétisation de ses projets professionnels. Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
-   "contactEmail": null,
+   "contactEmail": "contact@talentscommerciaux.fr",
    "contract": "permanent",
    "salary": "",
    "salaryMin": null,
@@ -1140,7 +1148,9 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …"
+   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur …",
+   "contactEmailSource": "https://www.talentscommerciaux.fr/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5976120783",
@@ -1151,7 +1161,7 @@
    "remote": false,
    "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
    "description": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un(e) Responsable d'Agenc…",
-   "contactEmail": null,
+   "contactEmail": "contact@voluntae.fr",
    "contract": "permanent, full_time",
    "salary": "",
    "salaryMin": null,
@@ -1177,7 +1187,9 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale."
+   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
+   "contactEmailSource": "https://voluntae.fr/contact/",
+   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
   },
   {
    "id": "adzuna-5975769998",

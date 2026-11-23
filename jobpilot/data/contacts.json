@@ -3,70 +3,132 @@
     "name": "Local.fr",
     "website": "https://www.local.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:31.200Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "331221150"
+    ],
+    "generic": {
+      "email": "contact@local.fr",
+      "source": "https://www.local.fr/les-mentions-legales"
+    },
+    "genericVerdict": "grande entreprise (250+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:04:08.080Z"
   },
   "uptoo": {
     "name": "UPTOO",
     "website": "https://uptoo.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:29.459Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "484011641"
+    ],
+    "generic": {
+      "email": "contact@uptoo.fr",
+      "source": "https://uptoo.fr/contact/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@uptoo.fr",
+    "source": "https://uptoo.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:04:07.971Z"
   },
   "pepite conseil": {
     "name": "PEPITE CONSEIL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:53:37.251Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:04:26.487Z"
   },
   "ntn snr": {
     "name": "NTN SNR",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:53:35.900Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:04:15.374Z"
   },
   "de graet consulting": {
     "name": "DE GRAËT CONSULTING",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:53:30.842Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:04:33.779Z"
   },
   "mercato de l emploi": {
     "name": "Mercato de l'Emploi",
     "website": "https://www.mercato-emploi.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:42.203Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:35.293Z"
   },
   "findyourstaff": {
     "name": "Findyourstaff",
     "website": "https://findyourstaff.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:40.205Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "hello@findyourstaff.com",
+      "source": "https://findyourstaff.com/contact"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "hello@findyourstaff.com",
+    "source": "https://findyourstaff.com/contact",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:04:34.411Z"
   },
   "atypique": {
     "name": "Atypique",
     "website": "https://www.atypique.ch/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:51.165Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:29.535Z"
   },
   "potentiel": {
     "name": "POTENTIEL",
     "website": "https://www.potentiel.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:52.855Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:37.090Z"
   },
   "m j trusted partners": {
     "name": "M&J TRUSTED PARTNERS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:53:54.631Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:04:56.545Z"
   },
   "talents commerciaux": {
     "name": "talents commerciaux",
     "website": "https://www.talentscommerciaux.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:41.149Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "499318707"
+    ],
+    "generic": {
+      "email": "contact@talentscommerciaux.fr",
+      "source": "https://www.talentscommerciaux.fr/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@talentscommerciaux.fr",
+    "source": "https://www.talentscommerciaux.fr/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:04:34.877Z"
   },
   "sonarsource": {
     "name": "Sonarsource",
@@ -78,34 +140,47 @@
     "name": "PROSPACTIVE",
     "website": "https://www.prospactive.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:54.998Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:52.774Z"
   },
   "team is": {
     "name": "Team.Is",
     "website": "https://team-is.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:00.636Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:52.146Z"
   },
   "adsearch": {
     "name": "ADSEARCH",
     "website": "https://www.adsearch.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:05.364Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:44.421Z"
   },
   "epsa innovation": {
     "name": "EPSA Innovation",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:54:00.411Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:05:13.485Z"
   },
   "agicap": {
     "name": "Agicap",
     "website": "https://agicap.com/en-us/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:06.251Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:05:05.279Z"
   },
   "alan": {
     "name": "Alan",
@@ -118,8 +193,11 @@
     "name": "Manpower",
     "website": "https://www.manpower.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:17:59.879Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:05:05.979Z"
   },
   "doctolib": {
     "name": "Doctolib",
@@ -130,8 +208,22 @@
     "name": "VOLUNTAE",
     "website": "https://voluntae.fr/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:18:09.992Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "753015346"
+    ],
+    "generic": {
+      "email": "contact@voluntae.fr",
+      "source": "https://voluntae.fr/contact/"
+    },
+    "genericVerdict": "petite entreprise (6 à 9 salariés)",
+    "email": "contact@voluntae.fr",
+    "source": "https://voluntae.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (6 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:05:11.788Z"
   },
   "sogelink": {
     "name": "SOGELINK",
@@ -385,41 +477,83 @@
     "name": "Amiltone",
     "website": "https://www.amiltone.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:48:16.518Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "538949108",
+      "799736764"
+    ],
+    "generic": {
+      "email": "contact@amiltone.com",
+      "source": "https://www.amiltone.com/contact"
+    },
+    "genericVerdict": "grande entreprise (250+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T19:04:19.614Z"
   },
   "free work": {
     "name": "Free-Work",
     "website": "https://www.free-work.com/fr/tech-it",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:48:21.007Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "450955893"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:24.900Z"
   },
   "karpos rh": {
     "name": "KARPOS RH",
     "website": "https://karpos-rh.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:48:28.086Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "841478514"
+    ],
+    "generic": {
+      "email": "contact@karpos-rh.com",
+      "source": "https://karpos-rh.com/contacter-notre-equipe/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@karpos-rh.com",
+    "source": "https://karpos-rh.com/contacter-notre-equipe/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:04:43.760Z"
   },
   "vitalians": {
     "name": "VITALIANS",
     "website": "https://www.vitalians.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:48:33.516Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "811200294"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T19:04:48.203Z"
   },
   "job room": {
     "name": "Job-Room",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T18:53:37.112Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T19:05:04.238Z"
   },
   "red hot talents": {
     "name": "Red Hot Talents",
     "website": "https://redhottalents.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:48:36.739Z"
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@redhottalents.com",
+      "source": "https://redhottalents.com/contact/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-23T19:05:21.527Z"
   },
   "jobposting": {
     "name": "jobPosting",
@@ -432,8 +566,20 @@
     "name": "Skaelia",
     "website": "https://www.skaelia.com/",
     "reason": "aucune adresse de recrutement publiée sur le site",
-    "v": 2,
-    "checkedAt": "2026-11-23T17:57:30.892Z"
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "contact@skaelia.com",
+      "source": "https://www.skaelia.com/contact"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@skaelia.com",
+    "source": "https://www.skaelia.com/contact",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T19:04:07.600Z"
   },
   "cristal hygiene": {
     "name": "CRISTAL HYGIENE",
