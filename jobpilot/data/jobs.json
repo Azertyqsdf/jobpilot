@@ -1,6 +1,54 @@
 {
- "updatedAt": "2026-11-23T16:07:57.782Z",
+ "updatedAt": "2026-11-23T16:21:46.853Z",
  "jobs": [
+  {
+   "tags": [
+    "direction commerciale",
+    "business development",
+    "management"
+   ],
+   "remote": false,
+   "id": "test-directeur-commercial-74",
+   "source": "Offre de test",
+   "title": "[TEST] Directeur Commercial & Opérations H/F",
+   "company": "Entreprise Test JobPilot",
+   "location": "Annemasse (74)",
+   "url": "https://azertyqsdf.github.io/jobpilot/",
+   "contactEmail": "samia.dewame@gmail.com",
+   "contract": "CDI — temps plein",
+   "salary": "Annuel de 55000 Euros à 65000 Euros",
+   "postedAt": "2026-11-23T16:00:00.000Z",
+   "description": "OFFRE FICTIVE CRÉÉE POUR TESTER JOBPILOT. Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Vous managez une équipe commerciale de 6 personnes et développez un portefeuille de grands comptes. Vous êtes en charge de la négociation avec les partenaires clés, de la prospection de nouveaux marchés à l'export et de la coordination des opérations (logistique, supply chain, stocks). Profil recherché : expérience confirmée en direction commerciale ou business development, leadership, goût du terrain et de la négociation, capacité à structurer une offre et à piloter la croissance. Une expérience entrepreneuriale est un plus. Rémunération : 55 000 € à 65 000 € brut annuel + variable. Véhicule de fonction. Candidature par e-mail.",
+   "manual": true,
+   "score": 100,
+   "reasons": [
+    "Compétences : Direction commerciale, Business development, Management d'équipe, Négociation grands comptes, Prospection B2B, Pilotage stratégique, Développement international, Supply chain & logistique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Business development",
+    "Management d'équipe",
+    "Négociation grands comptes",
+    "Prospection B2B",
+    "Pilotage stratégique",
+    "Développement international",
+    "Supply chain & logistique"
+   ],
+   "status": "sent",
+   "firstSeen": "2026-11-23T15:31:08.870Z",
+   "application": "test-directeur-commercial-74",
+   "salaryAnnual": {
+    "min": 55000,
+    "max": 65000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "55 k–65 k € / an"
+   },
+   "summary": "Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Une expérience entrepreneuriale est un plus."
+  },
   {
    "id": "arbeitnow-senior-account-executive-france-lyon-366320",
    "source": "Arbeitnow",
@@ -41,53 +89,6 @@
     "label": "100 k–150 k € / an"
    },
    "summary": "As a Mid-Market Account Executive, your mission is to grow our business by winning new customers in the French mid-market segment. What you'll do Discovery & qualification • • Take ownership of the qualified opportunities passed on by the SDR team, from discovery through to signature."
-  },
-  {
-   "tags": [
-    "direction commerciale",
-    "business development",
-    "management"
-   ],
-   "remote": false,
-   "id": "test-directeur-commercial-74",
-   "source": "Offre de test",
-   "title": "[TEST] Directeur Commercial & Opérations H/F",
-   "company": "Entreprise Test JobPilot",
-   "location": "Annemasse (74)",
-   "url": "https://azertyqsdf.github.io/jobpilot/",
-   "contactEmail": "samia.dewame@gmail.com",
-   "contract": "CDI — temps plein",
-   "salary": "Annuel de 55000 Euros à 65000 Euros",
-   "postedAt": "2026-11-23T16:00:00.000Z",
-   "description": "OFFRE FICTIVE CRÉÉE POUR TESTER JOBPILOT. Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Vous managez une équipe commerciale de 6 personnes et développez un portefeuille de grands comptes. Vous êtes en charge de la négociation avec les partenaires clés, de la prospection de nouveaux marchés à l'export et de la coordination des opérations (logistique, supply chain, stocks). Profil recherché : expérience confirmée en direction commerciale ou business development, leadership, goût du terrain et de la négociation, capacité à structurer une offre et à piloter la croissance. Une expérience entrepreneuriale est un plus. Rémunération : 55 000 € à 65 000 € brut annuel + variable. Véhicule de fonction. Candidature par e-mail.",
-   "manual": true,
-   "score": 100,
-   "reasons": [
-    "Compétences : Direction commerciale, Business development, Management d'équipe, Négociation grands comptes, Prospection B2B, Pilotage stratégique, Développement international, Supply chain & logistique",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Business development",
-    "Management d'équipe",
-    "Négociation grands comptes",
-    "Prospection B2B",
-    "Pilotage stratégique",
-    "Développement international",
-    "Supply chain & logistique"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T15:31:08.870Z",
-   "salaryAnnual": {
-    "min": 55000,
-    "max": 65000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "55 k–65 k € / an"
-   },
-   "summary": "Entreprise industrielle de Haute-Savoie en forte croissance, nous recherchons notre Directeur Commercial & Opérations. Rattaché au Président, vous pilotez la stratégie commerciale B2B en France, en Suisse et à l'international. Une expérience entrepreneuriale est un plus."
   },
   {
    "id": "adzuna-5973699147",
