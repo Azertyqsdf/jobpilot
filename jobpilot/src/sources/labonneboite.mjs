@@ -44,7 +44,8 @@ function normalize(x, rome) {
 export async function laBonneBoite(prefs, env) {
   const cfg = prefs.laBonneBoite || {};
   if (!env.FT_CLIENT_ID || !env.FT_CLIENT_SECRET) return { skipped: 'FT_CLIENT_ID / FT_CLIENT_SECRET non configurés' };
-  if (!cfg.romes?.length || cfg.latitude == null) return { skipped: 'codes métier ou position non configurés' };
+  const zones = cfg.zones?.length ? cfg.zones : cfg.latitude != null ? [{ latitude: cfg.latitude, longitude: cfg.longitude, distance: cfg.distance }] : [];
+  if (!cfg.romes?.length || !zones.length) return { skipped: 'codes métier ou position non configurés' };
 
   let access, lastErr;
   for (const scope of ['api_labonneboitev2 search office', 'api_labonneboitev2']) {
@@ -53,17 +54,18 @@ export async function laBonneBoite(prefs, env) {
   if (!access) throw lastErr;
 
   const variants = [
-    rome => `${BASE}/recherche?${new URLSearchParams({ rome, latitude: cfg.latitude, longitude: cfg.longitude, distance: cfg.distance || 30, page: 1, page_size: 100 })}`,
-    rome => `${BASE}/company/?${new URLSearchParams({ rome_codes: rome, latitude: cfg.latitude, longitude: cfg.longitude, distance: cfg.distance || 30 })}`,
+    (rome, z) => `${BASE}/recherche?${new URLSearchParams({ rome, latitude: z.latitude, longitude: z.longitude, distance: z.distance || 30, page: 1, page_size: 100 })}`,
+    (rome, z) => `${BASE}/company/?${new URLSearchParams({ rome_codes: rome, latitude: z.latitude, longitude: z.longitude, distance: z.distance || 30 })}`,
   ];
   const out = new Map();
   let working = null;
-  for (const rome of cfg.romes) {
+  for (const z of zones) for (const rome of cfg.romes) {
     const tries = working ? [working] : variants;
     for (const v of tries) {
-      const res = await fetch(v(rome), { headers: { Authorization: `Bearer ${access}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30000) });
+      await new Promise(r => setTimeout(r, 600)); // limite de l'API : 2 appels par seconde
+      const res = await fetch(v(rome, z), { headers: { Authorization: `Bearer ${access}`, Accept: 'application/json' }, signal: AbortSignal.timeout(30000) });
       if (res.status === 204) { working = v; break; }
-      if (!res.ok) { lastErr = new Error(`${res.status} sur ${new URL(v(rome)).pathname}`); continue; }
+      if (!res.ok) { lastErr = new Error(`${res.status} sur ${new URL(v(rome, z)).pathname}`); continue; }
       working = v;
       const j = await res.json();
       const list = Array.isArray(j) ? j : j.items || j.hits || j.companies || j.results || j.resultats || [];

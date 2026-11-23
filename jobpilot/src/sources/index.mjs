@@ -127,9 +127,12 @@ export async function adzuna(prefs, env) {
   if (!id || !key) return { skipped: 'ADZUNA_APP_ID / ADZUNA_APP_KEY non configurés' };
   const country = prefs.adzuna?.country || 'fr';
   const out = [];
-  for (const q of prefs.queries.slice(0, 5)) {
+  // Zones : une chaîne (« Haute-Savoie ») ou une liste de { where, distance } (km autour de la ville).
+  const zones = [].concat(prefs.adzuna?.zones || prefs.adzuna?.where || [null]).map(z => typeof z === 'string' || !z ? { where: z } : z);
+  for (const zone of zones) for (const q of prefs.queries.slice(0, 6)) {
     const params = new URLSearchParams({ app_id: id, app_key: key, what: q, results_per_page: '50', max_days_old: String(prefs.maxAgeDays || 30) });
-    if (prefs.adzuna?.where) params.set('where', prefs.adzuna.where);
+    if (zone.where) params.set('where', zone.where);
+    if (zone.distance) params.set('distance', String(zone.distance));
     const j = await getJson(`https://api.adzuna.com/v1/api/jobs/${country}/search/1?${params}`);
     for (const x of j.results || []) {
       const description = htmlToText(x.description);

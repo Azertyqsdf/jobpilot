@@ -3,6 +3,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { SOURCES } from './sources/index.mjs';
 import { scoreJob } from './lib/match.mjs';
+import { normalize, hasPrefix } from './lib/text.mjs';
 import { laBonneBoite } from './sources/labonneboite.mjs';
 import { annualSalary } from './lib/salary.mjs';
 import { extractiveSummary, aiSummaries } from './lib/summary.mjs';
@@ -79,6 +80,11 @@ if (prefs.sources?.laBonneBoite !== false) {
   try {
     const r = await laBonneBoite(prefs, process.env);
     if (Array.isArray(r)) {
+      // Même zone géographique que pour les offres.
+      const inZone = c => { const n = normalize(`${c.postcode} ${c.city}`); return !prefs.locations?.length || prefs.locations.some(l => hasPrefix(n, l)); };
+      const before = r.length;
+      r.splice(0, r.length, ...r.filter(inZone));
+      if (before !== r.length) console.log(`laBonneBoite   ${before - r.length} entreprises hors zone écartées`);
       await mkdir(new URL('data/', root), { recursive: true });
       await writeFile(new URL('data/companies.json', root), JSON.stringify({ updatedAt: new Date().toISOString(), companies: r.slice(0, 300) }, null, 1));
       run.sources.laBonneBoite = `${r.length} entreprises`;

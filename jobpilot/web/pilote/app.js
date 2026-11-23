@@ -545,7 +545,7 @@ function viewPrefs() {
     <div class="row">${toggle('sources.franceTravail', 'France Travail')}${toggle('sources.adzuna', 'Adzuna')}${toggle('sources.arbeitnow', 'Arbeitnow')}${toggle('sources.remotive', 'Remotive')}</div>
     <div class="grid2">
       ${inp('franceTravail.departements', 'France Travail : départements', { kind: 'list', hint: 'Ex. 74, 73, 01, 69' })}
-      ${inp('adzuna.where', 'Adzuna : zone', { placeholder: 'Haute-Savoie' })}
+      <p class="hint" style="align-self:end">Adzuna et La Bonne Boîte cherchent en Haute-Savoie et autour de Lyon ; le filtre « Lieux acceptés » ci-dessus s'applique ensuite à toutes les sources.</p>
     </div>
   </div>`;
 }
