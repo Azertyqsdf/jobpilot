@@ -1,14 +1,14 @@
 {
-  "startedAt": "2026-11-23T15:13:17.408Z",
+  "startedAt": "2026-11-23T15:26:00.751Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "96 offres",
-    "franceTravail": "FT_CLIENT_ID / FT_CLIENT_SECRET non configurés",
-    "adzuna": "ADZUNA_APP_ID / ADZUNA_APP_KEY non configurés",
-    "laBonneBoite": "FT_CLIENT_ID / FT_CLIENT_SECRET non configurés"
+    "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
+    "adzuna": "171 offres",
+    "laBonneBoite": "42 entreprises"
   },
-  "finishedAt": "2026-11-23T15:13:18.615Z",
-  "fetched": 996,
-  "unique": 885,
-  "kept": 26
+  "finishedAt": "2026-11-23T15:26:08.286Z",
+  "fetched": 1167,
+  "unique": 1018,
+  "kept": 57
 }
