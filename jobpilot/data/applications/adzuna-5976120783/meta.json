@@ -1,7 +1,7 @@
 {
   "id": "adzuna-5976120783",
   "folder": "adzuna-5976120783",
-  "auto": true,
+  "auto": false,
   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
   "company": "VOLUNTAE",
   "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : contact@voluntae.fr",
+  "sent": "envoyé",
   "matched": [
     "Business development",
     "Recrutement"
@@ -18,5 +18,5 @@
   "missing": [
     "Emplois Vente"
   ],
-  "createdAt": "2026-11-23T19:05:40.912Z"
+  "createdAt": "2026-11-23T19:46:50.327Z"
 }

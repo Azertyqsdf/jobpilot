@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : contact@uptoo.fr",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -20,5 +20,5 @@
   "missing": [
     "Unknown"
   ],
-  "createdAt": "2026-11-23T19:41:26.606Z"
+  "createdAt": "2026-11-23T19:46:34.462Z"
 }

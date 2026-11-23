@@ -1,7 +1,7 @@
 {
   "id": "lbb-52904605400027",
   "folder": "lbb-52904605400027",
-  "auto": true,
+  "auto": false,
   "title": "Responsable grands comptes / Business developer",
   "company": "EOLYS BEAUTE",
   "url": "https://www.eolys-beaute.com/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : contact@eolys-beaute.com",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Négociation grands comptes"
   ],
   "missing": [],
-  "createdAt": "2026-11-23T19:40:34.961Z"
+  "createdAt": "2026-11-23T19:46:54.168Z"
 }

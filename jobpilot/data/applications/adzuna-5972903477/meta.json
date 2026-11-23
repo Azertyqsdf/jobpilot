@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : contact@talentscommerciaux.fr",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Management d'équipe",
@@ -19,5 +19,5 @@
   "missing": [
     "Unknown"
   ],
-  "createdAt": "2026-11-23T19:41:33.990Z"
+  "createdAt": "2026-11-23T19:46:42.670Z"
 }
