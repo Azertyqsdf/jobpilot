@@ -222,5 +222,155 @@
     "source": "https://deliveroo.fr/fr/",
     "verified": "SIREN",
     "checkedAt": "2026-11-23T17:12:22.476Z"
+  },
+  "france frais rhone alpes": {
+    "name": "FRANCE FRAIS RHONE ALPES",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:17.988Z"
+  },
+  "signalisation commerciale": {
+    "name": "SIGNALISATION COMMERCIALE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:25.076Z"
+  },
+  "etablissements descours et cabaud rhone": {
+    "name": "ETABLISSEMENTS DESCOURS ET CABAUD RHONE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:25.791Z"
+  },
+  "chambre de commerce et d industrie de re": {
+    "name": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE RE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:28.630Z"
+  },
+  "rex rotary": {
+    "name": "REX ROTARY",
+    "website": "https://rexrotary.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:14:33.453Z"
+  },
+  "happy curl": {
+    "name": "HAPPY CURL",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:40.874Z"
+  },
+  "babolat vs": {
+    "name": "BABOLAT VS",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:44.625Z"
+  },
+  "carre sante beaute": {
+    "name": "CARRE SANTE BEAUTE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:14:55.902Z"
+  },
+  "renovel": {
+    "name": "RENOVEL",
+    "website": "https://www.renovel.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:14:57.202Z"
+  },
+  "aesthetic modeline en abrege ae modelin": {
+    "name": "AESTHETIC MODELINE EN ABREGE \"AE MODELIN",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:21.738Z"
+  },
+  "societe de publicite audiovisuelle": {
+    "name": "SOCIETE DE PUBLICITE AUDIOVISUELLE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:22.027Z"
+  },
+  "funke france": {
+    "name": "FUNKE FRANCE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:22.827Z"
+  },
+  "microcosme": {
+    "name": "MICROCOSME",
+    "website": "https://www.microcosme.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:15:24.139Z"
+  },
+  "arsium": {
+    "name": "ARSIUM",
+    "website": "https://www.arsium.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:15:26.488Z"
+  },
+  "effet b": {
+    "name": "EFFET B",
+    "website": "https://effet-b.ca/",
+    "email": "info@effet-b.ca",
+    "source": "https://effet-b.ca/",
+    "verified": "nom",
+    "kind": "contact",
+    "checkedAt": "2026-11-23T17:15:29.239Z"
+  },
+  "agence france presse": {
+    "name": "AGENCE FRANCE PRESSE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:33.294Z"
+  },
+  "mavisun": {
+    "name": "MAVISUN",
+    "website": "https://www.mavisun.com/",
+    "email": "contact@mavisun.com",
+    "source": "https://www.mavisun.com/",
+    "verified": "SIREN",
+    "kind": "contact",
+    "checkedAt": "2026-11-23T17:15:36.828Z"
+  },
+  "infios france": {
+    "name": "INFIOS FRANCE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:38.464Z"
+  },
+  "cognizant technology solutions france": {
+    "name": "COGNIZANT TECHNOLOGY SOLUTIONS FRANCE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:40.901Z"
+  },
+  "eg radio digital": {
+    "name": "EG RADIO DIGITAL",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:44.511Z"
+  },
+  "my digital buildings": {
+    "name": "MY DIGITAL BUILDINGS",
+    "website": "https://www.mydigitalbuildings.com/",
+    "email": "contact@mydigitalbuildings.com",
+    "source": "https://www.mydigitalbuildings.com/mentions-legales",
+    "verified": "nom",
+    "kind": "contact",
+    "checkedAt": "2026-11-23T17:15:46.358Z"
+  },
+  "samse": {
+    "name": "SAMSE",
+    "website": "https://www.samse.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:15:46.978Z"
+  },
+  "cegedim sante": {
+    "name": "CEGEDIM SANTE",
+    "website": "https://www.cegedim-sante.com/",
+    "email": "contact-paramed@cegedim-sante.com",
+    "source": "https://www.cegedim-sante.com/recrutements/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "checkedAt": "2026-11-23T17:15:52.155Z"
+  },
+  "comptoir electrique francais": {
+    "name": "COMPTOIR ELECTRIQUE FRANCAIS",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:15:55.202Z"
+  },
+  "bmra": {
+    "name": "BMRA",
+    "website": "https://www.bmra.fr/",
+    "email": "contact@bmra.fr",
+    "source": "https://www.bmra.fr/",
+    "verified": "nom",
+    "kind": "contact",
+    "checkedAt": "2026-11-23T17:15:55.560Z"
   }
 }

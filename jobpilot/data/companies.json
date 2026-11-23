@@ -623,11 +623,12 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 3.2011233852000007,
-   "email": "",
+   "email": "contact-paramed@cegedim-sante.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.cegedim-sante.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.cegedim-sante.com/recrutements/"
   },
   {
    "id": "lbb-31988334401105",
