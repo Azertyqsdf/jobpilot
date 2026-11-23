@@ -1,13 +1,13 @@
 {
-  "startedAt": "2026-11-23T15:26:00.751Z",
+  "startedAt": "2026-11-23T15:27:48.249Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "96 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
     "adzuna": "171 offres",
-    "laBonneBoite": "42 entreprises"
+    "laBonneBoite": "erreur : 403 sur /partenaire/labonneboite/v2/company/"
   },
-  "finishedAt": "2026-11-23T15:26:08.286Z",
+  "finishedAt": "2026-11-23T15:27:53.869Z",
   "fetched": 1167,
   "unique": 1018,
   "kept": 57
