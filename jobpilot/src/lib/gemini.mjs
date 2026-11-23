@@ -18,18 +18,18 @@ async function availableModels(key) {
   return cached;
 }
 
-export async function gemini(prompt, env, { json = false, temperature = 0.3 } = {}) {
+export async function gemini(prompt, env, { json = false, temperature = 0.3, fast = false } = {}) {
   const key = env.GEMINI_API_KEY;
   if (!key) return null;
-  const models = [...new Set([env.GEMINI_MODEL, ...(await availableModels(key)), 'gemini-flash-latest', 'gemini-flash-lite-latest'].filter(Boolean))].slice(0, 5);
+  const models = [...new Set([env.GEMINI_MODEL, ...(await availableModels(key)), 'gemini-flash-latest', 'gemini-flash-lite-latest'].filter(Boolean))].slice(0, fast ? 3 : 5);
   const errors = [];
   for (const model of models) {
-    for (let attempt = 0; attempt < 3; attempt++) {
+    for (let attempt = 0; attempt < (fast ? 1 : 3); attempt++) {
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature, ...(json ? { responseMimeType: 'application/json' } : {}) } }),
-        signal: AbortSignal.timeout(90000),
+        signal: AbortSignal.timeout(fast ? 25000 : 90000),
       }).catch(e => ({ ok: false, status: 0, text: async () => e.message }));
       if (res.ok) {
         const j = await res.json();

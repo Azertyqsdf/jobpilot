@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { tailorCv, honestyCheck, detectLang } from './lib/tailor.mjs';
 import { templateLetter, aiLetter, factCheck } from './lib/letter.mjs';
 import { renderCv, renderLetter } from './lib/render.mjs';
-import { slugify } from './lib/text.mjs';
+import { applicationFolder } from './lib/text.mjs';
 
 const run = promisify(execFile);
 const root = new URL('..', import.meta.url);
@@ -68,7 +68,7 @@ for (const id of ids) {
   let job = db.jobs.find(j => j.id === id);
   if (!job && id.startsWith('lbb-')) {
     const c = companies?.companies?.find(x => x.id === id);
-    if (c) { job = spontaneousJob(c); db.jobs.push({ ...job, score: 0, status: 'new', firstSeen: new Date().toISOString() }); job = db.jobs[db.jobs.length - 1]; }
+    if (c) job = spontaneousJob(c);
   }
   if (!job) { report.push({ id, error: 'offre introuvable dans data/jobs.json' }); continue; }
 
@@ -80,7 +80,7 @@ for (const id of ids) {
   let letter = templateLetter(profile, job, cv);
   let letterSource = 'modèle (faits du profil uniquement)';
   try {
-    const ai = await aiLetter(profile, job, cv, lang, env);
+    const ai = await aiLetter(profile, job, cv, lang, env); // mode rapide : abandon en quelques secondes si Gemini est saturé
     if (ai) {
       const problems = factCheck(ai, profile, job);
       if (problems.length) letterSource = `modèle — lettre IA rejetée par le garde-fou (${problems.slice(0, 3).join(', ')})`;
@@ -88,7 +88,9 @@ for (const id of ids) {
     }
   } catch (e) { letterSource = `modèle — IA indisponible (${e.message.slice(0, 80)})`; }
 
-  const folder = `${slugify(job.company)}-${slugify(job.title)}`.slice(0, 80) + '-' + id.split('-').pop().slice(-6);
+  // Un dossier par offre, nommé d'après son identifiant : plusieurs candidatures peuvent être préparées
+  // en parallèle sans jamais modifier le même fichier (pas de conflit lors de l'enregistrement).
+  const folder = applicationFolder(id);
   const dir = new URL(`data/applications/${folder}/`, root);
   await mkdir(dir, { recursive: true });
   const filmUrl = `${siteUrl || '../../'}cv3d/?pour=${encodeURIComponent(job.company)}`;
@@ -127,14 +129,11 @@ for (const id of ids) {
     sent = env.AUTO_SEND === 'true' ? 'non — PDF indisponible' : `non — envoi auto désactivé (AUTO_SEND) ; e-mail : ${job.contactEmail}`;
   }
 
-  const meta = { id, folder, title: job.title, company: job.company, url: job.url, contactEmail: job.contactEmail, lang, letterSource, pdf, sent, matched: cv.matched, missing: cv.missing, createdAt: new Date().toISOString() };
+  const meta = { id, folder, auto: env.AUTO_MODE === '1', title: job.title, company: job.company, url: job.url, contactEmail: job.contactEmail, lang, letterSource, pdf, sent, matched: cv.matched, missing: cv.missing, createdAt: new Date().toISOString() };
   await writeFile(new URL('meta.json', dir), JSON.stringify(meta, null, 2));
-  job.status = sent === 'envoyé' ? 'sent' : 'ready';
-  job.application = folder;
+  if (sent === 'envoyé') await writeFile(new URL('envoi.json', dir), JSON.stringify({ to: job.contactEmail, at: meta.createdAt }));
   report.push(meta);
   console.log(`✔ ${job.company} — ${job.title}\n  dossier : data/applications/${folder}\n  lettre : ${letterSource}\n  envoi : ${sent}`);
 }
 
-await writeFile(new URL('data/jobs.json', root), JSON.stringify(db, null, 1));
-await writeFile(new URL('data/last-apply.json', root), JSON.stringify(report, null, 2));
 if (report.some(r => r.error)) { console.error(report.filter(r => r.error)); process.exitCode = 1; }

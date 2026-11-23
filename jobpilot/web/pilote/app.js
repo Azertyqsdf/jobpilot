@@ -49,7 +49,7 @@ cfg = { ...guessRepo(), dir: 'jobpilot', ...cfg };
 const saveCfg = () => { try { localStorage.setItem(LS, JSON.stringify(cfg)); } catch {} };
 
 const S = {
-  branch: null, jobs: [], companies: [], updatedAt: null, run: {}, tracking: { apps: {} }, profile: null, prefs: null,
+  branch: null, jobs: [], companies: [], apps: {}, updatedAt: null, run: {}, tracking: { apps: {} }, profile: null, prefs: null,
   sha: {}, secrets: [], vars: {}, runs: [], loaded: false, errors: {},
 };
 let tab = (location.hash.slice(1) || 'offres');
@@ -141,10 +141,26 @@ async function loadAll() {
     part('secrets', async () => { S.secrets = (await gh(R('/actions/secrets?per_page=100'))).secrets.map(s => s.name); }),
     part('vars', async () => { S.vars = Object.fromEntries((await gh(R('/actions/variables?per_page=100'))).variables.map(v => [v.name, v.value])); }),
     part('runs', loadRuns),
+    part('apps', loadApplications),
   ]);
   S.loaded = true;
   sync(Object.keys(S.errors).length ? 'err' : 'ok');
   return true;
+}
+// Dossiers de candidature présents dans le dépôt (un appel) : data/applications/<id>/, envoi.json si l'e-mail est parti.
+const appFolder = id => String(id).toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-|-$/g, '').slice(0, 100);
+async function loadApplications() {
+  const tree = await gh(R(`/git/trees/${S.branch}?recursive=1`));
+  const prefix = P('data/applications/');
+  const apps = {};
+  for (const t of tree.tree || []) {
+    if (!t.path.startsWith(prefix)) continue;
+    const [folder, file] = t.path.slice(prefix.length).split('/');
+    apps[folder] ||= { folder, sent: false, ready: false };
+    if (file === 'envoi.json') apps[folder].sent = true;
+    if (file === 'cv.pdf') apps[folder].ready = true;
+  }
+  S.apps = apps;
 }
 async function loadRuns() {
   S.runs = (await gh(R('/actions/workflows/jobpilot.yml/runs?per_page=8'))).workflow_runs;
@@ -167,12 +183,13 @@ function watchRobot() {
         S.jobs = j?.jobs || S.jobs; S.updatedAt = j?.updatedAt || S.updatedAt;
         S.run = (await readJson('data/run.json')) || S.run;
         S.companies = (await readJson('data/companies.json'))?.companies || S.companies;
+        await loadApplications().catch(() => {});
         sync(last?.conclusion === 'success' ? 'ok' : 'err');
         toast(last?.conclusion === 'success' ? 'Le robot a terminé ✔' : 'Le robot a rencontré une erreur — voir l\'onglet Robot', last?.conclusion !== 'success');
         render();
       }
     } catch { /* réessaie au prochain tour */ }
-  }, 12000);
+  }, 8000);
 }
 
 // ------------------------------------------------------------------ suivi des candidatures
@@ -191,14 +208,26 @@ const companyJob = c => c && { id: c.id, title: 'Candidature spontanée', compan
 function effective(id, a) {
   const job = jobById(id);
   let stage = a.stage;
-  if (stage === 'preparation' && job?.application) stage = 'a_envoyer';
-  if (['preparation', 'a_envoyer'].includes(stage) && job?.status === 'sent') stage = 'envoyee';
+  const app = S.apps?.[appFolder(id)];
+  if (stage === 'preparation' && app?.ready) stage = 'a_envoyer';
+  if (['preparation', 'a_envoyer'].includes(stage) && app?.sent) stage = 'envoyee';
   const column = { preparation: 'a_envoyer', a_envoyer: 'a_envoyer', envoyee: 'envoyee', relancee: 'envoyee', entretien: 'entretien', offre: 'terminee', refus: 'terminee', abandon: 'terminee' }[stage] || 'a_envoyer';
-  const sentAt = a.sentAt || (job?.status === 'sent' ? a.at : null);
+  const sentAt = a.sentAt || (app?.sent ? a.at : null);
   const due = (stage === 'envoyee' && daysSince(sentAt) >= 7) || (stage === 'relancee' && daysSince(a.relanceAt) >= 10);
-  return { stage, column, job, sentAt, due, folder: job?.application || a.application };
+  return { stage, column, job, sentAt, due, folder: app?.ready ? app.folder : null };
 }
-const activeApps = () => Object.entries(S.tracking.apps).filter(([, a]) => a.stage !== 'ignoree');
+// Suivi = entrées enregistrées + candidatures faites automatiquement par le robot (pas encore dans le suivi).
+function activeApps() {
+  const list = Object.entries(S.tracking.apps).filter(([, a]) => a.stage !== 'ignoree');
+  const known = new Set(Object.keys(S.tracking.apps).map(appFolder));
+  for (const j of [...S.jobs, ...S.companies.map(companyJob)]) {
+    const app = S.apps?.[appFolder(j.id)];
+    if (!app || known.has(appFolder(j.id))) continue;
+    known.add(appFolder(j.id));
+    list.push([j.id, { auto: true, stage: app.sent ? 'envoyee' : 'a_envoyer', title: j.title, company: j.company, url: j.url, at: j.firstSeen || S.updatedAt }]);
+  }
+  return list;
+}
 const dueCount = () => activeApps().filter(([id, a]) => effective(id, a).due).length;
 
 let trackTimer = null;
@@ -288,7 +317,7 @@ function viewOffers() {
   const tracked = new Set(Object.keys(S.tracking.apps));
   const ignored = new Set(Object.entries(S.tracking.apps).filter(([, a]) => a.stage === 'ignoree').map(([id]) => id));
   const list = S.jobs.filter(j => {
-    if (filters.status === 'new' && (tracked.has(j.id) || j.status !== 'new')) return false;
+    if (filters.status === 'new' && (tracked.has(j.id) || j.status !== 'new' || S.apps?.[appFolder(j.id)])) return false;
     if (filters.status === 'ignored' && !ignored.has(j.id)) return false;
     if (filters.status === 'all' && ignored.has(j.id)) return false;
     if (j.score < filters.min) return false;
@@ -318,7 +347,7 @@ function viewOffers() {
 function jobCard(j) {
   const a = S.tracking.apps[j.id];
   const isIgnored = a?.stage === 'ignoree';
-  const inTrack = a && !isIgnored;
+  const inTrack = (a && !isIgnored) || !!S.apps?.[appFolder(j.id)];
   return `<article class="card job">
     <div class="score" style="--s:${j.score}">${j.score}</div>
     <div class="body">
@@ -345,7 +374,7 @@ async function applyTo(ids) {
     for (const id of ids) track(id, { stage: 'preparation' });
     picked.clear();
     saveTracking();
-    toast(ids.length > 1 ? `Le robot prépare ${ids.length} candidatures (≈ 2 min)` : 'Le robot prépare ta candidature (≈ 2 min)');
+    toast(ids.length > 1 ? `Le robot prépare ${ids.length} candidatures (≈ 1 min)` : 'Le robot prépare ta candidature (≈ 1 min)');
     render();
   } catch (e) { sync('err'); toast(`Impossible de lancer le robot : ${e.message}`, true); }
 }
@@ -407,7 +436,7 @@ function appCard(x) {
     : due ? `<button class="btn sm primary" data-act="mark-relance" data-id="${esc(id)}">C'est relancé</button>` : '';
   return `<article class="card app">
     ${due ? `<div class="due">⏰ À relancer</div>` : ''}
-    <div class="t">${esc(a.company || '—')}</div>
+    <div class="t">${esc(a.company || '—')}${a.auto ? ' <span class="chip">auto</span>' : ''}</div>
     <div class="small">${esc(a.title || '')}</div>
     <div class="small muted">${sentAt ? `Envoyée le ${fmtDay(sentAt)}` : `Ajoutée le ${fmtDay(a.at)}`}${a.relanceAt ? ` · relancée le ${fmtDay(a.relanceAt)}` : ''}</div>
     ${docs}
@@ -522,7 +551,7 @@ function viewProfile() {
 function viewPrefs() {
   if (!S.prefs) return `<div class="card">Préférences introuvables (${esc(S.errors.prefs || 'profile/preferences.json')}).</div>`;
   if (!draft || dirty !== 'prefs') draft = clone(S.prefs);
-  draft.sources ||= {}; draft.franceTravail ||= {}; draft.adzuna ||= {};
+  draft.sources ||= {}; draft.franceTravail ||= {}; draft.adzuna ||= {}; draft.autoApply ||= { enabled: false, minScore: 80, maxPerDay: 5 };
   return `<div class="head"><div><h2>Ce que je recherche</h2><div class="muted small">Le robot utilise ces réglages à chaque passage.</div></div></div>
   <div class="card stack">
     ${inp('queries', 'Recherches envoyées aux sites (une par ligne)', { kind: 'lines', hint: 'Ex. « directeur commercial », « business developer ».' })}
@@ -538,6 +567,15 @@ function viewPrefs() {
       ${inp('minScore', 'Note minimale (0–100)', { kind: 'num', type: 'number' })}
       ${inp('maxAgeDays', 'Âge maximum des offres (jours)', { kind: 'num', type: 'number' })}
       ${inp('maxJobs', "Nombre maximum d'offres gardées", { kind: 'num', type: 'number' })}
+    </div>
+  </div>
+  <div class="card stack">
+    <div><h3>Candidatures automatiques</h3><p class="muted small" style="margin:2px 0 0">Après chaque recherche, le robot prépare lui-même les candidatures des meilleures offres : CV adapté et lettre. Quand l'offre donne une adresse e-mail et que l'envoi automatique est activé (onglet « Clés & envoi »), il les envoie aussi. Les autres t'attendent dans « Suivi », prêtes à être déposées sur le site de l'offre.</p></div>
+    ${toggle('autoApply.enabled', 'Activer les candidatures automatiques')}
+    <div class="grid3">
+      ${inp('autoApply.minScore', 'Note minimale de l\'offre', { kind: 'num', type: 'number' })}
+      ${inp('autoApply.maxPerDay', 'Maximum par jour', { kind: 'num', type: 'number' })}
+      <div class="stack" style="align-self:end">${toggle('autoApply.onlyWithEmail', 'Seulement les offres avec e-mail')}${toggle('autoApply.spontaneous', 'Aussi les candidatures spontanées (si e-mail connu)')}</div>
     </div>
   </div>
   <div class="card stack">

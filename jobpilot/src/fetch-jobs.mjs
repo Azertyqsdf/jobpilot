@@ -1,6 +1,7 @@
 // Étape 1 : récupère les offres sur toutes les sources, les note et garde les plus pertinentes.
 // Usage : node src/fetch-jobs.mjs
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, access } from 'node:fs/promises';
+import { applicationFolder } from './lib/text.mjs';
 import { SOURCES } from './sources/index.mjs';
 import { scoreJob } from './lib/match.mjs';
 import { normalize, hasPrefix } from './lib/text.mjs';
@@ -53,9 +54,17 @@ for (const job of unique) {
 }
 
 // On conserve les offres déjà traitées (postulées / candidatures prêtes) même si elles ont disparu des sources.
+const appDirs = new Set(await readdir(new URL('data/applications/', root)).catch(() => []));
 for (const p of previous.jobs) {
-  if (p.status !== 'new' && !kept.some(k => k.id === p.id)) kept.push(p);
+  if ((p.status !== 'new' || appDirs.has(applicationFolder(p.id))) && !kept.some(k => k.id === p.id)) kept.push(p);
 }
+// Statut de candidature : déduit des dossiers data/applications/<id>/ (écrits par apply.mjs).
+const exists = p => access(new URL(p, root)).then(() => true, () => false);
+for (const j of kept) {
+  const f = applicationFolder(j.id);
+  if (appDirs.has(f)) { j.application = f; j.status = (await exists(`data/applications/${f}/envoi.json`)) ? 'sent' : 'ready'; }
+}
+
 
 // Salaire annuel (toujours affiché, « non indiqué » si l'offre ne le donne pas) et résumé rapide.
 for (const j of kept) {

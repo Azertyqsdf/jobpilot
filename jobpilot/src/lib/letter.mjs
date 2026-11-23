@@ -81,7 +81,7 @@ Lieu : ${job.location}
 Description :
 ${job.description.slice(0, 6000)}`;
 
-  const text = await gemini(prompt, env, { temperature: 0.4 });
+  const text = await gemini(prompt, env, { temperature: 0.4, fast: true });
   if (!text) throw new Error('Gemini : réponse vide');
   return text;
 }

@@ -74,3 +74,8 @@ export function escapeHtml(s = '') {
 export function slugify(s = '') {
   return normalize(s).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 }
+
+/** Nom du dossier de candidature d'une offre (stable, dérivé de son identifiant). */
+export function applicationFolder(id) {
+  return String(id).toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-|-$/g, '').slice(0, 100);
+}

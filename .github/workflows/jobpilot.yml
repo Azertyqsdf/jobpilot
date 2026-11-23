@@ -1,7 +1,9 @@
 # JobPilot — le robot de recherche d'emploi (100 % gratuit : GitHub Actions + GitHub Pages).
-#  • Chaque matin : récupère les offres, les note, met à jour le tableau de bord.
-#  • Quand tu ouvres un ticket « Postuler: <id> » (bouton du tableau de bord) : prépare le CV adapté,
-#    la lettre, les PDF, envoie l'e-mail si l'offre le permet, puis répond dans le ticket.
+#  • Recherche (chaque matin, à chaque modification du profil, ou « Chercher maintenant ») :
+#    récupère et note les offres, prépare les candidatures automatiques, met le site à jour.
+#  • Candidature (bouton « Postuler » de l'interface) : chemin rapide, ~1 minute — CV adapté,
+#    lettre, PDF, envoi de l'e-mail si l'offre le permet. Plusieurs candidatures peuvent tourner
+#    en parallèle et n'attendent pas la fin d'une recherche.
 name: JobPilot
 
 on:
@@ -10,11 +12,9 @@ on:
   workflow_dispatch:
     inputs:
       apply:
-        description: "Identifiants d'offres pour lesquelles postuler (optionnel, séparés par des espaces)"
+        description: "Identifiants d'offres pour lesquelles postuler (vide = recherche)"
         required: false
         default: ''
-  issues:
-    types: [opened]
   push:
     paths:
       - 'jobpilot/profile/**'
@@ -24,20 +24,19 @@ on:
 
 permissions:
   contents: write
-  issues: write
   pages: write
   id-token: write
 
 concurrency:
-  group: jobpilot
+  # Les recherches passent l'une après l'autre ; chaque candidature a son propre créneau.
+  group: ${{ inputs.apply != '' && format('jobpilot-apply-{0}', github.run_id) || 'jobpilot-search' }}
   cancel-in-progress: false
+
+env:
+  MODE: ${{ inputs.apply != '' && 'apply' || 'search' }}
 
 jobs:
   run:
-    # Seul le propriétaire du dépôt peut déclencher une candidature via un ticket.
-    if: >-
-      github.event_name != 'issues' ||
-      (startsWith(github.event.issue.title, 'Postuler') && github.event.issue.user.login == github.repository_owner)
     runs-on: ubuntu-latest
     timeout-minutes: 20
     defaults:
@@ -61,42 +60,38 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: jobpilot/package-lock.json
       - run: npm ci --no-audit --no-fund
-      - run: npm test
-
       - name: Adresse du site
-        id: pages
-        uses: actions/configure-pages@v5
-        continue-on-error: true
-      - name: URL publique
         run: |
-          URL="${{ steps.pages.outputs.base_url }}"
-          if [ -z "$URL" ]; then
-            OWNER="${GITHUB_REPOSITORY%%/*}"; REPO="${GITHUB_REPOSITORY#*/}"
-            URL="https://${OWNER,,}.github.io/${REPO}"
-          fi
-          echo "SITE_URL=$URL" >> "$GITHUB_ENV"
+          OWNER="${GITHUB_REPOSITORY%%/*}"; REPO="${GITHUB_REPOSITORY#*/}"
+          echo "SITE_URL=https://${OWNER,,}.github.io/${REPO}" >> "$GITHUB_ENV"
+      - name: Tests (dont le contrôle anti-mensonge)
+        if: env.MODE == 'search'
+        run: npm test
 
       - name: Rechercher les offres
-        if: github.event_name != 'issues' && inputs.apply == ''
+        if: env.MODE == 'search'
         run: node src/fetch-jobs.mjs
 
-      - name: Préparer les candidatures
-        if: github.event_name == 'issues' || inputs.apply != ''
+      - name: Candidatures automatiques
+        if: env.MODE == 'search'
+        run: node src/auto-apply.mjs
+
+      - name: Préparer les candidatures demandées
+        if: env.MODE == 'apply'
         env:
-          ISSUE_TEXT: ${{ github.event.issue.title }} ${{ github.event.issue.body }} ${{ inputs.apply }}
+          REQUESTED: ${{ inputs.apply }}
         run: |
           IDS=$(node -e '
             const fs = require("fs");
-            const jobs = require("./data/jobs.json").jobs.concat(fs.existsSync("./data/companies.json") ? require("./data/companies.json").companies : []);
-            const t = process.env.ISSUE_TEXT || "";
-            console.log(jobs.filter(j => t.includes(j.id)).map(j => j.id).join(" "));
+            const all = require("./data/jobs.json").jobs.concat(fs.existsSync("./data/companies.json") ? require("./data/companies.json").companies : []);
+            const asked = (process.env.REQUESTED || "").split(/\s+/);
+            console.log(all.filter(j => asked.includes(j.id)).map(j => j.id).join(" "));
           ')
-          if [ -z "$IDS" ]; then echo "Aucune offre reconnue dans le ticket."; echo "NO_IDS=1" >> "$GITHUB_ENV"; exit 0; fi
+          if [ -z "$IDS" ]; then echo "Aucune offre reconnue."; exit 1; fi
           node src/apply.mjs $IDS
-
-      - name: Construire le site
-        run: node src/build-site.mjs
 
       - name: Sauvegarder les données
         run: |
@@ -104,41 +99,25 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
-          git commit -m "JobPilot : mise à jour des offres et candidatures [skip ci]"
-          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
+          if [ "$MODE" = apply ]; then MSG="candidature préparée"; else MSG="mise à jour des offres"; fi
+          git commit -q -m "JobPilot : $MSG [skip ci]"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((i * 3))
+          done
+          exit 1
 
-      - name: Répondre dans le ticket
-        if: github.event_name == 'issues'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          ISSUE: ${{ github.event.issue.number }}
-        run: |
-          if [ -n "$NO_IDS" ]; then
-            gh issue comment "$ISSUE" --body "Je n'ai reconnu aucune offre dans ce ticket. Utilise le bouton « Postuler » du tableau de bord : $SITE_URL/pilote/"
-            exit 0
-          fi
-          node -e '
-            const r = require("./data/last-apply.json"); const base = process.env.SITE_URL;
-            const lines = r.map(a => a.error ? `- ❌ ${a.id} : ${a.error}` : [
-              `### ${a.company} — ${a.title}`,
-              `- 📄 [CV adapté](${base}/candidatures/${a.folder}/cv.pdf) · [version web](${base}/candidatures/${a.folder}/cv.html)`,
-              `- ✉️ [Lettre de motivation](${base}/candidatures/${a.folder}/lettre.pdf) — ${a.letterSource}`,
-              `- 🎯 Compétences mises en avant : ${a.matched.join(", ") || "—"}`,
-              a.missing.length ? `- ⚠️ Demandé par l offre mais absent de ton profil (non ajouté) : ${a.missing.join(", ")}` : "",
-              `- 📬 Envoi : ${a.sent}`,
-              `- 🔗 [Offre](${a.url})`,
-            ].filter(Boolean).join("\n"));
-            require("fs").writeFileSync("/tmp/comment.md", lines.join("\n\n") + "\n\n_Le site est mis à jour dans ~1 minute._");
-          '
-          gh issue comment "$ISSUE" --body-file /tmp/comment.md
-          gh issue close "$ISSUE"
-
+      - name: Construire le site
+        if: env.MODE == 'search'
+        run: node src/build-site.mjs
       - uses: actions/upload-pages-artifact@v3
+        if: env.MODE == 'search'
         with:
           path: jobpilot/site
 
   deploy:
     needs: run
+    if: ${{ inputs.apply == '' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
