@@ -24,8 +24,9 @@ export async function aiSummaries(jobs, env) {
   const key = env.GEMINI_API_KEY;
   if (!key || !jobs.length) return {};
   const out = {};
-  for (let i = 0; i < jobs.length; i += 8) {
-    const batch = jobs.slice(i, i + 8);
+  for (let i = 0; i < jobs.length; i += 10) {
+    if (i) await new Promise(r => setTimeout(r, 8000)); // offre gratuite : ~10 requêtes par minute
+    const batch = jobs.slice(i, i + 10);
     const prompt = `Pour chaque offre d'emploi ci-dessous, écris un résumé en français de 2 à 3 phrases courtes (45 mots maximum) :
 le poste et ses missions principales, le profil attendu, et un avantage notable s'il est mentionné.
 N'utilise QUE les informations du texte de l'offre. N'invente rien. Ne mentionne pas le salaire (il est affiché à part).

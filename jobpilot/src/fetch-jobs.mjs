@@ -65,7 +65,8 @@ for (const j of kept) {
   if (prev?.summaryAi && j.summary) j.summaryAi = true;
 }
 try {
-  const todo = kept.filter(j => !j.summaryAi).slice(0, 80);
+  // Les plus pertinentes d'abord ; les autres seront résumées aux passages suivants (résumés conservés).
+  const todo = kept.filter(j => !j.summaryAi).sort((a, b) => b.score - a.score).slice(0, 40);
   const ai = await aiSummaries(todo, process.env);
   for (const j of todo) if (ai[j.id]) { j.summary = ai[j.id]; j.summaryAi = true; }
   run.summaries = process.env.GEMINI_API_KEY ? `${Object.keys(ai).length} résumés IA` : 'résumés automatiques (sans IA)';

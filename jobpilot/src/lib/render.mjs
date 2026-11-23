@@ -34,7 +34,7 @@ export function renderCv(profile, cv, { filmUrl, job } = {}) {
 html { background:#e9ecf2; }
 body { margin:0; font: 9.8pt/1.4 "Inter", "Segoe UI", system-ui, -apple-system, sans-serif; color:var(--ink); }
 .page { width:210mm; min-height:297mm; margin:24px auto; background:#fff; padding:14mm 15mm 12mm; box-shadow:0 10px 40px #0002; display:grid; grid-template-columns: 1fr 58mm; gap:0 9mm; }
-@media print { html{background:#fff} .page{ margin:0; box-shadow:none; } }
+@media print { html{background:#fff} .page{ margin:0; box-shadow:none; min-height:0; } }
 @media screen and (max-width: 820px) { .page{ width:auto; min-height:0; margin:0; grid-template-columns:1fr; padding:20px 16px; } }
 header { grid-column:1/-1; display:flex; justify-content:space-between; align-items:flex-start; gap:16px; border-bottom:2px solid var(--ink); padding-bottom:8px; margin-bottom:10px; }
 h1 { font-size:22pt; line-height:1.05; margin:0; letter-spacing:-.02em; }

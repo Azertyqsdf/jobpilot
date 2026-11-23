@@ -40,7 +40,7 @@ export async function gemini(prompt, env, { json = false, temperature = 0.3 } = 
       }
       errors.push(`${model}: ${res.status}`);
       if (!RETRY.has(res.status)) break; // 400/403/404 : inutile d'insister sur ce modèle
-      await sleep(2000 * (attempt + 1) ** 2);
+      await sleep(res.status === 429 ? 20000 : 3000 * (attempt + 1));
     }
   }
   throw new Error(`Gemini indisponible (${[...new Set(errors)].slice(-3).join(', ')})`);
