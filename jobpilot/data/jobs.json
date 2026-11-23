@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T17:39:12.448Z",
+ "updatedAt": "2026-11-23T17:48:12.346Z",
  "jobs": [
   {
    "id": "adzuna-5974608493",
@@ -23,12 +23,13 @@
    ],
    "score": 100,
    "reasons": [
-    "Compétences : Direction commerciale, Business development, Développement international",
+    "Compétences : Direction commerciale, Business development, Gestion de portefeuille clients, Développement international",
     "Intitulé proche de ton profil"
    ],
    "matchedSkills": [
     "Direction commerciale",
     "Business development",
+    "Gestion de portefeuille clients",
     "Développement international"
    ],
    "status": "ready",
@@ -258,6 +259,49 @@
    "summary": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à l"
   },
   {
+   "id": "adzuna-5971875761",
+   "source": "Adzuna",
+   "title": "Technico-Commercial Export H/F",
+   "company": "NTN SNR",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5971875761?utm_medium=api&utm_source=d81896fb",
+   "description": "Informations générales Référence 2026-4800 Famille d'emplois COMMERCIAL - VENTES Intitulé du poste Technico-Commercial Export H/F Contrat CDI Fourchette de salaire 40 000 € - 50 000 € Missions NTN recrute un / une Technico-Commercial Export H/F ! Ce que nous vous proposons : En tant que Technico-Commercial Export, vous êtes rattaché(e) à Pascal, Responsable Commercial et votre mission principale est de Manager des comptes clients sur la zone Afrique du Nord et de l'Ouest, ainsi que maximiser la…",
+   "contactEmail": null,
+   "contract": "full_time",
+   "salary": "40000–50000 €",
+   "salaryMin": 40000,
+   "salaryMax": 50000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T18:00:35Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 100,
+   "reasons": [
+    "Compétences : Direction commerciale, Management d'équipe, Développement international",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Management d'équipe",
+    "Développement international"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T16:02:41.025Z",
+   "salaryAnnual": {
+    "min": 40000,
+    "max": 50000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "40 k–50 k € / an"
+   },
+   "summary": "Informations générales Référence 2026-4800 Famille d'emplois COMMERCIAL - VENTES Intitulé du poste Technico-Commercial Export H/F Contrat CDI Fourchette de salaire 40 000 € - 50 000 € Missions NTN recrute un / une Technico-Commercial Export H/F !"
+  },
+  {
    "id": "adzuna-5972456510",
    "source": "Adzuna",
    "title": "Business Developer / commercial terrain (H/F)",
@@ -279,14 +323,15 @@
    ],
    "score": 100,
    "reasons": [
-    "Compétences : Direction commerciale, Business development, Négociation grands comptes, Prospection B2B",
+    "Compétences : Direction commerciale, Business development, Négociation grands comptes, Prospection B2B, Gestion de portefeuille clients",
     "Intitulé proche de ton profil"
    ],
    "matchedSkills": [
     "Direction commerciale",
     "Business development",
     "Négociation grands comptes",
-    "Prospection B2B"
+    "Prospection B2B",
+    "Gestion de portefeuille clients"
    ],
    "status": "new",
    "firstSeen": "2026-11-23T15:33:21.348Z",
@@ -336,47 +381,87 @@
    "summary": "Rattaché à la Direction Commerciale Europe basée en France, au sein d'une équipe d'une 15ne de collaborateurs commerciaux, vous serez en charge d'une zone Europe du Nord (Benelux, zone DACH, Scandinavie, pays de l'est)."
   },
   {
-   "id": "adzuna-5971875761",
+   "id": "adzuna-5972929325",
    "source": "Adzuna",
-   "title": "Technico-Commercial Export H/F",
-   "company": "NTN SNR",
+   "title": "Ingénieur d'affaires / Business Manager F/H",
+   "company": "Amiltone",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/details/5971875761?utm_medium=api&utm_source=d81896fb",
-   "description": "Informations générales Référence 2026-4800 Famille d'emplois COMMERCIAL - VENTES Intitulé du poste Technico-Commercial Export H/F Contrat CDI Fourchette de salaire 40 000 € - 50 000 € Missions NTN recrute un / une Technico-Commercial Export H/F ! Ce que nous vous proposons : En tant que Technico-Commercial Export, vous êtes rattaché(e) à Pascal, Responsable Commercial et votre mission principale est de Manager des comptes clients sur la zone Afrique du Nord et de l'Ouest, ainsi que maximiser la…",
+   "url": "https://www.adzuna.fr/details/5972929325?utm_medium=api&utm_source=d81896fb",
+   "description": "Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. À ce poste, vous contribuez au développement d'Amiltone en créant et en développant votre portefeuille clients, en participant au recrutement de vos futurs consultants et en accompagnant leur évolution au sein de l'entreprise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et fidéliser un portefeuil…",
    "contactEmail": null,
-   "contract": "full_time",
-   "salary": "40000–50000 €",
-   "salaryMin": 40000,
-   "salaryMax": 50000,
+   "contract": "permanent",
+   "salary": "27000–27000 €",
+   "salaryMin": 27000,
+   "salaryMax": 27000,
    "salaryPredicted": false,
    "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T18:00:35Z",
+   "postedAt": "2026-11-20T14:21:05Z",
+   "tags": [
+    "Emplois Informatique"
+   ],
+   "score": 100,
+   "reasons": [
+    "Compétences : Business development, Management d'équipe, Gestion de portefeuille clients, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Management d'équipe",
+    "Gestion de portefeuille clients",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "min": 27000,
+    "max": 27000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "27 k€ / an"
+   },
+   "summary": "Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et fidéliser un portefeuil…"
+  },
+  {
+   "id": "adzuna-5972455928",
+   "source": "Adzuna",
+   "title": "Ingénieur d'affaires / Business Manager (H/F) (IT)",
+   "company": "Free-Work",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5972455928?utm_medium=api&utm_source=d81896fb",
+   "description": "Description du poste : Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. À ce poste, vous contribuez au développement d'Amiltone en créant et en développant votre portefeuille clients, en participant au recrutement de vos futurs consultants et en accompagnant leur évolution au sein de l'entreprise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et …",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-20T05:52:47Z",
    "tags": [
     "Unknown"
    ],
    "score": 100,
    "reasons": [
-    "Compétences : Direction commerciale, Management d'équipe, Développement international",
+    "Compétences : Business development, Management d'équipe, Gestion de portefeuille clients, Recrutement",
     "Intitulé proche de ton profil"
    ],
    "matchedSkills": [
-    "Direction commerciale",
+    "Business development",
     "Management d'équipe",
-    "Développement international"
+    "Gestion de portefeuille clients",
+    "Recrutement"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T16:02:41.025Z",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
    "salaryAnnual": {
-    "min": 40000,
-    "max": 50000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "40 k–50 k € / an"
+    "label": "Salaire annuel non indiqué",
+    "known": false
    },
-   "summary": "Informations générales Référence 2026-4800 Famille d'emplois COMMERCIAL - VENTES Intitulé du poste Technico-Commercial Export H/F Contrat CDI Fourchette de salaire 40 000 € - 50 000 € Missions NTN recrute un / une Technico-Commercial Export H/F !"
+   "summary": "Description du poste : Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et …"
   },
   {
    "id": "adzuna-5973698080",
@@ -504,6 +589,120 @@
    "summary": "Vous animez votre secteur en fidélisant les clients actuels et en développant les familles de produits. Vous facilitez le quotidien de nos clients en tant que business Partner en développ…"
   },
   {
+   "id": "adzuna-5972897892",
+   "source": "Adzuna",
+   "title": "Consultant en recrutement (H/F)",
+   "company": "VITALIANS",
+   "location": "4ème-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5972897892?utm_medium=api&utm_source=d81896fb",
+   "description": "Vous souhaitez évoluer dans un environnement dynamique, au coeur des enjeux de l'emploi et du secteur du BTP ? Vous aimez les challenges commerciaux, le recrutement et la relation client ? Rejoignez APROJOB, acteur reconnu du recrutement et du travail temporaire, et participez au développement de notre activité BTP sur le secteur lyonnais ! Vos missions Rattaché(e) à notre agence de Lyon 7e, vous intervenez sur trois grands volets : 1. Développement commercial Prospecter de nouveaux clients et …",
+   "contactEmail": null,
+   "contract": "permanent, full_time",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-20T14:12:06Z",
+   "tags": [
+    "Emplois RH et Recrutement"
+   ],
+   "score": 95,
+   "reasons": [
+    "Compétences : Business development, Gestion de portefeuille clients, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Gestion de portefeuille clients",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Vous souhaitez évoluer dans un environnement dynamique, au coeur des enjeux de l'emploi et du secteur du BTP ? Vous aimez les challenges commerciaux, le recrutement et la relation client ? Vos missions Rattaché(e) à notre agence de Lyon 7e, vous intervenez sur trois grands volets : 1."
+  },
+  {
+   "id": "adzuna-5973749841",
+   "source": "Adzuna",
+   "title": "Consultant en recrutement Life Science",
+   "company": "KARPOS RH",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
+   "description": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découverte • Cadrer le besoin, construire la proposition commerciale et conclure les mandats • Fidéliser dans la durée : suivi de l’intégration, satisfaction, mandats récurrents • Représe…",
+   "contactEmail": null,
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-21T08:34:12Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 95,
+   "reasons": [
+    "Compétences : Négociation grands comptes, Gestion de portefeuille clients, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Négociation grands comptes",
+    "Gestion de portefeuille clients",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver"
+  },
+  {
+   "id": "adzuna-5973743880",
+   "source": "Adzuna",
+   "title": "Consultant en Recrutement Senior BTP (H/F)",
+   "company": "ADSEARCH",
+   "location": "Villeurbanne, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5973743880?utm_medium=api&utm_source=d81896fb",
+   "description": "- EN BREF - Consultant en Recrutement Senior BTP F/H - CDI - Villeurbanne (69) - Poste en 360° Commerce/Sourcing Le cabinet de recrutement Adsearch recherche dans le cadre de développement sa/son futur Consultant(e) en recrutement Senior BTP F/H. Poste basé à Villeurbanne. Tous les secteurs d'activité sont représentés chez ADSEARCH : Immobilier Construction, AEC, FRJ, Juridique, Commercial / Marketing, Industrie, Life Science, Supply chain / Logistique, IT, IT Contracting, Management de Transit…",
+   "contactEmail": null,
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-21T08:33:01Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 95,
+   "reasons": [
+    "Compétences : Management d'équipe, Supply chain & logistique, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Management d'équipe",
+    "Supply chain & logistique",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "EN BREF - Consultant en Recrutement Senior BTP F/H - CDI - Villeurbanne (69) - Poste en 360° Commerce/Sourcing Le cabinet de recrutement Adsearch recherche dans le cadre de développement sa/son futur Consultant(e) en recrutement Senior BTP F/H."
+  },
+  {
    "id": "adzuna-5972935244",
    "source": "Adzuna",
    "title": "Responsable Commercial Grands Comptes F/H",
@@ -539,6 +738,81 @@
     "known": false
    },
    "summary": "Il ou elle aura pour mission d'ouvrir des comptes nouveaux, à panier moyen élevé, auprès des décideurs des entreprises et des acteurs publics. Remonter aux décideurs : construire et entretenir une relation avec les directeurs régionaux, directeurs du développement et directeurs commerciaux des co…"
+  },
+  {
+   "id": "adzuna-5972450652",
+   "source": "Adzuna",
+   "title": "Responsable Marketing Digital & E-commerce H/F",
+   "company": "Direct Emploi",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5972450652?utm_medium=api&utm_source=d81896fb",
+   "description": "Description du poste : Responsable Marketing Digital & E-commerce H/F : pilotez la stratégie digitale, l'acquisition et la vente en ligne d'un industriel français reconnu, sur un poste créé pour accélérer sa croissance sur le web.Rattaché(e) à la Directrice Marketing, vous développez la visibilité des marques et le chiffre d'affaires en ligne, sur deux sites internet (un site marchand et un site vitrine) et sur les marketplaces. Vous encadrez une chargée de projet Marketing digital et travaille…",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-20T05:51:32Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 90,
+   "reasons": [
+    "Compétences : Pilotage stratégique, Marketing digital (Meta Ads), E-commerce (Shopify)",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Pilotage stratégique",
+    "Marketing digital (Meta Ads)",
+    "E-commerce (Shopify)"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Vous encadrez une chargée de projet Marketing digital et travaille…"
+  },
+  {
+   "id": "adzuna-5971982596",
+   "source": "Adzuna Suisse",
+   "title": "Business Development Manager",
+   "company": "Job-Room",
+   "location": "Genf",
+   "remote": false,
+   "url": "https://www.adzuna.ch/details/5971982596?utm_medium=api&utm_source=d81896fb",
+   "description": "Please Note: This role requires the ability to work on site 3 days per week per company policy. Why we are recruiting As a membership organisation, the World Economic Forum, through its Business Engagement Group, engages businesses to address industry, regional and systemic challenges. Within the Business Engagement Group, the Partner Development (business development) team leads business development efforts, engaging CEOs and senior executives to understand their strategic priorities, identify…",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "CHF",
+   "postedAt": "2026-11-19T19:08:13Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 90,
+   "reasons": [
+    "Compétences : Business development, Management d'équipe",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Management d'équipe"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Please Note: This role requires the ability to work on site 3 days per week per company policy. Why we are recruiting As a membership organisation, the World Economic Forum, through its Business Engagement Group, engages businesses to address industry, regional and systemic challenges."
   },
   {
    "id": "adzuna-5974087582",
@@ -657,48 +931,6 @@
    "summary": "Dans un contexte de développement de ses activités en France et à l'international l'entreprise souhaite renforcer son organisation en recrutant un Directeur Commercial…"
   },
   {
-   "id": "adzuna-5971241667",
-   "source": "Adzuna",
-   "title": "Chargé d'affaires, Business Developer Lyon",
-   "company": "EPSA Innovation",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5971241667?utm_medium=api&utm_source=d81896fb",
-   "description": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Côtoyer les entrepreneurs de demain ? Ce job est pour toi ! En contact avec des interlocuteurs décisionnaires (CEO/fondateurs, DG, DAF, directeurs R&D) sur une cible de START-UP/ PME/ /ETI, tu les conseilleras sur les différentes aides publiques qui leur permettront de développer leurs innovations, leur développement à l'international ou leurs recrutements. Ton quotidien chez EPSA ? : - Contacter les dirigeants de…",
-   "contactEmail": null,
-   "contract": "full_time",
-   "salary": "28000–40000 €",
-   "salaryMin": 28000,
-   "salaryMax": 40000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T08:23:20Z",
-   "tags": [
-    "Emplois Vente"
-   ],
-   "score": 88,
-   "reasons": [
-    "Compétences : Business development, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T16:02:41.025Z",
-   "salaryAnnual": {
-    "min": 28000,
-    "max": 40000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "28 k–40 k € / an"
-   },
-   "summary": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Ton quotidien chez EPSA ? : - Contacter les dirigeants de…"
-  },
-  {
    "id": "adzuna-5973114220",
    "source": "Adzuna",
    "title": "Responsable commercial - Métrologie - H/F",
@@ -783,39 +1015,46 @@
    "summary": "Vous souhaitez un nouvelle opportunité en CDI sur un poste Commercial Export ? Leur créativité est aussi large que les gammes de produits qu'ils proposent, de quoi vous promettre un beau challenge ! Poste essentiellement itinérant avec des déplacements à prévoir environ 75% du temps (Clients Export, Salons) Rattaché…"
   },
   {
-   "id": "arbeitnow-enterprise-account-executive-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-",
-   "source": "Arbeitnow",
-   "title": "Enterprise Account Executive",
-   "company": "Alan",
-   "location": "Paris, France; Bordeaux, France; Lyon, France; Marseille, France; Biarritz, France; Nantes, France; Annecy, France",
+   "id": "adzuna-5971241667",
+   "source": "Adzuna",
+   "title": "Chargé d'affaires, Business Developer Lyon",
+   "company": "EPSA Innovation",
+   "location": "1er-Arrondissement, Lyon",
    "remote": false,
-   "url": "https://www.arbeitnow.fr/jobs/companies/alan/enterprise-account-executive-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-france-annecy-france-28017",
-   "description": "Health can’t wait . \n Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n Alan exists to end the wait.\n Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n Disclaimer: We're open to hire Account Executives across our Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes and Biarritz offices. \n\n ⭐️ The Enterprise Account Executive job\n We’re expanding our Sales team in France and are looking for a ‘full-stack’ Enterprise Sales to engage with prospects and turn them into happy Alan customers. You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs.\n\n Why is this segment interesting? \n • Diverse workforce : Mix of 60% cadres / 40% non-cadres, often with subsidiaries or multi-site operations, ranging from highly tech-savvy employees to those requiring digital adoption support.\n\n• Critical challenges : Multi-stakeholder decision processes involving HRD, CFO, CEO, Payroll, CSE, Legal, Purchasing, Comp & Ben, Accounting, Brokers (creating multiple potential blockers), long sales cycles (multi-year conversations), RFP processes requiring deep audits and product customization, and strong influence from unions/CSE who can co-manage health insurance topics;\n\n• Company profiles : Flagship companies (widely known brands), groups with standalone entities or subsidiaries, often with focus on employee wellbeing (QVT programs, Great Place to Work), modern company culture, and strategic communication about digitization or employer brand attractiveness;\n\n• HR priorities : Increasing productivity, obtaining fair and competitive pricing, contributing to employee well-being through customized health plans, simplifying HR processes with digital platforms, and managing change management concerns when implementing new health insurance (biggest fear for large companies)\n\n• Critical business characteristics : This segment requires breadth & depth of expertise to navigate complex organizations, account-based strategies with Key Account Management approach, early engagement in company roadmaps, face-to-face meetings, co-creation of insurance and digital products (tailored offers considering past results, specific regimes, demographics, payroll system integration), and ability to work through RFPs and with brokers. Sales cycles are volatile with high stakes: 1 deal = 50% of annual target for Enterprise AEs.\n\n Our approach for Enterprise companies positions Alan as a strategic partner in health rather than just an insurance provider, emphasizing our digital platform for fluid UX, customized health plans at fair pricing, and health/well-being services. Success requires leveraging high-level connections, building professional materials, and potentially creating exclusive \"Health Clubs\" or labels for early adopters.\n\n What will you do with us? \n You’ll own the entire sales cycle, from prospecting to closing. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies. \n At Alan, Account Executives drive deals and close strategic opportunities with prospects . We sometimes handle some customer relationships to ensure the best possible onboarding. You’ll educate prospects, provide inspiring product demos, and onboard key stakeholders, making the transition from prospect to customer seamless.\n We expect you to understand and apply the Alan Smart & Soft selling method . This method ensures the prospect experience is an integral part of the overall Alan customer experience—making it pleasant and delightful for everyone. We expect you to be instructive to prospects (Smart), as well as to define the best personalized high-touch strategy that suits best each prospect (Soft).\n You’ll also help us grow and improve as a company , challenging us to enhance our product(s), methods, and strategy, and getting involved in initiatives to expand our customer base.\n Take a look at this testimonial from Emilie Quellec and watch Julien Plessis , both part of the Enterprise Sales team 👀 \n\n ⭐ Is it you we’re looking for?\n You’ll be a great fit for the Enterprise team at Alan if you: \n • Have at least 8 years of experience in Sales, including at least 2 years managing the whole Enterprise Sales cycle, from prospecting to closing.\n\n• Have full working proficiency in French (C2 and above) and an advanced level in English .\n\n• Are highly organized with exceptional follow-up skills ;\n\n• Have empathy and are passionate about understanding and solving prospects' problems;\n\n• Can influence through persuasion, negotiation, and consensus-building;\n\n• Have a deep understanding of value drivers in recurring revenue business models;\n\n• Have a great attitude and ability to collaborate in a small team;\n\n• Are eager to learn fast and make an impact from day 1;\n\n• Are based in (or willing to relocate to) Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz. \n\n For this opportunity, we are aiming to hire within the D-F level range .\n If you're still wondering whether this could be the best move for you, take a look at this article from Lucie Leflour, our Sales Lead in France. \n\nEverything else is a plus. We care about having a diversity of experiences, profiles and backgrounds in our team.\n\n🙌 Perks & Benefits \n At Alan, we believe that being in good health is a basic need , and it starts with our employees. This is why Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n Therefore, we offer: \n • Fair rewards . Generous equity packages complement your base salary, for permanent contracts only. \n\n• Flexible office with hybrid setup . Amazing office space at our Paris HQ or sponsored co-working hubs in Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz.\n\n• All the tools you need . Top of the range equipment: Macbook Air, keyboard, laptop stand, monitor, and Bose noise-canceling headphones.\n\n• Flexible vacation policy and flexible working hours . Organize your time as you wish.\n\n• Delightful healthcare insurance: Extremely comprehensive health insurance - 100% for you and your children, 90-100% for partners depending on your country (permanent contracts only). \n\n• Transport . Generous transit benefit\n\n• Learning & Training opportunities . A highly flexible training policy free books and budget to attend and speak at conferences if the opportunity arises.\n\n• Personal growth through coaching : At Alan, coaching isn't just a perk - it's core to who we are. Every Alaner is paired with a dedicated coach from day one, who helps maximize their impact, nurture engagement, and navigate Alan's values to develop their full potential. Learn more about our coaching culture . \n\n• Parental leave . Extended parental leave for all new parents, for permanent contracts only. \n\n Important note: we hire people, not roles. \n If you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply as it can only bring learnings or success.\n If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?\n Remember, this is just a guide, not a checklist. \n We'll be thrilled to receive your application!\n 🔖 Check out our About Alan and Career pages, as well as our Medium , blog and Glassdoor page for more info.\n\n #LI-DNP\n Find Jobs in France on Arbeitnow",
+   "url": "https://www.adzuna.fr/details/5971241667?utm_medium=api&utm_source=d81896fb",
+   "description": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Côtoyer les entrepreneurs de demain ? Ce job est pour toi ! En contact avec des interlocuteurs décisionnaires (CEO/fondateurs, DG, DAF, directeurs R&D) sur une cible de START-UP/ PME/ /ETI, tu les conseilleras sur les différentes aides publiques qui leur permettront de développer leurs innovations, leur développement à l'international ou leurs recrutements. Ton quotidien chez EPSA ? : - Contacter les dirigeants de…",
    "contactEmail": null,
-   "contract": "Full Time",
-   "salary": "",
-   "postedAt": "2026-11-22T03:43:07.000Z",
+   "contract": "full_time",
+   "salary": "28000–40000 €",
+   "salaryMin": 28000,
+   "salaryMax": 40000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T08:23:20Z",
    "tags": [
-    "Sales 🇫🇷"
+    "Emplois Vente"
    ],
-   "score": 85,
+   "score": 88,
    "reasons": [
-    "Compétences : Management d'équipe, Négociation grands comptes, Prospection B2B, Gestion de portefeuille clients",
+    "Compétences : Business development, Développement international",
     "Intitulé proche de ton profil"
    ],
    "matchedSkills": [
-    "Management d'équipe",
-    "Négociation grands comptes",
-    "Prospection B2B",
-    "Gestion de portefeuille clients"
+    "Business development",
+    "Développement international"
    ],
    "status": "new",
-   "firstSeen": "2026-11-23T14:34:10.968Z",
+   "firstSeen": "2026-11-23T16:02:41.025Z",
    "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
+    "min": 28000,
+    "max": 40000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "28 k–40 k € / an"
    },
-   "summary": "You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies."
+   "summary": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Ton quotidien chez EPSA ? : - Contacter les dirigeants de…"
   },
   {
    "id": "arbeitnow-field-sales-fr-account-executive-lyon-386348",
@@ -925,6 +1164,124 @@
     "known": false
    },
    "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale."
+  },
+  {
+   "id": "adzuna-5975769998",
+   "source": "Adzuna",
+   "title": "Consultant en Recrutement - Business Developer (F/H)",
+   "company": "Direct Emploi",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5975769998?utm_medium=api&utm_source=d81896fb",
+   "description": "Description du poste : Leader du recrutement spécialisé, PageGroup défend chaque jour un recrutement éthique, exigeant et responsable. Notre mission : concilier les réalités des client·e·s avec les aspirations des candidat·e·s, de manière humaine, transparente et durable. En tant qu'employeur, nous sommes convaincus que le bien-être, la reconnaissance et l'inclusion sont des leviers essentiels de performance. Nous cultivons un environnement de travail sain, stimulant et bienveillant, où chacun …",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-23T05:55:12Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Business development, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Description du poste : Leader du recrutement spécialisé, PageGroup défend chaque jour un recrutement éthique, exigeant et responsable. Notre mission : concilier les réalités des client·e·s avec les aspirations des candidat·e·s, de manière humaine, transparente et durable."
+  },
+  {
+   "id": "adzuna-5971589375",
+   "source": "Adzuna",
+   "title": "Ingénieur Commercial",
+   "company": "Red Hot Talents",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5971589375?utm_medium=api&utm_source=d81896fb",
+   "description": "Énergie & IA (H/F) Rejoignez une entreprise innovante qui transforme la gestion de l'énergie grâce à l'intelligence artificielle. Notre client Dans un contexte de forte croissance, ils recherchent un(e) Ingénieur pour renforcer leur équipe commerciale. Vos missions En tant que Business Developer, vous êtes au cœur du développement commercial : Prospection & développement de portefeuille Identifier et cibler des prospects à fort potentiel (GMS, logistique, industrie) via des actions de prospec…",
+   "contactEmail": null,
+   "contract": "permanent",
+   "salary": "38000–51000 €",
+   "salaryMin": 38000,
+   "salaryMax": 51000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T13:51:43Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Business development, Prospection B2B, Gestion de portefeuille clients, Supply chain & logistique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Prospection B2B",
+    "Gestion de portefeuille clients",
+    "Supply chain & logistique"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "min": 38000,
+    "max": 51000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "38 k–51 k € / an"
+   },
+   "summary": "Vos missions En tant que Business Developer, vous êtes au cœur du développement commercial : Prospection & développement de portefeuille Identifier et cibler des prospects à fort potentiel (GMS, logistique, industrie) via des actions de prospec…"
+  },
+  {
+   "id": "adzuna-5973551365",
+   "source": "Adzuna",
+   "title": "Business Manager IT - Lyon",
+   "company": "jobPosting",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5973551365?utm_medium=api&utm_source=d81896fb",
+   "description": "Entreprise : Red Hot Talents est un cabinet de recrutement spécialisé dans le recrutement de profils commerciaux, managers et dirigeants au sein des sociétés de conseil et de services. Nous accompagnons aujourd'hui un acteur reconnu du conseil en ingénierie et transformation numérique dans le cadre du développement de son agence lyonnaise. Dans le cadre de son expansion, nous recherchons un Business Manager H/F ayant vocation à évoluer rapidement vers un poste de Directeur d'Agence. Description…",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-21T05:50:02Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Management d'équipe, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Management d'équipe",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-23T17:47:41.741Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "summary": "Nous accompagnons aujourd'hui un acteur reconnu du conseil en ingénierie et transformation numérique dans le cadre du développement de son agence lyonnaise. Dans le cadre de son expansion, nous recherchons un Business Manager H/F ayant vocation à évoluer rapidement vers un poste de Directeur d'Agence."
   }
  ]
 }

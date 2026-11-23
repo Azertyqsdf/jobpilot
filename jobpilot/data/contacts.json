@@ -16,17 +16,17 @@
   "pepite conseil": {
     "name": "PEPITE CONSEIL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:25.054Z"
+    "checkedAt": "2026-11-23T17:48:22.087Z"
   },
   "ntn snr": {
     "name": "NTN SNR",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:23.371Z"
+    "checkedAt": "2026-11-23T17:48:22.431Z"
   },
   "de graet consulting": {
     "name": "DE GRAËT CONSULTING",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:18.557Z"
+    "checkedAt": "2026-11-23T17:48:28.041Z"
   },
   "mercato de l emploi": {
     "name": "Mercato de l'Emploi",
@@ -59,7 +59,7 @@
   "m j trusted partners": {
     "name": "M&J TRUSTED PARTNERS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:21.114Z"
+    "checkedAt": "2026-11-23T17:48:40.832Z"
   },
   "talents commerciaux": {
     "name": "talents commerciaux",
@@ -98,7 +98,7 @@
   "epsa innovation": {
     "name": "EPSA Innovation",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:31.334Z"
+    "checkedAt": "2026-11-23T17:48:39.657Z"
   },
   "agicap": {
     "name": "Agicap",
@@ -124,7 +124,7 @@
   "doctolib": {
     "name": "Doctolib",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:51.615Z"
+    "checkedAt": "2026-11-23T17:49:00.926Z"
   },
   "voluntae": {
     "name": "VOLUNTAE",
@@ -143,12 +143,12 @@
   "plg": {
     "name": "PLG",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:37.867Z"
+    "checkedAt": "2026-11-23T17:49:13.752Z"
   },
   "bnp paribas personal finance": {
     "name": "BNP PARIBAS PERSONAL FINANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:50.074Z"
+    "checkedAt": "2026-11-23T17:49:25.931Z"
   },
   "naos": {
     "name": "NAOS",
@@ -167,12 +167,12 @@
   "societe generale": {
     "name": "SOCIETE GENERALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:39:57.109Z"
+    "checkedAt": "2026-11-23T17:49:05.370Z"
   },
   "fiducial informatique": {
     "name": "FIDUCIAL INFORMATIQUE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:21.683Z"
+    "checkedAt": "2026-11-23T17:49:56.185Z"
   },
   "groupe seb france": {
     "name": "GROUPE SEB FRANCE",
@@ -205,17 +205,17 @@
   "14 septembre": {
     "name": "14 SEPTEMBRE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:34.226Z"
+    "checkedAt": "2026-11-23T17:49:30.138Z"
   },
   "banque de france": {
     "name": "BANQUE DE FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:36.301Z"
+    "checkedAt": "2026-11-23T17:49:30.868Z"
   },
   "trading el": {
     "name": "TRADING EL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:38.050Z"
+    "checkedAt": "2026-11-23T17:49:33.224Z"
   },
   "eolys beaute": {
     "name": "EOLYS BEAUTE",
@@ -234,22 +234,22 @@
   "france frais rhone alpes": {
     "name": "FRANCE FRAIS RHONE ALPES",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:49.337Z"
+    "checkedAt": "2026-11-23T17:50:05.357Z"
   },
   "signalisation commerciale": {
     "name": "SIGNALISATION COMMERCIALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:58.005Z"
+    "checkedAt": "2026-11-23T17:50:13.962Z"
   },
   "etablissements descours et cabaud rhone": {
     "name": "ETABLISSEMENTS DESCOURS ET CABAUD RHONE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:57.246Z"
+    "checkedAt": "2026-11-23T17:50:17.319Z"
   },
   "chambre de commerce et d industrie de re": {
     "name": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE RE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:40:59.070Z"
+    "checkedAt": "2026-11-23T17:50:16.440Z"
   },
   "rex rotary": {
     "name": "REX ROTARY",
@@ -265,7 +265,7 @@
   "babolat vs": {
     "name": "BABOLAT VS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:41:11.407Z"
+    "checkedAt": "2026-11-23T17:50:28.987Z"
   },
   "carre sante beaute": {
     "name": "CARRE SANTE BEAUTE",
@@ -380,5 +380,52 @@
     "verified": "nom",
     "kind": "contact",
     "checkedAt": "2026-11-23T17:15:55.560Z"
+  },
+  "amiltone": {
+    "name": "Amiltone",
+    "website": "https://www.amiltone.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:48:16.518Z"
+  },
+  "free work": {
+    "name": "Free-Work",
+    "website": "https://www.free-work.com/fr/tech-it",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:48:21.007Z"
+  },
+  "karpos rh": {
+    "name": "KARPOS RH",
+    "website": "https://karpos-rh.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:48:28.086Z"
+  },
+  "vitalians": {
+    "name": "VITALIANS",
+    "website": "https://www.vitalians.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:48:33.516Z"
+  },
+  "job room": {
+    "name": "Job-Room",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:48:34.218Z"
+  },
+  "red hot talents": {
+    "name": "Red Hot Talents",
+    "website": "https://redhottalents.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:48:36.739Z"
+  },
+  "jobposting": {
+    "name": "jobPosting",
+    "website": "https://www.jobposting.pro/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:49:02.741Z"
   }
 }
