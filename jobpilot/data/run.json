@@ -1,0 +1,14 @@
+{
+  "startedAt": "2026-11-23T15:02:03.354Z",
+  "sources": {
+    "arbeitnow": "900 offres",
+    "remotive": "96 offres",
+    "franceTravail": "FT_CLIENT_ID / FT_CLIENT_SECRET non configurés",
+    "adzuna": "ADZUNA_APP_ID / ADZUNA_APP_KEY non configurés",
+    "laBonneBoite": "FT_CLIENT_ID / FT_CLIENT_SECRET non configurés"
+  },
+  "finishedAt": "2026-11-23T15:02:04.798Z",
+  "fetched": 996,
+  "unique": 885,
+  "kept": 26
+}

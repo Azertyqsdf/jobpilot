@@ -1,0 +1,120 @@
+{
+  "_note": "Ce que tu cherches. 'queries' = recherches envoyées aux sites d'offres ; 'mustHave' = au moins un de ces mots (ou début de mot) doit apparaître dans l'offre ; 'exclude' = offre écartée si le titre contient un de ces mots.",
+  "queries": [
+    "directeur commercial",
+    "business developer",
+    "responsable commercial",
+    "directeur des opérations",
+    "responsable développement commercial",
+    "key account manager",
+    "head of sales",
+    "sales manager",
+    "développeur PHP"
+  ],
+  "mustHave": [
+    "commercial",
+    "business develop",
+    "sales",
+    "vente",
+    "directeur",
+    "directrice",
+    "responsable",
+    "account",
+    "opération",
+    "operations",
+    "export",
+    "développeur php",
+    "php developer",
+    "full stack",
+    "full-stack"
+  ],
+  "exclude": [
+    "stage",
+    "stagiaire",
+    "intern",
+    "internship",
+    "alternance",
+    "alternant",
+    "apprenti",
+    "werkstudent",
+    "working student",
+    "praktikum",
+    "junior",
+    "assistant",
+    "assistante",
+    "sdr",
+    "téléconseiller",
+    "teleconseiller",
+    "vendeur",
+    "vendeuse",
+    "caissier",
+    "hôte de caisse"
+  ],
+  "locations": [
+    "haute-savoie",
+    "74",
+    "saint-jeoire",
+    "annemasse",
+    "annecy",
+    "thonon",
+    "cluses",
+    "bonneville",
+    "la roche-sur-foron",
+    "genève",
+    "geneve",
+    "geneva",
+    "suisse",
+    "switzerland",
+    "lausanne",
+    "savoie",
+    "chambéry",
+    "ain",
+    "lyon",
+    "rhône",
+    "auvergne-rhône-alpes",
+    "télétravail",
+    "remote",
+    "europe",
+    "anywhere",
+    "worldwide"
+  ],
+  "acceptRemote": true,
+  "contracts": [],
+  "minScore": 40,
+  "maxAgeDays": 30,
+  "maxJobs": 200,
+  "language": "fr",
+  "sources": {
+    "arbeitnow": true,
+    "remotive": true,
+    "franceTravail": true,
+    "adzuna": true,
+    "laBonneBoite": true
+  },
+  "franceTravail": {
+    "departements": [
+      "74",
+      "73",
+      "01",
+      "69"
+    ],
+    "rayonKm": 30
+  },
+  "adzuna": {
+    "country": "fr",
+    "where": "Haute-Savoie"
+  },
+  "laBonneBoite": {
+    "_note": "Codes métier ROME : D1402 relation commerciale grands comptes, D1406 management en force de vente, M1707 stratégie commerciale, M1302 direction de PME, N1301 organisation de la chaîne logistique, M1805 études et développement informatique.",
+    "romes": [
+      "D1402",
+      "D1406",
+      "M1707",
+      "M1302",
+      "N1301"
+    ],
+    "latitude": 46.1433,
+    "longitude": 6.4611,
+    "distance": 40
+  }
+}

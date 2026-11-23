@@ -1,0 +1,21 @@
+{
+  "_note": "Ce que tu cherches. 'queries' = recherches envoyées aux sites d'offres ; 'mustHave' = au moins un de ces mots doit apparaître dans l'offre ; 'exclude' = offre écartée si le titre contient un de ces mots.",
+  "queries": ["développeur react", "développeur full stack", "frontend developer", "react developer", "node.js developer"],
+  "mustHave": ["react", "typescript", "javascript", "node", "front", "full stack", "full-stack", "fullstack", "développeu", "developer", "engineer"],
+  "exclude": ["stage", "intern", "internship", "werkstudent", "working student", "praktikum", "alternance", "senior manager", "head of", "director"],
+  "locations": ["lyon", "paris", "france", "remote", "télétravail", "europe", "anywhere", "worldwide"],
+  "acceptRemote": true,
+  "contracts": [],
+  "minScore": 35,
+  "maxAgeDays": 30,
+  "maxJobs": 200,
+  "language": "fr",
+  "sources": {
+    "arbeitnow": true,
+    "remotive": true,
+    "franceTravail": true,
+    "adzuna": true
+  },
+  "franceTravail": { "departements": ["69", "75"], "rayonKm": 30 },
+  "adzuna": { "country": "fr", "where": "Lyon" }
+}

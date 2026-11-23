@@ -1,0 +1,853 @@
+{
+  "_note": "Profil d'Amaury Bertrand, construit à partir de son CV et de son résumé de compétences. Le moteur ne fait que SÉLECTIONNER et RÉORDONNER ce qui est écrit ici : il n'invente jamais rien. Le téléphone n'est pas stocké ici : il est ajouté uniquement dans les PDF, via le secret GitHub CV_PHONE.",
+  "identity": {
+    "firstName": "Amaury",
+    "lastName": "Bertrand",
+    "email": "amaury.bertrand@outlook.fr",
+    "phone": "",
+    "city": "Saint-Jeoire (74490), Haute-Savoie",
+    "availability": "Disponible immédiatement",
+    "linkedin": "https://www.linkedin.com/in/amaurybertrand",
+    "github": "",
+    "website": ""
+  },
+  "titles": [
+    {
+      "text": "Directeur Commercial & Opérationnel — Business Development",
+      "tags": [
+        "directeur commercial",
+        "direction commerciale",
+        "commercial",
+        "operations",
+        "operationnel",
+        "business development",
+        "business developer",
+        "sales director",
+        "head of sales",
+        "responsable commercial",
+        "sales manager",
+        "directeur des ventes",
+        "directeur du developpement",
+        "country manager",
+        "head of business development",
+        "regional manager"
+      ]
+    },
+    {
+      "text": "Business Developer — Développement commercial B2B & international",
+      "tags": [
+        "business developer",
+        "business development",
+        "developpement commercial",
+        "b2b",
+        "international",
+        "export",
+        "sales",
+        "account",
+        "commercial",
+        "account executive",
+        "account manager",
+        "key account manager",
+        "kam",
+        "ingenieur commercial",
+        "charge d'affaires",
+        "charge de developpement",
+        "business development manager",
+        "new business"
+      ]
+    },
+    {
+      "text": "Directeur des Opérations — Supply chain & logistique internationale",
+      "tags": [
+        "operations",
+        "directeur des operations",
+        "responsable des operations",
+        "supply chain",
+        "logistique",
+        "approvisionnement",
+        "export",
+        "coo",
+        "directeur d'exploitation",
+        "responsable d'exploitation",
+        "operations manager",
+        "head of operations",
+        "directeur de site"
+      ]
+    },
+    {
+      "text": "Entrepreneur & Développeur Full-Stack (PHP, JavaScript, Python)",
+      "tags": [
+        "developpeur",
+        "developer",
+        "full-stack",
+        "fullstack",
+        "php",
+        "javascript",
+        "python",
+        "mysql",
+        "web",
+        "e-commerce",
+        "shopify",
+        "web developer",
+        "developpeur web",
+        "backend",
+        "back-end",
+        "integrateur"
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "text": "Dirigeant et entrepreneur (33 ans) doté d'une solide double expertise internationale et locale en stratégie commerciale, pilotage d'équipes et management de projets à fort enjeu. Reconverti et aguerri aux environnements exigeants (États-Unis, Suisse, Rhône-Alpes), je me distingue par mon leadership naturel, ma prise de décision sous pression et mon orientation constante vers la croissance.",
+      "tags": [
+        "directeur",
+        "direction",
+        "commercial",
+        "management",
+        "manager",
+        "strategie",
+        "international",
+        "suisse",
+        "croissance"
+      ]
+    },
+    {
+      "text": "Entrepreneur capable de mener un projet de bout en bout en totale autonomie : de l'idée initiale et du développement technique jusqu'à la commercialisation, la logistique terrain et la relation client.",
+      "tags": [
+        "entrepreneur",
+        "chef de projet",
+        "project",
+        "autonomie",
+        "polyvalent",
+        "startup",
+        "e-commerce",
+        "developpeur",
+        "product"
+      ]
+    },
+    {
+      "text": "Dirigeant opérationnel habitué à mettre en place des chaînes d'approvisionnement complexes, notamment l'exportation et la distribution en chaîne du froid entre la France et les États-Unis, ainsi que la gestion de stocks et de précommandes à grande échelle.",
+      "tags": [
+        "operations",
+        "supply chain",
+        "logistique",
+        "approvisionnement",
+        "export",
+        "international",
+        "stocks",
+        "achats"
+      ]
+    },
+    {
+      "text": "Développeur full-stack et entrepreneur : je conçois, code et déploie des plateformes web, des applications mobiles et des CRM sur mesure (PHP, MySQL, JavaScript, Python), avec une préférence pour les architectures légères et performantes.",
+      "tags": [
+        "developpeur",
+        "developer",
+        "full-stack",
+        "fullstack",
+        "php",
+        "javascript",
+        "python",
+        "mysql",
+        "web",
+        "crm"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Fondateur & Dirigeant",
+      "company": "Maison Laminée",
+      "location": "États-Unis",
+      "start": "2026-01",
+      "end": null,
+      "bullets": [
+        {
+          "text": "Pilotage du développement de l'activité aux États-Unis, négociation avec les partenaires clés et stratégie de croissance.",
+          "tags": [
+            "business development",
+            "developpement commercial",
+            "negociation",
+            "partenariats",
+            "international",
+            "etats-unis",
+            "strategie",
+            "croissance",
+            "negotiation",
+            "negotiate",
+            "closing",
+            "growth",
+            "revenue",
+            "global",
+            "markets"
+          ]
+        },
+        {
+          "text": "Gestion des opérations, structuration de l'offre et développement du portefeuille relationnel international.",
+          "tags": [
+            "operations",
+            "offre",
+            "portefeuille",
+            "international",
+            "account",
+            "relation client",
+            "portfolio",
+            "accounts",
+            "account management",
+            "customers",
+            "global",
+            "markets",
+            "customer",
+            "client relationship"
+          ]
+        },
+        {
+          "text": "Création de l'entité juridique aux États-Unis (Maison Laminée LLC).",
+          "tags": [
+            "international",
+            "etats-unis",
+            "creation d'entreprise",
+            "juridique",
+            "entrepreneur",
+            "global",
+            "markets"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Fondateur & Directeur Général",
+      "company": "Mon Plant Fraise",
+      "location": "Saint-Jeoire (74)",
+      "start": "2024",
+      "end": "2026-09",
+      "bullets": [
+        {
+          "text": "Création et développement complet d'une entreprise locale innovante (production, logistique et distribution).",
+          "tags": [
+            "creation d'entreprise",
+            "entrepreneur",
+            "production",
+            "logistique",
+            "distribution",
+            "innovation"
+          ]
+        },
+        {
+          "text": "Management des équipes, pilotage de la chaîne de valeur, relations clients B2B / B2C et partenariats stratégiques.",
+          "tags": [
+            "management",
+            "manager",
+            "equipe",
+            "b2b",
+            "b2c",
+            "relation client",
+            "partenariats",
+            "chaine de valeur",
+            "team",
+            "manage",
+            "leadership",
+            "people management",
+            "saas",
+            "smb",
+            "mid-market",
+            "enterprise",
+            "customer",
+            "client relationship"
+          ]
+        },
+        {
+          "text": "Conception de systèmes de culture indoor en hydroponie et culture de variétés rares de fraises (fraise blanche).",
+          "tags": [
+            "agriculture",
+            "agronomie",
+            "hydroponie",
+            "production",
+            "innovation",
+            "agroalimentaire"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Fondateur",
+      "company": "SA Group",
+      "location": "France / États-Unis",
+      "start": "",
+      "end": "",
+      "bullets": [
+        {
+          "text": "Fondation et gestion de plusieurs sociétés réunies dans une structure ombrelle.",
+          "tags": [
+            "entrepreneur",
+            "direction",
+            "holding",
+            "gestion",
+            "multi-sites"
+          ]
+        },
+        {
+          "text": "Mise en place d'une chaîne d'approvisionnement à l'export en chaîne du froid (surgelé) entre la France et les États-Unis (Miami).",
+          "tags": [
+            "supply chain",
+            "logistique",
+            "export",
+            "international",
+            "chaine du froid",
+            "approvisionnement",
+            "etats-unis",
+            "agroalimentaire",
+            "logistics",
+            "procurement",
+            "global",
+            "markets"
+          ]
+        },
+        {
+          "text": "Gestion de stocks et de précommandes à grande échelle.",
+          "tags": [
+            "stocks",
+            "logistique",
+            "e-commerce",
+            "operations",
+            "supply chain",
+            "logistics",
+            "procurement"
+          ]
+        },
+        {
+          "text": "Gestion et optimisation de campagnes Meta Ads, génération de trafic qualifié et conversion de précommandes e-commerce.",
+          "tags": [
+            "marketing",
+            "marketing digital",
+            "meta ads",
+            "facebook ads",
+            "acquisition",
+            "e-commerce",
+            "growth"
+          ]
+        },
+        {
+          "text": "Création d'identités visuelles, de packagings et d'un positionnement haut de gamme pour des marques gastronomiques (Maison Laminée, La Fraise Touch, Salt & Sablé).",
+          "tags": [
+            "branding",
+            "marque",
+            "marketing",
+            "packaging",
+            "luxe",
+            "haut de gamme",
+            "direction artistique",
+            "agroalimentaire"
+          ]
+        },
+        {
+          "text": "Élaboration de grilles tarifaires dynamiques et prospection directe auprès d'investisseurs.",
+          "tags": [
+            "pricing",
+            "tarification",
+            "prospection",
+            "investisseurs",
+            "levee de fonds",
+            "commercial",
+            "prospecting",
+            "pipeline",
+            "new business",
+            "outbound"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Directeur Commercial & Opérations",
+      "company": "LGA Conseil",
+      "location": "Genève, Suisse",
+      "start": "2019",
+      "end": "2023",
+      "bullets": [
+        {
+          "text": "Management d'équipe commerciale et pilotage des projets stratégiques d'expansion.",
+          "tags": [
+            "management",
+            "manager",
+            "equipe commerciale",
+            "directeur commercial",
+            "strategie",
+            "expansion",
+            "developpement",
+            "team",
+            "manage",
+            "leadership",
+            "people management"
+          ]
+        },
+        {
+          "text": "Gestion et valorisation d'un portefeuille de clients haut de gamme ; coordination des opérations commerciales.",
+          "tags": [
+            "portefeuille",
+            "grands comptes",
+            "key account",
+            "account manager",
+            "haut de gamme",
+            "luxe",
+            "patrimoine",
+            "finance",
+            "operations",
+            "portfolio",
+            "accounts",
+            "account management",
+            "customers"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Consultant en Recrutement & Commercial",
+      "company": "Domino Intérim",
+      "location": "Lyon (69)",
+      "start": "2016",
+      "end": "2018",
+      "bullets": [
+        {
+          "text": "Développement commercial B2B, prospection, négociation et fidélisation de portefeuilles clients.",
+          "tags": [
+            "b2b",
+            "developpement commercial",
+            "prospection",
+            "negociation",
+            "fidelisation",
+            "portefeuille",
+            "commercial",
+            "business developer",
+            "negotiation",
+            "negotiate",
+            "closing",
+            "prospecting",
+            "pipeline",
+            "new business",
+            "outbound",
+            "portfolio",
+            "accounts",
+            "account management",
+            "customers",
+            "saas",
+            "smb",
+            "mid-market",
+            "enterprise"
+          ]
+        },
+        {
+          "text": "Stratégie de sourcing, entretiens de recrutement, évaluation et conseil RH aux entreprises.",
+          "tags": [
+            "recrutement",
+            "rh",
+            "ressources humaines",
+            "sourcing",
+            "talent",
+            "interim"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Gestion opérationnelle et technique",
+      "company": "Les Rois du Jardin",
+      "location": "France & Suisse",
+      "start": "",
+      "end": "",
+      "bullets": [
+        {
+          "text": "Gestion opérationnelle et technique d'une activité de services B2C de paysagisme et d'entretien d'espaces verts en France et en Suisse.",
+          "tags": [
+            "b2c",
+            "services",
+            "operations",
+            "paysagisme",
+            "espaces verts",
+            "suisse"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Fondateur & Porteur de Projet",
+      "company": "Wouf",
+      "location": "Lyon (69)",
+      "start": "2014",
+      "end": "2016",
+      "bullets": [
+        {
+          "text": "Conception et lancement d'une plateforme de mise en relation B2B, recherche de partenaires et négociation.",
+          "tags": [
+            "startup",
+            "b2b",
+            "plateforme",
+            "partenariats",
+            "negociation",
+            "entrepreneur",
+            "web",
+            "negotiation",
+            "negotiate",
+            "closing",
+            "saas",
+            "smb",
+            "mid-market",
+            "enterprise"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Développeur full-stack — projets personnels et entrepreneuriaux",
+      "company": "Projets numériques",
+      "location": "",
+      "start": "",
+      "end": "",
+      "bullets": [
+        {
+          "text": "Conception, codage et déploiement de plateformes web, d'applications mobiles et d'interfaces d'administration (CRM) sur mesure.",
+          "tags": [
+            "developpeur",
+            "developer",
+            "full-stack",
+            "web",
+            "mobile",
+            "crm",
+            "php",
+            "javascript"
+          ]
+        },
+        {
+          "text": "Développement de l'application Ranked à l'aide d'outils assistés par IA (Claude Code).",
+          "tags": [
+            "developpeur",
+            "mobile",
+            "ia",
+            "intelligence artificielle",
+            "ai",
+            "application"
+          ]
+        },
+        {
+          "text": "Automatisation e-commerce : outil de dropshipping Shopify connecté à des API REST et GraphQL.",
+          "tags": [
+            "e-commerce",
+            "shopify",
+            "api",
+            "rest",
+            "graphql",
+            "automatisation",
+            "dropshipping"
+          ]
+        },
+        {
+          "text": "Déploiement d'applications sur Railway.",
+          "tags": [
+            "deploiement",
+            "devops",
+            "cloud",
+            "railway"
+          ]
+        },
+        {
+          "text": "Scripts d'inspection réseau locale sous macOS (scan Wi-Fi, tests d'exposition de données).",
+          "tags": [
+            "securite",
+            "cybersecurite",
+            "reseau",
+            "macos",
+            "scripts",
+            "python"
+          ]
+        },
+        {
+          "text": "Audit stratégique et technique de sites web, avec propositions d'amélioration commerciale.",
+          "tags": [
+            "audit",
+            "web",
+            "seo",
+            "conseil",
+            "strategie digitale",
+            "marketing digital"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Baccalauréat",
+      "school": "Lycée Saint Jean-Baptiste de La Salle",
+      "start": "2009",
+      "end": "2012",
+      "tags": []
+    },
+    {
+      "degree": "Brevet des collèges",
+      "school": "Les Maristes",
+      "start": "2009",
+      "end": "2009",
+      "tags": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Direction commerciale",
+      "level": 5,
+      "aliases": [
+        "directeur commercial",
+        "directrice commerciale",
+        "direction des ventes",
+        "sales director",
+        "head of sales",
+        "responsable commercial"
+      ]
+    },
+    {
+      "name": "Business development",
+      "level": 5,
+      "aliases": [
+        "business developer",
+        "developpement commercial",
+        "développement commercial",
+        "biz dev",
+        "bizdev"
+      ]
+    },
+    {
+      "name": "Management d'équipe",
+      "level": 5,
+      "aliases": [
+        "management",
+        "manager",
+        "encadrement",
+        "team lead",
+        "leadership"
+      ]
+    },
+    {
+      "name": "Négociation grands comptes",
+      "level": 5,
+      "aliases": [
+        "négociation",
+        "negociation",
+        "negotiation",
+        "grands comptes",
+        "key account",
+        "key accounts"
+      ]
+    },
+    {
+      "name": "Prospection B2B",
+      "level": 4,
+      "aliases": [
+        "prospection",
+        "b2b",
+        "chasse",
+        "hunting",
+        "lead generation"
+      ]
+    },
+    {
+      "name": "Gestion de portefeuille clients",
+      "level": 4,
+      "aliases": [
+        "portefeuille clients",
+        "account management",
+        "account manager",
+        "fidélisation",
+        "relation client"
+      ]
+    },
+    {
+      "name": "Pilotage stratégique",
+      "level": 4,
+      "aliases": [
+        "stratégie commerciale",
+        "strategie",
+        "plan d'action commercial",
+        "business plan"
+      ]
+    },
+    {
+      "name": "Gestion de projets",
+      "level": 4,
+      "aliases": [
+        "gestion de projet",
+        "chef de projet",
+        "project management",
+        "project manager"
+      ]
+    },
+    {
+      "name": "Développement international",
+      "level": 4,
+      "aliases": [
+        "international",
+        "export",
+        "anglais"
+      ]
+    },
+    {
+      "name": "Supply chain & logistique",
+      "level": 4,
+      "aliases": [
+        "supply chain",
+        "logistique",
+        "approvisionnement",
+        "chaîne du froid",
+        "stocks"
+      ]
+    },
+    {
+      "name": "Création d'entreprise",
+      "level": 4,
+      "aliases": [
+        "entrepreneur",
+        "entrepreneuriat",
+        "startup",
+        "création d'entreprise"
+      ]
+    },
+    {
+      "name": "Recrutement",
+      "level": 3,
+      "aliases": [
+        "sourcing",
+        "ressources humaines",
+        "rh"
+      ]
+    },
+    {
+      "name": "Marketing digital (Meta Ads)",
+      "level": 3,
+      "aliases": [
+        "meta ads",
+        "facebook ads",
+        "marketing digital",
+        "acquisition",
+        "social ads"
+      ]
+    },
+    {
+      "name": "Branding & packaging",
+      "level": 3,
+      "aliases": [
+        "branding",
+        "packaging",
+        "identité visuelle",
+        "direction artistique"
+      ]
+    },
+    {
+      "name": "E-commerce (Shopify)",
+      "level": 3,
+      "aliases": [
+        "e-commerce",
+        "ecommerce",
+        "shopify"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": 4,
+      "aliases": []
+    },
+    {
+      "name": "MySQL / MariaDB",
+      "level": 4,
+      "aliases": [
+        "mysql",
+        "mariadb",
+        "sql"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": 4,
+      "aliases": [
+        "js"
+      ]
+    },
+    {
+      "name": "HTML / CSS",
+      "level": 4,
+      "aliases": [
+        "html",
+        "css"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": 3,
+      "aliases": []
+    },
+    {
+      "name": "API REST / GraphQL",
+      "level": 3,
+      "aliases": [
+        "api rest",
+        "rest api",
+        "graphql",
+        "api"
+      ]
+    },
+    {
+      "name": "CRM",
+      "level": 3,
+      "aliases": [
+        "salesforce",
+        "hubspot"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    "Gastronomie & création culinaire",
+    "Culture de fraises & hydroponie",
+    "Cueillette de champignons sauvages",
+    "Démarche d'engagement comme sapeur-pompier volontaire (Saint-Jeoire)"
+  ],
+  "motivations": [
+    {
+      "text": "piloter la croissance d'une activité et en mesurer concrètement les résultats",
+      "tags": [
+        "croissance",
+        "growth",
+        "business development",
+        "developpement",
+        "directeur commercial",
+        "objectifs"
+      ]
+    },
+    {
+      "text": "construire et animer des équipes commerciales performantes",
+      "tags": [
+        "management",
+        "equipe",
+        "manager",
+        "directeur",
+        "responsable"
+      ]
+    },
+    {
+      "text": "développer des marchés à l'international",
+      "tags": [
+        "international",
+        "export",
+        "etats-unis",
+        "suisse",
+        "anglais"
+      ]
+    },
+    {
+      "text": "mener des projets de bout en bout, de l'idée jusqu'au client",
+      "tags": [
+        "projet",
+        "startup",
+        "entrepreneur",
+        "product",
+        "polyvalent"
+      ]
+    }
+  ]
+}

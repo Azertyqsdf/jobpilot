@@ -1,0 +1,91 @@
+{
+  "_note": "EXEMPLE FICTIF — remplace tout par tes vraies informations. Le moteur ne fait que SÉLECTIONNER et RÉORDONNER ce qui est écrit ici : il n'invente jamais rien. Ajoute des variantes VRAIES (titres, résumés, puces) pour donner plus de choix au moteur.",
+  "identity": {
+    "firstName": "Camille",
+    "lastName": "Exemple",
+    "email": "camille.exemple@example.com",
+    "phone": "+33 6 00 00 00 00",
+    "city": "Lyon, France",
+    "linkedin": "https://www.linkedin.com/in/exemple",
+    "github": "https://github.com/exemple",
+    "website": ""
+  },
+  "titles": [
+    { "text": "Développeuse Full-Stack JavaScript", "tags": ["javascript", "typescript", "react", "node", "full-stack", "fullstack", "developer", "développeur"] },
+    { "text": "Développeuse Front-End React", "tags": ["react", "frontend", "front-end", "javascript", "typescript", "ui", "css"] },
+    { "text": "Développeuse Back-End Node.js", "tags": ["node", "backend", "back-end", "api", "postgresql", "sql"] }
+  ],
+  "summaries": [
+    { "text": "Développeuse full-stack avec 6 ans d'expérience sur des produits SaaS B2B, de la base de données à l'interface. J'aime livrer vite, proprement, et mesurer l'impact de ce que je construis.", "tags": ["saas", "full-stack", "fullstack", "b2b", "product", "javascript"] },
+    { "text": "Développeuse front-end spécialisée React et TypeScript, attachée à l'accessibilité, à la performance et aux design systems.", "tags": ["react", "frontend", "front-end", "typescript", "accessibility", "design system", "ui"] },
+    { "text": "Développeuse back-end Node.js orientée API, données et fiabilité : modélisation PostgreSQL, tests automatisés et intégration continue.", "tags": ["node", "backend", "back-end", "api", "postgresql", "ci", "testing"] }
+  ],
+  "experiences": [
+    {
+      "role": "Développeuse Full-Stack Senior",
+      "company": "Datanova",
+      "location": "Lyon",
+      "start": "2022-03",
+      "end": null,
+      "bullets": [
+        { "text": "Conception et développement d'un tableau de bord analytique en React et TypeScript utilisé par 400 clients B2B.", "tags": ["react", "typescript", "dashboard", "b2b", "saas", "frontend"] },
+        { "text": "Réduction de 45 % du temps de réponse de l'API Node.js grâce à la mise en cache Redis et à l'optimisation des requêtes PostgreSQL.", "tags": ["node", "api", "redis", "postgresql", "performance", "backend"] },
+        { "text": "Mise en place d'une chaîne CI/CD GitHub Actions avec tests automatisés (Jest, Playwright) et déploiements quotidiens.", "tags": ["ci", "cd", "github actions", "testing", "jest", "playwright", "devops"] },
+        { "text": "Encadrement technique de 2 développeurs juniors et animation des revues de code.", "tags": ["mentoring", "lead", "code review", "management"] }
+      ]
+    },
+    {
+      "role": "Développeuse Front-End",
+      "company": "Studio Kiwi",
+      "location": "Paris",
+      "start": "2019-09",
+      "end": "2022-02",
+      "bullets": [
+        { "text": "Création d'un design system de 60 composants React documentés dans Storybook, réutilisé sur 5 produits.", "tags": ["react", "design system", "storybook", "ui", "frontend", "css"] },
+        { "text": "Mise en conformité RGAA / WCAG AA de l'application principale.", "tags": ["accessibility", "a11y", "wcag", "rgaa", "frontend"] },
+        { "text": "Migration progressive d'une base de code JavaScript vers TypeScript.", "tags": ["typescript", "javascript", "refactoring", "migration"] }
+      ]
+    },
+    {
+      "role": "Développeuse Web (alternance)",
+      "company": "Agence Pixel",
+      "location": "Lyon",
+      "start": "2017-09",
+      "end": "2019-08",
+      "bullets": [
+        { "text": "Développement de sites vitrines et e-commerce (PHP, JavaScript) pour une vingtaine de clients.", "tags": ["php", "javascript", "e-commerce", "web"] },
+        { "text": "Intégration de maquettes Figma en HTML/CSS responsive.", "tags": ["html", "css", "figma", "responsive", "frontend"] }
+      ]
+    }
+  ],
+  "education": [
+    { "degree": "Master Informatique — Génie logiciel", "school": "Université Lyon 1", "start": "2017", "end": "2019", "tags": ["computer science", "software engineering", "master"] },
+    { "degree": "Licence Informatique", "school": "Université Lyon 1", "start": "2014", "end": "2017", "tags": ["computer science"] }
+  ],
+  "skills": [
+    { "name": "JavaScript", "level": 5, "aliases": ["js", "ecmascript", "es6"] },
+    { "name": "TypeScript", "level": 5, "aliases": ["ts"] },
+    { "name": "React", "level": 5, "aliases": ["react.js", "reactjs"] },
+    { "name": "Node.js", "level": 4, "aliases": ["node", "nodejs", "express"] },
+    { "name": "PostgreSQL", "level": 4, "aliases": ["postgres", "sql"] },
+    { "name": "Redis", "level": 3, "aliases": [] },
+    { "name": "GitHub Actions", "level": 4, "aliases": ["ci/cd", "ci", "cd"] },
+    { "name": "Jest", "level": 4, "aliases": ["unit testing"] },
+    { "name": "Playwright", "level": 3, "aliases": ["e2e", "end-to-end"] },
+    { "name": "Storybook", "level": 3, "aliases": [] },
+    { "name": "Accessibilité (WCAG)", "level": 4, "aliases": ["accessibility", "a11y", "wcag", "rgaa"] },
+    { "name": "Docker", "level": 3, "aliases": ["containers"] },
+    { "name": "PHP", "level": 2, "aliases": [] },
+    { "name": "Figma", "level": 3, "aliases": [] }
+  ],
+  "languages": [
+    { "name": "Français", "level": "Langue maternelle" },
+    { "name": "Anglais", "level": "Courant (C1)" }
+  ],
+  "interests": ["Photographie argentique", "Trail", "Open source"],
+  "motivations": [
+    { "text": "construire des produits utiles dont on peut mesurer l'impact", "tags": ["product", "saas", "impact"] },
+    { "text": "travailler dans une équipe qui accorde de l'importance à la qualité du code et à la transmission", "tags": ["quality", "mentoring", "testing"] },
+    { "text": "rendre le web plus accessible", "tags": ["accessibility", "a11y", "wcag", "frontend"] }
+  ]
+}

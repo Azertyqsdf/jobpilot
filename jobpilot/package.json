@@ -1,0 +1,16 @@
+{
+  "name": "jobpilot",
+  "private": true,
+  "type": "module",
+  "description": "Recherche d'offres, CV adapté honnêtement à chaque offre, candidature et CV en film 3D — 100 % gratuit (GitHub Actions + GitHub Pages).",
+  "scripts": {
+    "fetch": "node src/fetch-jobs.mjs",
+    "apply": "node src/apply.mjs",
+    "build": "node src/build-site.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "engines": { "node": ">=20" }
+}
