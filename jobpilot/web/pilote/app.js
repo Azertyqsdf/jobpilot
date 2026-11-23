@@ -354,10 +354,13 @@ function viewCompanies() {
   const q = filters.q.toLowerCase();
   const list = S.companies.filter(c => !S.tracking.apps[c.id] && (!q || `${c.name} ${c.city} ${c.sector}`.toLowerCase().includes(q)));
   const lbb = S.run.sources?.laBonneBoite;
+  // Le « score » de La Bonne Boîte n'a pas d'échelle fixe : on l'exprime par rapport à la meilleure entreprise trouvée.
+  const max = Math.max(1, ...S.companies.map(c => +c.score || 0));
+  const rel = c => Math.round(100 * (+c.score || 0) / max);
   return `<div class="head"><div><h2>Entreprises qui recrutent</h2><div class="muted small">Selon La Bonne Boîte (France Travail), ces entreprises de ta zone vont probablement embaucher dans tes métiers, même sans offre publiée : idéal pour une candidature spontanée.</div></div></div>
   <div class="toolbar"><input type="search" id="q" placeholder="Filtrer : entreprise, ville, secteur…" value="${esc(filters.q)}"></div>
   ${list.length ? list.map(c => `<article class="card job">
-    <div class="score" style="--s:${Math.round(Math.min(5, c.score || 0) * 20)}" title="Potentiel d'embauche">${c.score ? (+c.score).toFixed(1) : '—'}</div>
+    <div class="score" style="--s:${rel(c)}" title="Potentiel d'embauche, relatif à la meilleure entreprise trouvée">${c.score ? rel(c) : '—'}</div>
     <div class="body">
       <h3>${esc(c.name)}</h3>
       <div class="meta">${esc([c.postcode, c.city].filter(Boolean).join(' '))}${c.distance ? ` · ${Math.round(c.distance)} km` : ''}${c.headcount ? ` · ${esc(c.headcount)}` : ''}</div>
