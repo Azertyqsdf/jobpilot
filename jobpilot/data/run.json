@@ -1,16 +1,16 @@
 {
-  "startedAt": "2026-11-23T15:31:08.870Z",
+  "startedAt": "2026-11-23T15:33:21.348Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "96 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
-    "adzuna": "171 offres",
+    "adzuna": "437 offres",
     "manuel": "1 offre(s)",
-    "laBonneBoite": "erreur : 403 sur /partenaire/labonneboite/v2/company/"
+    "laBonneBoite": "36 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini 503)",
-  "finishedAt": "2026-11-23T15:31:15.602Z",
-  "fetched": 1168,
-  "unique": 1019,
-  "kept": 58
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-2.5-flash: 404, gemini-flash-lite-latest: 503, gemini-2.0-flash: 404))",
+  "finishedAt": "2026-11-23T15:34:42.012Z",
+  "fetched": 1434,
+  "unique": 1252,
+  "kept": 192
 }
