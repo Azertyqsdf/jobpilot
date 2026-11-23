@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-23T19:36:43.741Z",
+  "startedAt": "2026-11-23T20:09:14.089Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
@@ -8,10 +8,54 @@
     "manuel": "1 offre(s)",
     "laBonneBoite": "170 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-23T19:37:13.519Z",
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 503, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-23T20:09:43.051Z",
   "fetched": 1576,
-  "unique": 1344,
+  "unique": 1349,
   "kept": 32,
-  "prospection": "40 entreprises examinées, 1 nouvelles adresses ; 7 offres et 1 entreprises joignables par e-mail"
+  "zones": {
+    "autres": {
+      "trouvees": 880,
+      "retenues": 0,
+      "exclues": {
+        "aucun mot obligatoire": 189,
+        "mot exclu dans le titre": 91,
+        "lieu hors zone": 600
+      }
+    },
+    "Genève": {
+      "trouvees": 34,
+      "retenues": 1,
+      "exclues": {
+        "lieu hors zone": 2,
+        "note < 85": 21,
+        "offre trop ancienne": 1,
+        "aucun mot obligatoire": 5,
+        "mot exclu dans le titre": 4
+      }
+    },
+    "Lyon": {
+      "trouvees": 283,
+      "retenues": 28,
+      "exclues": {
+        "mot exclu dans le titre": 37,
+        "note < 85": 135,
+        "lieu hors zone": 36,
+        "offre trop ancienne": 25,
+        "aucun mot obligatoire": 22
+      }
+    },
+    "Haute-Savoie": {
+      "trouvees": 152,
+      "retenues": 3,
+      "exclues": {
+        "note < 85": 93,
+        "mot exclu dans le titre": 26,
+        "offre trop ancienne": 16,
+        "aucun mot obligatoire": 13,
+        "lieu hors zone": 1
+      }
+    }
+  },
+  "prospection": "40 entreprises examinées, 4 nouvelles adresses ; 7 offres et 5 entreprises joignables par e-mail"
 }

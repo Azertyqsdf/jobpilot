@@ -1,0 +1,21 @@
+{
+  "id": "lbb-82913848600032",
+  "folder": "lbb-82913848600032",
+  "auto": true,
+  "title": "Direction d'entreprise / Directeur des opérations",
+  "company": "MAVISUN",
+  "url": "https://www.mavisun.com/",
+  "contactEmail": "contact@mavisun.com",
+  "contactEmailSource": null,
+  "lang": "fr",
+  "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
+  "pdf": true,
+  "sent": "non — envoi automatique désactivé ; e-mail : contact@mavisun.com",
+  "matched": [
+    "Direction commerciale",
+    "Business development",
+    "Management d'équipe"
+  ],
+  "missing": [],
+  "createdAt": "2026-11-23T20:13:37.194Z"
+}

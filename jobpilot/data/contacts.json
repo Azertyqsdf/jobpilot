@@ -435,7 +435,8 @@
   "carre sante beaute": {
     "name": "CARRE SANTE BEAUTE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:14:55.902Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:49.995Z"
   },
   "renovel": {
     "name": "RENOVEL",
@@ -446,7 +447,8 @@
   "aesthetic modeline en abrege ae modelin": {
     "name": "AESTHETIC MODELINE EN ABREGE \"AE MODELIN",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:21.738Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T20:13:13.382Z"
   },
   "societe de publicite audiovisuelle": {
     "name": "SOCIETE DE PUBLICITE AUDIOVISUELLE",
@@ -456,7 +458,8 @@
   "funke france": {
     "name": "FUNKE FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:22.827Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:59.805Z"
   },
   "microcosme": {
     "name": "MICROCOSME",
@@ -487,11 +490,23 @@
   "mavisun": {
     "name": "MAVISUN",
     "website": "https://www.mavisun.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "424761419"
+    ],
+    "generic": {
+      "email": "contact@mavisun.com",
+      "source": "https://www.mavisun.com/contactus"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
     "email": "contact@mavisun.com",
-    "source": "https://www.mavisun.com/",
-    "verified": "SIREN",
-    "kind": "contact",
-    "checkedAt": "2026-11-23T17:15:36.828Z"
+    "source": "https://www.mavisun.com/contactus",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:09:55.879Z"
   },
   "infios france": {
     "name": "INFIOS FRANCE",
@@ -519,9 +534,9 @@
   },
   "samse": {
     "name": "SAMSE",
-    "website": "https://www.samse.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:15:46.978Z"
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:24.620Z"
   },
   "cegedim sante": {
     "name": "CEGEDIM SANTE",
@@ -535,16 +550,24 @@
   "comptoir electrique francais": {
     "name": "COMPTOIR ELECTRIQUE FRANCAIS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:55.202Z"
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:24.402Z"
   },
   "bmra": {
     "name": "BMRA",
     "website": "https://www.bmra.fr/",
-    "email": "contact@bmra.fr",
-    "source": "https://www.bmra.fr/",
-    "verified": "nom",
-    "kind": "contact",
-    "checkedAt": "2026-11-23T17:15:55.560Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "910946326"
+    ],
+    "generic": {
+      "email": "contact@bmra.fr",
+      "source": "https://www.bmra.fr/contact"
+    },
+    "genericVerdict": "grande entreprise (500+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T20:10:26.785Z"
   },
   "amiltone": {
     "name": "Amiltone",
@@ -781,5 +804,295 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-23T19:40:09.956Z"
+  },
+  "bu invest": {
+    "name": "BU INVEST",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:09:44.580Z"
+  },
+  "onika": {
+    "name": "ONIKA",
+    "website": "https://www.onika.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@onika.com",
+      "source": "https://www.onika.com/contact/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@onika.com",
+    "source": "https://www.onika.com/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:09:51.017Z"
+  },
+  "centrakor stores": {
+    "name": "CENTRAKOR STORES",
+    "website": "https://www.centrakor.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "380794511"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:09:51.381Z"
+  },
+  "louna aesthetics": {
+    "name": "LOUNA AESTHETICS",
+    "website": "https://louna-aesthetics.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:09:51.546Z"
+  },
+  "trb chemedica": {
+    "name": "TRB CHEMEDICA",
+    "website": "https://trbchemedica.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@trbchemedica.fr",
+      "source": "https://trbchemedica.fr/mentions-legales/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@trbchemedica.fr",
+    "source": "https://trbchemedica.fr/mentions-legales/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:10:01.541Z"
+  },
+  "mont blanc roasting company": {
+    "name": "MONT BLANC ROASTING COMPANY",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:07.097Z"
+  },
+  "scott sports sa": {
+    "name": "SCOTT SPORTS SA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:10.293Z"
+  },
+  "normal france": {
+    "name": "NORMAL FRANCE",
+    "website": "https://www.normalstores.com/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "844431486"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:10:12.883Z"
+  },
+  "caisse d epargne et de prevoyance de rho": {
+    "name": "CAISSE D'EPARGNE ET DE PREVOYANCE DE RHO",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:18.282Z"
+  },
+  "patagonia europe cooperatief u a succ": {
+    "name": "PATAGONIA EUROPE COOPERATIEF U.A. - SUCC",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:34.607Z"
+  },
+  "dumas menuiserie charpente": {
+    "name": "DUMAS MENUISERIE CHARPENTE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:39.510Z"
+  },
+  "picard surgeles": {
+    "name": "PICARD SURGELES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:54.757Z"
+  },
+  "lalliard": {
+    "name": "LALLIARD",
+    "website": "https://www.lalliard.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "334641958"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:10:57.799Z"
+  },
+  "setam e2": {
+    "name": "SETAM E2",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:10:59.421Z"
+  },
+  "favre d anne": {
+    "name": "FAVRE D'ANNE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:15.592Z"
+  },
+  "syndicat e s f grand bornand": {
+    "name": "SYNDICAT E S F GRAND BORNAND",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:20.191Z"
+  },
+  "chausson materiaux": {
+    "name": "CHAUSSON MATERIAUX",
+    "website": "https://www.chausson.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "528648892",
+      "424761419"
+    ],
+    "generic": {
+      "email": "contact@chausson.fr",
+      "source": "https://www.chausson.fr/contact"
+    },
+    "genericVerdict": "grande entreprise (2000+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-23T20:11:25.462Z"
+  },
+  "blue sark": {
+    "name": "BLUE SARK",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:34.288Z"
+  },
+  "oad thonon": {
+    "name": "OAD THONON",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:35.087Z"
+  },
+  "le verre gourmand": {
+    "name": "LE VERRE GOURMAND",
+    "website": "https://verregourmand.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@verregourmand.com",
+      "source": "https://verregourmand.com/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "info@verregourmand.com",
+    "source": "https://verregourmand.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T20:11:45.103Z"
+  },
+  "syndicat esf les houches": {
+    "name": "SYNDICAT ESF LES HOUCHES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:51.241Z"
+  },
+  "metral passy": {
+    "name": "METRAL PASSY",
+    "website": "https://www.metral-passy.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "605820620"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:11:52.111Z"
+  },
+  "le dauphine libere": {
+    "name": "LE DAUPHINE LIBERE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:11:56.954Z"
+  },
+  "bucci industries france": {
+    "name": "BUCCI INDUSTRIES FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:08.764Z"
+  },
+  "cydis": {
+    "name": "CYDIS",
+    "website": "https://www.cydis.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:12:09.415Z"
+  },
+  "syndicat local e s f combloux": {
+    "name": "SYNDICAT LOCAL E S F COMBLOUX",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:15.501Z"
+  },
+  "mcfly parapente enseignement du parapent": {
+    "name": "MCFLY PARAPENTE ENSEIGNEMENT DU PARAPENT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:16.058Z"
+  },
+  "etablissements plancher": {
+    "name": "ETABLISSEMENTS PLANCHER",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:24.461Z"
+  },
+  "agence francaise d informatique": {
+    "name": "AGENCE FRANCAISE D'INFORMATIQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:33.110Z"
+  },
+  "b ad": {
+    "name": "B-AD",
+    "website": "https://www.b-ad.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "424761419"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:12:40.858Z"
+  },
+  "adm creatiions": {
+    "name": "ADM CREATIIONS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:12:40.861Z"
+  },
+  "sonepar france distribution": {
+    "name": "SONEPAR FRANCE DISTRIBUTION",
+    "website": "https://www.sonepar.fr/fr-fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-23T20:12:56.262Z"
+  },
+  "acm": {
+    "name": "ACM",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-23T20:13:00.722Z"
   }
 }

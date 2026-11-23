@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T19:37:13.518Z",
+ "updatedAt": "2026-11-23T20:09:43.050Z",
  "companies": [
   {
    "id": "lbb-54209790203816",
@@ -829,11 +829,13 @@
    "sector": "Commerce de gros (commerce interentreprises) d'autres biens domestiques",
    "headcount": "",
    "score": 4.073737896,
-   "email": "",
+   "email": "info@onika.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.onika.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.onika.com/contact/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-93147742600023",
@@ -1037,11 +1039,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de produits pharmaceutiques",
    "headcount": "",
    "score": 3.4313458224000004,
-   "email": "",
+   "email": "info@trbchemedica.fr",
    "phone": "",
-   "website": "",
+   "website": "https://trbchemedica.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://trbchemedica.fr/mentions-legales/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-82913848600032",
@@ -1053,11 +1057,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de matériel électrique",
    "headcount": "",
    "score": 3.4003034723,
-   "email": "",
+   "email": "contact@mavisun.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.mavisun.com/",
    "distance": null,
-   "rome": "M1302"
+   "rome": "M1302",
+   "emailSource": "https://www.mavisun.com/contactus",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-84443148601546",
@@ -1837,11 +1843,13 @@
    "sector": "Commerce de gros (commerce interentreprises) non spécialisé",
    "headcount": "",
    "score": 1.88167819335,
-   "email": "",
+   "email": "info@verregourmand.com",
    "phone": "",
-   "website": "",
+   "website": "https://verregourmand.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://verregourmand.com/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-48832465800050",
