@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T17:14:05.800Z",
+ "updatedAt": "2026-11-23T17:17:25.707Z",
  "jobs": [
   {
    "id": "adzuna-5974608493",
@@ -16,6 +16,7 @@
    "salaryMin": 70000,
    "salaryMax": 90000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-22T04:25:26Z",
    "tags": [
     "Unknown"
@@ -32,7 +33,6 @@
    ],
    "status": "ready",
    "firstSeen": "2026-11-23T15:33:21.348Z",
-   "application": "adzuna-5974608493",
    "salaryAnnual": {
     "min": 70000,
     "max": 90000,
@@ -59,6 +59,7 @@
    "salaryMin": 36000,
    "salaryMax": 42000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-20T14:19:04Z",
    "tags": [
     "Emplois Consultants"
@@ -75,7 +76,6 @@
    ],
    "status": "ready",
    "firstSeen": "2026-11-23T15:33:21.348Z",
-   "application": "adzuna-5972922530",
    "salaryAnnual": {
     "min": 36000,
     "max": 42000,
@@ -102,6 +102,7 @@
    "salaryMin": 55000,
    "salaryMax": 70000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-20T14:12:45Z",
    "tags": [
     "Unknown"
@@ -118,7 +119,6 @@
    ],
    "status": "ready",
    "firstSeen": "2026-11-23T15:33:21.348Z",
-   "application": "adzuna-5972903477",
    "salaryAnnual": {
     "min": 55000,
     "max": 70000,
@@ -186,6 +186,7 @@
    "salaryMin": 35000,
    "salaryMax": 70000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T08:16:25Z",
    "tags": [
     "Emplois Autres/Général"
@@ -228,6 +229,7 @@
    "salaryMin": 35000,
    "salaryMax": 70000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T08:16:25Z",
    "tags": [
     "Emplois Autres/Général"
@@ -270,6 +272,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-20T05:52:57Z",
    "tags": [
     "Unknown"
@@ -308,6 +311,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T08:32:48Z",
    "tags": [
     "Unknown"
@@ -346,6 +350,7 @@
    "salaryMin": 40000,
    "salaryMax": 50000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-19T18:00:35Z",
    "tags": [
     "Unknown"
@@ -388,6 +393,7 @@
    "salaryMin": 40000,
    "salaryMax": 50000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T08:16:03Z",
    "tags": [
     "Emplois Vente"
@@ -430,6 +436,7 @@
    "salaryMin": 40000,
    "salaryMax": 50000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-23T14:20:38Z",
    "tags": [
     "Emplois Informatique"
@@ -473,6 +480,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-23T11:18:11Z",
    "tags": [
     "Unknown"
@@ -510,6 +518,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-20T14:22:42Z",
    "tags": [
     "Emplois Consultants"
@@ -546,6 +555,7 @@
    "salaryMin": 90000,
    "salaryMax": 110000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T14:12:20Z",
    "tags": [
     "Emplois Autres/Général"
@@ -587,6 +597,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T09:13:41Z",
    "tags": [
     "Unknown"
@@ -623,6 +634,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-21T08:32:31Z",
    "tags": [
     "Unknown"
@@ -659,6 +671,7 @@
    "salaryMin": 28000,
    "salaryMax": 40000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-19T08:23:20Z",
    "tags": [
     "Emplois Vente"
@@ -700,6 +713,7 @@
    "salaryMin": 40000,
    "salaryMax": 65000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-20T18:07:50Z",
    "tags": [
     "Unknown"
@@ -741,6 +755,7 @@
    "salaryMin": 36000,
    "salaryMax": 50000,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-23T04:25:29Z",
    "tags": [
     "Unknown"
@@ -852,6 +867,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-19T00:09:34Z",
    "tags": [
     "Unknown"
@@ -888,6 +904,7 @@
    "salaryMin": null,
    "salaryMax": null,
    "salaryPredicted": false,
+   "salaryCurrency": "EUR",
    "postedAt": "2026-11-23T14:11:48Z",
    "tags": [
     "Emplois Vente"

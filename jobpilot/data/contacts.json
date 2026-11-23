@@ -1,67 +1,72 @@
 {
   "local fr": {
     "name": "Local.fr",
-    "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:08:48.910Z"
+    "website": "https://www.local.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:31.200Z"
   },
   "uptoo": {
     "name": "UPTOO",
     "website": "https://uptoo.fr/",
-    "source": "https://uptoo.fr/recrutement/",
-    "verified": "nom",
-    "checkedAt": "2026-11-23T17:08:49.325Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:29.459Z"
   },
   "pepite conseil": {
     "name": "PEPITE CONSEIL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:08:50.254Z"
+    "checkedAt": "2026-11-23T17:17:36.230Z"
   },
   "ntn snr": {
     "name": "NTN SNR",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:08:57.491Z"
+    "checkedAt": "2026-11-23T17:17:37.749Z"
   },
   "de graet consulting": {
     "name": "DE GRAËT CONSULTING",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:08:58.088Z"
+    "checkedAt": "2026-11-23T17:17:55.756Z"
   },
   "mercato de l emploi": {
     "name": "Mercato de l'Emploi",
     "website": "https://www.mercato-emploi.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:09:00.417Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:42.203Z"
   },
   "findyourstaff": {
     "name": "Findyourstaff",
     "website": "https://findyourstaff.com/",
-    "source": "https://findyourstaff.com/",
-    "verified": "nom",
-    "checkedAt": "2026-11-23T17:09:01.695Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:40.205Z"
   },
   "atypique": {
     "name": "Atypique",
     "website": "https://www.atypique.ch/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:09:11.447Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:51.165Z"
   },
   "potentiel": {
     "name": "POTENTIEL",
     "website": "https://www.potentiel.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:09:12.081Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:52.855Z"
   },
   "m j trusted partners": {
     "name": "M&J TRUSTED PARTNERS",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:09:12.152Z"
+    "checkedAt": "2026-11-23T17:17:56.569Z"
   },
   "talents commerciaux": {
     "name": "talents commerciaux",
     "website": "https://www.talentscommerciaux.fr/",
-    "source": "https://www.talentscommerciaux.fr/emplois/",
-    "verified": "nom",
-    "checkedAt": "2026-11-23T17:09:13.730Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:41.149Z"
   },
   "sonarsource": {
     "name": "Sonarsource",
@@ -72,77 +77,85 @@
   "prospactive": {
     "name": "PROSPACTIVE",
     "website": "https://www.prospactive.com/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:10:40.904Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:54.998Z"
   },
   "team is": {
     "name": "Team.Is",
     "website": "https://team-is.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:10:43.051Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:00.636Z"
   },
   "adsearch": {
     "name": "ADSEARCH",
     "website": "https://www.adsearch.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:10:43.460Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:05.364Z"
   },
   "epsa innovation": {
     "name": "EPSA Innovation",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:10:45.370Z"
+    "checkedAt": "2026-11-23T17:18:03.705Z"
   },
   "agicap": {
     "name": "Agicap",
     "website": "https://agicap.com/en-us/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:10:46.006Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:06.251Z"
   },
   "alan": {
     "name": "Alan",
     "website": "https://alan.com/",
-    "source": "https://alan.com/en/careers",
-    "verified": "nom",
-    "checkedAt": "2026-11-23T17:10:46.130Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:06.825Z"
   },
   "manpower": {
     "name": "Manpower",
     "website": "https://www.manpower.com/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:10:46.927Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:17:59.879Z"
   },
   "doctolib": {
     "name": "Doctolib",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:11:11.534Z"
+    "checkedAt": "2026-11-23T17:18:32.693Z"
   },
   "voluntae": {
     "name": "VOLUNTAE",
     "website": "https://voluntae.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:11:14.485Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:09.992Z"
   },
   "sogelink": {
     "name": "SOGELINK",
     "website": "https://www.sogelink.com/fr-fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:11:14.608Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:37.358Z"
   },
   "plg": {
     "name": "PLG",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:11:24.618Z"
+    "checkedAt": "2026-11-23T17:18:45.278Z"
   },
   "bnp paribas personal finance": {
     "name": "BNP PARIBAS PERSONAL FINANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:11:37.026Z"
+    "checkedAt": "2026-11-23T17:18:57.717Z"
   },
   "naos": {
     "name": "NAOS",
     "website": "https://naos.com/fr-FR",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:11:40.735Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 2,
+    "checkedAt": "2026-11-23T17:18:37.435Z"
   },
   "comodis": {
     "name": "COMODIS",
@@ -154,7 +167,7 @@
   "societe generale": {
     "name": "SOCIETE GENERALE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:11:41.643Z"
+    "checkedAt": "2026-11-23T17:19:02.037Z"
   },
   "fiducial informatique": {
     "name": "FIDUCIAL INFORMATIQUE",
