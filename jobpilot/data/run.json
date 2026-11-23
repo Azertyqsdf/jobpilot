@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-23T16:58:59.821Z",
+  "startedAt": "2026-11-23T17:10:09.448Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
@@ -8,8 +8,9 @@
     "laBonneBoite": "erreur : refus de l'API (recherche 500 / company 403)"
   },
   "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 429, gemini-3.7-flash: 503, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-23T16:59:30.550Z",
+  "finishedAt": "2026-11-23T17:10:38.434Z",
   "fetched": 1289,
-  "unique": 1105,
-  "kept": 24
+  "unique": 1106,
+  "kept": 23,
+  "prospection": "25 entreprises examinées, 5 nouvelles adresses ; 5 offres et 4 entreprises joignables par e-mail"
 }

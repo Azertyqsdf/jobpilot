@@ -71,5 +71,156 @@
     "website": "https://www.sonarsource.com/",
     "reason": "aucune adresse de recrutement ou de contact publiée",
     "checkedAt": "2026-11-23T17:09:15.080Z"
+  },
+  "prospactive": {
+    "name": "PROSPACTIVE",
+    "website": "https://www.prospactive.com/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:10:40.904Z"
+  },
+  "team is": {
+    "name": "Team.Is",
+    "website": "https://team-is.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:10:43.051Z"
+  },
+  "adsearch": {
+    "name": "ADSEARCH",
+    "website": "https://www.adsearch.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:10:43.460Z"
+  },
+  "epsa innovation": {
+    "name": "EPSA Innovation",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:10:45.370Z"
+  },
+  "agicap": {
+    "name": "Agicap",
+    "website": "https://agicap.com/en-us/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:10:46.006Z"
+  },
+  "alan": {
+    "name": "Alan",
+    "website": "https://alan.com/",
+    "email": "contact@alan.com",
+    "source": "https://alan.com/en/careers",
+    "verified": "nom",
+    "checkedAt": "2026-11-23T17:10:46.130Z"
+  },
+  "manpower": {
+    "name": "Manpower",
+    "website": "https://www.manpower.com/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:10:46.927Z"
+  },
+  "doctolib": {
+    "name": "Doctolib",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:11:11.534Z"
+  },
+  "voluntae": {
+    "name": "VOLUNTAE",
+    "website": "https://voluntae.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:11:14.485Z"
+  },
+  "sogelink": {
+    "name": "SOGELINK",
+    "website": "https://www.sogelink.com/fr-fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:11:14.608Z"
+  },
+  "plg": {
+    "name": "PLG",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:11:24.618Z"
+  },
+  "bnp paribas personal finance": {
+    "name": "BNP PARIBAS PERSONAL FINANCE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:11:37.026Z"
+  },
+  "naos": {
+    "name": "NAOS",
+    "website": "https://naos.com/fr-FR",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:11:40.735Z"
+  },
+  "comodis": {
+    "name": "COMODIS",
+    "website": "https://comodis.eu/",
+    "email": "contact@comodis.eu",
+    "source": "https://comodis.eu/",
+    "verified": "SIREN",
+    "checkedAt": "2026-11-23T17:11:41.425Z"
+  },
+  "societe generale": {
+    "name": "SOCIETE GENERALE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:11:41.643Z"
+  },
+  "fiducial informatique": {
+    "name": "FIDUCIAL INFORMATIQUE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:12:07.237Z"
+  },
+  "groupe seb france": {
+    "name": "GROUPE SEB FRANCE",
+    "website": "https://www.seb.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:12:08.309Z"
+  },
+  "isoskele": {
+    "name": "ISOSKELE",
+    "website": "https://isoskele.fr/",
+    "email": "contact@isoskele.fr",
+    "source": "https://isoskele.fr/contact/",
+    "verified": "SIREN",
+    "checkedAt": "2026-11-23T17:12:11.543Z"
+  },
+  "lease protect france": {
+    "name": "LEASE PROTECT FRANCE",
+    "website": "https://www.leaseprotect.fr/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:12:12.090Z"
+  },
+  "dcarte engineering sa": {
+    "name": "DCARTE ENGINEERING SA",
+    "website": "https://dcarteengineering.com/",
+    "reason": "aucune adresse de recrutement ou de contact publiée",
+    "checkedAt": "2026-11-23T17:12:14.451Z"
+  },
+  "14 septembre": {
+    "name": "14 SEPTEMBRE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:12:16.982Z"
+  },
+  "banque de france": {
+    "name": "BANQUE DE FRANCE",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:12:18.747Z"
+  },
+  "trading el": {
+    "name": "TRADING EL",
+    "reason": "site officiel introuvable",
+    "checkedAt": "2026-11-23T17:12:19.508Z"
+  },
+  "eolys beaute": {
+    "name": "EOLYS BEAUTE",
+    "website": "https://www.eolys-beaute.com/",
+    "email": "contact@eolys-beaute.com",
+    "source": "https://www.eolys-beaute.com/",
+    "verified": "SIREN",
+    "checkedAt": "2026-11-23T17:12:20.700Z"
+  },
+  "deliveroo france sas": {
+    "name": "DELIVEROO FRANCE SAS",
+    "website": "https://deliveroo.fr/fr/",
+    "email": "hello@deliveroo.fr",
+    "source": "https://deliveroo.fr/fr/",
+    "verified": "SIREN",
+    "checkedAt": "2026-11-23T17:12:22.476Z"
   }
 }

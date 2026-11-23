@@ -107,11 +107,12 @@
    "sector": "Commerce de gros (commerce interentreprises) de vaisselle, verrerie et produits d'entretien",
    "headcount": "",
    "score": 15.61737156,
-   "email": "",
+   "email": "contact@comodis.eu",
    "phone": "",
-   "website": "",
+   "website": "https://comodis.eu/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://comodis.eu/"
   },
   {
    "id": "lbb-41506834500149",
@@ -123,11 +124,12 @@
    "sector": "Conseil en relations publiques et communication",
    "headcount": "",
    "score": 15.185896507100002,
-   "email": "",
+   "email": "contact@isoskele.fr",
    "phone": "",
-   "website": "",
+   "website": "https://isoskele.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://isoskele.fr/contact/"
   },
   {
    "id": "lbb-44041063700142",
@@ -187,11 +189,12 @@
    "sector": "Commerce de gros (commerce interentreprises) de parfumerie et de produits de beauté",
    "headcount": "",
    "score": 9.520441563599999,
-   "email": "",
+   "email": "contact@eolys-beaute.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.eolys-beaute.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.eolys-beaute.com/"
   },
   {
    "id": "lbb-41395864600080",
@@ -251,11 +254,12 @@
    "sector": "Portails Internet",
    "headcount": "",
    "score": 6.6755857194,
-   "email": "",
+   "email": "hello@deliveroo.fr",
    "phone": "",
-   "website": "",
+   "website": "https://deliveroo.fr/fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://deliveroo.fr/fr/"
   },
   {
    "id": "lbb-95752175000167",
