@@ -1,31 +1,31 @@
 {
-  "startedAt": "2026-11-24T14:01:51.838Z",
+  "startedAt": "2026-11-24T14:38:30.975Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
-    "adzuna": "erreur : 502 Bad Gateway — https://api.adzuna.com/v1/api/jobs/fr/search/1",
+    "adzuna": "715 offres",
     "manuel": "1 offre(s)",
     "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-24T14:02:52.980Z",
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 429, gemini-3.7-flash: 503, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-24T14:39:32.664Z",
   "fetched": 1706,
-  "unique": 1437,
+  "unique": 1444,
   "kept": 103,
   "zones": {
     "autres": {
-      "trouvees": 858,
+      "trouvees": 865,
       "retenues": 0,
       "exclues": {
-        "aucun mot obligatoire": 185,
-        "lieu hors zone": 562,
+        "lieu hors zone": 566,
+        "aucun mot obligatoire": 188,
         "mot exclu dans le titre": 111
       }
     },
     "Lyon": {
-      "trouvees": 8,
-      "retenues": 2,
+      "trouvees": 321,
+      "retenues": 78,
       "exclues": {
         "note < 75": 126,
         "aucun mot obligatoire": 26,
@@ -56,5 +56,6 @@
       }
     }
   },
-  "prospection": "0 entreprises examinées, 0 nouvelles adresses ; 17 offres et 15 entreprises joignables par e-mail"
+  "prospection": "0 entreprises examinées, 0 nouvelles adresses ; 17 offres et 15 entreprises joignables par e-mail",
+  "reponses": "0 réponse(s) suivie(s)"
 }
