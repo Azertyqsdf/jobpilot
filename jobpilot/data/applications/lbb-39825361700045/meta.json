@@ -1,7 +1,7 @@
 {
   "id": "lbb-39825361700045",
   "folder": "lbb-39825361700045",
-  "auto": true,
+  "auto": false,
   "title": "Stratégie et développement commercial",
   "company": "AIGA",
   "url": "https://www.aiga.fr/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : recrutement@aiga.fr",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Pilotage stratégique"
   ],
   "missing": [],
-  "createdAt": "2026-11-24T13:52:54.488Z"
+  "createdAt": "2026-11-24T13:54:48.207Z"
 }

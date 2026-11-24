@@ -1,7 +1,7 @@
 {
   "id": "lbb-84991769500041",
   "folder": "lbb-84991769500041",
-  "auto": true,
+  "auto": false,
   "title": "Responsable grands comptes / Business developer",
   "company": "MY DIGITAL BUILDINGS",
   "url": "https://www.mydigitalbuildings.com/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : recrutement@mydigitalbuildings.com",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Négociation grands comptes"
   ],
   "missing": [],
-  "createdAt": "2026-11-24T13:52:59.238Z"
+  "createdAt": "2026-11-24T13:54:56.561Z"
 }
