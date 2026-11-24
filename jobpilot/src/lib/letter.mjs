@@ -19,16 +19,24 @@ export function templateLetter(profile, job, cv) {
   const skills = cv.matched.slice(0, 4);
   const lines = [
     `${firstName} ${lastName}`, city, email, phone, '',
-    job.spontaneous ? 'Objet : candidature spontanée' : `Objet : candidature — ${job.title}`, '',
+    job.spontaneous ? 'Objet : candidature spontanée' : `Objet : candidature — ${job.title}${job.reference ? ` (réf. ${job.reference})` : ''}`, '',
     'Madame, Monsieur,', '',
     job.spontaneous
       ? `Je me permets de vous adresser ma candidature spontanée : ${job.company} correspond au type d'entreprise dans laquelle je souhaite m'investir, et mon profil (${cv.title}) pourrait vous être utile.`
-      : `Votre offre « ${job.title} » chez ${job.company} a retenu toute mon attention : elle correspond précisément à mon profil : ${cv.title}.`,
+      : job.viaAgency
+        ? `Votre annonce « ${job.title} », publiée pour le compte de l'un de vos clients, a retenu toute mon attention : elle correspond précisément à mon profil : ${cv.title}.`
+        : job.viaPlatform
+          ? `Votre offre « ${job.title} » a retenu toute mon attention : elle correspond précisément à mon profil : ${cv.title}.`
+          : `Votre offre « ${job.title} » chez ${job.company} a retenu toute mon attention : elle correspond précisément à mon profil : ${cv.title}.`,
     '',
     skills.length && !job.spontaneous ? `Vous recherchez notamment des compétences en ${skills.join(', ')} ; voici ce que j'ai concrètement réalisé :` : 'Voici quelques réalisations concrètes :',
     ...proofs.map(p => `• ${p.text.replace(/\.$/, '')} (${p.company}).`),
     '',
-    motivation ? `Ce qui me motive avant tout : ${motivation}. C'est ce que je viens chercher chez ${job.company}.` : `Je souhaite mettre cette expérience au service de ${job.company}.`,
+    job.viaAgency
+      ? (motivation ? `Ce qui me motive avant tout : ${motivation}. C'est ce que je recherche dans ce poste, et je serais ravi d'en savoir plus sur l'entreprise que vous accompagnez.` : `Je serais ravi d'en savoir plus sur l'entreprise que vous accompagnez.`)
+      : job.viaPlatform
+        ? (motivation ? `Ce qui me motive avant tout : ${motivation}. C'est ce que je viens chercher dans ce poste.` : 'Je souhaite mettre cette expérience au service de votre entreprise.')
+        : (motivation ? `Ce qui me motive avant tout : ${motivation}. C'est ce que je viens chercher chez ${job.company}.` : `Je souhaite mettre cette expérience au service de ${job.company}.`),
     '',
     "Mon CV détaillé est joint.",
     "Je suis disponible pour en échanger avec vous lors d'un entretien.",
@@ -68,7 +76,7 @@ export async function aiLetter(profile, job, cv, lang, env) {
   const prompt = `Tu rédiges une lettre de motivation en ${langName}, 180 à 250 mots, ton sincère et direct, sans formules creuses.
 RÈGLE ABSOLUE : n'utilise QUE les faits du JSON ci-dessous. N'invente aucun chiffre, aucune entreprise, aucune compétence, aucune expérience, aucun diplôme.
 Si l'offre demande quelque chose qui n'est pas dans les faits, n'en parle pas. Tu peux traduire les faits fidèlement.
-Mentionne simplement que le CV est joint. Ne parle d'aucune vidéo, animation ni film.
+${job.viaAgency ? "L'offre est publiée par un CABINET DE RECRUTEMENT pour le compte d'un client : adresse-toi au cabinet (« votre client », « l'entreprise que vous accompagnez »), ne présente pas le cabinet comme l'employeur." : "L'offre est publiée directement par l'employeur : adresse-toi à l'entreprise."}\nMentionne simplement que le CV est joint. Ne parle d'aucune vidéo, animation ni film.
 Commence par l'objet, puis la formule d'appel, termine par la signature (prénom nom). Texte brut, pas de markdown.
 
 FAITS (vrais) :

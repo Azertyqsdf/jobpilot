@@ -145,7 +145,7 @@ for (const id of ids) {
     try {
       sent = await sendMail({
         to: job.contactEmail,
-        subject: job.spontaneous ? `Candidature spontanée — ${name}` : `Candidature — ${job.title} — ${name}`,
+        subject: job.spontaneous ? `Candidature spontanée — ${name}` : `Candidature — ${job.title}${job.reference ? ` (réf. ${job.reference})` : ''} — ${name}`,
         text: letter,
         attachments: [
           { filename: `CV - ${name}.pdf`, path: fileURLToPath(new URL('cv.pdf', dir)) },

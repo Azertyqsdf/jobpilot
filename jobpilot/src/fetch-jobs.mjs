@@ -7,6 +7,7 @@ import { scoreJob } from './lib/match.mjs';
 import { normalize, hasPrefix } from './lib/text.mjs';
 import { laBonneBoite } from './sources/labonneboite.mjs';
 import { annualSalary } from './lib/salary.mjs';
+import { whoRecruits, offerReference } from './lib/recruiter.mjs';
 import { extractiveSummary, aiSummaries } from './lib/summary.mjs';
 
 const root = new URL('..', import.meta.url);
@@ -78,6 +79,8 @@ for (const j of kept) {
 // Salaire annuel (toujours affiché, « non indiqué » si l'offre ne le donne pas) et résumé rapide.
 for (const j of kept) {
   j.salaryAnnual = annualSalary(j);
+  const w = whoRecruits(j); j.viaAgency = w.viaAgency; j.viaPlatform = !!w.platform; j.recruiterWhy = w.why;
+  j.reference = j.reference || offerReference(j);
   const prev = prevById.get(j.id);
   if (!j.summary) j.summary = prev?.summaryAi ? prev.summary : null;
   if (prev?.summaryAi && j.summary) j.summaryAi = true;

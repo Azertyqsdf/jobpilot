@@ -146,7 +146,7 @@ export async function adzuna(prefs, env) {
         remote: /remote|t[ée]l[ée]travail/i.test(description + x.title),
         url: x.redirect_url,
         description,
-        contactEmail: null,
+        contactEmail: findEmail(description), // adresse citée dans l'annonce, s'il y en a une
         contract: [x.contract_type, x.contract_time].filter(Boolean).join(', '),
         salary: x.salary_min ? `${Math.round(x.salary_min)}–${Math.round(x.salary_max || x.salary_min)} ${ctry === 'ch' ? 'CHF' : '€'}` : '',
         salaryMin: x.salary_min || null,

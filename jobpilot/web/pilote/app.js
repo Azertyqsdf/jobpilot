@@ -366,7 +366,7 @@ function jobCard(j) {
     <div class="score" style="--s:${j.score}">${j.score}</div>
     <div class="body">
       <h3>${esc(j.title)}</h3>
-      <div class="meta">${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''}${j.contract ? ` · ${esc(j.contract)}` : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${/@/.test(j.contactEmail || '') ? ` · ✉️ ${esc(j.contactEmail)}${j.contactEmailWhy ? ` <span class="muted">(${esc(j.contactEmailWhy)})</span>` : ''}` : ''}</div>
+      <div class="meta">${j.viaAgency ? '<span class="chip" title="Publiée par un cabinet de recrutement pour un client">via cabinet</span> ' : j.viaPlatform ? '<span class="chip" title="Employeur non nommé">site d\'annonces</span> ' : ''}${esc(j.company)} · ${esc(j.location || '—')}${j.remote ? ' · télétravail' : ''}${j.contract ? ` · ${esc(j.contract)}` : ''} · ${esc(j.source)} · ${fmtDay(j.postedAt)}${/@/.test(j.contactEmail || '') ? ` · ✉️ ${esc(j.contactEmail)}${j.contactEmailWhy ? ` <span class="muted">(${esc(j.contactEmailWhy)})</span>` : ''}` : ''}</div>
       <div class="salary${j.salaryAnnual?.known ? '' : ' unknown'}">💰 ${esc(j.salaryAnnual?.label || 'Salaire annuel non indiqué')}</div>
       <p class="summary">${esc(j.summary || '')}</p>
       <div class="chips">${(j.matchedSkills || []).map(s => `<span class="chip gold">${esc(s)}</span>`).join('')}</div>

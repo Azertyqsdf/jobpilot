@@ -74,6 +74,7 @@ const usable = c => c?.email && c.v === 3 && (c.kind === 'recrutement' || c.kind
 let jobsWith = 0, compWith = 0;
 for (const j of jobsDb.jobs) {
   const c = cache[key(j.company)];
+  if (c?.isRecruiter && !j.viaAgency) { j.viaAgency = true; j.recruiterWhy = "le site de l'annonceur présente un cabinet de recrutement"; }
   if (!isEmail(j.contactEmail) && usable(c)) { j.contactEmail = c.email; j.contactEmailSource = c.source; j.contactEmailWhy = c.why || 'adresse de recrutement'; }
   if (isEmail(j.contactEmail)) jobsWith++;
 }
