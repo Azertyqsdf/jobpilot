@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-24T13:48:33.797Z",
+  "startedAt": "2026-11-24T13:55:11.838Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
@@ -8,29 +8,29 @@
     "manuel": "1 offre(s)",
     "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 503, gemini-3.8-flash: 503, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-24T13:49:37.054Z",
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 503, gemini-3.8-flash: 503, gemini-3.7-flash: 503))",
+  "finishedAt": "2026-11-24T13:56:37.639Z",
   "fetched": 1706,
   "unique": 1448,
-  "kept": 106,
+  "kept": 103,
   "zones": {
     "autres": {
       "trouvees": 869,
       "retenues": 0,
       "exclues": {
-        "aucun mot obligatoire": 200,
-        "lieu hors zone": 573,
-        "mot exclu dans le titre": 96
+        "aucun mot obligatoire": 197,
+        "lieu hors zone": 566,
+        "mot exclu dans le titre": 106
       }
     },
     "Lyon": {
       "trouvees": 321,
-      "retenues": 81,
+      "retenues": 78,
       "exclues": {
-        "note < 75": 127,
+        "note < 75": 125,
         "aucun mot obligatoire": 27,
-        "mot exclu dans le titre": 38,
-        "offre trop ancienne": 12,
+        "mot exclu dans le titre": 44,
+        "offre trop ancienne": 11,
         "lieu hors zone": 36
       }
     },
@@ -48,13 +48,13 @@
       "trouvees": 212,
       "retenues": 13,
       "exclues": {
-        "note < 75": 149,
-        "mot exclu dans le titre": 20,
+        "note < 75": 142,
+        "mot exclu dans le titre": 27,
         "aucun mot obligatoire": 18,
         "offre trop ancienne": 7,
         "lieu hors zone": 5
       }
     }
   },
-  "prospection": "40 entreprises examinées, 8 nouvelles adresses ; 18 offres et 10 entreprises joignables par e-mail"
+  "prospection": "23 entreprises examinées, 5 nouvelles adresses ; 17 offres et 15 entreprises joignables par e-mail"
 }

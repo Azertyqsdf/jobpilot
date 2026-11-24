@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T13:49:37.053Z",
+ "updatedAt": "2026-11-24T13:56:37.637Z",
  "companies": [
   {
    "id": "lbb-54209790203816",
@@ -2047,11 +2047,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 1.6071378788500001,
-   "email": "",
+   "email": "contact@neocamino.com",
    "phone": "",
-   "website": "",
+   "website": "https://neocamino.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://neocamino.com/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-53204798200030",
@@ -2127,11 +2129,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 1.46804104105,
-   "email": "",
+   "email": "bonjour@paruvendu.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.paruvendu.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.paruvendu.fr/pa/informations-legales",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-78493968808265",
@@ -2255,11 +2259,13 @@
    "sector": "Commerce de gros (commerce interentreprises) d'autres biens domestiques",
    "headcount": "",
    "score": 1.327289793,
-   "email": "",
+   "email": "contact@solmurdistribution.fr",
    "phone": "",
-   "website": "",
+   "website": "https://solmurdistribution.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://solmurdistribution.fr/contact.html",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-42109808801087",
@@ -2383,11 +2389,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le génie civil",
    "headcount": "",
    "score": 1.1041921744,
-   "email": "",
+   "email": "contact@sky-walk-scaffolding.com",
    "phone": "",
-   "website": "",
+   "website": "https://sky-walk-scaffolding.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "http://sky-walk-scaffolding.com/contactez-nous/",
+   "emailWhy": "petite entreprise (3 à 9 salariés)"
   },
   {
    "id": "lbb-05650309700828",
@@ -2687,11 +2695,13 @@
    "sector": "Production de films institutionnels et publicitaires",
    "headcount": "",
    "score": 0.58015532175,
-   "email": "",
+   "email": "contact@viastoria.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.viastoria.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.viastoria.com/mentions/politique-de-confidentialite",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-52447813800125",

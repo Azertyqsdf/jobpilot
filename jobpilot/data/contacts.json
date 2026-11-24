@@ -1839,5 +1839,267 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-24T13:52:15.919Z"
+  },
+  "magiclife": {
+    "name": "MAGICLIFE",
+    "website": "https://www.magiclife.com/de/de/home/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:56:47.002Z"
+  },
+  "paruvendu fr": {
+    "name": "PARUVENDU.FR",
+    "website": "https://www.paruvendu.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "320916109",
+      "593209161"
+    ],
+    "generic": {
+      "email": "bonjour@paruvendu.fr",
+      "source": "https://www.paruvendu.fr/pa/informations-legales"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "bonjour@paruvendu.fr",
+    "source": "https://www.paruvendu.fr/pa/informations-legales",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:56:47.626Z"
+  },
+  "neocamino": {
+    "name": "NEOCAMINO",
+    "website": "https://neocamino.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@neocamino.com",
+      "source": "https://neocamino.com/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@neocamino.com",
+    "source": "https://neocamino.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:56:47.741Z"
+  },
+  "verycook": {
+    "name": "VERYCOOK",
+    "website": "https://www.verycook.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "532047982"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:56:56.013Z"
+  },
+  "wmh project": {
+    "name": "WMH PROJECT",
+    "website": "https://wmhproject.com/fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "402423420",
+      "391325792"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:56:57.350Z"
+  },
+  "solmur distribution": {
+    "name": "SOLMUR DISTRIBUTION",
+    "website": "https://solmurdistribution.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "495129371"
+    ],
+    "generic": {
+      "email": "contact@solmurdistribution.fr",
+      "source": "https://solmurdistribution.fr/contact.html"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@solmurdistribution.fr",
+    "source": "https://solmurdistribution.fr/contact.html",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:56:58.410Z"
+  },
+  "dn d": {
+    "name": "DN'D",
+    "website": "https://www.dnd.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:57:00.556Z"
+  },
+  "adobe systems france sas": {
+    "name": "ADOBE SYSTEMS FRANCE SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:21.455Z"
+  },
+  "le froid": {
+    "name": "LE FROID",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:24.365Z"
+  },
+  "comptoir de location": {
+    "name": "COMPTOIR DE LOCATION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:26.816Z"
+  },
+  "aceto france sas": {
+    "name": "ACETO FRANCE SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:46.994Z"
+  },
+  "thiriet magasins": {
+    "name": "THIRIET MAGASINS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:51.776Z"
+  },
+  "nomendum": {
+    "name": "NOMENDUM",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:57:52.619Z"
+  },
+  "everwin": {
+    "name": "EVERWIN",
+    "website": "https://www.everwin.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:57:52.872Z"
+  },
+  "destock prix": {
+    "name": "DESTOCK PRIX",
+    "website": "https://destockprix.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "155674575"
+    ],
+    "generic": {
+      "email": "contact@destockprix.fr",
+      "source": "https://destockprix.fr/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-24T13:57:55.905Z"
+  },
+  "sky walk scaffolding": {
+    "name": "SKY WALK SCAFFOLDING",
+    "website": "https://sky-walk-scaffolding.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "515024206",
+      "431303775"
+    ],
+    "generic": {
+      "email": "contact@sky-walk-scaffolding.com",
+      "source": "http://sky-walk-scaffolding.com/contactez-nous/"
+    },
+    "genericVerdict": "petite entreprise (3 à 9 salariés)",
+    "email": "contact@sky-walk-scaffolding.com",
+    "source": "http://sky-walk-scaffolding.com/contactez-nous/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (3 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:57:59.850Z"
+  },
+  "teazit": {
+    "name": "TEAZIT",
+    "website": "https://teazit.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:58:03.902Z"
+  },
+  "manufatess distribution 69": {
+    "name": "MANUFATESS DISTRIBUTION 69",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:58:03.971Z"
+  },
+  "l or en cash": {
+    "name": "L'OR EN CASH",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:58:10.618Z"
+  },
+  "arcelormittal distribution solutions fra": {
+    "name": "ARCELORMITTAL DISTRIBUTION SOLUTIONS FRA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:58:17.159Z"
+  },
+  "via storia": {
+    "name": "VIA STORIA",
+    "website": "https://www.viastoria.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "377817333"
+    ],
+    "generic": {
+      "email": "contact@viastoria.com",
+      "source": "https://www.viastoria.com/mentions/politique-de-confidentialite"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@viastoria.com",
+    "source": "https://www.viastoria.com/mentions/politique-de-confidentialite",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:58:18.943Z"
+  },
+  "izipizi": {
+    "name": "IZIPIZI",
+    "website": "https://www.izipizi.com/fr-fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "524478138"
+    ],
+    "generic": {
+      "email": "contact@izipizi.com",
+      "source": "https://www.izipizi.com/fr-fr/policies/legal-notice"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-24T13:58:21.895Z"
+  },
+  "quadient france": {
+    "name": "QUADIENT FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:58:31.021Z"
   }
 }

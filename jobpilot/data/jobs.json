@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T13:49:37.054Z",
+ "updatedAt": "2026-11-24T13:56:37.639Z",
  "jobs": [
   {
    "tags": [
@@ -181,6 +181,52 @@
    },
    "summary": "Le terrain de jeu Rattaché(e) au Directeur commercial , vous êtes le relais terrain de la stratégie export sur trois marchés clés d'Europe du Sud — Espagne, Italie et Portugal . Un poste pour les profils qui aiment autant la route que les résultats.",
    "contactEmailSource": "https://findyourstaff.com/contact",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
+   "id": "adzuna-5977145847",
+   "source": "Adzuna",
+   "title": "Responsable Commercial (H/F)",
+   "company": "Talents Executive",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5977145847?utm_medium=api&utm_source=d81896fb",
+   "description": "En tant que Responsable Commercial, vous êtes chargé de développer la prise d'affaires en mettant en oeuvre la stratégie commerciale mise en place au sein de l'agence. Rattaché hiérarchiquement au Chef d'agence, vos missions seront les suivantes : A ce titre vos principales missions seront de : Participer activement à la prise d'un volume d'affaires D'assurer la prospection commerciale, la détection et le ciblage des opérations en amont D'assurer le déploiement opérationnel sur tout votre terri…",
+   "contactEmail": "contact@talentsexecutive.fr",
+   "contract": "permanent, full_time",
+   "salary": "50000–60000 €",
+   "salaryMin": 50000,
+   "salaryMax": 60000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-24T14:14:18Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 98,
+   "reasons": [
+    "Compétences : Direction commerciale, Prospection B2B, Pilotage stratégique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Prospection B2B",
+    "Pilotage stratégique"
+   ],
+   "status": "sent",
+   "firstSeen": "2026-11-24T13:48:33.797Z",
+   "application": "adzuna-5977145847",
+   "salaryAnnual": {
+    "min": 50000,
+    "max": 60000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "50 k–60 k € / an"
+   },
+   "summary": "En tant que Responsable Commercial, vous êtes chargé de développer la prise d'affaires en mettant en oeuvre la stratégie commerciale mise en place au sein de l'agence.",
+   "contactEmailSource": "https://www.talentsexecutive.fr/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
@@ -524,7 +570,7 @@
    "company": "Local.fr",
    "location": "Thonon-les-Bains, Haute-Savoie",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5976635027?se=pFcBvw3o8RG0cJDEg-4TVA&utm_medium=api&utm_source=d81896fb&v=EBE9461BF157794F7FBA9F77D95BB08BC417F9AB",
+   "url": "https://www.adzuna.fr/land/ad/5976635027?se=yA00rA7o8RG0cJDEg-4TVA&utm_medium=api&utm_source=d81896fb&v=EBE9461BF157794F7FBA9F77D95BB08BC417F9AB",
    "description": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à la prospection active de contacts clients. (pige, prospection téléphonique, parrainage etc) - Développer son activité comme un réel centre de profits, en démarchant et concrétisant…",
    "contactEmail": null,
    "contract": "full_time",
@@ -947,7 +993,7 @@
    "company": "PEPITE CONSEIL",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973742723?se=CGxxwg3o8RGwcum-DFytLA&utm_medium=api&utm_source=d81896fb&v=F309D0151685043420781D6759A1EDFADB5FA0FB",
+   "url": "https://www.adzuna.fr/land/ad/5973742723?se=rodxrw7o8RG0cJDEg-4TVA&utm_medium=api&utm_source=d81896fb&v=F309D0151685043420781D6759A1EDFADB5FA0FB",
    "description": "Rattaché à la Direction Commerciale Europe basée en France, au sein d'une équipe d'une 15ne de collaborateurs commerciaux, vous serez en charge d'une zone Europe du Nord (Benelux, zone DACH, Scandinavie, pays de l'est). Vos principales missions : * Suivre et développer les relations avec les grands comptes clés européens de la Piscine, * Renforcer les référencements des acteurs traditionnels du négoce piscinier, des réseaux sous enseigne, des réseaux indépendants mais également des comptes e-co…",
    "contactEmail": null,
    "contract": "permanent",
@@ -1400,51 +1446,6 @@
    "summary": "Poste basé dans l'est lyonnais nécessitant des déplacements réguliers. Rattaché à la direction générale, le Directeur Commercial définit, anime et supervise la stratégie commerciale mise en œuvre dans​ l’entreprise, en vue d’accroître les ventes, le chiffre d’affaires et la marge commerciale."
   },
   {
-   "id": "adzuna-5977145847",
-   "source": "Adzuna",
-   "title": "Responsable Commercial (H/F)",
-   "company": "Talents Executive",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5977145847?utm_medium=api&utm_source=d81896fb",
-   "description": "En tant que Responsable Commercial, vous êtes chargé de développer la prise d'affaires en mettant en oeuvre la stratégie commerciale mise en place au sein de l'agence. Rattaché hiérarchiquement au Chef d'agence, vos missions seront les suivantes : A ce titre vos principales missions seront de : Participer activement à la prise d'un volume d'affaires D'assurer la prospection commerciale, la détection et le ciblage des opérations en amont D'assurer le déploiement opérationnel sur tout votre terri…",
-   "contactEmail": "contact@talentsexecutive.fr",
-   "contract": "permanent, full_time",
-   "salary": "50000–60000 €",
-   "salaryMin": 50000,
-   "salaryMax": 60000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-24T14:14:18Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 98,
-   "reasons": [
-    "Compétences : Direction commerciale, Prospection B2B, Pilotage stratégique",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Prospection B2B",
-    "Pilotage stratégique"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-24T13:48:33.797Z",
-   "salaryAnnual": {
-    "min": 50000,
-    "max": 60000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "50 k–60 k € / an"
-   },
-   "summary": "En tant que Responsable Commercial, vous êtes chargé de développer la prise d'affaires en mettant en oeuvre la stratégie commerciale mise en place au sein de l'agence.",
-   "contactEmailSource": "https://www.talentsexecutive.fr/",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
-  },
-  {
    "id": "adzuna-5966417894",
    "source": "Adzuna",
    "title": "Responsable Commercial - Alimentaire H/F",
@@ -1863,7 +1864,7 @@
    "company": "ADSEARCH",
    "location": "Villeurbanne, Lyon",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973743880?se=2FJyxA3o8RGFUZRoyBUbJA&utm_medium=api&utm_source=d81896fb&v=F05C51F6A7FF6CEE4EA34B3CFB921C062BA505DB",
+   "url": "https://www.adzuna.fr/land/ad/5973743880?se=DEM9sQ7o8RGFUZRoyBUbJA&utm_medium=api&utm_source=d81896fb&v=F05C51F6A7FF6CEE4EA34B3CFB921C062BA505DB",
    "description": "- EN BREF - Consultant en Recrutement Senior BTP F/H - CDI - Villeurbanne (69) - Poste en 360° Commerce/Sourcing Le cabinet de recrutement Adsearch recherche dans le cadre de développement sa/son futur Consultant(e) en recrutement Senior BTP F/H. Poste basé à Villeurbanne. Tous les secteurs d'activité sont représentés chez ADSEARCH : Immobilier Construction, AEC, FRJ, Juridique, Commercial / Marketing, Industrie, Life Science, Supply chain / Logistique, IT, IT Contracting, Management de Transit…",
    "contactEmail": null,
    "contract": "permanent",
@@ -1893,46 +1894,6 @@
     "known": false
    },
    "summary": "EN BREF - Consultant en Recrutement Senior BTP F/H - CDI - Villeurbanne (69) - Poste en 360° Commerce/Sourcing Le cabinet de recrutement Adsearch recherche dans le cadre de développement sa/son futur Consultant(e) en recrutement Senior BTP F/H."
-  },
-  {
-   "id": "adzuna-5976119870",
-   "source": "Adzuna",
-   "title": "Consultant en recrutement indépendant H/F",
-   "company": "IKIWAY",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5976119870?utm_medium=api&utm_source=d81896fb",
-   "description": "En rejoignant IKIWAY, vous développez votre activité de consultant en recrutement indépendant, sous votre propre structure, avec l'autonomie d'un entrepreneur et la force d'un collectif derrière vous. Vous pilotez vos missions de A à Z, développez votre portefeuille clients et accompagnez vos candidats avec exigence et engagement. Ce que IKIWAY met à votre disposition : - Statut 100% indépendant : aucun KPI, vous choisissez vos honoraires, votre méthode, votre rythme - Un commissionnement dégre…",
-   "contactEmail": "direction@ikiway.com",
-   "contract": "permanent, full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-23T14:11:43Z",
-   "tags": [
-    "Emplois RH et Recrutement"
-   ],
-   "score": 93,
-   "reasons": [
-    "Compétences : Gestion de portefeuille clients, Création d'entreprise, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Gestion de portefeuille clients",
-    "Création d'entreprise",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-24T13:48:33.797Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "En rejoignant IKIWAY, vous développez votre activité de consultant en recrutement indépendant, sous votre propre structure, avec l'autonomie d'un entrepreneur et la force d'un collectif derrière vous.",
-   "contactEmailSource": "https://www.ikiway.com/nous-contacter",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5972935244",
@@ -2291,50 +2252,13 @@
    "summary": "Notre client Notre client est un groupe industriel international de référence, spécialisé dans la conception et la fabrication de solutions technologiques à forte valeur ajoutée destinées aux industriels."
   },
   {
-   "id": "adzuna-5973866399",
-   "source": "Adzuna",
-   "title": "Directeur commercial indépendant H/F",
-   "company": "PROSPACTIVE",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973866399?se=tC-ewQ3o8RG6N8rxAGLycw&utm_medium=api&utm_source=d81896fb&v=62C84E0C1EDB7F35E80F437EE9AF7F9C28D99700",
-   "description": "Vous êtes un expert en stratégie financière et souhaitez dynamiser votre carrière ? En choisissant GROUPEACTIVE, vous optez pour un projet entrepreneurial encadré par des pairs expérimentés et soutenu par un collectif d'experts passionnés, tous bénéficiaires de notre modèle unique. Rejoignez GROUPEACTIVE et son réseau DAF-ACTIVE, dédié à aider les dirigeants de TPE/PME à surmonter leurs défis quotidiens. Chez GROUPEACTIVE, nous croyons fermement que chaque TPE/PME peut réussir. Nous aidons les …",
-   "contactEmail": null,
-   "contract": "",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-21T09:13:41Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 88,
-   "reasons": [
-    "Compétences : Direction commerciale, Pilotage stratégique",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Pilotage stratégique"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T15:33:21.348Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "Vous êtes un expert en stratégie financière et souhaitez dynamiser votre carrière ? En choisissant GROUPEACTIVE, vous optez pour un projet entrepreneurial encadré par des pairs expérimentés et soutenu par un collectif d'experts passionnés, tous bénéficiaires de notre modèle unique."
-  },
-  {
    "id": "adzuna-5973741130",
    "source": "Adzuna",
    "title": "Directeur Commercial F/H - Systèmes Electroniques",
    "company": "ADSEARCH",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973741130?se=tC-ewQ3o8RG6N8rxAGLycw&utm_medium=api&utm_source=d81896fb&v=729655708C7CB84BD657611CBBE44A0E8BBDB34B",
+   "url": "https://www.adzuna.fr/land/ad/5973741130?se=OPGhrg7o8RG1LLBTGAjq5Q&utm_medium=api&utm_source=d81896fb&v=729655708C7CB84BD657611CBBE44A0E8BBDB34B",
    "description": "En bref : Directeur Commercial F/H - Systèmes Electroniques - CDI - Lyon - 80 K€ La division Sales & Marketing d'Adsearch Lyon recherche un Directeur Commercial F/H pour une entreprise spécialisée dans la conception et la commercialisation de solutions électroniques à forte valeur ajoutée à destination des fabricants de machines. Dans un contexte de développement de ses activités en France et à l'international l'entreprise souhaite renforcer son organisation en recrutant un Directeur Commercial…",
    "contactEmail": null,
    "contract": "permanent",
@@ -2534,7 +2458,7 @@
    "company": "Apec Diffusion SA",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5968066430?se=GIk8xQ3o8RGwcum-DFytLA&utm_medium=api&utm_source=d81896fb&v=6BC0CDCB0A71C8D96D55B7AA6F2A78C7BAB6D3A4",
+   "url": "https://www.adzuna.ch/land/ad/5968066430?se=_M4asg7o8RGwcum-DFytLA&utm_medium=api&utm_source=d81896fb&v=6BC0CDCB0A71C8D96D55B7AA6F2A78C7BAB6D3A4",
    "description": "APEC DIFFUSION SA, entreprise genevoise fondée en 1985, est spécialisée dans les objets promotionnels, cadeaux d’affaires, textiles et vêtements corporate et professionnels personnalisés. Portée par une équipe soudée et un esprit entrepreneurial, APEC DIFFUSION SA poursuit son développement et souhaite renforcer sa force commerciale à Genève et en Suisse romande. Nous recherchons un(e) Commercial(e) B2B confirmé(e), prêt(e) à s’investir dans cette dynamique et à contribuer activement à notre cr…",
    "contactEmail": null,
    "contract": "",
@@ -3895,42 +3819,6 @@
    "summary": "Entreprise : _______________________________________ Chez Exaltan RH, notre cabinet de recrutement indépendant, chaque mission est pensée sur-mesure pour vous, que ce soit pour un CDI ou un CDD. Nous, Peggy, Laura & Bérengère , ainsi que Clément & Delphine , sommes spécialistes des profils Techniciens, Back Office, E…"
   },
   {
-   "id": "adzuna-5967666929",
-   "source": "Adzuna",
-   "title": "Sales/Business Developer en Immobilier neuf H/F indépendant",
-   "company": "",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5967666929?utm_medium=api&utm_source=d81896fb",
-   "description": "Papillon Patrimoine, fondé en 2019 par Jérémie Melloul et Emeric Eveno, s’impose comme un acteur majeur de l’immobilier neuf en France. Notre mission : accompagner chaque client dans la réalisation de son projet immobilier, avec une expertise et un suivi à chaque étape. Aujourd’hui, nous c’est : Une équipe de plus de 60 commerciaux présents partout en France En moyenne 80 ventes par mois Plus de 250 promoteurs partenaires Une réputation solide avec 100% de clients satisfaits Nos piliers : proxi…",
-   "contactEmail": null,
-   "contract": "contract, full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-16T12:11:52Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 78,
-   "reasons": [
-    "Compétences : Business development",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T20:15:53.376Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "Papillon Patrimoine, fondé en 2019 par Jérémie Melloul et Emeric Eveno, s’impose comme un acteur majeur de l’immobilier neuf en France. Notre mission : accompagner chaque client dans la réalisation de son projet immobilier, avec une expertise et un suivi à chaque étape."
-  },
-  {
    "id": "adzuna-5974675656",
    "source": "Adzuna",
    "title": "Business Manager IT - Lyon",
@@ -4088,7 +3976,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=GIk8xQ3o8RGwcum-DFytLA&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=_M4asg7o8RGwcum-DFytLA&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",
