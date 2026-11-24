@@ -59,7 +59,16 @@
     "vendeur",
     "vendeuse",
     "caissier",
-    "hôte de caisse"
+    "hôte de caisse",
+    "indépendant",
+    "independant",
+    "freelance",
+    "free-lance",
+    "mandataire",
+    "auto-entrepreneur",
+    "agent commercial indépendant",
+    "franchise",
+    "franchisé"
   ],
   "locations": [
     "lyon",
