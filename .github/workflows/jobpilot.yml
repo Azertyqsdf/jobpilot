@@ -8,7 +8,10 @@ name: JobPilot
 
 on:
   schedule:
-    - cron: '17 5 * * *'   # ≈ 6 h 17 / 7 h 17 à Paris
+    # Trois passages par jour : GitHub saute parfois un passage planifié quand ses serveurs sont chargés.
+    - cron: '17 5 * * *'    # ≈ 6 h 17 à Paris
+    - cron: '43 11 * * *'   # ≈ 12 h 43
+    - cron: '13 17 * * *'   # ≈ 18 h 13
   workflow_dispatch:
     inputs:
       apply:
