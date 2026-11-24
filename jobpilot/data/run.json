@@ -1,61 +1,60 @@
 {
-  "startedAt": "2026-11-23T20:15:53.376Z",
+  "startedAt": "2026-11-24T13:48:33.797Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
-    "adzuna": "686 offres",
+    "adzuna": "715 offres",
     "manuel": "1 offre(s)",
-    "laBonneBoite": "170 entreprises"
+    "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-23T20:16:21.466Z",
-  "fetched": 1677,
-  "unique": 1436,
-  "kept": 96,
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 503, gemini-3.8-flash: 503, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-24T13:49:37.054Z",
+  "fetched": 1706,
+  "unique": 1448,
+  "kept": 106,
   "zones": {
     "autres": {
-      "trouvees": 876,
+      "trouvees": 869,
       "retenues": 0,
       "exclues": {
-        "aucun mot obligatoire": 189,
-        "mot exclu dans le titre": 91,
-        "lieu hors zone": 596
-      }
-    },
-    "Genève": {
-      "trouvees": 48,
-      "retenues": 7,
-      "exclues": {
-        "lieu hors zone": 2,
-        "note < 75": 24,
-        "offre trop ancienne": 3,
-        "aucun mot obligatoire": 7,
-        "mot exclu dans le titre": 5
+        "aucun mot obligatoire": 200,
+        "lieu hors zone": 573,
+        "mot exclu dans le titre": 96
       }
     },
     "Lyon": {
-      "trouvees": 312,
-      "retenues": 76,
+      "trouvees": 321,
+      "retenues": 81,
       "exclues": {
+        "note < 75": 127,
+        "aucun mot obligatoire": 27,
         "mot exclu dans le titre": 38,
-        "note < 75": 119,
-        "offre trop ancienne": 19,
-        "lieu hors zone": 35,
-        "aucun mot obligatoire": 25
+        "offre trop ancienne": 12,
+        "lieu hors zone": 36
+      }
+    },
+    "Genève": {
+      "trouvees": 46,
+      "retenues": 7,
+      "exclues": {
+        "note < 75": 24,
+        "lieu hors zone": 2,
+        "aucun mot obligatoire": 7,
+        "mot exclu dans le titre": 6
       }
     },
     "Haute-Savoie": {
-      "trouvees": 200,
+      "trouvees": 212,
       "retenues": 13,
       "exclues": {
-        "note < 75": 130,
-        "offre trop ancienne": 13,
+        "note < 75": 149,
         "mot exclu dans le titre": 20,
         "aucun mot obligatoire": 18,
-        "lieu hors zone": 6
+        "offre trop ancienne": 7,
+        "lieu hors zone": 5
       }
     }
   },
-  "prospection": "40 entreprises examinées, 3 nouvelles adresses ; 14 offres et 5 entreprises joignables par e-mail"
+  "prospection": "40 entreprises examinées, 8 nouvelles adresses ; 18 offres et 10 entreprises joignables par e-mail"
 }

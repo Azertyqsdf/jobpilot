@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-23T20:16:21.465Z",
+ "updatedAt": "2026-11-24T13:49:37.053Z",
  "companies": [
   {
    "id": "lbb-54209790203816",
@@ -322,22 +322,6 @@
    "rome": "D1402",
    "emailSource": "https://www.eolys-beaute.com/",
    "emailWhy": "petite entreprise (10 à 19 salariés)"
-  },
-  {
-   "id": "lbb-41395864600080",
-   "siret": "41395864600080",
-   "name": "14 SEPTEMBRE",
-   "legalName": "",
-   "city": "Lyon",
-   "postcode": "69001",
-   "sector": "Conseil en relations publiques et communication",
-   "headcount": "",
-   "score": 8.1168134349,
-   "email": "",
-   "phone": "",
-   "website": "",
-   "distance": null,
-   "rome": "D1402"
   },
   {
    "id": "lbb-34373826601388",
@@ -879,11 +863,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 3.9214472730000005,
-   "email": "",
+   "email": "info@effet-b.ca",
    "phone": "",
-   "website": "",
+   "website": "https://effet-b.ca/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://effet-b.ca/contact/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-53871221700628",
@@ -1219,11 +1205,13 @@
    "sector": "Tierce maintenance de systèmes et d’applications informatiques",
    "headcount": "",
    "score": 3.0179810625,
-   "email": "",
+   "email": "recrutement@aiga.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.aiga.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.aiga.fr/",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-55212022225747",
@@ -1315,11 +1303,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 2.8293974514000007,
-   "email": "",
+   "email": "recrutement@mydigitalbuildings.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.mydigitalbuildings.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.mydigitalbuildings.com/recrutement/franchise-numerisation-3d-de-batiments-h-f",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-05650309700398",
@@ -1347,11 +1337,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 2.7980555493,
-   "email": "",
+   "email": "info@digitalisim.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.digitalisim.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.digitalisim.fr/mentions-legales",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-42110064500520",
@@ -1523,11 +1515,13 @@
    "sector": "Activités des voyagistes",
    "headcount": "",
    "score": 2.516869278,
-   "email": "",
+   "email": "contact@vintagerides.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.vintagerides.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.vintagerides.com/mentions-legales/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-34373826600596",

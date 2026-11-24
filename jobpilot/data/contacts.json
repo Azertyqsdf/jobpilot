@@ -479,28 +479,51 @@
   "microcosme": {
     "name": "MICROCOSME",
     "website": "https://www.microcosme.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:15:24.139Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "901737312"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:13.190Z"
   },
   "arsium": {
     "name": "ARSIUM",
     "website": "https://www.arsium.fr/",
-    "reason": "aucune adresse de recrutement ou de contact publiée",
-    "checkedAt": "2026-11-23T17:15:26.488Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "904041555"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:25.523Z"
   },
   "effet b": {
     "name": "EFFET B",
     "website": "https://effet-b.ca/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@effet-b.ca",
+      "source": "https://effet-b.ca/contact/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
     "email": "info@effet-b.ca",
-    "source": "https://effet-b.ca/",
+    "source": "https://effet-b.ca/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
     "verified": "nom",
-    "kind": "contact",
-    "checkedAt": "2026-11-23T17:15:29.239Z"
+    "checkedAt": "2026-11-24T13:50:23.576Z"
   },
   "agence france presse": {
     "name": "AGENCE FRANCE PRESSE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:33.294Z"
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:19.695Z"
   },
   "mavisun": {
     "name": "MAVISUN",
@@ -526,26 +549,36 @@
   "infios france": {
     "name": "INFIOS FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:38.464Z"
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:26.737Z"
   },
   "cognizant technology solutions france": {
     "name": "COGNIZANT TECHNOLOGY SOLUTIONS FRANCE",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:40.901Z"
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:26.662Z"
   },
   "eg radio digital": {
     "name": "EG RADIO DIGITAL",
     "reason": "site officiel introuvable",
-    "checkedAt": "2026-11-23T17:15:44.511Z"
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:27.050Z"
   },
   "my digital buildings": {
     "name": "MY DIGITAL BUILDINGS",
     "website": "https://www.mydigitalbuildings.com/",
-    "email": "contact@mydigitalbuildings.com",
-    "source": "https://www.mydigitalbuildings.com/mentions-legales",
+    "email": "recrutement@mydigitalbuildings.com",
+    "source": "https://www.mydigitalbuildings.com/recrutement/franchise-numerisation-3d-de-batiments-h-f",
     "verified": "nom",
-    "kind": "contact",
-    "checkedAt": "2026-11-23T17:15:46.358Z"
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@mydigitalbuildings.com",
+      "source": "https://www.mydigitalbuildings.com/mentions-legales"
+    },
+    "checkedAt": "2026-11-24T13:50:51.764Z"
   },
   "samse": {
     "name": "SAMSE",
@@ -556,11 +589,19 @@
   "cegedim sante": {
     "name": "CEGEDIM SANTE",
     "website": "https://www.cegedim-sante.com/",
-    "email": "contact-paramed@cegedim-sante.com",
-    "source": "https://www.cegedim-sante.com/recrutements/",
-    "verified": "SIREN",
-    "kind": "recrutement",
-    "checkedAt": "2026-11-23T17:15:52.155Z"
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "348940255",
+      "790173066"
+    ],
+    "generic": {
+      "email": "contact-paramed@cegedim-sante.com",
+      "source": "https://www.cegedim-sante.com/contact-tap-to-pay/"
+    },
+    "genericVerdict": "grande entreprise (500+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-24T13:50:37.061Z"
   },
   "comptoir electrique francais": {
     "name": "COMPTOIR ELECTRIQUE FRANCAIS",
@@ -1484,5 +1525,319 @@
     },
     "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
     "checkedAt": "2026-11-23T20:19:12.349Z"
+  },
+  "talents executive": {
+    "name": "Talents Executive",
+    "website": "https://www.talentsexecutive.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "499318707"
+    ],
+    "generic": {
+      "email": "contact@talentsexecutive.fr",
+      "source": "https://www.talentsexecutive.fr/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@talentsexecutive.fr",
+    "source": "https://www.talentsexecutive.fr/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:49:40.167Z"
+  },
+  "digisap solutions": {
+    "name": "Digisap-Solutions",
+    "website": "https://www.digisap-solutions.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@digisap-solutions.com",
+      "source": "https://www.digisap-solutions.com/mentions-legales/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-24T13:49:41.727Z"
+  },
+  "codeo": {
+    "name": "Codeo",
+    "website": "https://codeo.com/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "481820934",
+      "450734744"
+    ],
+    "generic": {
+      "email": "contact@codeo.com",
+      "source": "https://codeo.com/fr/mentions-legales/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-24T13:49:49.432Z"
+  },
+  "holiday inn marseille": {
+    "name": "Holiday Inn Marseille",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:05.315Z"
+  },
+  "ikiway": {
+    "name": "IKIWAY",
+    "website": "https://www.ikiway.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "938672466"
+    ],
+    "generic": {
+      "email": "direction@ikiway.com",
+      "source": "https://www.ikiway.com/nous-contacter"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "direction@ikiway.com",
+    "source": "https://www.ikiway.com/nous-contacter",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:50:06.716Z"
+  },
+  "coloplast": {
+    "name": "Coloplast",
+    "website": "https://www.coloplast.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:07.137Z"
+  },
+  "lip tertiaire": {
+    "name": "LIP Tertiaire",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:08.415Z"
+  },
+  "jbl conseil": {
+    "name": "JBL Conseil",
+    "website": "https://www.jbl-conseil.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "407510858"
+    ],
+    "generic": {
+      "email": "contact@jbl-conseil.fr",
+      "source": "https://www.jbl-conseil.fr/contact/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@jbl-conseil.fr",
+    "source": "https://www.jbl-conseil.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:50:12.460Z"
+  },
+  "bouygues telecom": {
+    "name": "BOUYGUES TELECOM",
+    "website": "https://www.bouyguestelecom.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:13.040Z"
+  },
+  "smarthorp solution limited": {
+    "name": "SMARTHORP SOLUTION LIMITED",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:28.740Z"
+  },
+  "bbo": {
+    "name": "BBO",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:31.942Z"
+  },
+  "positive group lyon": {
+    "name": "POSITIVE GROUP LYON",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:49.929Z"
+  },
+  "digitalisim": {
+    "name": "DIGITALISIM",
+    "website": "https://www.digitalisim.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@digitalisim.fr",
+      "source": "https://www.digitalisim.fr/mentions-legales"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@digitalisim.fr",
+    "source": "https://www.digitalisim.fr/mentions-legales",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:50:52.501Z"
+  },
+  "la plateforme": {
+    "name": "LA PLATEFORME",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:50:54.204Z"
+  },
+  "aiga": {
+    "name": "AIGA",
+    "website": "https://www.aiga.fr/",
+    "email": "recrutement@aiga.fr",
+    "source": "https://www.aiga.fr/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:58.067Z"
+  },
+  "heliaq": {
+    "name": "HELIAQ",
+    "website": "https://heliaq.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:50:58.946Z"
+  },
+  "la banque postale": {
+    "name": "LA BANQUE POSTALE",
+    "website": "https://www.labanquepostale.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "487779035",
+      "421100645",
+      "086380730",
+      "493253652"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:51:00.724Z"
+  },
+  "banque palatine": {
+    "name": "BANQUE PALATINE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:04.057Z"
+  },
+  "horizon": {
+    "name": "HORIZON",
+    "website": "https://www.horizon.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "382634699",
+      "908385826"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-24T13:51:10.394Z"
+  },
+  "silaexpert": {
+    "name": "SILAEXPERT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:11.839Z"
+  },
+  "composants circuits imprimes eurolam": {
+    "name": "COMPOSANTS CIRCUITS IMPRIMES EUROLAM",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:16.067Z"
+  },
+  "vintage rides": {
+    "name": "VINTAGE RIDES",
+    "website": "https://www.vintagerides.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "803767128",
+      "424761419"
+    ],
+    "generic": {
+      "email": "contact@vintagerides.com",
+      "source": "https://www.vintagerides.com/mentions-legales/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@vintagerides.com",
+    "source": "https://www.vintagerides.com/mentions-legales/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-24T13:51:16.597Z"
+  },
+  "la news": {
+    "name": "LA NEWS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:23.448Z"
+  },
+  "porcelanosa france": {
+    "name": "PORCELANOSA FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:25.755Z"
+  },
+  "dedalus healthcare france": {
+    "name": "DEDALUS HEALTHCARE FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:30.899Z"
+  },
+  "hardis groupe": {
+    "name": "HARDIS GROUPE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:37.794Z"
+  },
+  "electronic arts publishing": {
+    "name": "ELECTRONIC ARTS PUBLISHING",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:49.018Z"
+  },
+  "calzedonia france": {
+    "name": "CALZEDONIA FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:52.430Z"
+  },
+  "laboratoire cevidra": {
+    "name": "LABORATOIRE CEVIDRA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:56.225Z"
+  },
+  "sibille fameca logistique": {
+    "name": "SIBILLE-FAMECA-LOGISTIQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:51:58.269Z"
+  },
+  "johnson johnson medical sas": {
+    "name": "JOHNSON & JOHNSON MEDICAL SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-24T13:52:15.919Z"
   }
 }
