@@ -49,7 +49,7 @@ cfg = { ...guessRepo(), dir: 'jobpilot', ...cfg };
 const saveCfg = () => { try { localStorage.setItem(LS, JSON.stringify(cfg)); } catch {} };
 
 const S = {
-  branch: null, jobs: [], companies: [], apps: {}, updatedAt: null, run: {}, tracking: { apps: {} }, profile: null, prefs: null,
+  branch: null, jobs: [], companies: [], apps: {}, replies: {}, updatedAt: null, run: {}, tracking: { apps: {} }, profile: null, prefs: null,
   sha: {}, secrets: [], vars: {}, runs: [], loaded: false, errors: {},
 };
 let tab = (location.hash.slice(1) || 'offres');
@@ -156,6 +156,7 @@ async function loadAll() {
     part('vars', async () => { S.vars = Object.fromEntries((await gh(R('/actions/variables?per_page=100'))).variables.map(v => [v.name, v.value])); }),
     part('runs', loadRuns),
     part('apps', loadApplications),
+    part('replies', async () => { S.replies = (await readJson('data/replies.json')) || {}; }),
   ]);
   S.loaded = true;
   sync(Object.keys(S.errors).length ? 'err' : 'ok');
@@ -223,12 +224,18 @@ function effective(id, a) {
   const job = jobById(id);
   let stage = a.stage;
   const app = S.apps?.[appFolder(id)];
+  const reply = S.replies?.[id];
   if (stage === 'preparation' && app?.ready) stage = 'a_envoyer';
+  // Réponse détectée dans la boîte mail : l'étape avance toute seule (sauf si tu l'as déjà fait avancer).
+  if (reply && ['preparation', 'a_envoyer', 'envoyee', 'relancee'].includes(stage) && !a.manualStage) {
+    if (reply.kind === 'entretien') stage = 'entretien';
+    else if (reply.kind === 'refus') stage = 'refus';
+  }
   if (['preparation', 'a_envoyer'].includes(stage) && app?.sent) stage = 'envoyee';
   const column = { preparation: 'a_envoyer', a_envoyer: 'a_envoyer', envoyee: 'envoyee', relancee: 'envoyee', entretien: 'entretien', offre: 'terminee', refus: 'terminee', abandon: 'terminee' }[stage] || 'a_envoyer';
   const sentAt = a.sentAt || (app?.sent ? (a.mailAt || a.at) : null);
-  const due = (stage === 'envoyee' && daysSince(sentAt) >= 7) || (stage === 'relancee' && daysSince(a.relanceAt) >= 10);
-  return { stage, column, job, sentAt, due, folder: app?.ready ? app.folder : null };
+  const due = !reply && ((stage === 'envoyee' && daysSince(sentAt) >= 7) || (stage === 'relancee' && daysSince(a.relanceAt) >= 10));
+  return { stage, column, job, sentAt, due, reply, folder: app?.ready ? app.folder : null };
 }
 // Suivi = entrées enregistrées + candidatures faites automatiquement par le robot (pas encore dans le suivi).
 function activeApps() {
@@ -458,7 +465,7 @@ function viewTracking() {
   }).join('')}</div>`;
 }
 function appCard(x) {
-  const { id, a, stage, sentAt, due, folder } = x;
+  const { id, a, stage, sentAt, due, folder, reply } = x;
   const docs = folder ? `<div class="row" style="margin-top:8px">
       <button class="btn sm primary" data-preview="data/applications/${esc(folder)}/cv.html">Aperçu du CV</button>
       <button class="btn sm ghost" data-preview="data/applications/${esc(folder)}/lettre.html">Aperçu de la lettre</button>
@@ -472,6 +479,7 @@ function appCard(x) {
     : due ? `<button class="btn sm primary" data-act="mark-relance" data-id="${esc(id)}">C'est relancé</button>` : '';
   return `<article class="card app">
     ${due ? `<div class="due">⏰ À relancer</div>` : ''}
+    ${reply ? `<div class="reply ${esc(reply.kind)}">📩 ${{ entretien: 'Proposition d\'échange / entretien', refus: 'Réponse négative', accuse: 'Accusé de réception', reponse: 'Réponse reçue' }[reply.kind] || 'Réponse'} · ${fmtDay(reply.date)}<div class="small muted">${esc(reply.extract.slice(0, 160))}…</div></div>` : ''}
     <div class="t">${esc(a.company || '—')}${a.auto ? ' <span class="chip">auto</span>' : ''}</div>
     <div class="small">${esc(a.title || '')}</div>
     <div class="small muted">${sentAt ? `Envoyée le ${fmtDay(sentAt)}` : `Ajoutée le ${fmtDay(a.at)}`}${a.relanceAt ? ` · relancée le ${fmtDay(a.relanceAt)}` : ''}</div>
@@ -730,7 +738,7 @@ view.addEventListener('change', e => {
   if (el.id === 'fmin') { filters.min = +el.value; render(); }
   if (el.dataset.pick) { el.checked ? picked.add(el.dataset.pick) : picked.delete(el.dataset.pick); render(); }
   if (el.dataset.stage) {
-    const patch = { stage: el.value };
+    const patch = { stage: el.value, manualStage: true };
     if (el.value === 'envoyee' && !S.tracking.apps[el.dataset.stage]?.sentAt) patch.sentAt = new Date().toISOString();
     if (el.value === 'relancee') patch.relanceAt = new Date().toISOString();
     track(el.dataset.stage, patch); saveTracking(); render();

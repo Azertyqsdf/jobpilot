@@ -91,6 +91,10 @@ jobs:
         if: env.MODE == 'search'
         run: node src/auto-apply.mjs
 
+      - name: Lire les réponses des recruteurs (boîte Gmail dédiée)
+        if: env.MODE == 'search'
+        run: node src/replies.mjs
+
       - name: Préparer les candidatures demandées
         if: env.MODE == 'apply'
         env:

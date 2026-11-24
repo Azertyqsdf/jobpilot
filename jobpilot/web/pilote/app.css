@@ -130,3 +130,8 @@ code { background: var(--soft); padding: 1px 5px; border-radius: 5px; font-size:
 .preview { position: fixed; inset: 0; z-index: 40; background: var(--bg); display: flex; flex-direction: column; }
 .preview-bar { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--card); }
 .preview iframe { flex: 1; width: 100%; border: 0; background: #fff; }
+
+.reply { margin: 6px 0; padding: 6px 8px; border-radius: 8px; font-size: 13px; font-weight: 600; background: var(--soft); }
+.reply.entretien { background: color-mix(in srgb, var(--ok) 15%, transparent); color: var(--ok); }
+.reply.refus { background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); }
+.reply .small { font-weight: 400; margin-top: 2px; }
