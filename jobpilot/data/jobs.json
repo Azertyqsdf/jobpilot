@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T14:44:30.413Z",
+ "updatedAt": "2026-11-24T15:59:20.873Z",
  "jobs": [
   {
    "tags": [
@@ -336,13 +336,13 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver",
-   "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
-   "contactEmailWhy": "petite entreprise (10 à 19 salariés)",
    "viaAgency": true,
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
-   "reference": null
+   "reference": null,
+   "summary": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découver",
+   "contactEmailSource": "https://karpos-rh.com/contacter-notre-equipe/",
+   "contactEmailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "adzuna-5969015289",
@@ -442,7 +442,7 @@
    "id": "adzuna-5970817182",
    "source": "Adzuna",
    "title": "Responsable commercial - Supports impresions H/F (CDI)",
-   "company": "Talents Commerciaux",
+   "company": "talents commerciaux",
    "location": "1er-Arrondissement, Lyon",
    "remote": false,
    "url": "https://www.adzuna.fr/details/5970817182?utm_medium=api&utm_source=d81896fb",
@@ -719,7 +719,7 @@
    "company": "Local.fr",
    "location": "Thonon-les-Bains, Haute-Savoie",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5976635027?se=_CsFfRXo8RGpa9kA69tJwg&utm_medium=api&utm_source=d81896fb&v=EBE9461BF157794F7FBA9F77D95BB08BC417F9AB",
+   "url": "https://www.adzuna.fr/land/ad/5976635027?se=Woru4B_o8RGqAdqXaoQ7nA&utm_medium=api&utm_source=d81896fb&v=EBE9461BF157794F7FBA9F77D95BB08BC417F9AB",
    "description": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à la prospection active de contacts clients. (pige, prospection téléphonique, parrainage etc) - Développer son activité comme un réel centre de profits, en démarchant et concrétisant…",
    "contactEmail": null,
    "contract": "full_time",
@@ -1182,7 +1182,7 @@
    "company": "PEPITE CONSEIL",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973742723?se=ppdBgBXo8RGWD76cqNjNnQ&utm_medium=api&utm_source=d81896fb&v=F309D0151685043420781D6759A1EDFADB5FA0FB",
+   "url": "https://www.adzuna.fr/details/5973742723?utm_medium=api&utm_source=d81896fb",
    "description": "Rattaché à la Direction Commerciale Europe basée en France, au sein d'une équipe d'une 15ne de collaborateurs commerciaux, vous serez en charge d'une zone Europe du Nord (Benelux, zone DACH, Scandinavie, pays de l'est). Vos principales missions : * Suivre et développer les relations avec les grands comptes clés européens de la Piscine, * Renforcer les référencements des acteurs traditionnels du négoce piscinier, des réseaux sous enseigne, des réseaux indépendants mais également des comptes e-co…",
    "contactEmail": null,
    "contract": "permanent",
@@ -1820,6 +1820,50 @@
    "summary": "Rattaché(e) à la Direction commerciale et en lien étroit avec les services Qualité et Production, vous serez le véritable chef d’entreprise de votre fonction commerciale."
   },
   {
+   "id": "adzuna-5977273720",
+   "source": "Adzuna",
+   "title": "Responsable Commercial Industry Manager - Chimie H/F (CDI)",
+   "company": "talents commerciaux",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5977273720?utm_medium=api&utm_source=d81896fb",
+   "description": "Talents Commerciaux s'appuie sur l'expertise, le dynamisme et l'expérience professionnelle de son équipe pour accompagner chaque entreprise dans la recherche de son futur collaborateur commercial, et chaque candidat dans la concrétisation de ses projets professionnels. Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Dans le cadre d'un remplacement, notre client, distributeur de matières prem…",
+   "contactEmail": "contact@talentscommerciaux.fr",
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-24T16:15:02Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 98,
+   "reasons": [
+    "Compétences : Direction commerciale, Management d'équipe, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Management d'équipe",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-24T15:58:21.050Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Dans le cadre d'un remplacement, notre client, distributeur de matières prem…",
+   "contactEmailSource": "https://www.talentscommerciaux.fr/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
    "id": "adzuna-5966166728",
    "source": "Adzuna Suisse",
    "title": "COMMERCIAL(E) B2B CONFIRMÉ(E) / BUSINESS DEVELOPER",
@@ -2137,7 +2181,7 @@
    "company": "ADSEARCH",
    "location": "Villeurbanne, Lyon",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973743880?se=vHIwghXo8RGGB-HgzbGVmw&utm_medium=api&utm_source=d81896fb&v=F05C51F6A7FF6CEE4EA34B3CFB921C062BA505DB",
+   "url": "https://www.adzuna.fr/details/5973743880?utm_medium=api&utm_source=d81896fb",
    "description": "- EN BREF - Consultant en Recrutement Senior BTP F/H - CDI - Villeurbanne (69) - Poste en 360° Commerce/Sourcing Le cabinet de recrutement Adsearch recherche dans le cadre de développement sa/son futur Consultant(e) en recrutement Senior BTP F/H. Poste basé à Villeurbanne. Tous les secteurs d'activité sont représentés chez ADSEARCH : Immobilier Construction, AEC, FRJ, Juridique, Commercial / Marketing, Industrie, Life Science, Supply chain / Logistique, IT, IT Contracting, Management de Transit…",
    "contactEmail": null,
    "contract": "permanent",
@@ -2571,7 +2615,7 @@
    "company": "ADSEARCH",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973741130?se=TEaTfxXo8RGrRKkyIfaq5A&utm_medium=api&utm_source=d81896fb&v=729655708C7CB84BD657611CBBE44A0E8BBDB34B",
+   "url": "https://www.adzuna.fr/details/5973741130?utm_medium=api&utm_source=d81896fb",
    "description": "En bref : Directeur Commercial F/H - Systèmes Electroniques - CDI - Lyon - 80 K€ La division Sales & Marketing d'Adsearch Lyon recherche un Directeur Commercial F/H pour une entreprise spécialisée dans la conception et la commercialisation de solutions électroniques à forte valeur ajoutée à destination des fabricants de machines. Dans un contexte de développement de ses activités en France et à l'international l'entreprise souhaite renforcer son organisation en recrutant un Directeur Commercial…",
    "contactEmail": null,
    "contract": "permanent",
@@ -2791,7 +2835,7 @@
    "company": "Apec Diffusion SA",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5968066430?se=Ku_bghXo8RG_nPeCfCxgTw&utm_medium=api&utm_source=d81896fb&v=6BC0CDCB0A71C8D96D55B7AA6F2A78C7BAB6D3A4",
+   "url": "https://www.adzuna.ch/land/ad/5968066430?se=JPqU5x_o8RGVS8EiSmp48A&utm_medium=api&utm_source=d81896fb&v=6BC0CDCB0A71C8D96D55B7AA6F2A78C7BAB6D3A4",
    "description": "APEC DIFFUSION SA, entreprise genevoise fondée en 1985, est spécialisée dans les objets promotionnels, cadeaux d’affaires, textiles et vêtements corporate et professionnels personnalisés. Portée par une équipe soudée et un esprit entrepreneurial, APEC DIFFUSION SA poursuit son développement et souhaite renforcer sa force commerciale à Genève et en Suisse romande. Nous recherchons un(e) Commercial(e) B2B confirmé(e), prêt(e) à s’investir dans cette dynamique et à contribuer activement à notre cr…",
    "contactEmail": null,
    "contract": "",
@@ -2871,6 +2915,49 @@
    "reference": null,
    "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Nous recherchons pour un de nos clients, société internationale, leader sur le marché de l'impression, un(e) responsable commercial(e) pour Est de la France.",
    "contactEmailSource": "https://www.talentscommerciaux.fr/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
+   "id": "adzuna-5977273719",
+   "source": "Adzuna",
+   "title": "Responsable Commercial (H/F) (CDI)",
+   "company": "Talents Executive",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5977273719?utm_medium=api&utm_source=d81896fb",
+   "description": "Talents Executive (Groupe Linking Talents) est un cabinet de recrutement qui a pour vocation d'accompagner les entreprises dans la recherche de leurs cadres sur l'ensemble des fonctions support : Finance, Ressources Humaines, Juridique, Paie, Marketing / Communication ou encore Achats / Supply. Notre client, leader national dans le secteur du bâtiment, recherche un(e) Responsable Commercial (H/F) basé dans le secteur Lyonnais (69) en CDI. En tant que Responsable Commercial, vous êtes chargé de …",
+   "contactEmail": "contact@talentsexecutive.fr",
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-24T16:15:02Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Direction commerciale, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-24T15:58:21.050Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Notre client, leader national dans le secteur du bâtiment, recherche un(e) Responsable Commercial (H/F) basé dans le secteur Lyonnais (69) en CDI. En tant que Responsable Commercial, vous êtes chargé de …",
+   "contactEmailSource": "https://www.talentsexecutive.fr/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
@@ -3007,49 +3094,6 @@
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
    "summary": "POSTE / MISSIONS VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
-   "contactEmailSource": "https://voluntae.fr/contact/",
-   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
-  },
-  {
-   "id": "adzuna-5969147391",
-   "source": "Adzuna",
-   "title": "Responsable d'Agence - Développement Commercial et Conseil aux Entreprises H/F (CDI)",
-   "company": "VOLUNTAE",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5969147391?utm_medium=api&utm_source=d81896fb",
-   "description": "Voluntae est un cabinet de recrutement spécialisé dans de nombreux domaines : Audit et Expertise Comptable, Comptabilité, Finance d'Entreprise, Immobilier, Juridique, Ressources Humaines, Paie, Secrétariat et Assistanat. Créé par M. Pierre-Gilles Bouquet, notre cabinet de recrutement à Boulogne-Billancourt (près de Paris) a accompagné plus de 200 clients dans près de 800 recrutements dans des métiers très variés. VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financi…",
-   "contactEmail": "contact@voluntae.fr",
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-17T16:04:18Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Business development, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-23T20:15:53.376Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null,
-   "summary": "Voluntae est un cabinet de recrutement spécialisé dans de nombreux domaines : Audit et Expertise Comptable, Comptabilité, Finance d'Entreprise, Immobilier, Juridique, Ressources Humaines, Paie, Secrétariat et Assistanat. VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financi…",
    "contactEmailSource": "https://voluntae.fr/contact/",
    "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
   },
@@ -4418,7 +4462,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=Ku_bghXo8RG_nPeCfCxgTw&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=JPqU5x_o8RGVS8EiSmp48A&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",

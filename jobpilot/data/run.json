@@ -1,35 +1,35 @@
 {
-  "startedAt": "2026-11-24T14:43:59.106Z",
+  "startedAt": "2026-11-24T15:58:21.050Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "90 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
-    "adzuna": "715 offres",
+    "adzuna": "718 offres",
     "manuel": "1 offre(s)",
     "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 503, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-24T14:44:30.413Z",
-  "fetched": 1706,
-  "unique": 1444,
-  "kept": 103,
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-3.8-flash: 429, gemini-3.7-flash: 503, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-24T15:59:20.873Z",
+  "fetched": 1709,
+  "unique": 1449,
+  "kept": 104,
   "zones": {
     "autres": {
       "trouvees": 865,
       "retenues": 0,
       "exclues": {
-        "lieu hors zone": 566,
-        "aucun mot obligatoire": 188,
-        "mot exclu dans le titre": 111
+        "aucun mot obligatoire": 190,
+        "lieu hors zone": 567,
+        "mot exclu dans le titre": 108
       }
     },
     "Lyon": {
-      "trouvees": 321,
-      "retenues": 78,
+      "trouvees": 324,
+      "retenues": 80,
       "exclues": {
-        "note < 75": 126,
+        "note < 75": 128,
         "aucun mot obligatoire": 26,
-        "mot exclu dans le titre": 44,
+        "mot exclu dans le titre": 43,
         "offre trop ancienne": 11,
         "lieu hors zone": 36
       }
@@ -45,10 +45,10 @@
       }
     },
     "Haute-Savoie": {
-      "trouvees": 211,
+      "trouvees": 213,
       "retenues": 13,
       "exclues": {
-        "note < 75": 141,
+        "note < 75": 143,
         "mot exclu dans le titre": 27,
         "aucun mot obligatoire": 18,
         "offre trop ancienne": 7,
@@ -56,6 +56,6 @@
       }
     }
   },
-  "prospection": "0 entreprises examinées, 0 nouvelles adresses ; 17 offres et 15 entreprises joignables par e-mail",
+  "prospection": "0 entreprises examinées, 0 nouvelles adresses ; 18 offres et 15 entreprises joignables par e-mail",
   "reponses": "0 réponse(s) suivie(s)"
 }
