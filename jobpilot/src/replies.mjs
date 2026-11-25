@@ -46,14 +46,20 @@ function unwrapForward(text) {
 }
 
 const replies = await read('data/replies.json', {});
-const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user: env.SMTP_USER, pass: env.SMTP_PASS }, logger: false });
+const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user: env.SMTP_USER, pass: env.SMTP_PASS }, logger: false, socketTimeout: 120000 });
+client.on('error', e => console.log(`Boîte mail : ${e.message}`)); // jamais de plantage du robot à cause de la boîte mail
+setTimeout(() => { console.log('Lecture des réponses interrompue (trop longue).'); process.exit(0); }, 4 * 60 * 1000).unref();
 let found = 0;
 try {
   await client.connect();
   const since = new Date(Math.min(...sent.map(s => +new Date(s.at))) - 864e5);
   const lock = await client.getMailboxLock('INBOX');
   try {
-    for await (const msg of client.fetch({ since }, { envelope: true, uid: true })) {
+    // On récupère d'abord la liste des messages, puis on les analyse : imapflow n'accepte pas
+    // d'autre commande pendant qu'une lecture de liste est en cours (cause du blocage précédent).
+    const list = [];
+    for await (const m of client.fetch({ since }, { envelope: true, uid: true })) list.push({ uid: m.uid, envelope: m.envelope });
+    for (const msg of list) {
       let from = (msg.envelope.from?.[0]?.address || '').toLowerCase();
       let subject = msg.envelope.subject || '';
       let body = null;
