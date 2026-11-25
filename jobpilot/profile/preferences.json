@@ -276,5 +276,14 @@
     "onlyWithEmail": true,
     "spontaneous": true
   },
-  "_familles": "Familles de postes ciblées : direction et développement commercial, business management / ingénieur d'affaires (dont IT/ESN), grands comptes, direction des opérations, direction d'agence, recrutement, e-commerce, export."
+  "_familles": "Familles de postes ciblées : direction et développement commercial, business management / ingénieur d'affaires (dont IT/ESN), grands comptes, direction des opérations, direction d'agence, recrutement, e-commerce, export.",
+  "blocked": [
+    "Alan",
+    "CEGEDIM SANTE",
+    "EFFET B",
+    "Findyourstaff",
+    "IKIWAY",
+    "KARPOS RH"
+  ],
+  "_blocked": "Entreprises à ne jamais contacter (nom tel qu'affiché)."
 }

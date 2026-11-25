@@ -35,7 +35,8 @@ export function scoreJob(job, profile, prefs) {
     if (!parts.length) return '';
     return normalize(/arrondissement/i.test(parts[0]) && parts[1] ? parts[1] : parts[0]);
   }).filter(Boolean);
-  const placeOk = places.some(pl => prefs.locations.some(l => hasPrefix(pl, l)));
+  // Noms de lieux entiers (« Bron » ≠ « Bronschhofen ») ; préfixe seulement pour les codes postaux (« 74 » → 74000).
+  const placeOk = places.some(pl => prefs.locations.some(l => (/^\d+$/.test(l) ? hasPrefix(pl, l) : hasTerm(pl, l))));
   const genericRemote = job.remote && (!locNorm || /^(remote|remote job|anywhere|worldwide|werken op afstand|teletravail)$/.test(locNorm));
   const locOk = !prefs.locations.length || placeOk || (prefs.acceptRemote && genericRemote);
   if (!locOk) return { score: 0, excluded: `lieu hors zone (${job.location})`, reasons };

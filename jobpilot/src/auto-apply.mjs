@@ -40,7 +40,9 @@ for (const f of folders) {
 // Dernière vérification avant de postuler : l'offre respecte-t-elle toujours la zone et les critères ?
 const profileData = await read('profile/profile.json', {});
 const stillOk = j => { const r = scoreJob(j, profileData, prefs); return !r.excluded && r.score >= cfg.minScore; };
-const free = j => !apps[j.id] && !folders.has(applicationFolder(j.id)) && !usedEmails.has(String(j.contactEmail || j.email || '').toLowerCase());
+const blocked = new Set((prefs.blocked || []).map(n => n.toLowerCase().trim()));
+const isBlocked = x => blocked.has(String(x.company || x.name || '').toLowerCase().trim());
+const free = j => !isBlocked(j) && !apps[j.id] && !folders.has(applicationFolder(j.id)) && !usedEmails.has(String(j.contactEmail || j.email || '').toLowerCase());
 const candidates = jobs
   .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && stillOk(j) && (!cfg.onlyWithEmail || isEmail(j.contactEmail)))
   .sort((a, b) => isEmail(b.contactEmail) - isEmail(a.contactEmail) || b.score - a.score)
