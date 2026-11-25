@@ -23,6 +23,7 @@ const folders = new Set(await readdir(new URL('data/applications/', root)).catch
 
 // Envoi automatique activé : les candidatures déjà préparées mais restées en attente partent aussi
 // (sauf entreprises de la liste noire et candidatures abandonnées / ignorées dans le suivi).
+const profileForCheck = await read('profile/profile.json', {});
 if (process.env.AUTO_SEND === 'true') {
   const blockedNames = new Set((prefs.blocked || []).map(n => n.toLowerCase().trim()));
   const pending = [];
@@ -32,6 +33,11 @@ if (process.env.AUTO_SEND === 'true') {
     if (!m.id || /envoy/.test(m.sent || '') || !isEmail(m.contactEmail)) continue;
     if (blockedNames.has(String(m.company || '').toLowerCase().trim())) continue;
     if (['abandon', 'ignoree', 'refus', 'envoyee', 'relancee', 'entretien', 'offre'].includes(stage)) continue;
+    // Même contrôle qu'à la préparation : l'offre doit être toujours présente et respecter zone et critères.
+    const job = jobs.find(j => j.id === m.id);
+    const company = companies.find(c => c.id === m.id);
+    if (job) { const r = scoreJob(job, profileForCheck, prefs); if (r.excluded || r.score < cfg.minScore) { console.log(`Non envoyée (${r.excluded || 'note insuffisante'}) : ${m.company}`); continue; } }
+    else if (!company) { console.log(`Non envoyée (offre introuvable, à vérifier) : ${m.company}`); continue; }
     pending.push(m.id);
   }
   const batch = pending.slice(0, cfg.maxPerDay);
