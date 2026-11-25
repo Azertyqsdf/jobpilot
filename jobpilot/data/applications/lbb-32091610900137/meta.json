@@ -1,7 +1,7 @@
 {
   "id": "lbb-32091610900137",
   "folder": "lbb-32091610900137",
-  "auto": true,
+  "auto": false,
   "title": "Responsable grands comptes / Business developer",
   "company": "PARUVENDU.FR",
   "url": "https://www.paruvendu.fr/",
@@ -10,7 +10,7 @@
   "lang": "fr",
   "letterSource": "modèle — IA indisponible (Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gem)",
   "pdf": true,
-  "sent": "non — envoi automatique désactivé ; e-mail : bonjour@paruvendu.fr",
+  "sent": "envoyé",
   "matched": [
     "Direction commerciale",
     "Business development",
@@ -18,5 +18,5 @@
     "Négociation grands comptes"
   ],
   "missing": [],
-  "createdAt": "2026-11-24T14:01:40.010Z"
+  "createdAt": "2026-11-25T23:03:58.348Z"
 }
