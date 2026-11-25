@@ -135,3 +135,4 @@ code { background: var(--soft); padding: 1px 5px; border-radius: 5px; font-size:
 .reply.entretien { background: color-mix(in srgb, var(--ok) 15%, transparent); color: var(--ok); }
 .reply.refus { background: color-mix(in srgb, var(--bad) 12%, transparent); color: var(--bad); }
 .reply .small { font-weight: 400; margin-top: 2px; }
+.reply.vivier { background: color-mix(in srgb, var(--warn) 14%, transparent); color: var(--warn); }

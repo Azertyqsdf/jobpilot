@@ -25,6 +25,7 @@ function classify(text) {
   const t = text.toLowerCase();
   if (/(entretien|rencontrer|vous rencontrer|[ée]change t[ée]l[ée]phonique|vos disponibilit|cr[ée]neau|visio|rendez-vous|interview|call with you|meet you)/.test(t)) return 'entretien';
   if (/(ne (pas )?donner (une suite )?favorable|pas (été )?retenu|ne correspond pas|autre(s)? candidat|malheureusement|regret|nous ne pouvons pas|unfortunately|not (been )?selected|other candidates)/.test(t)) return 'refus';
+  if (/(stabilisation des effectifs|pas de (poste|besoin|recrutement) (ouvert |en cours )?(actuellement|pour le moment|a ce jour)|aucun poste|conserv(er|ons|erons) (vos coordonn|votre (cv|candidature))|notre vivier|base de donn[ée]es candidats|pas en mesure de donner suite)/.test(t)) return 'vivier';
   if (/(bien re[çc]u|accus[ée] de r[ée]ception|nous avons re[çc]u|reviendrons vers vous|étudions votre candidature|thank you for your application|we have received)/.test(t)) return 'accuse';
   return 'reponse';
 }

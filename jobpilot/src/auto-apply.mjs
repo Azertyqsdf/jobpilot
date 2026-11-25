@@ -7,6 +7,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { applicationFolder, isEmail } from './lib/text.mjs';
+import { scoreJob } from './lib/match.mjs';
 
 const root = new URL('..', import.meta.url);
 const read = async (p, d) => JSON.parse(await readFile(new URL(p, root), 'utf8').catch(() => JSON.stringify(d)));
@@ -36,9 +37,12 @@ for (const f of folders) {
   const m = await read(`data/applications/${f}/meta.json`, {});
   if (m.contactEmail && (Date.now() - new Date(m.createdAt)) / 864e5 < 90) usedEmails.add(String(m.contactEmail).toLowerCase());
 }
+// Dernière vérification avant de postuler : l'offre respecte-t-elle toujours la zone et les critères ?
+const profileData = await read('profile/profile.json', {});
+const stillOk = j => { const r = scoreJob(j, profileData, prefs); return !r.excluded && r.score >= cfg.minScore; };
 const free = j => !apps[j.id] && !folders.has(applicationFolder(j.id)) && !usedEmails.has(String(j.contactEmail || j.email || '').toLowerCase());
 const candidates = jobs
-  .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && (!cfg.onlyWithEmail || isEmail(j.contactEmail)))
+  .filter(j => free(j) && j.status === 'new' && !j.manual && j.score >= cfg.minScore && stillOk(j) && (!cfg.onlyWithEmail || isEmail(j.contactEmail)))
   .sort((a, b) => isEmail(b.contactEmail) - isEmail(a.contactEmail) || b.score - a.score)
   .map(j => j.id);
 if (cfg.spontaneous) {

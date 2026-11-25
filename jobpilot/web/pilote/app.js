@@ -229,7 +229,7 @@ function effective(id, a) {
   // Réponse détectée dans la boîte mail : l'étape avance toute seule (sauf si tu l'as déjà fait avancer).
   if (reply && ['preparation', 'a_envoyer', 'envoyee', 'relancee'].includes(stage) && !a.manualStage) {
     if (reply.kind === 'entretien') stage = 'entretien';
-    else if (reply.kind === 'refus') stage = 'refus';
+    else if (reply.kind === 'refus' || reply.kind === 'vivier') stage = 'refus';
   }
   if (['preparation', 'a_envoyer'].includes(stage) && app?.sent) stage = 'envoyee';
   const column = { preparation: 'a_envoyer', a_envoyer: 'a_envoyer', envoyee: 'envoyee', relancee: 'envoyee', entretien: 'entretien', offre: 'terminee', refus: 'terminee', abandon: 'terminee' }[stage] || 'a_envoyer';
@@ -479,7 +479,7 @@ function appCard(x) {
     : due ? `<button class="btn sm primary" data-act="mark-relance" data-id="${esc(id)}">C'est relancé</button>` : '';
   return `<article class="card app">
     ${due ? `<div class="due">⏰ À relancer</div>` : ''}
-    ${reply ? `<div class="reply ${esc(reply.kind)}">📩 ${{ entretien: 'Proposition d\'échange / entretien', refus: 'Réponse négative', accuse: 'Accusé de réception', reponse: 'Réponse reçue' }[reply.kind] || 'Réponse'} · ${fmtDay(reply.date)}<div class="small muted">${esc(reply.extract.slice(0, 160))}…</div></div>` : ''}
+    ${reply ? `<div class="reply ${esc(reply.kind)}">📩 ${{ entretien: 'Proposition d\'échange / entretien', refus: 'Réponse négative', vivier: 'Pas de poste pour l\'instant — CV conservé', accuse: 'Accusé de réception', reponse: 'Réponse reçue' }[reply.kind] || 'Réponse'} · ${fmtDay(reply.date)}<div class="small muted">${esc(reply.extract.slice(0, 160))}…</div></div>` : ''}
     <div class="t">${esc(a.company || '—')}${a.auto ? ' <span class="chip">auto</span>' : ''}</div>
     <div class="small">${esc(a.title || '')}</div>
     <div class="small muted">${sentAt ? `Envoyée le ${fmtDay(sentAt)}` : `Ajoutée le ${fmtDay(a.at)}`}${a.relanceAt ? ` · relancée le ${fmtDay(a.relanceAt)}` : ''}</div>
