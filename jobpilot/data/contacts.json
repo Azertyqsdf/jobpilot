@@ -2103,5 +2103,143 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-24T14:01:20.292Z"
+  },
+  "n2jsoft": {
+    "name": "N2JSoft",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-25T21:20:29.014Z"
+  },
+  "scalers france": {
+    "name": "Scalers France",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-25T21:20:29.917Z"
+  },
+  "swissbit": {
+    "name": "Swissbit",
+    "website": "https://www.swissbit.com/en",
+    "email": "career@swissbit.com",
+    "source": "https://www.swissbit.com/en/company/careers",
+    "verified": "nom",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@swissbit.com",
+      "source": "https://www.swissbit.com/en/legal/imprint"
+    },
+    "checkedAt": "2026-11-25T21:20:31.077Z"
+  },
+  "itson": {
+    "name": "ITSON",
+    "website": "https://itson.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@itson.fr",
+      "source": "https://itson.fr/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-25T21:20:39.275Z"
+  },
+  "abmi groupe": {
+    "name": "ABMI Groupe",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-25T21:20:42.952Z"
+  },
+  "house of aby": {
+    "name": "HOUSE OF ABY",
+    "website": "https://houseofaby.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:44.015Z"
+  },
+  "agixis": {
+    "name": "Agixis",
+    "website": "https://www.agixis.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:45.030Z"
+  },
+  "vivlio": {
+    "name": "Vivlio",
+    "website": "https://www.vivlio.com/",
+    "email": "recrutement@vivlio.com",
+    "source": "https://www.vivlio.com/jobs/",
+    "verified": "nom",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:51.621Z"
+  },
+  "atout search": {
+    "name": "ATOUT SEARCH",
+    "website": "https://www.atoutsearch.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:52.374Z"
+  },
+  "astron": {
+    "name": "Astron",
+    "website": "https://www.astron.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:55.958Z"
+  },
+  "capolea": {
+    "name": "CAPOLEA",
+    "website": "https://www.capolea.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "812724581"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:56.986Z"
+  },
+  "les colettes sourcing": {
+    "name": "Les Colettes Sourcing",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-25T21:20:57.026Z"
+  },
+  "dv group": {
+    "name": "DV GROUP",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-25T21:20:57.027Z"
+  },
+  "younight hospitality": {
+    "name": "Younight Hospitality",
+    "website": "https://www.younight-hospitality.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "901215822",
+      "824023063"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-25T21:20:58.526Z"
   }
 }
