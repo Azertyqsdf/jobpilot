@@ -74,6 +74,11 @@ for (const id of ids) {
     const c = companies?.companies?.find(x => x.id === id);
     if (c) job = spontaneousJob(c);
   }
+  if (!job) {
+    // Offre disparue des sources depuis la préparation : on reprend les informations du dossier.
+    const m = JSON.parse(await readFile(new URL(`data/applications/${applicationFolder(id)}/meta.json`, root), 'utf8').catch(() => 'null'));
+    if (m) job = { id, title: m.title, company: m.company, url: m.url, contactEmail: isEmail(m.contactEmail) ? m.contactEmail : null, description: m.title, tags: [], spontaneous: id.startsWith('lbb-'), location: '' };
+  }
   if (!job) { report.push({ id, error: 'offre introuvable dans data/jobs.json' }); continue; }
 
   // Dossier personnalisé à la main (fichier « personnalise ») : on réutilise ses documents tels quels.

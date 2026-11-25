@@ -21,6 +21,26 @@ const { companies = [] } = await read('data/companies.json', {});
 const { apps = {} } = await read('data/tracking.json', {});
 const folders = new Set(await readdir(new URL('data/applications/', root)).catch(() => []));
 
+// Envoi automatique activé : les candidatures déjà préparées mais restées en attente partent aussi
+// (sauf entreprises de la liste noire et candidatures abandonnées / ignorées dans le suivi).
+if (process.env.AUTO_SEND === 'true') {
+  const blockedNames = new Set((prefs.blocked || []).map(n => n.toLowerCase().trim()));
+  const pending = [];
+  for (const f of folders) {
+    const m = await read(`data/applications/${f}/meta.json`, {});
+    const stage = apps[m.id]?.stage;
+    if (!m.id || /envoy/.test(m.sent || '') || !isEmail(m.contactEmail)) continue;
+    if (blockedNames.has(String(m.company || '').toLowerCase().trim())) continue;
+    if (['abandon', 'ignoree', 'refus', 'envoyee', 'relancee', 'entretien', 'offre'].includes(stage)) continue;
+    pending.push(m.id);
+  }
+  const batch = pending.slice(0, cfg.maxPerDay);
+  if (batch.length) {
+    console.log(`Envoi des candidatures préparées en attente : ${batch.length}.`);
+    execFileSync(process.execPath, [fileURLToPath(new URL('apply.mjs', import.meta.url)), ...batch], { stdio: 'inherit', env: { ...process.env } });
+  }
+}
+
 // Combien de candidatures automatiques déjà faites aujourd'hui ?
 const today = new Date().toISOString().slice(0, 10);
 let doneToday = 0;
