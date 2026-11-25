@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-11-25T21:18:32.142Z",
+  "startedAt": "2026-11-25T21:22:54.327Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "96 offres",
@@ -8,8 +8,8 @@
     "manuel": "1 offre(s)",
     "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gemini-flash-latest: 0))",
-  "finishedAt": "2026-11-25T21:20:27.421Z",
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 503, gemini-3.7-flash: 429))",
+  "finishedAt": "2026-11-25T21:24:12.720Z",
   "fetched": 1731,
   "unique": 1452,
   "kept": 114,
@@ -57,6 +57,6 @@
       }
     }
   },
-  "prospection": "14 entreprises examinées, 2 nouvelles adresses ; 22 offres et 15 entreprises joignables par e-mail",
-  "reponses": "1 réponse(s) suivie(s), 1 nouvelle(s)"
+  "prospection": "0 entreprises examinées, 0 nouvelles adresses ; 22 offres et 15 entreprises joignables par e-mail",
+  "reponses": "1 réponse(s) suivie(s)"
 }
