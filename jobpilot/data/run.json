@@ -1,57 +1,55 @@
 {
-  "startedAt": "2026-11-25T23:04:54.249Z",
+  "startedAt": "2026-11-26T00:58:59.338Z",
   "sources": {
     "arbeitnow": "900 offres",
     "remotive": "96 offres",
     "franceTravail": "accès à l'API « Offres d'emploi » non accordé (autorisation spéciale à demander)",
-    "adzuna": "734 offres",
+    "adzuna": "724 offres",
     "manuel": "1 offre(s)",
     "laBonneBoite": "169 entreprises"
   },
-  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-flash-latest: 429, gemini-3.8-flash: 429, gemini-3.7-flash: 429))",
-  "finishedAt": "2026-11-25T23:05:23.358Z",
-  "fetched": 1731,
-  "unique": 1441,
+  "summaries": "résumés automatiques (IA indisponible : Gemini indisponible (gemini-omni-1.2-flash: 429, gemini-omni-1.1-flash: 429, gemini-flash-latest: 0))",
+  "finishedAt": "2026-11-26T01:00:54.033Z",
+  "fetched": 1721,
+  "unique": 1434,
   "kept": 113,
   "zones": {
     "autres": {
-      "trouvees": 854,
+      "trouvees": 856,
       "retenues": 0,
       "exclues": {
         "aucun mot obligatoire": 183,
-        "lieu hors zone": 571,
+        "lieu hors zone": 573,
         "mot exclu dans le titre": 100
       }
     },
     "Lyon": {
-      "trouvees": 332,
+      "trouvees": 328,
       "retenues": 92,
       "exclues": {
-        "aucun mot obligatoire": 23,
-        "note < 75": 122,
-        "mot exclu dans le titre": 45,
-        "lieu hors zone": 41,
-        "offre trop ancienne": 9
+        "aucun mot obligatoire": 24,
+        "note < 75": 125,
+        "mot exclu dans le titre": 44,
+        "lieu hors zone": 43
       }
     },
     "Genève": {
-      "trouvees": 43,
+      "trouvees": 40,
       "retenues": 5,
       "exclues": {
-        "mot exclu dans le titre": 8,
-        "note < 75": 22,
-        "aucun mot obligatoire": 7,
+        "mot exclu dans le titre": 7,
+        "note < 75": 21,
+        "aucun mot obligatoire": 6,
         "lieu hors zone": 1
       }
     },
     "Haute-Savoie": {
-      "trouvees": 212,
+      "trouvees": 210,
       "retenues": 11,
       "exclues": {
-        "note < 75": 146,
-        "mot exclu dans le titre": 27,
-        "lieu hors zone": 4,
-        "offre trop ancienne": 5,
+        "note < 75": 149,
+        "mot exclu dans le titre": 28,
+        "lieu hors zone": 3,
         "aucun mot obligatoire": 19
       }
     }
