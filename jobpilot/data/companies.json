@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:29:45.771Z",
+ "updatedAt": "2026-11-26T20:34:57.014Z",
  "companies": [
   {
    "id": "lbb-83059066700028",
@@ -3131,11 +3131,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 2.5206915954,
-   "email": "",
+   "email": "bonjour@netdev.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.netdev.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.netdev.fr/mentions-legales",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-34808133200036",
@@ -3339,11 +3341,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de matériel électrique",
    "headcount": "",
    "score": 2.3699908775000003,
-   "email": "",
+   "email": "info@dexergie.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.dexergie.com/",
    "distance": null,
-   "rome": "M1302"
+   "rome": "M1302",
+   "emailSource": "https://www.dexergie.com/contactus",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-79812142200108",
@@ -3547,11 +3551,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de meubles, de tapis et d'appareils d'éclairage",
    "headcount": "",
    "score": 2.20972399,
-   "email": "",
+   "email": "info@disano.it",
    "phone": "",
-   "website": "",
+   "website": "https://www.disano.it/en/",
    "distance": null,
-   "rome": "M1302"
+   "rome": "M1302",
+   "emailSource": "https://www.disano.it/en/contacts-italy/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-52977037200025",
@@ -3675,11 +3681,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 2.1046906716,
-   "email": "",
+   "email": "contact@alpes-deis.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.alpes-deis.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.alpes-deis.fr/contact",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-77565835400458",
@@ -3981,11 +3989,13 @@
    "sector": "Commerce de gros (commerce interentreprises) d'autres biens domestiques",
    "headcount": "",
    "score": 1.9214268449999998,
-   "email": "",
+   "email": "contact@loisirsnautiques74.com",
    "phone": "",
-   "website": "",
+   "website": "https://loisirsnautiques74.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://loisirsnautiques74.com/contact.html",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-79504950100039",
@@ -4239,11 +4249,13 @@
    "sector": "Intermédiaires spécialisés dans le commerce d'autres produits spécifiques",
    "headcount": "",
    "score": 1.5893885279,
-   "email": "",
+   "email": "contact@loisiralp.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.loisiralp.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.loisiralp.com/contact/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-82126677200010",
@@ -4463,11 +4475,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 1.4039404848,
-   "email": "",
+   "email": "contact@webmecanik.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.webmecanik.com/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.webmecanik.com/recrutement-responsable-alliances/",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-51024653100063",
@@ -4527,11 +4541,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 1.3440848382500001,
-   "email": "",
+   "email": "job@mnstr.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.mnstr.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.mnstr.com/",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-84132457700060",
@@ -4671,11 +4687,13 @@
    "sector": "Commerce de gros (commerce interentreprises) d'autres biens domestiques",
    "headcount": "",
    "score": 1.1483239149999998,
-   "email": "",
+   "email": "info@mojotechnologies.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.mojotechnologies.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.mojotechnologies.com/contact-us.html",
+   "emailWhy": "petite entreprise (6 à 9 salariés)"
   },
   {
    "id": "lbb-78493968809768",
@@ -4783,11 +4801,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 1.0526901517,
-   "email": "",
+   "email": "contact@skezi.eu",
    "phone": "",
-   "website": "",
+   "website": "https://skezi.eu/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://skezi.eu/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-52762859800031",

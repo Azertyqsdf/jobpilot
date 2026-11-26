@@ -2581,5 +2581,391 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-26T15:33:24.065Z"
+  },
+  "sunset": {
+    "name": "SUNSET",
+    "website": "https://sunset.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T20:35:00.510Z"
+  },
+  "netdev": {
+    "name": "NETDEV",
+    "website": "https://www.netdev.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "821385846"
+    ],
+    "generic": {
+      "email": "bonjour@netdev.fr",
+      "source": "https://www.netdev.fr/mentions-legales"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "bonjour@netdev.fr",
+    "source": "https://www.netdev.fr/mentions-legales",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:35:02.633Z"
+  },
+  "m2s": {
+    "name": "M2S",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:03.748Z"
+  },
+  "synd loc moniteurs ecole ski fr clusaz": {
+    "name": "SYND LOC MONITEURS ECOLE SKI FR CLUSAZ",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:08.578Z"
+  },
+  "chrillaume": {
+    "name": "CHRILLAUME",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:09.913Z"
+  },
+  "bnp paribas": {
+    "name": "BNP PARIBAS",
+    "website": "https://www.bnpparibas.ch/en/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "662042449"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T20:35:15.647Z"
+  },
+  "le sphinx developpement": {
+    "name": "LE SPHINX DEVELOPPEMENT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:17.925Z"
+  },
+  "syndicat e s f avoriaz 1800": {
+    "name": "SYNDICAT E S F AVORIAZ 1800",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:33.734Z"
+  },
+  "hello travel": {
+    "name": "HELLO TRAVEL",
+    "website": "https://www.hellotravel.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T20:35:40.757Z"
+  },
+  "dexergie": {
+    "name": "DEXERGIE",
+    "website": "https://www.dexergie.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "834392250"
+    ],
+    "generic": {
+      "email": "info@dexergie.com",
+      "source": "https://www.dexergie.com/contactus"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "info@dexergie.com",
+    "source": "https://www.dexergie.com/contactus",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:35:40.950Z"
+  },
+  "celada france": {
+    "name": "CELADA FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:44.594Z"
+  },
+  "quincaillerie jacquard": {
+    "name": "QUINCAILLERIE JACQUARD",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:44.614Z"
+  },
+  "martea jouets": {
+    "name": "MARTEA JOUETS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:48.013Z"
+  },
+  "syndicat esf de flaine": {
+    "name": "SYNDICAT ESF DE FLAINE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:35:53.597Z"
+  },
+  "disano illuminazione france sa": {
+    "name": "DISANO ILLUMINAZIONE FRANCE SA",
+    "website": "https://www.disano.it/en/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@disano.it",
+      "source": "https://www.disano.it/en/contacts-italy/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@disano.it",
+    "source": "https://www.disano.it/en/contacts-italy/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:35:54.772Z"
+  },
+  "sport experience": {
+    "name": "SPORT EXPERIENCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:07.323Z"
+  },
+  "4g": {
+    "name": "4G",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:07.325Z"
+  },
+  "alpes deis": {
+    "name": "ALPES DEIS",
+    "website": "https://www.alpes-deis.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "349413096"
+    ],
+    "generic": {
+      "email": "contact@alpes-deis.fr",
+      "source": "https://www.alpes-deis.fr/contact"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@alpes-deis.fr",
+    "source": "https://www.alpes-deis.fr/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:36:14.285Z"
+  },
+  "isi": {
+    "name": "ISI",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:18.728Z"
+  },
+  "location francophone": {
+    "name": "LOCATION-FRANCOPHONE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:23.667Z"
+  },
+  "sarl puerijouets": {
+    "name": "SARL PUERIJOUETS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:28.281Z"
+  },
+  "loisirs nautiques 74": {
+    "name": "LOISIRS NAUTIQUES 74",
+    "website": "https://loisirsnautiques74.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@loisirsnautiques74.com",
+      "source": "https://loisirsnautiques74.com/contact.html"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@loisirsnautiques74.com",
+    "source": "https://loisirsnautiques74.com/contact.html",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:36:28.693Z"
+  },
+  "ets depery dufour": {
+    "name": "ETS DEPERY DUFOUR",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:44.267Z"
+  },
+  "tournier machines a bois": {
+    "name": "TOURNIER MACHINES A BOIS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:49.313Z"
+  },
+  "loisiralp": {
+    "name": "LOISIRALP",
+    "website": "https://www.loisiralp.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@loisiralp.com",
+      "source": "https://www.loisiralp.com/contact/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@loisiralp.com",
+    "source": "https://www.loisiralp.com/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:36:59.580Z"
+  },
+  "ifi informatique": {
+    "name": "IFI INFORMATIQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:36:59.849Z"
+  },
+  "le fil de l arve": {
+    "name": "LE FIL DE L'ARVE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:01.991Z"
+  },
+  "syndicat e s f les gets": {
+    "name": "SYNDICAT E S F LES GETS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:14.323Z"
+  },
+  "webmecanik": {
+    "name": "WEBMECANIK",
+    "website": "https://www.webmecanik.com/",
+    "email": "contact@webmecanik.com",
+    "source": "https://www.webmecanik.com/recrutement-responsable-alliances/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "488883794"
+    ],
+    "generic": {
+      "email": "contact@webmecanik.com",
+      "source": "https://www.webmecanik.com/recrutement-responsable-alliances/"
+    },
+    "checkedAt": "2026-11-26T20:37:19.141Z"
+  },
+  "caisse reg du credit mut savoie mont bla": {
+    "name": "CAISSE REG DU CREDIT MUT SAVOIE MONT BLA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:25.380Z"
+  },
+  "syndicat e s f morzine": {
+    "name": "SYNDICAT E S F MORZINE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:35.824Z"
+  },
+  "centre d elevage de poisy lucien biset": {
+    "name": "CENTRE D'ELEVAGE DE POISY LUCIEN BISET",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:36.338Z"
+  },
+  "mnstr": {
+    "name": "MNSTR.",
+    "website": "https://www.mnstr.com/",
+    "email": "job@mnstr.com",
+    "source": "https://www.mnstr.com/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@mnstr.com",
+      "source": "https://www.mnstr.com/"
+    },
+    "checkedAt": "2026-11-26T20:37:39.616Z"
+  },
+  "local moniteurs esf de st gerv": {
+    "name": "LOCAL MONITEURS ESF DE ST GERV",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:46.634Z"
+  },
+  "mille et un cadeaux": {
+    "name": "MILLE ET UN CADEAUX",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:37:50.249Z"
+  },
+  "audit conseil impression a c i": {
+    "name": "AUDIT CONSEIL IMPRESSION A.C.I.",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:38:04.330Z"
+  },
+  "mojo technologies": {
+    "name": "MOJO TECHNOLOGIES",
+    "website": "https://www.mojotechnologies.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@mojotechnologies.com",
+      "source": "https://www.mojotechnologies.com/contact-us.html"
+    },
+    "genericVerdict": "petite entreprise (6 à 9 salariés)",
+    "email": "info@mojotechnologies.com",
+    "source": "https://www.mojotechnologies.com/contact-us.html",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (6 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:38:07.397Z"
+  },
+  "skezi": {
+    "name": "SKEZI",
+    "website": "https://skezi.eu/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@skezi.eu",
+      "source": "https://skezi.eu/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@skezi.eu",
+    "source": "https://skezi.eu/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T20:38:23.144Z"
+  },
+  "savoie palettes": {
+    "name": "SAVOIE PALETTES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:38:24.415Z"
+  },
+  "pures sensations mer montagne": {
+    "name": "PURES SENSATIONS MER & MONTAGNE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T20:38:34.610Z"
   }
 }

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T15:29:45.773Z",
+ "updatedAt": "2026-11-26T20:34:57.015Z",
  "jobs": [
   {
    "tags": [
@@ -306,7 +306,7 @@
    "company": "KARPOS RH",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5973749841?se=3FOBlzTp8RGq4p5KapsR2w&utm_medium=api&utm_source=d81896fb&v=B9387A3AAAB389826518BA9E9E1C5DF28AA0503C",
+   "url": "https://www.adzuna.fr/details/5973749841?utm_medium=api&utm_source=d81896fb",
    "description": "Votre double mission Vous développez votre portefeuille clients et vous pilotez vos mandats de recrutement, sur les fonctions commerciales et marketing en Life Sciences. 1 · Développer • Prospecter et développer votre portefeuille de clients (PME, ETI, grands comptes) : identification de cibles, rendez-vous de découverte • Cadrer le besoin, construire la proposition commerciale et conclure les mandats • Fidéliser dans la durée : suivi de l’intégration, satisfaction, mandats récurrents • Représe…",
    "contactEmail": "contact@karpos-rh.com",
    "contract": "permanent",
@@ -659,6 +659,54 @@
    "reference": null,
    "summary": "Vous aimez le terrain, le challenge commercial et l’univers agricole ? Alors, donnez un nouvel ancrage à votre carrière ! Implantée à Saint-Avold (57), ANCR’EST conçoit et fabrique des solutions d’ancrage écologiques pour l'agriculture, le génie civil et les espaces verts.",
    "contactEmailSource": "https://www.jbl-conseil.fr/contact/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
+   "id": "adzuna-5978962925",
+   "source": "Adzuna",
+   "title": "Commercial Export - Maintenance Industrielle & Machines Spéciales",
+   "company": "MVIP consulting",
+   "location": "Thyez, Bonneville",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5978962925?utm_medium=api&utm_source=d81896fb",
+   "description": "Description du poste et Missions Notre client, acteur reconnu de la maintenance industrielle et des machines spéciales (automatisme, mécanique, machines-outils) et membre d'un groupe, accélère son développement à l'international et recrute un(e) Commercial Export. Lieu : Haute-Savoie (74) – Vallée de l'Arve FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer s…",
+   "contactEmail": "contact@mvipconsulting.com",
+   "contract": "full_time",
+   "salary": "63000–90000 €",
+   "salaryMin": 63000,
+   "salaryMax": 90000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-26T03:41:25Z",
+   "tags": [
+    "Emplois Hospitalité et Restauration"
+   ],
+   "score": 75,
+   "reasons": [
+    "Compétences : Développement international",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Développement international"
+   ],
+   "status": "sent",
+   "firstSeen": "2026-11-26T15:27:04.050Z",
+   "application": "adzuna-5978962925",
+   "salaryAnnual": {
+    "min": 63000,
+    "max": 90000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "63 k–90 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Lieu : Haute-Savoie (74) – Vallée de l'Arve FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer s…",
+   "contactEmailSource": "https://www.mvipconsulting.com/contact",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
@@ -1969,48 +2017,6 @@
    "summary": "Rattaché(e) à la Direction Commerciale, vous prenez en charge le développement de l'activité Hospitality sur l'ensemble de la région Auvergne-Rhône-Alpes. Vous aurez notamment pour missions de : Prospecter et ouvrir de nouveaux comptes sur votre territoire ; Développer et fidéliser un portefeuille de clients hôtel…"
   },
   {
-   "id": "adzuna-5967896326",
-   "source": "Adzuna",
-   "title": "Directeur commercial (H/F) (CDI)",
-   "company": "Rosen et Beaumont",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5967896326?utm_medium=api&utm_source=d81896fb",
-   "description": "Rosen et Beaumont recrute pour son client, industriel français leader sur son marché présent en France et à l'international, un directeur commercial (H/F). Poste basé dans l'est lyonnais nécessitant des déplacements réguliers. Rattaché à la direction générale, le Directeur Commercial définit, anime et supervise la stratégie commerciale mise en œuvre dans​ l’entreprise, en vue d’accroître les ventes, le chiffre d’affaires et la marge commerciale. Il optimise la performance commerciale et assure …",
-   "contactEmail": null,
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-16T16:02:41Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 98,
-   "reasons": [
-    "Compétences : Direction commerciale, Pilotage stratégique, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Pilotage stratégique",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Poste basé dans l'est lyonnais nécessitant des déplacements réguliers. Rattaché à la direction générale, le Directeur Commercial définit, anime et supervise la stratégie commerciale mise en œuvre dans​ l’entreprise, en vue d’accroître les ventes, le chiffre d’affaires et la marge commerciale."
-  },
-  {
    "id": "adzuna-5979019078",
    "source": "Adzuna",
    "title": "Technico-Commercial B2b - Secteur Peinture Distribution Industries et Applicateurs H/F",
@@ -2871,47 +2877,6 @@
    "summary": "Notre client Notre client est un groupe industriel international de référence, spécialisé dans la conception et la fabrication de solutions technologiques à forte valeur ajoutée destinées aux industriels."
   },
   {
-   "id": "adzuna-5973741130",
-   "source": "Adzuna",
-   "title": "Directeur Commercial F/H - Systèmes Electroniques",
-   "company": "ADSEARCH",
-   "location": "Lyon, Rhône",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5973741130?utm_medium=api&utm_source=d81896fb",
-   "description": "En bref : Directeur Commercial F/H - Systèmes Electroniques - CDI - Lyon - 80 K€ La division Sales & Marketing d'Adsearch Lyon recherche un Directeur Commercial F/H pour une entreprise spécialisée dans la conception et la commercialisation de solutions électroniques à forte valeur ajoutée à destination des fabricants de machines. Dans un contexte de développement de ses activités en France et à l'international l'entreprise souhaite renforcer son organisation en recrutant un Directeur Commercial…",
-   "contactEmail": null,
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-21T08:32:31Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 88,
-   "reasons": [
-    "Compétences : Direction commerciale, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "cabinet / agence de recrutement connu",
-   "reference": null,
-   "summary": "Dans un contexte de développement de ses activités en France et à l'international l'entreprise souhaite renforcer son organisation en recrutant un Directeur Commercial…"
-  },
-  {
    "id": "adzuna-5973114220",
    "source": "Adzuna",
    "title": "Responsable commercial - Métrologie - H/F",
@@ -3004,54 +2969,13 @@
    "summary": "Tu souhaites relever de nouveaux challenges commerciaux ? tu aimes l'innovation ? Ton quotidien chez EPSA ? : - Contacter les dirigeants de…"
   },
   {
-   "id": "adzuna-5968066430",
-   "source": "Adzuna Suisse",
-   "title": "COMMERCIAL(E) B2B CONFIRMÉ(E) / BUSINESS DEVELOPER",
-   "company": "Apec Diffusion SA",
-   "location": "Kanton Genf, Schweiz",
-   "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5968066430?se=0jZS3a3p8RG6ANvPE6_vYA&utm_medium=api&utm_source=d81896fb&v=6BC0CDCB0A71C8D96D55B7AA6F2A78C7BAB6D3A4",
-   "description": "APEC DIFFUSION SA, entreprise genevoise fondée en 1985, est spécialisée dans les objets promotionnels, cadeaux d’affaires, textiles et vêtements corporate et professionnels personnalisés. Portée par une équipe soudée et un esprit entrepreneurial, APEC DIFFUSION SA poursuit son développement et souhaite renforcer sa force commerciale à Genève et en Suisse romande. Nous recherchons un(e) Commercial(e) B2B confirmé(e), prêt(e) à s’investir dans cette dynamique et à contribuer activement à notre cr…",
-   "contactEmail": null,
-   "contract": "",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "CHF",
-   "postedAt": "2026-11-16T20:25:48Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 88,
-   "reasons": [
-    "Compétences : Business development, Prospection B2B",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Prospection B2B"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Portée par une équipe soudée et un esprit entrepreneurial, APEC DIFFUSION SA poursuit son développement et souhaite renforcer sa force commerciale à Genève et en Suisse romande. Nous recherchons un(e) Commercial(e) B2B confirmé(e), prêt(e) à s’investir dans cette dynamique et à contribuer activement à notre cr…"
-  },
-  {
    "id": "adzuna-5978994955",
    "source": "Adzuna",
    "title": "Consultant en Recrutement Sénior H/F",
    "company": "Lynx RH",
    "location": "Annecy, Haute-Savoie",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5978994955?se=RP3I2K3p8RG6ANvPE6_vYA&utm_medium=api&utm_source=d81896fb&v=89A399DDD3B4A4313F9ABF9433D9BDE10AED110F",
+   "url": "https://www.adzuna.fr/details/5978994955?utm_medium=api&utm_source=d81896fb",
    "description": "Vous maîtrisez le métier du recrutement sur le bout des doigts. Sourcing, entretiens, négociation des offres, relation clients, closing vous savez faire tout ça, et vous le faites bien. Depuis des années, c'est vous qui trouvez les meilleurs profils, qui sécurisez les recrutements stratégiques, qui fidélisez les clients. Alors une question mérite d'être posée : pourquoi continuer à faire ça pour le compte de quelqu'un d'autre ? Devenez directeur(trice) de votre propre agence Lynx RH Avec Mister…",
    "contactEmail": null,
    "contract": "",
@@ -3490,7 +3414,7 @@
    "company": "Domino RH",
    "location": "Bonneville, Haute-Savoie",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5978995325?se=rIZp2K3p8RGSKZZlYWIzNg&utm_medium=api&utm_source=d81896fb&v=507A13511057A235233AD11AD359AA58A1C63DB4",
+   "url": "https://www.adzuna.fr/details/5978995325?utm_medium=api&utm_source=d81896fb",
    "description": "Domino RH recrute son futur Chargé de Recrutement passionné et dynamique pour rejoindre notre équipe en pleine expansion au sein de notre agence Domino Missions (logistique). Sous la responsabilité du responsable d'agence, vous travaillerez en collaboration directe avec l'ensemble de l'équipe. Vous serez en relation permanente avec les intérimaires. Vos missions seront : Accueillir nos clients et prospects avec le sourire, que ce soit physiquement ou au téléphone Comprendre et identifier leurs …",
    "contactEmail": null,
    "contract": "full_time",
@@ -4653,49 +4577,6 @@
    "summary": "Entreprise : Notre client est un industriel français reconnu, qui conçoit et fabrique ses produits en France. Il les commercialise auprès de la grande distribution spécialisée, des professionnels et de l'hôtellerie-restauration, et accélère aujourd'hui son développement digital."
   },
   {
-   "id": "adzuna-5968069074",
-   "source": "Adzuna Suisse",
-   "title": "Sales Manager",
-   "company": "Talan",
-   "location": "Kanton Genf, Schweiz",
-   "remote": false,
-   "url": "https://www.adzuna.ch/details/5968069074?utm_medium=api&utm_source=d81896fb",
-   "description": "Description du poste Contexte du poste L'organisation commerciale est structurée par secteurs d'activité, sous la responsabilité globale de la Direction Commerciale. Le Sales Manager est le garant, sur son secteur, du développement commercial, du pilotage de son équipe et de la qualité de la relation avec les comptes stratégiques. Il/elle est un relais clé entre la Direction Commerciale, son équipe, et les autres fonctions de l'entreprise (avant-vente, practices, marketing, delivery). Missions …",
-   "contactEmail": null,
-   "contract": "",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "CHF",
-   "postedAt": "2026-11-16T20:27:51Z",
-   "tags": [
-    "IT-Stellen"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Direction commerciale, Business development, Management d'équipe, Négociation grands comptes",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Business development",
-    "Management d'équipe",
-    "Négociation grands comptes"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Description du poste Contexte du poste L'organisation commerciale est structurée par secteurs d'activité, sous la responsabilité globale de la Direction Commerciale."
-  },
-  {
    "id": "adzuna-5972455229",
    "source": "Adzuna",
    "title": "Directeur commercial en reconversion H/F",
@@ -5566,7 +5447,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=0jZS3a3p8RG6ANvPE6_vYA&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=QLptm9jp8RG_-5ugYQfc3w&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",
@@ -5683,53 +5564,6 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Commercial(e) B2B – Rejoignez Mon courtier énergie Annecy ! Vous avez le goût du challenge, le sens du contact et l'envie de faire évoluer votre carrière commerciale ? Rejoignez Mon courtier énergie Annecy et participez au développement d'une entreprise en pleine croissance !"
-  },
-  {
-   "id": "adzuna-5978962925",
-   "source": "Adzuna",
-   "title": "Commercial Export - Maintenance Industrielle & Machines Spéciales",
-   "company": "MVIP consulting",
-   "location": "Thyez, Bonneville",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5978962925?utm_medium=api&utm_source=d81896fb",
-   "description": "Description du poste et Missions Notre client, acteur reconnu de la maintenance industrielle et des machines spéciales (automatisme, mécanique, machines-outils) et membre d'un groupe, accélère son développement à l'international et recrute un(e) Commercial Export. Lieu : Haute-Savoie (74) – Vallée de l'Arve FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer s…",
-   "contactEmail": "contact@mvipconsulting.com",
-   "contract": "full_time",
-   "salary": "63000–90000 €",
-   "salaryMin": 63000,
-   "salaryMax": 90000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-26T03:41:25Z",
-   "tags": [
-    "Emplois Hospitalité et Restauration"
-   ],
-   "score": 75,
-   "reasons": [
-    "Compétences : Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-26T15:27:04.050Z",
-   "salaryAnnual": {
-    "min": 63000,
-    "max": 90000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "63 k–90 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null,
-   "summary": "Lieu : Haute-Savoie (74) – Vallée de l'Arve FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer s…",
-   "contactEmailSource": "https://www.mvipconsulting.com/contact",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5978997010",
