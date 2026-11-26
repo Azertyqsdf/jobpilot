@@ -2241,5 +2241,345 @@
     ],
     "generic": null,
     "checkedAt": "2026-11-25T21:20:58.526Z"
+  },
+  "lynx rh": {
+    "name": "Lynx RH",
+    "website": "https://www.lynx-rh.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:29:48.953Z"
+  },
+  "mon courtier energie": {
+    "name": "Mon Courtier Energie",
+    "website": "https://www.moncourtierenergie.com/fr/fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "907898944",
+      "831001334"
+    ],
+    "generic": {
+      "email": "contact@moncourtierenergie.com",
+      "source": "https://www.moncourtierenergie.com/fr/fr/mentions-legales"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-26T15:29:51.869Z"
+  },
+  "domino rh": {
+    "name": "Domino RH",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:29:55.520Z"
+  },
+  "coop time": {
+    "name": "COOP-TIME",
+    "website": "https://cooptime.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:29:57.695Z"
+  },
+  "mvip consulting": {
+    "name": "MVIP consulting",
+    "website": "https://www.mvipconsulting.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "contact@mvipconsulting.com",
+      "source": "https://www.mvipconsulting.com/contact"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@mvipconsulting.com",
+    "source": "https://www.mvipconsulting.com/contact",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-26T15:29:59.788Z"
+  },
+  "la diffusion commerciale": {
+    "name": "LA DIFFUSION COMMERCIALE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:06.114Z"
+  },
+  "alpes entretien distribution": {
+    "name": "ALPES ENTRETIEN DISTRIBUTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:06.611Z"
+  },
+  "magasins galeries lafayette": {
+    "name": "MAGASINS GALERIES LAFAYETTE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:16.945Z"
+  },
+  "entremont synergies": {
+    "name": "ENTREMONT SYNERGIES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:25.757Z"
+  },
+  "office de tourisme vallee de l aulps": {
+    "name": "OFFICE DE TOURISME VALLEE DE L AULPS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:28.332Z"
+  },
+  "lsa franchise": {
+    "name": "LSA FRANCHISE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:29.636Z"
+  },
+  "gie seynod": {
+    "name": "GIE SEYNOD",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:32.505Z"
+  },
+  "les 2 marmottes": {
+    "name": "LES 2 MARMOTTES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:34.612Z"
+  },
+  "steb": {
+    "name": "STEB",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:37.537Z"
+  },
+  "keri medical france": {
+    "name": "KERI MEDICAL FRANCE",
+    "website": "https://www.kerimedical.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "822818886"
+    ],
+    "generic": {
+      "email": "info@kerimedical.com",
+      "source": "https://www.kerimedical.com/contact/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-26T15:30:39.808Z"
+  },
+  "laboratoires provendi": {
+    "name": "LABORATOIRES PROVENDI",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:30:58.448Z"
+  },
+  "maped": {
+    "name": "MAPED",
+    "website": "https://fr.maped.com/",
+    "email": "recrutement@maped.fr",
+    "source": "https://fr.maped.com/nous-contacter/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "419632286"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:31:07.453Z"
+  },
+  "societe cooperative jura mont blanc": {
+    "name": "SOCIETE COOPERATIVE JURA MONT-BLANC",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:09.069Z"
+  },
+  "smile energy": {
+    "name": "SMILE ENERGY",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:16.579Z"
+  },
+  "millet mountain group sas": {
+    "name": "MILLET MOUNTAIN GROUP SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:28.452Z"
+  },
+  "editions tissot": {
+    "name": "EDITIONS TISSOT",
+    "website": "https://www.editions-tissot.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "306589953"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:31:33.785Z"
+  },
+  "danfoss power solutions ii": {
+    "name": "DANFOSS POWER SOLUTIONS II",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:41.818Z"
+  },
+  "bofrost france": {
+    "name": "BOFROST*FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:46.411Z"
+  },
+  "parker hannifin manufacturing france": {
+    "name": "PARKER HANNIFIN MANUFACTURING FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:31:54.499Z"
+  },
+  "vacances eden": {
+    "name": "VACANCES EDEN",
+    "website": "https://vacanceseden.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:07.081Z"
+  },
+  "chambre interdep agricult savoie mt bl": {
+    "name": "CHAMBRE INTERDEP AGRICULT SAVOIE MT BL",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:32:13.578Z"
+  },
+  "s a l a c": {
+    "name": "S.A.L.A.C.",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:32:19.628Z"
+  },
+  "staubli technology and services": {
+    "name": "STAUBLI TECHNOLOGY AND SERVICES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:32:21.752Z"
+  },
+  "sigma net sante": {
+    "name": "SIGMA NET SANTE",
+    "website": "https://sigmanetsante.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "401224415"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:28.542Z"
+  },
+  "sportpulsion": {
+    "name": "SPORTPULSION",
+    "website": "https://sportpulsion.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "407701895"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:29.357Z"
+  },
+  "all concept": {
+    "name": "ALL CONCEPT",
+    "website": "https://all-concept.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:35.987Z"
+  },
+  "grosset janin": {
+    "name": "GROSSET-JANIN",
+    "website": "https://grossetjanin.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "442126934",
+      "332538446",
+      "424761419"
+    ],
+    "generic": {
+      "email": "info@grossetjanin.com",
+      "source": "https://grossetjanin.com/mentions-legales/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-26T15:32:36.150Z"
+  },
+  "jypy jouets": {
+    "name": "JYPY JOUETS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:32:41.671Z"
+  },
+  "ivoclar vivadent": {
+    "name": "IVOCLAR VIVADENT",
+    "website": "https://www.ivoclar.com/fr_fr",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:42.160Z"
+  },
+  "nic impex sa": {
+    "name": "NIC IMPEX SA",
+    "website": "https://www.nicimpex.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "327957684",
+      "538614454"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-26T15:32:43.276Z"
+  },
+  "syndicat e s f chamonix": {
+    "name": "SYNDICAT E S F CHAMONIX",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:33:01.589Z"
+  },
+  "societe d importation et de vente de mat": {
+    "name": "SOCIETE D'IMPORTATION ET DE VENTE DE MAT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:33:05.841Z"
+  },
+  "sarl lambersens freres": {
+    "name": "SARL LAMBERSENS FRERES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:33:06.778Z"
+  },
+  "syndicat esf argentiere": {
+    "name": "SYNDICAT ESF ARGENTIERE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:33:12.422Z"
+  },
+  "protechnologies systems": {
+    "name": "PROTECHNOLOGIES SYSTEMS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-26T15:33:24.065Z"
   }
 }
