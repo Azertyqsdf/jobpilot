@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T20:34:57.014Z",
+ "updatedAt": "2026-11-27T01:01:54.617Z",
  "companies": [
   {
    "id": "lbb-83059066700028",
@@ -139,11 +139,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 37.704714681,
-   "email": "",
+   "email": "polerh@club-employes.com",
    "phone": "",
-   "website": "",
+   "website": "https://club-employes.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://club-employes.com/club-employes-contact-commercial/",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-43939300000047",
@@ -155,11 +157,13 @@
    "sector": "Production de films institutionnels et publicitaires",
    "headcount": "",
    "score": 36.814644959999995,
-   "email": "",
+   "email": "contact@bigcompany.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.bigcompany.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.bigcompany.fr/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-54209790203816",
@@ -443,11 +447,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 13.9065746391,
-   "email": "",
+   "email": "contact@toporder.fr",
    "phone": "",
-   "website": "",
+   "website": "https://toporder.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://toporder.fr/contact/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-82919024800031",

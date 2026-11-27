@@ -2967,5 +2967,387 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-26T20:38:34.610Z"
+  },
+  "tercio": {
+    "name": "Tercio",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:01:56.481Z"
+  },
+  "alteca": {
+    "name": "Alteca",
+    "website": "https://www.alteca.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "404208035",
+      "424761419",
+      "537407926"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:01:58.123Z"
+  },
+  "expelec": {
+    "name": "EXPELEC",
+    "website": "https://expelec.eu/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "322847567",
+      "809589823"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:01:58.595Z"
+  },
+  "talents business": {
+    "name": "Talents Business",
+    "website": "https://talentsbusiness.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "844043158",
+      "510909807"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:02:03.380Z"
+  },
+  "viseo": {
+    "name": "VISEO",
+    "website": "https://www.viseo.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@viseo.com",
+      "source": "https://www.viseo.com/fr/mentions-legales/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T01:02:07.862Z"
+  },
+  "vidal associates": {
+    "name": "Vidal Associates",
+    "website": "https://vidal-associates.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "info@vidal-associates.com",
+      "source": "https://vidal-associates.com/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "info@vidal-associates.com",
+    "source": "https://vidal-associates.com/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T01:02:09.222Z"
+  },
+  "omea": {
+    "name": "Oméa",
+    "website": "https://omea.ch/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@omea.ch",
+      "source": "https://omea.ch/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T01:02:11.829Z"
+  },
+  "timtargett": {
+    "name": "TIMTARGETT",
+    "website": "https://timtargett.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "851603233"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:02:13.872Z"
+  },
+  "co efficience": {
+    "name": "Co-Efficience",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:02:16.942Z"
+  },
+  "les colettes": {
+    "name": "Les Colettes",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:02:17.416Z"
+  },
+  "314 talent": {
+    "name": "314.talent",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:02:21.456Z"
+  },
+  "mpa service": {
+    "name": "MPA SERVICE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:02:42.970Z"
+  },
+  "elitys": {
+    "name": "Elitys",
+    "website": "https://www.elitys.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "850363490"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:02:51.139Z"
+  },
+  "astek": {
+    "name": "Astek",
+    "website": "https://astek.net/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "489800805"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:02:53.407Z"
+  },
+  "ltd": {
+    "name": "LTd",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:02:53.412Z"
+  },
+  "alphea conseil": {
+    "name": "Alphea Conseil",
+    "website": "https://www.alphea-conseil.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:03:07.651Z"
+  },
+  "enerchoice france sas": {
+    "name": "ENERCHOICE FRANCE SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:10.662Z"
+  },
+  "france collectivite hygiene en abrege fc": {
+    "name": "FRANCE COLLECTIVITE HYGIENE EN ABREGE FC",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:13.941Z"
+  },
+  "caisse reg credit agricole mut ctre est": {
+    "name": "CAISSE REG CREDIT AGRICOLE MUT CTRE-EST",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:18.241Z"
+  },
+  "caisse de credit mutuel du sud est": {
+    "name": "CAISSE DE CREDIT MUTUEL DU SUD-EST",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:18.244Z"
+  },
+  "big company": {
+    "name": "BIG COMPANY",
+    "website": "https://www.bigcompany.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@bigcompany.fr",
+      "source": "https://www.bigcompany.fr/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@bigcompany.fr",
+    "source": "https://www.bigcompany.fr/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T01:03:22.144Z"
+  },
+  "sa esker": {
+    "name": "SA ESKER",
+    "website": "https://www.esker.com/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:03:26.117Z"
+  },
+  "naos france": {
+    "name": "NAOS FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:27.136Z"
+  },
+  "club employes": {
+    "name": "CLUB EMPLOYES",
+    "website": "https://club-employes.com/",
+    "email": "polerh@club-employes.com",
+    "source": "https://club-employes.com/club-employes-contact-commercial/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "823393764",
+      "424761419"
+    ],
+    "generic": {
+      "email": "contact@club-employes.com",
+      "source": "https://club-employes.com/contact/"
+    },
+    "checkedAt": "2026-11-27T01:03:28.856Z"
+  },
+  "nd distribution": {
+    "name": "ND DISTRIBUTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:33.861Z"
+  },
+  "toporder": {
+    "name": "TOPORDER",
+    "website": "https://toporder.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "849345814"
+    ],
+    "generic": {
+      "email": "contact@toporder.fr",
+      "source": "https://toporder.fr/contact/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@toporder.fr",
+    "source": "https://toporder.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T01:03:37.523Z"
+  },
+  "strada performance": {
+    "name": "STRADA PERFORMANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:41.791Z"
+  },
+  "arrow generiques": {
+    "name": "ARROW GENERIQUES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:48.991Z"
+  },
+  "sylarele": {
+    "name": "SYLARELE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:50.426Z"
+  },
+  "sis": {
+    "name": "SIS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:03:53.742Z"
+  },
+  "passman": {
+    "name": "PASSMAN",
+    "website": "https://www.passman-group.com/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "402091722"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:03:54.798Z"
+  },
+  "alliance des energies": {
+    "name": "ALLIANCE DES ENERGIES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:15.445Z"
+  },
+  "lyonnaise de banque": {
+    "name": "LYONNAISE DE BANQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:19.630Z"
+  },
+  "e x m euro et expertise monetique": {
+    "name": "E.X.M. EURO ET EXPERTISE MONETIQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:21.319Z"
+  },
+  "opera energie": {
+    "name": "OPERA ENERGIE",
+    "website": "https://opera-energie.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "808096119"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:04:26.643Z"
+  },
+  "ets metallurgiques emile maurin": {
+    "name": "ETS METALLURGIQUES EMILE MAURIN",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:34.178Z"
+  },
+  "tcem": {
+    "name": "TCEM",
+    "website": "https://www.tcem.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "888412293",
+      "443976899",
+      "510909807"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:04:41.249Z"
+  },
+  "strada action": {
+    "name": "STRADA ACTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:47.427Z"
+  },
+  "si bureautique rhone alpes": {
+    "name": "SI BUREAUTIQUE RHONE ALPES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T01:04:48.686Z"
+  },
+  "akkodis digital sas": {
+    "name": "AKKODIS DIGITAL SAS",
+    "website": "https://www.akkodis.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T01:04:53.733Z"
   }
 }

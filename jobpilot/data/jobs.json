@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-26T20:34:57.015Z",
+ "updatedAt": "2026-11-27T01:01:54.619Z",
  "jobs": [
   {
    "tags": [
@@ -52,7 +52,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Rattaché à la direction, avec des perspectives de création et de management d une Business Unit dédiée et un accès à un dispositif d intéressement au capital (BSPCE) selon les résultats. Rémunération fixe de 60 à 90 K€ selon profil, plus un variable avec avance garantie pendant les 8 à 9 premiers mois."
+   "summary": "Ce Business Manager IT prospecte des décideurs techniques et gère des comptes clés. Il faut un niveau Bac +5 et au moins deux ans d'expérience, dont un an en ESN ou conseil. Avantages : RTT, titres-restaurant et accès à des BSPCE.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5974608493",
@@ -97,13 +98,14 @@
     "known": true,
     "label": "70 k–90 k € / an"
    },
-   "summary": "Vous prendrez en charge le développement commercial de notre zone export, couvrant le bassin méditerranéen (Afrique du Nord, Grèce, Chypre, Turquie, Proche-Orient), l'Afrique et le Moyen-Orient, avec un appui ponctuel sur l'Australie et la Nouvelle-Zélande.",
+   "summary": "Le Responsable Commercial Export développe les ventes sur le bassin méditerranéen, l'Afrique et le Moyen-Orient. Il gère un portefeuille de cinquante clients et consacre 60 % de son temps à prospecter de nouveaux distributeurs. Le profil n'est pas détaillé.",
    "contactEmailSource": "https://uptoo.fr/contact/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs",
    "viaAgency": true,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "viaPlatform": false,
-   "reference": null
+   "reference": null,
+   "summaryAi": true
   },
   {
    "id": "adzuna-5965015919",
@@ -142,12 +144,13 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "summary": "Notre client est un acteur industriel implanté au cœur de la Vallée de l'Arve.",
+   "summary": "Au sein d'une entreprise industrielle, le Key Account Manager déploie la stratégie commerciale, identifie des opportunités et suit les négociations jusqu'à la signature. Il établit également les prévisions de ventes. Le profil du candidat n'est pas renseigné.",
    "application": "adzuna-5965015919",
    "viaAgency": true,
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null
+   "reference": null,
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972922530",
@@ -195,7 +198,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Le terrain de jeu Rattaché(e) au Directeur commercial , vous êtes le relais terrain de la stratégie export sur trois marchés clés d'Europe du Sud — Espagne, Italie et Portugal . Un poste pour les profils qui aiment autant la route que les résultats.",
+   "summary": "Ce poste de Commercial Export consiste à animer et accompagner les agents commerciaux en Espagne, Italie et Portugal. Les missions incluent le suivi client et des déplacements réguliers sur le terrain. L'offre recherche des profils aimant la route et les résultats.",
+   "summaryAi": true,
    "contactEmailSource": "https://findyourstaff.com/contact",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -245,7 +249,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "En tant que Responsable Commercial, vous êtes chargé de développer la prise d'affaires en mettant en oeuvre la stratégie commerciale mise en place au sein de l'agence.",
+   "summary": "Rattaché au Chef d'agence, le Responsable Commercial met en œuvre la stratégie commerciale et développe la prise d'affaires. Vous assurez la prospection, la détection des opérations en amont et le déploiement opérationnel sur l'ensemble de votre territoire.",
+   "summaryAi": true,
    "contactEmailSource": "https://www.talentsexecutive.fr/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -295,7 +300,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Véritable MANAGER OPÉRATIONNEL, vous pilotez la performance commerciale de deux entités, repr…",
+   "summary": "En tant que manager opérationnel, vous pilotez la performance commerciale de deux entités spécialisées dans les services en assurance santé et la formation bureautique. Vous accompagnez le développement des activités et l'évolution organisationnelle de l'entreprise.",
+   "summaryAi": true,
    "contactEmailSource": "https://www.talentscommerciaux.fr/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -803,7 +809,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à l"
+   "summary": "Ce poste de responsable commercial terrain consiste à encadrer et coacher une équipe de 3 à 6 commerciaux. Vous assurerez leur recrutement, leur montée en compétences et le développement de l'activité via une prospection active.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5973699128",
@@ -850,7 +857,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "ÊTRE RESPONSABLE COMMERCIAL(E) TERRAIN CHEZ LOCAL.FR, C'EST : - Être le manager, le coach, le leader d'une équipe de 3 à 6 commerciaux terrain. - Recruter, accompagner, encadrer, évaluer et faire monter en compétences ses collaborateurs dans le but d'atteindre et de dépasser les objectifs. - Challenger votre équipe à l"
+   "summary": "En tant que responsable commercial terrain, vous managerez et accompagnerez une équipe de 3 à 6 commerciaux. Vos missions incluent le recrutement, la montée en compétences des collaborateurs et la stimulation de la prospection active.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979018916",
@@ -899,7 +907,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "TERCIO et son bureau de Lyon Ouest recrutent pour un de leurs clients, un :Responsable développement commercial France & Export (h/f)Rattaché au Directeur Commercial, vous prenez en charge le développement d'un portefeuille clients stratégiques."
+   "summary": "Rattaché au directeur commercial, vous développerez un portefeuille de clients stratégiques en France et à l'international. Vous identifierez les opportunités de marché et construirez la stratégie commerciale associée.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5973463527",
@@ -948,7 +957,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "En tant que Key Account Manager Grands Comptes, vous aurez la responsabilité de négocier les accords commerciaux avec les Groupements de Pharmacie.",
+   "summary": "Ce poste de Key Account Manager vise à négocier les accords commerciaux avec les groupements de pharmacie. Rattaché au directeur commercial, vous développerez le portefeuille grands comptes et construirez des partenariats pérennes.",
+   "summaryAi": true,
    "contactEmailSource": "https://uptoo.fr/contact/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -999,7 +1009,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "En tant que Key Account Manager Grands Comptes, vous aurez la responsabilité de négocier les accords commerciaux avec les Groupements de Pharmacie.",
+   "summary": "En tant que responsable grands comptes, vous négocierez les accords commerciaux auprès des groupements de pharmacie. Vous participerez à la stratégie commerciale, développerez le portefeuille clients et bâtirez des partenariats durables.",
+   "summaryAi": true,
    "contactEmailSource": "https://uptoo.fr/contact/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -1049,7 +1060,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Pour accompagner notre développement et développer notre équipe Commerciale, nous recherchons un Business Developer en CDI sur notre site de Rillieux la Pape (69)."
+   "summary": "Ce poste en CDI consiste à développer et fidéliser un portefeuille de clients B2B sur le territoire national. Vous identifierez leurs parcs informatiques usagés afin de leur proposer des solutions de reprise adaptées.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5976749318",
@@ -1092,7 +1104,8 @@
    "viaPlatform": true,
    "recruiterWhy": "publiée sur un site d'annonces, employeur non nommé",
    "reference": null,
-   "summary": "Pour accompagner notre développement et développer notre équipe Commerciale, nous recherchons un Business Developer en CDI sur notre site de Rillieux la Pape (69)."
+   "summary": "Rattaché au directeur commercial, ce poste en CDI implique de développer un portefeuille de clients B2B au niveau national. Vous identifierez les équipements informatiques usagés pour proposer des solutions de rachat et de reprise.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5969043428",
@@ -1139,7 +1152,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "attaché(e) au Directeur commercial France et en lien étroit avec le Directeur d’établissement, vous jouez un rôle clé dans le développement de l’activité de votre secteur. Conquête commerciale : vous identifiez et ciblez les opportunit…"
+   "summary": "Ce poste consiste à développer l'activité commerciale sur votre secteur et assurer une relation client pérenne. Vous interviendrez à chaque étape de la vente pour commercialiser des prestations de propreté et de nettoyage.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5976260303",
@@ -1186,7 +1200,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Notre établissement dispose de 156 chambres, 5 salles de réunions, 1 restaurant italien et 1 spa Mission Développement commercial et prospection Élaborer et mettre en œuvre un plan d'actions commercia…"
+   "summary": "Vous élaborerez et mettrez en œuvre le plan d'actions commerciales pour l'établissement. L'hôtel offre un cadre verdoyant, situé à seulement dix minutes du centre-ville et très bien desservi par les transports.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979018721",
@@ -1229,11 +1244,12 @@
     "known": true,
     "label": "40 k–50 k € / an"
    },
-   "viaAgency": false,
+   "viaAgency": true,
    "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
+   "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
    "reference": null,
-   "summary": "Rattaché(e) directement au Directeur Adjoint de l'entreprise, vous prenez la responsabilité d'une équipe commerciale sédentaire. Votre mission principale : faire progresser et structurer votre équipe tout en restant pleinement impliqué(e) dans l'activité commerciale et la gestion de vos propres clients."
+   "summary": "Rattaché au directeur adjoint, vous managerez au quotidien une équipe de 5 à 10 commerciaux sédentaires. Vous assurerez également la gestion directe de votre portefeuille clients et le pilotage de l'activité commerciale.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5970319900",
@@ -1275,7 +1291,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Rattaché(e) au Responsable Commercial des Réseaux Courtage , vous pilotez le développement commercial des délégations régionales qui vous sont confiées, dans le respect de la stratégie et des objectifs du Groupe. Les missions Après une période de formatio…"
+   "summary": "Ce poste consiste à piloter le développement commercial des délégations régionales et à animer les équipes de courtage IARD. Le profil attendu et les éventuels avantages ne sont pas précisés dans l'extrait de l'offre.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972456510",
@@ -1319,50 +1336,8 @@
    "viaPlatform": true,
    "recruiterWhy": "publiée sur un site d'annonces, employeur non nommé",
    "reference": null,
-   "summary": "Description du poste : Rattaché(e) à la Direction Commerciale, vous êtes en charge du développement commercial de la région Auvergne Rhône-Alpes. La conquête occupe une place prépondérante dans votre activité. À ce titre, vous : * Menez une prospection active avec une forte présence terrain ; * Identifiez e…"
-  },
-  {
-   "id": "adzuna-5973742723",
-   "source": "Adzuna",
-   "title": "Business Developer Export Europe du Nord⚡️ Piscine BtoB (H/F)",
-   "company": "PEPITE CONSEIL",
-   "location": "Lyon, Rhône",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5973742723?utm_medium=api&utm_source=d81896fb",
-   "description": "Rattaché à la Direction Commerciale Europe basée en France, au sein d'une équipe d'une 15ne de collaborateurs commerciaux, vous serez en charge d'une zone Europe du Nord (Benelux, zone DACH, Scandinavie, pays de l'est). Vos principales missions : * Suivre et développer les relations avec les grands comptes clés européens de la Piscine, * Renforcer les référencements des acteurs traditionnels du négoce piscinier, des réseaux sous enseigne, des réseaux indépendants mais également des comptes e-co…",
-   "contactEmail": null,
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-21T08:32:48Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 100,
-   "reasons": [
-    "Compétences : Direction commerciale, Business development, Négociation grands comptes, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale",
-    "Business development",
-    "Négociation grands comptes",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "cabinet / agence de recrutement connu",
-   "reference": null,
-   "summary": "Rattaché à la Direction Commerciale Europe basée en France, au sein d'une équipe d'une 15ne de collaborateurs commerciaux, vous serez en charge d'une zone Europe du Nord (Benelux, zone DACH, Scandinavie, pays de l'est)."
+   "summary": "Le poste consiste à développer commercialement la région Auvergne Rhône-Alpes via la prospection active et la fidélisation de PME et grands comptes. Le profil recherché et les avantages éventuels ne sont pas indiqués.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972929325",
@@ -1410,7 +1385,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et fidéliser un portefeuil…"
+   "summary": "Ce poste vise à développer un portefeuille clients, recruter de futurs consultants et accompagner leur évolution au sein de l'agence. Le profil recherché ainsi que les avantages ne sont pas mentionnés dans l'offre.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979018864",
@@ -1452,7 +1428,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "En collaboration étroite avec les équipes avant-vente, expertise et delivery de la BU Software Integration, ainsi qu'avec les éditeurs partenaires, vos objectifs seront de : - Développer le chiffre d'affaires de la BU par la conquête de nouveaux clients - Construire et développer un portefeuille de prospects ETI et gra"
+   "summary": "Ce rôle consiste à conquérir de nouveaux clients ETI et grands comptes pour développer le chiffre d'affaires, en commercialisant des solutions SaaS partenaires et des prestations d'intégration. Le profil et les avantages ne sont pas mentionnés.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972455928",
@@ -1495,7 +1472,8 @@
    "viaPlatform": true,
    "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
    "reference": null,
-   "summary": "Description du poste : Dans le cadre de notre développement, nous recherchons un.e Ingénieur.e d'Affaires / Business Manager pour rejoindre notre agence Lyonnaise. Votre activité s'articule autour de trois axes principaux : Développement commercial - Créer, développer et …"
+   "summary": "Le poste consiste à développer un portefeuille clients, participer au recrutement des consultants et accompagner leur parcours dans l'entreprise. L'offre ne précise ni le profil recherché ni d'éventuels avantages.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5977150011",
@@ -1543,7 +1521,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Dans le cadre de la croissance de ses activités Life Sciences dans la région Lyonnaise, Pharmacos recherche un(e) Ingénieur(e) d'Affaires / Business Manager pour renforcer ses équipes. Développement commercial Vous identifiez et prospectez de nouveaux clients dans le secteur Life Sciences."
+   "summary": "Ce poste dans le secteur Life Sciences consiste à prospecter de nouveaux clients, cerner leurs besoins et leur proposer des profils d'ingénieurs adaptés. L'extrait ne précise pas le profil recherché ni d'avantages particuliers.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5976139476",
@@ -1590,7 +1569,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Tu auras pour mission d'a nimer, piloter et optimiser la fidélisation des comptes clé, notamment en coordonnant les actions commerciales dans l'équipe que tu manage (équipé fidélisation composée de 3 cConseillers commerciaux). Autant dire que tu seras un membre essentiel de …"
+   "summary": "Le poste consiste à manager une équipe de trois conseillers commerciaux pour fidéliser les comptes clés, réduire le churn et relancer les clients dormants. Le profil attendu et les avantages ne sont pas spécifiés dans le texte.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979019208",
@@ -1637,7 +1617,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "En véritable intrapreneur tu vas prendre part à la croissance d'Oméa en développant nos relations avec des Key Account existants. Identifier les nouvelles opportunités de développement auprès des Key Account. Assurer le lien avec les partenaires d'Oméa (co-traitants, sous-traitants)."
+   "summary": "En tant qu'intrapreneur, vous développerez les contrats cadres existants avec de grands comptes en répondant aux appels d'offres et en identifiant de nouvelles opportunités. L'annonce ne précise ni le profil attendu ni d'avantages.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5973698080",
@@ -1684,7 +1665,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Tu auras pour mission d'animer et optimiser la fidélisation des comptes clés, notamment en coordonnant les actions commerciales dans l'équipe que tu manages (équipe fidélisation composée de 3 Conseillers commerciaux). Ton objectif est de développer le CA en réduisant le churn et en réactivant les clients dormants."
+   "summary": "Ce poste consiste à manager une équipe de trois conseillers commerciaux pour piloter la fidélisation des comptes clés et limiter le churn. Les compétences requises pour le profil et les avantages éventuels ne sont pas mentionnés.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5973463619",
@@ -1735,7 +1717,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Les missions s'articulent autour des axes suivants : - Développement commercial et stratégie : Définir les plans de comptes, identifier les opportunités de croissance (upsell, cross-sell) et mener à bien des…",
+   "summary": "Ce poste chez un éditeur de logiciels B2B consiste à structurer, fidéliser et développer un portefeuille de clients Grands Comptes via des plans de comptes et de l'upsell. Le profil attendu et les avantages ne sont pas précisés.",
+   "summaryAi": true,
    "contactEmailSource": "https://www.skaelia.com/contact",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -1780,7 +1763,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Description du poste : Notre client est une entreprise familiale européenne au rayonnement international et dotée d'une expertise reconnue dans la fabrication d'emballages durables. L'entreprise est engagée dans une réelle démarche environnementale et sociale."
+   "summary": "Ce poste de Key Account Manager s'adresse à une entreprise fabriquant des emballages durables et des FIBC. Les clients ciblés appartiennent aux secteurs agroalimentaire, chimique et pharmaceutique. Le profil attendu n'est pas détaillé dans l'offre.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979018830",
@@ -1828,7 +1812,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Rattaché au Directeur d'Activité France et Belgique, vous êtes en charge du développement du secteur Sud-Est de la France pour la gamme FIBC auprès de clients grands comptes industriels diversifiés."
+   "summary": "Ce poste de Key Account Manager vise à développer la gamme FIBC dans le Sud-Est auprès de clients industriels (agroalimentaire, chimie, pharma). Le candidat prendra en charge la prospection active et la gestion complète du cycle de vente.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5978993837",
@@ -1870,7 +1855,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Intégré(e) à l'équipe commerciale France, sur notre site de Lyon, vous occuperez une position clé en tant queKey Account Manager. Votre mission sera stratégique : développer les relations avec nos clients et prospects, identifier de nouvelles opportunités, et construire des partenariats solides et pérennes."
+   "summary": "Au sein de l'équipe commerciale à Lyon, le Key Account Manager développe les relations avec les clients et prospects. Il identifie les opportunités et bâtit des partenariats stratégiques avec les décideurs clés. Le profil recherché n'est pas précisé.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5977161716",
@@ -1917,7 +1903,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Vous développez notre présence dans le Sud-Est auprès des entreprises de paysage à fort potentiel. Vous êtes leur interlocuteur unique, du premier rendez-vous à la fidélisation dans la durée. Relancer d'anciens adhérents de votre zone pour les faire revenir."
+   "summary": "Le Key Account Manager développe la présence de la coopérative dans le Sud-Est auprès d'entreprises de paysage. Il prospecte les dirigeants, relance d'anciens adhérents et anime le réseau lors de salons. Le profil requis n'est pas mentionné.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5973463277",
@@ -1964,7 +1951,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Aux côtés de la Direction et à la tête de 3 commerciaux, vous serez directement impliqué(e) dans le business : - Décrocher de nouveaux référencements GMS et mener les négociations avec les centrales d'achat. - Développer et entretenir les relations avec les enseignes, sur le terrain. - Poursuivre la dynamique de croiss",
+   "summary": "Ce Key Account Manager Senior pilote une équipe de trois commerciaux pour négocier avec les centrales d'achat GMS et développer le secteur RHF. Il gère la performance commerciale (CA, marge, KPI). Les critères de profil ne sont pas renseignés.",
+   "summaryAi": true,
    "contactEmailSource": "https://uptoo.fr/contact/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -2014,7 +2002,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Rattaché(e) à la Direction Commerciale, vous prenez en charge le développement de l'activité Hospitality sur l'ensemble de la région Auvergne-Rhône-Alpes. Vous aurez notamment pour missions de : Prospecter et ouvrir de nouveaux comptes sur votre territoire ; Développer et fidéliser un portefeuille de clients hôtel…"
+   "summary": "Ce poste de Commercial / Key Account Manager Hospitality consiste à développer la présence des marques du groupe en Auvergne-Rhône-Alpes. La mission principale est de prospecter et fidéliser des clients hôteliers. Le profil requis n'est pas spécifié.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5979019078",
@@ -2061,7 +2050,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Vos Missions Directement rattaché(e) au Directeur Commercial, vous développez et pérennisez un portefeuille de clients diversifiés (entreprises de peinture, applicateurs industriels, services de maintenance, acteurs du traitement de l'eau). - Prospection & Développement : Identifier les besoins sur votre secteur et pro"
+   "summary": "Rattaché au Directeur Commercial, vous développez un portefeuille de clients diversifiés et prospectez sur votre secteur. Vous promouvez une gamme complète de peintures et apportez des préconisations techniques adaptées aux cahiers des charges complexes.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5969044868",
@@ -2108,7 +2098,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Manager et animer l’équipe commerciale sédentaire."
+   "summary": "Ce poste propose de piloter et d'animer une équipe de commerciaux sédentaires dans le secteur des produits techniques industriels. Vos missions principales sont de développer le chiffre d'affaires et de jouer un rôle clé dans l'activité commerciale.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5970335019",
@@ -2155,7 +2146,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Rattaché(e) à la Direction commerciale et en lien étroit avec les services Qualité et Production, vous serez le véritable chef d’entreprise de votre fonction commerciale."
+   "summary": "Rattaché à la Direction commerciale, vous optimisez les relations et développez le chiffre d'affaires auprès d'un portefeuille de clients variés (RHF, indépendants, industrie). Vous élaborez un plan de prospection ciblé et faites preuve d'initiative.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5977273720",
@@ -2197,7 +2189,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Talents Commerciaux, cabinet de recrutement spécialisé en Commerce et Marketing, vous propose régulièrement des offres d'emploi ciblées sur ces métiers. Dans le cadre d'un remplacement, notre client, distributeur de matières prem…",
+   "summary": "Ce poste en CDI chez un distributeur de matières premières chimiques consiste à prendre en charge la fonction de Responsable Commercial Industry Manager. Le recrutement intervient dans le cadre d'un remplacement au sein de l'équipe commerciale.",
+   "summaryAi": true,
    "contactEmailSource": "https://www.talentscommerciaux.fr/",
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
@@ -2246,7 +2239,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Rattaché(e) à la Direction, vous êtes responsable du développement commercial de votre secteur géographique à l'international."
+   "summary": "Rattaché à la Direction, vous développez le chiffre d'affaires et conquérez de nouveaux marchés à l'international. Vos missions consistent à prospecter de nouveaux clients, ouvrir des comptes, fidéliser le portefeuille et préserver la rentabilité des marges.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5968588990",
@@ -2288,7 +2282,8 @@
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
    "reference": null,
-   "summary": "Entreprise : Alveor accompagne son client GENTA France dans la poursuite de son développement en France! Après Angers, GENTA continue sa croissance et annonce l'ouverture d'un nouveau bureau à Lyon. Description du poste : Alveor accompagne son client GENTA France dans la poursuite de son développement en France!"
+   "summary": "Ce poste de Responsable Développement commercial accompagne l'ouverture du nouveau bureau lyonnais de GENTA France, spécialiste du recrutement international de profils francophones. Vous participez activement à la poursuite de la croissance de l'entreprise en France.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5968521007",
@@ -2335,7 +2330,8 @@
    "viaPlatform": false,
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
-   "summary": "Notre bureau de Lyon renforce aujourd'hui son pôle AEC et recrute un(e) Consultant(e) en Recrutement. VOS MISSIONS Tu rejoindra le pôle AEC composé d'une manager et des 4 consultants. -Développer et fidéliser un portefeuille client existant, identifier leurs besoins et les accomp…"
+   "summary": "En CDI au sein du pôle AEC à Villeurbanne, vous intégrez une équipe de quatre consultants et une manager. Votre mission principale consiste à développer et fidéliser un portefeuille de clients existant tout en identifiant leurs besoins en recrutement.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972897892",
@@ -2377,7 +2373,8 @@
    "viaPlatform": false,
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
-   "summary": "Vous souhaitez évoluer dans un environnement dynamique, au coeur des enjeux de l'emploi et du secteur du BTP ? Vous aimez les challenges commerciaux, le recrutement et la relation client ? Vos missions Rattaché(e) à notre agence de Lyon 7e, vous intervenez sur trois grands volets : 1."
+   "summary": "Rattaché à l'agence de Lyon 7e, vous participez au développement de l'activité BTP dans le recrutement et le travail temporaire. Vous assurez notamment la prospection commerciale et la conquête de nouveaux clients sur le secteur lyonnais.",
+   "summaryAi": true
   },
   {
    "id": "adzuna-5972935244",
@@ -3679,6 +3676,51 @@
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
+   "id": "adzuna-5979018780",
+   "source": "Adzuna",
+   "title": "Sales Manager H/F",
+   "company": "Vidal Associates",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5979018780?utm_medium=api&utm_source=d81896fb",
+   "description": "VIDAL ASSOCIATES Consulting & Search, référence dans le recrutement de cadres spécialistes et de dirigeants en France et à l'international, recrute pour son client un(e) Sales Manager (H/F) basé à Lyon. Notre client est un acteur incontournable du secteur hôtelier de luxe à l'esprit familial. Dans le cadre de son développement et de sa volonté constante de montée en gamme, nous recherchons un Responsable commercial pour leur prestigieux établissement 5* lyonnais. Sales Manager M/W Lyon - Hôtell…",
+   "contactEmail": "info@vidal-associates.com",
+   "contract": "full_time",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-26T04:34:01Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 80,
+   "reasons": [
+    "Compétences : Direction commerciale, Management d'équipe, Développement international, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale",
+    "Management d'équipe",
+    "Développement international",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-27T00:59:46.263Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Notre client est un acteur incontournable du secteur hôtelier de luxe à l'esprit familial. Dans le cadre de son développement et de sa volonté constante de montée en gamme, nous recherchons un Responsable commercial pour leur prestigieux établissement 5* lyonnais.",
+   "contactEmailSource": "https://vidal-associates.com/",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
    "id": "adzuna-5979019142",
    "source": "Adzuna",
    "title": "Business Developer H/F",
@@ -3715,9 +3757,9 @@
     "label": "Salaire annuel non indiqué",
     "known": false
    },
-   "viaAgency": false,
+   "viaAgency": true,
    "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
+   "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
    "reference": null,
    "summary": "Dans le cadre du développement de notre entreprise nous recrutons un business developer."
   },
@@ -3811,6 +3853,49 @@
    "summary": "Description du poste : Rattaché(e) au Directeur Partnerships & Business Development, vous contribuez activement au développement commercial de l'entreprise, à l'interface entre les enjeux business, les équipes techniques et les activités de recherche.Vos principales missions :Participer à la définition et à l'évolution"
   },
   {
+   "id": "adzuna-5977273286",
+   "source": "Adzuna",
+   "title": "Business developer saas (h/f) - cdi (CDI)",
+   "company": "Les Colettes Sourcing",
+   "location": "Ecully, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5977273286?utm_medium=api&utm_source=d81896fb",
+   "description": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce). L'entreprise a pour objectif d'aider les commerces de proximité à pérenniser leur activité, en leur proposant une solution de caisse innovante : vente en ligne, gestion des stocks, carnet de commandes connecté, gestion d'une base de données clients, comptabilité, statistiques L'équipe est jeune e…",
+   "contactEmail": null,
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-24T16:14:05Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 80,
+   "reasons": [
+    "Compétences : Business development, Supply chain & logistique, Création d'entreprise, E-commerce (Shopify)",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Supply chain & logistique",
+    "Création d'entreprise",
+    "E-commerce (Shopify)"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-25T23:02:33.617Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": false,
+   "viaPlatform": false,
+   "recruiterWhy": "employeur direct",
+   "reference": null,
+   "summary": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce)."
+  },
+  {
    "id": "adzuna-5974089364",
    "source": "Adzuna",
    "title": "Business developer manager H/F",
@@ -3856,49 +3941,6 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Rattaché(e) au Directeur Partnerships & Business Development, vous contribuez activement au développement commercial de l'entreprise, à l'interface entre les enjeux business, les équipes techniques et les activités de recherche."
-  },
-  {
-   "id": "adzuna-5977273286",
-   "source": "Adzuna",
-   "title": "Business developer saas (h/f) - cdi (CDI)",
-   "company": "Les Colettes Sourcing",
-   "location": "Ecully, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5977273286?utm_medium=api&utm_source=d81896fb",
-   "description": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce). L'entreprise a pour objectif d'aider les commerces de proximité à pérenniser leur activité, en leur proposant une solution de caisse innovante : vente en ligne, gestion des stocks, carnet de commandes connecté, gestion d'une base de données clients, comptabilité, statistiques L'équipe est jeune e…",
-   "contactEmail": null,
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-24T16:14:05Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Business development, Supply chain & logistique, Création d'entreprise, E-commerce (Shopify)",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Supply chain & logistique",
-    "Création d'entreprise",
-    "E-commerce (Shopify)"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce)."
   },
   {
    "id": "adzuna-5976745198",
@@ -4452,7 +4494,7 @@
    "company": "LHH Recruitment Solutions",
    "location": "Lyon, Rhône",
    "remote": false,
-   "url": "https://www.adzuna.fr/details/5973771416?utm_medium=api&utm_source=d81896fb",
+   "url": "https://www.adzuna.fr/land/ad/5973771416?se=mDwA3P3p8RGorO-9VYBKlA&utm_medium=api&utm_source=d81896fb&v=EF1587A8EE0407E0749A747BC6921DDF601FDE2D",
    "description": "A la recherche de nouvelles opportunités ? LHH Recruitment Solutions, cabinet de conseil en recrutement, intérim spécialisé, management de transition, et évaluation d'expert.e.s, cadres et dirigeant.e.s, recrute pour son client, un Key Account Manager National H/F basé à Lyon ou Paris. Notre client est un acteur français historique reconnu pour son expertise dans l'univers du vêtement professionnel premium à destination des secteurs de la restauration, des métiers de bouche, de l'hôtellerie, de…",
    "contactEmail": null,
    "contract": "permanent",
@@ -5447,7 +5489,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=QLptm9jp8RG_-5ugYQfc3w&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=FJK-3f3p8RGssM6asINxpQ&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",
@@ -5882,9 +5924,9 @@
     "known": true,
     "label": "55 k–65 k € / an"
    },
-   "viaAgency": false,
+   "viaAgency": true,
    "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
+   "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
    "reference": null,
    "summary": "En lien direct avec le Président, vous reprenez un premier portefeuille de clients industriels et développez votre propre activité. Vous récupérez un embarqué d'une dizaine de consultants et développez les comptes ouverts pour générer de nouvelles opportunités."
   },
