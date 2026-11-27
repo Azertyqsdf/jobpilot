@@ -3759,5 +3759,471 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-27T15:20:20.580Z"
+  },
+  "adjectif": {
+    "name": "ADJECTIF",
+    "website": "https://www.adjectif.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:21:24.047Z"
+  },
+  "asys": {
+    "name": "ASYS",
+    "website": "https://www.asys.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@asys.fr",
+      "source": "https://www.asys.fr/contact"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-27T20:21:25.078Z"
+  },
+  "regicom webformance": {
+    "name": "REGICOM WEBFORMANCE",
+    "website": "https://www.regicom.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "525312294"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:21:28.419Z"
+  },
+  "lm eco production": {
+    "name": "LM ECO PRODUCTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:21:30.670Z"
+  },
+  "infitel": {
+    "name": "INFITEL",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:21:32.186Z"
+  },
+  "visio screen": {
+    "name": "VISIO-SCREEN",
+    "website": "https://www.visioscreen.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "877912170"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:21:33.480Z"
+  },
+  "spineway": {
+    "name": "SPINEWAY",
+    "website": "https://spineway.com/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "484163985"
+    ],
+    "generic": {
+      "email": "info@spineway.com",
+      "source": "https://spineway.com/en/contact-en"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@spineway.com",
+    "source": "https://spineway.com/en/contact-en",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:21:36.164Z"
+  },
+  "fiducial bureautique": {
+    "name": "FIDUCIAL BUREAUTIQUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:21:55.714Z"
+  },
+  "akuiteo": {
+    "name": "AKUITEO",
+    "website": "https://www.akuiteo.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "533335303"
+    ],
+    "generic": {
+      "email": "info@akuiteo.com",
+      "source": "https://www.akuiteo.com/mentions-legales/"
+    },
+    "genericVerdict": "grande entreprise (100+ salariés) : adresse générale probablement du service client",
+    "checkedAt": "2026-11-27T20:22:00.199Z"
+  },
+  "strada marketing": {
+    "name": "STRADA MARKETING",
+    "website": "https://strada-marketing.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:22:05.490Z"
+  },
+  "headquartex": {
+    "name": "HEADQUARTEX",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:09.598Z"
+  },
+  "laboratoires juvise pharmaceuticals": {
+    "name": "LABORATOIRES JUVISE PHARMACEUTICALS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:17.316Z"
+  },
+  "recreaclub": {
+    "name": "RECREACLUB",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:30.653Z"
+  },
+  "rosebud": {
+    "name": "ROSEBUD",
+    "website": "https://trusted.domainseller.site/rosebud.eu",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:22:33.880Z"
+  },
+  "monde nouveau": {
+    "name": "MONDE NOUVEAU",
+    "website": "https://monde-nouveau.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "100514256",
+      "441005142"
+    ],
+    "generic": {
+      "email": "contact@monde-nouveau.fr",
+      "source": "https://monde-nouveau.fr/contact/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@monde-nouveau.fr",
+    "source": "https://monde-nouveau.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:22:34.701Z"
+  },
+  "delta security solutions": {
+    "name": "DELTA SECURITY SOLUTIONS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:40.753Z"
+  },
+  "edgl": {
+    "name": "EDGL",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:41.904Z"
+  },
+  "lyomat sa": {
+    "name": "LYOMAT SA",
+    "website": "https://lyomat.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "392577755",
+      "799738133"
+    ],
+    "generic": {
+      "email": "contact@lyomat.fr",
+      "source": "https://lyomat.fr/mentions-legales"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T20:22:46.830Z"
+  },
+  "comptoir central des lampes": {
+    "name": "COMPTOIR CENTRAL DES LAMPES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:22:52.326Z"
+  },
+  "capeb rhone et grand lyon": {
+    "name": "CAPEB RHONE ET GRAND LYON",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:23:01.200Z"
+  },
+  "tech soft 3d": {
+    "name": "TECH SOFT 3D",
+    "website": "https://www.techsoft3d.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@techsoft3d.com",
+      "source": "https://www.techsoft3d.com/legal/privacy-policy/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T20:23:03.117Z"
+  },
+  "square": {
+    "name": "SQUARE",
+    "website": "https://www.square.fr/",
+    "email": "rh@square.fr",
+    "source": "https://www.square.fr/recrutement/",
+    "verified": "SIREN",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "329032650"
+    ],
+    "generic": {
+      "email": "hello@square.fr",
+      "source": "https://www.square.fr/"
+    },
+    "checkedAt": "2026-11-27T20:23:03.403Z"
+  },
+  "proxima it": {
+    "name": "PROXIMA IT",
+    "website": "https://www.proxima-it.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@proxima-it.fr",
+      "source": "https://www.proxima-it.fr/"
+    },
+    "genericVerdict": "petite entreprise (3 à 9 salariés)",
+    "email": "contact@proxima-it.fr",
+    "source": "https://www.proxima-it.fr/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (3 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:03.744Z"
+  },
+  "uimm lyon france": {
+    "name": "UIMM LYON-FRANCE",
+    "website": "https://www.uimmlyon.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "410804173",
+      "510909807"
+    ],
+    "generic": {
+      "email": "direction@uimmlyon.com",
+      "source": "https://www.uimmlyon.com/mentions-legales/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "direction@uimmlyon.com",
+    "source": "https://www.uimmlyon.com/mentions-legales/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:10.937Z"
+  },
+  "pc cool working en abrege pccw": {
+    "name": "PC COOL WORKING EN ABREGE PCCW",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:23:15.673Z"
+  },
+  "log system": {
+    "name": "LOG SYSTEM",
+    "website": "https://www.logsystem.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "335146965"
+    ],
+    "generic": {
+      "email": "contact@logsystem.fr",
+      "source": "https://www.logsystem.fr/contact"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@logsystem.fr",
+    "source": "https://www.logsystem.fr/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:17.165Z"
+  },
+  "digital born producers": {
+    "name": "DIGITAL BORN PRODUCERS",
+    "website": "https://digitalbornproducers.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@digitalbornproducers.com",
+      "source": "https://digitalbornproducers.com/"
+    },
+    "genericVerdict": "petite entreprise (1 à 9 salariés)",
+    "email": "contact@digitalbornproducers.com",
+    "source": "https://digitalbornproducers.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (1 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:18.123Z"
+  },
+  "soc regionale de voyages": {
+    "name": "SOC REGIONALE DE VOYAGES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:23:28.730Z"
+  },
+  "union rcf notre dame": {
+    "name": "UNION RCF NOTRE-DAME",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:23:34.569Z"
+  },
+  "sogelink group": {
+    "name": "SOGELINK GROUP",
+    "website": "https://www.sogelink.com/fr-fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:23:36.726Z"
+  },
+  "empirik": {
+    "name": "EMPIRIK",
+    "website": "https://www.empirik.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@empirik.fr",
+      "source": "https://www.empirik.fr/contact/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@empirik.fr",
+    "source": "https://www.empirik.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:39.259Z"
+  },
+  "bosch rexroth d s i": {
+    "name": "BOSCH REXROTH D.S.I.",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:23:54.071Z"
+  },
+  "visiosfeir": {
+    "name": "VISIOSFEIR",
+    "website": "https://www.visiosfeir.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:23:57.140Z"
+  },
+  "alunites": {
+    "name": "ALUNITES",
+    "website": "https://alunites.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "447925572"
+    ],
+    "generic": {
+      "email": "contact@alunites.com",
+      "source": "https://alunites.com/contact/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@alunites.com",
+    "source": "https://alunites.com/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:23:59.399Z"
+  },
+  "decidento": {
+    "name": "DECIDENTO",
+    "website": "https://www.decidento.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "795237023"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:24:00.492Z"
+  },
+  "ecod air ea": {
+    "name": "ECOD'AIR EA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:24:23.797Z"
+  },
+  "jmj com": {
+    "name": "JMJ COM",
+    "website": "https://jmjcom.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "537573321"
+    ],
+    "generic": {
+      "email": "contact@jmjcom.fr",
+      "source": "https://jmjcom.fr/contact"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "contact@jmjcom.fr",
+    "source": "https://jmjcom.fr/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T20:24:27.743Z"
+  },
+  "toopiz": {
+    "name": "TOOPIZ",
+    "website": "https://toopiz.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:24:31.542Z"
+  },
+  "dussiecle": {
+    "name": "DUSSIECLE",
+    "website": "https://dussiecle.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T20:24:32.492Z"
+  },
+  "archi chouette": {
+    "name": "ARCHI CHOUETTE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T20:24:49.922Z"
   }
 }

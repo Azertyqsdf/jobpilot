@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T15:17:17.322Z",
+ "updatedAt": "2026-11-27T20:21:21.367Z",
  "jobs": [
   {
    "tags": [
@@ -907,61 +907,13 @@
    "summaryAi": true
   },
   {
-   "id": "adzuna-5980260821",
-   "source": "Adzuna",
-   "title": "Commercial B2b Industrie - Gestion de Comptes Clés H/F",
-   "company": "AP Consulting Recrutement",
-   "location": "Thyez, Bonneville",
-   "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5980260821?se=XMZ7XnXq8RGPKfIUkWfQjg&utm_medium=api&utm_source=d81896fb&v=407D4C2CE857EA23FCD67FF64E3FD5689FFA423B",
-   "description": "Vous aimez reprendre un portefeuille de clients industriels, comprendre leurs enjeux techniques et construire des offres qui font avancer leurs projets ? Notre cabinet recrute pour une entreprise industrielle qui vous confiera le suivi et le développement de ses comptes clés en France et à l'international. Rattaché(e) au responsable de site, vous êtes l'interlocuteur commercial de vos clients. Vous les accompagnez de l'expression du besoin jusqu'à la commande, puis veillez à la bonne tenue des …",
-   "contactEmail": null,
-   "contract": "full_time",
-   "salary": "60000–75000 €",
-   "salaryMin": 60000,
-   "salaryMax": 75000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-27T04:31:27Z",
-   "tags": [
-    "Emplois Fabrication"
-   ],
-   "score": 100,
-   "reasons": [
-    "Compétences : Négociation grands comptes, Prospection B2B, Gestion de portefeuille clients, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Négociation grands comptes",
-    "Prospection B2B",
-    "Gestion de portefeuille clients",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-27T15:15:20.810Z",
-   "salaryAnnual": {
-    "min": 60000,
-    "max": 75000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "60 k–75 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "cabinet / agence de recrutement connu",
-   "reference": null,
-   "summary": "Vous aimez reprendre un portefeuille de clients industriels, comprendre leurs enjeux techniques et construire des offres qui font avancer leurs projets ? Rattaché(e) au responsable de site, vous êtes l'interlocuteur commercial de vos clients."
-  },
-  {
    "id": "adzuna-5980260676",
    "source": "Adzuna",
    "title": "Key Account Manager H/F",
    "company": "DLSI France",
    "location": "Thyez, Bonneville",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5980260676?se=pIBzX3Xq8RG9S4jfcVf4Cw&utm_medium=api&utm_source=d81896fb&v=15CB56BA7A96BBD153B9A72AB1086ED8E0033C8C",
+   "url": "https://www.adzuna.fr/details/5980260676?utm_medium=api&utm_source=d81896fb",
    "description": "Le Groupe DLSI et son agence d'Annecy recrutent pour un de leurs clients, un :Key Account Manager (h/f)Directement rattaché au Responsable de site, vous développer le chiffre d'affaires et la rentabilité de l'entreprise par la conquête de nouveaux clients et marchés, tout en assurant le suivi des clients \"sport\" et des opportunités ponctuelles. Aussi, vous assurez le suivi des Key Accounts historiques et de l'ADV Back Office. A ce titre, vous avez pour principales missions : - Construire les of…",
    "contactEmail": null,
    "contract": "full_time",
@@ -2609,7 +2561,7 @@
    "company": "Lynx RH",
    "location": "Rumilly, Annecy",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5980260228?se=CgmbXXXq8RGdZ4VJeE2E6Q&utm_medium=api&utm_source=d81896fb&v=6CC1F00655C4B34B5BAA1842C141A8E0AEB7E746",
+   "url": "https://www.adzuna.fr/details/5980260228?utm_medium=api&utm_source=d81896fb",
    "description": "Vous avez dirigé un magasin, un secteur ou un centre de profit dans la grande distribution ? Après plusieurs années à piloter des équipes, développer votre chiffre d'affaires et garantir la performance de votre activité, vous envisagez de donner une nouvelle impulsion à votre carrière ? Avec Lynx RH, réseau spécialisé dans le recrutement de profils qualifiés et cadres, mettez à profit votre expertise managériale et commerciale pilotant votre propre agence. Vos missions À la tête de votre agence…",
    "contactEmail": null,
    "contract": "",
@@ -2647,54 +2599,6 @@
    "recruiterWhy": "cabinet / agence de recrutement connu",
    "reference": null,
    "summary": "Vous avez dirigé un magasin, un secteur ou un centre de profit dans la grande distribution ? Après plusieurs années à piloter des équipes, développer votre chiffre d'affaires et garantir la performance de votre activité, vous envisagez de donner une nouvelle impulsion à votre carrière ?"
-  },
-  {
-   "id": "adzuna-5980260539",
-   "source": "Adzuna",
-   "title": "Commercial Export - Maintenance Industrielle & Machines Spéciales H/F",
-   "company": "MVIP consulting",
-   "location": "Cluses, Bonneville",
-   "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5980260539?se=wjUQXnXq8RGdZ4VJeE2E6Q&utm_medium=api&utm_source=d81896fb&v=A3B22CF65BCA4ECFAF09999C2F9C27FF1C21DC4B",
-   "description": "FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer selon les demandes clients ; plus d'informations vous seront communiquées lors des entretiens. Vous prospectez de nouveaux clients, fidélisez le portefeuille existant et pilotez vos affaires de la détection du besoin jusqu'à la signature, dans un objectif de croissance des ventes et des marges. VOS MISSIONS D…",
-   "contactEmail": "contact@mvipconsulting.com",
-   "contract": "full_time",
-   "salary": "63000–90000 €",
-   "salaryMin": 63000,
-   "salaryMax": 90000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-27T04:31:22Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Gestion de portefeuille clients, Développement international",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Gestion de portefeuille clients",
-    "Développement international"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-27T15:15:20.810Z",
-   "salaryAnnual": {
-    "min": 63000,
-    "max": 90000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "63 k–90 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
-   "reference": null,
-   "summary": "FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer selon les demandes clients ; plus d'informations vous seront communiquées lors des entretiens.",
-   "contactEmailSource": "https://www.mvipconsulting.com/contact",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5980340866",
@@ -2738,13 +2642,61 @@
    "summary": "Vous aimez le contact avec les chefs d'entreprise, le développement de réseaux professionnels et les missions de terrain ? Vous souhaitez mettre vos compétences commerciales au service des professionnels de l'hôtellerie, de la restauration et du tourisme ?"
   },
   {
+   "id": "adzuna-5980260539",
+   "source": "Adzuna",
+   "title": "Commercial Export - Maintenance Industrielle & Machines Spéciales H/F",
+   "company": "MVIP Consulting",
+   "location": "Cluses, Bonneville",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5980260539?utm_medium=api&utm_source=d81896fb",
+   "description": "FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer selon les demandes clients ; plus d'informations vous seront communiquées lors des entretiens. Vous prospectez de nouveaux clients, fidélisez le portefeuille existant et pilotez vos affaires de la détection du besoin jusqu'à la signature, dans un objectif de croissance des ventes et des marges. VOS MISSIONS D…",
+   "contactEmail": "contact@mvipconsulting.com",
+   "contract": "full_time",
+   "salary": "63000–90000 €",
+   "salaryMin": 63000,
+   "salaryMax": 90000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-27T04:31:22Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Gestion de portefeuille clients, Développement international",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Gestion de portefeuille clients",
+    "Développement international"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-27T15:15:20.810Z",
+   "salaryAnnual": {
+    "min": 63000,
+    "max": 90000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "63 k–90 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "le site de l'annonceur présente un cabinet de recrutement",
+   "reference": null,
+   "summary": "FINALITÉ DU POSTE Rattaché(e) au Directeur Général, vous développez le chiffre d'affaires de l'entreprise sur les marchés internationaux. Les zones géographiques couvertes pourront évoluer selon les demandes clients ; plus d'informations vous seront communiquées lors des entretiens.",
+   "contactEmailSource": "https://www.mvipconsulting.com/contact",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
+  },
+  {
    "id": "adzuna-5970993865",
    "source": "Adzuna",
    "title": "Business Developer Btob - Recrutement & Développement Commercial H/F",
    "company": "Lynx RH",
    "location": "Annemasse, Saint-Julien-en-Genevois",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5970993865?se=XMZ7XnXq8RGPKfIUkWfQjg&utm_medium=api&utm_source=d81896fb&v=F80219EA656D05FEBF38BE30364D82DCFE0DB791",
+   "url": "https://www.adzuna.fr/details/5970993865?utm_medium=api&utm_source=d81896fb",
    "description": "Grâce à notre plateforme technologique de pointe et à notre réseau de plus de 240 agences, nous recherchons aujourd'hui un(e) : Business Developer BtoB H/F - CDI Pour accompagner le développement de notre cabinet Lynx RH Juvigny, spécialisé dans le recrutement de profils cadres. Vos missions Rattaché(e) au Responsable d'Agence, vous êtes avant tout un(e) chasseur(euse) et développeur(euse) d'affaires. Vous prenez en charge le développement commercial de votre secteur et accompagnez les entrepri…",
    "contactEmail": null,
    "contract": "",
@@ -3257,6 +3209,52 @@
    "summary": "Entreprise : 'Fidérim Lyon Anvers, est un véritable acteur de l'emploi local : une équipe accueillante, experte et réactive qui est à votre écoute, nous avons pour objectif de vous accompagner dans votre parcours professionnel."
   },
   {
+   "id": "adzuna-5979650358",
+   "source": "Adzuna",
+   "title": "Chargé de Recrutement (H/F)",
+   "company": "Domino RH - Recrutement interne",
+   "location": "Marignier, Bonneville",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5979650358?utm_medium=api&utm_source=d81896fb",
+   "description": "Domino RH recrute son futur Chargé de Recrutement passionné et dynamique pour rejoindre notre équipe en pleine expansion au sein de notre agence Domino Missions (logistique). Sous la responsabilité du responsable d'agence, vous travaillerez en collaboration directe avec l'ensemble de l'équipe. Vous serez en relation permanente avec les intérimaires. Vos missions seront : Accueillir nos clients et prospects avec le sourire, que ce soit physiquement ou au téléphone Comprendre et identifier leurs …",
+   "contactEmail": null,
+   "contract": "permanent, full_time",
+   "salary": "25000–30000 €",
+   "salaryMin": 25000,
+   "salaryMax": 30000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-26T14:17:03Z",
+   "tags": [
+    "Emplois RH et Recrutement"
+   ],
+   "score": 83,
+   "reasons": [
+    "Compétences : Supply chain & logistique, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Supply chain & logistique",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-27T20:19:26.382Z",
+   "salaryAnnual": {
+    "min": 25000,
+    "max": 30000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "25 k–30 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Domino RH recrute son futur Chargé de Recrutement passionné et dynamique pour rejoindre notre équipe en pleine expansion au sein de notre agence Domino Missions (logistique). Vous serez en relation permanente avec les intérimaires."
+  },
+  {
    "id": "adzuna-5980212778",
    "source": "Adzuna",
    "title": "Commercial Export Dispositifs médicaux (H/F)",
@@ -3437,48 +3435,6 @@
    "summary": "Description Scalers accompagne l’un de ses clients, un cabinet d’expertise comptable, dans le recrutement d’un Responsable d’Agence Comptable H/F dans le cadre de l’ouverture d’une nouvelle agence à Megève . Rattaché au Responsable du Développement, vous évolue…"
   },
   {
-   "id": "adzuna-5974345739",
-   "source": "Adzuna",
-   "title": "Responsable Marketing Digital et CRM H/F",
-   "company": "Snow Group",
-   "location": "Argonay, Annecy",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5974345739?utm_medium=api&utm_source=d81896fb",
-   "description": "Description À travers nos trois marques de cosmétiques emblématiques - Cinq Mondes, Algotherm et Deep Nature - nous faisons dialoguer cultures, savoir-faire et innovations pour façonner une esthétique du soin à la fois universelle, exigeante et inspirante. Snow Group est aujourd’hui présent dans 80 pays à travers plusieurs canaux de distribution : 60 spas opérés en propre et 9 spas sous enseigne, un réseau de 1000 Spas Agréés, un laboratoire, un bureau d’étude, un réseau de distributeurs export…",
-   "contactEmail": null,
-   "contract": "full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-21T17:56:28Z",
-   "tags": [
-    "Emplois RP, Publicité et Marketing"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Développement international, Marketing digital (Meta Ads), CRM",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Développement international",
-    "Marketing digital (Meta Ads)",
-    "CRM"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Description À travers nos trois marques de cosmétiques emblématiques - Cinq Mondes, Algotherm et Deep Nature - nous faisons dialoguer cultures, savoir-faire et innovations pour façonner une esthétique du soin à la fois universelle, exigeante et inspirante."
-  },
-  {
    "id": "adzuna-5978297430",
    "source": "Adzuna",
    "title": "Sales Manager France – Évolutif vers la Direction (H/F)",
@@ -3525,49 +3481,6 @@
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
    "summary": "ATOUT SEARCH, cabinet de recrutement spécialisé dans l'industrie, recrute pour la filiale d'un groupe international, fournissant des pièces de rechange et des services techniques pour les machines industrielles de conditionnement et de production : Responsable commercial France – Évolution vers la direction France (H/F"
-  },
-  {
-   "id": "adzuna-5977273286",
-   "source": "Adzuna",
-   "title": "Business developer saas (h/f) - cdi (CDI)",
-   "company": "Les Colettes Sourcing",
-   "location": "Ecully, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5977273286?utm_medium=api&utm_source=d81896fb",
-   "description": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce). L'entreprise a pour objectif d'aider les commerces de proximité à pérenniser leur activité, en leur proposant une solution de caisse innovante : vente en ligne, gestion des stocks, carnet de commandes connecté, gestion d'une base de données clients, comptabilité, statistiques L'équipe est jeune e…",
-   "contactEmail": null,
-   "contract": "permanent",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-24T16:14:05Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Business development, Supply chain & logistique, Création d'entreprise, E-commerce (Shopify)",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Supply chain & logistique",
-    "Création d'entreprise",
-    "E-commerce (Shopify)"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce)."
   },
   {
    "id": "adzuna-5975769426",
@@ -3659,6 +3572,49 @@
    "summary": "Rattaché(e) au Directeur Partnerships & Business Development, vous contribuez activement au développement commercial de l'entreprise, à l'interface entre les enjeux business, les équipes techniques et les activités de recherche."
   },
   {
+   "id": "adzuna-5977273286",
+   "source": "Adzuna",
+   "title": "Business developer saas (h/f) - cdi (CDI)",
+   "company": "Les Colettes Sourcing",
+   "location": "Ecully, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5977273286?utm_medium=api&utm_source=d81896fb",
+   "description": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce). L'entreprise a pour objectif d'aider les commerces de proximité à pérenniser leur activité, en leur proposant une solution de caisse innovante : vente en ligne, gestion des stocks, carnet de commandes connecté, gestion d'une base de données clients, comptabilité, statistiques L'équipe est jeune e…",
+   "contactEmail": null,
+   "contract": "permanent",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-24T16:14:05Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 80,
+   "reasons": [
+    "Compétences : Business development, Supply chain & logistique, Création d'entreprise, E-commerce (Shopify)",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Supply chain & logistique",
+    "Création d'entreprise",
+    "E-commerce (Shopify)"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-25T23:02:33.617Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": false,
+   "viaPlatform": false,
+   "recruiterWhy": "employeur direct",
+   "reference": null,
+   "summary": "Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce)."
+  },
+  {
    "id": "adzuna-5976745198",
    "source": "Adzuna",
    "title": "Business Developer SAAS (H/F) - CDI",
@@ -3702,48 +3658,6 @@
    "summary": "Entreprise : Rejoins une startup solidement installée et en forte croissance qui révolutionne le quotidien des commerçants grâce à des solutions digitales innovantes (encaissement, gestion des stocks, e-commerce…)."
   },
   {
-   "id": "adzuna-5971870384",
-   "source": "Adzuna",
-   "title": "Business Manager - Développement industriel (H/F)",
-   "company": "Heliatec",
-   "location": "Villeurbanne, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5971870384?utm_medium=api&utm_source=d81896fb",
-   "description": "Votre challenge : construire, développer, fidéliser Basé(e) à Villeurbanne, vous prenez en main le développement de notre activité sur un territoire à fort potentiel, de la région lyonnaise au bassin grenoblois, jusqu'aux plateformes industrielles du nord de la vallée du Rhône et de l'Alsace. Votre rôle ? Être le véritable moteur de votre développement commercial. À ce titre, vous serez amené(e) à : Définir votre stratégie commerciale : identifier les marchés porteurs, cartographier les comptes…",
-   "contactEmail": null,
-   "contract": "full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T17:56:15Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Business development, Management d'équipe, Pilotage stratégique",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Management d'équipe",
-    "Pilotage stratégique"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Être le véritable moteur de votre développement commercial. À ce titre, vous serez amené(e) à : Définir votre stratégie commerciale : identifier les marchés porteurs, cartographier les comptes…"
-  },
-  {
    "id": "adzuna-5972930167",
    "source": "Adzuna",
    "title": "Business Manager - Développement industriel F/H",
@@ -3784,6 +3698,48 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Être le véritable moteur de votre développement commercial. À ce titre, vous serez amené(e) à : Définir votre stratégie commerciale : identifier les marchés porteurs, cartographier les comptes i…"
+  },
+  {
+   "id": "adzuna-5971870384",
+   "source": "Adzuna",
+   "title": "Business Manager - Développement industriel (H/F)",
+   "company": "Heliatec",
+   "location": "Villeurbanne, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5971870384?utm_medium=api&utm_source=d81896fb",
+   "description": "Votre challenge : construire, développer, fidéliser Basé(e) à Villeurbanne, vous prenez en main le développement de notre activité sur un territoire à fort potentiel, de la région lyonnaise au bassin grenoblois, jusqu'aux plateformes industrielles du nord de la vallée du Rhône et de l'Alsace. Votre rôle ? Être le véritable moteur de votre développement commercial. À ce titre, vous serez amené(e) à : Définir votre stratégie commerciale : identifier les marchés porteurs, cartographier les comptes…",
+   "contactEmail": null,
+   "contract": "full_time",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T17:56:15Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 80,
+   "reasons": [
+    "Compétences : Business development, Management d'équipe, Pilotage stratégique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Management d'équipe",
+    "Pilotage stratégique"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-25T23:02:33.617Z",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": false,
+   "viaPlatform": false,
+   "recruiterWhy": "employeur direct",
+   "reference": null,
+   "summary": "Être le véritable moteur de votre développement commercial. À ce titre, vous serez amené(e) à : Définir votre stratégie commerciale : identifier les marchés porteurs, cartographier les comptes…"
   },
   {
    "id": "adzuna-5978350413",
@@ -4144,51 +4100,6 @@
    "summary": "Entreprise : Notre client est un industriel français reconnu, qui conçoit et fabrique ses produits en France. Il les commercialise auprès de la grande distribution spécialisée, des professionnels et de l'hôtellerie-restauration, et accélère aujourd'hui son développement digital."
   },
   {
-   "id": "adzuna-5970994849",
-   "source": "Adzuna",
-   "title": "Directeur Commercial en Reconversion H/F",
-   "company": "Lynx RH",
-   "location": "Annecy, Haute-Savoie",
-   "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5970994849?se=CgmbXXXq8RGdZ4VJeE2E6Q&utm_medium=api&utm_source=d81896fb&v=50867D5EB95AFBD8F1D4BDE2002B24AEBA098A44",
-   "description": "Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ? Vous avez fait vos preuves. Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats. Vous savez ce que veut dire \"performer\". Mais aujourd'hui, une question vous trotte dans la tête : et après ? Et si la suite de votre carrière, c'était de mettre enfin votre expertise commerciale au service d'un projet qui vous appartient vraimen…",
-   "contactEmail": null,
-   "contract": "",
-   "salary": "50000–100000 €",
-   "salaryMin": 50000,
-   "salaryMax": 100000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T04:25:25Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 78,
-   "reasons": [
-    "Compétences : Direction commerciale",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Direction commerciale"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-27T15:15:20.810Z",
-   "salaryAnnual": {
-    "min": 50000,
-    "max": 100000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "50 k–100 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "cabinet / agence de recrutement connu",
-   "reference": null,
-   "summary": "Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ? Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats. Mais aujourd'hui, une question vous trotte dans la tête : et après ?"
-  },
-  {
    "id": "adzuna-5972455229",
    "source": "Adzuna",
    "title": "Directeur commercial en reconversion H/F",
@@ -4227,6 +4138,51 @@
    "recruiterWhy": "publiée sur un site d'annonces, employeur non nommé",
    "reference": null,
    "summary": "Description du poste : Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ?Vous avez fait vos preuves. Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats."
+  },
+  {
+   "id": "adzuna-5970994849",
+   "source": "Adzuna",
+   "title": "Directeur Commercial en Reconversion H/F",
+   "company": "Lynx RH",
+   "location": "Annecy, Haute-Savoie",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5970994849?utm_medium=api&utm_source=d81896fb",
+   "description": "Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ? Vous avez fait vos preuves. Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats. Vous savez ce que veut dire \"performer\". Mais aujourd'hui, une question vous trotte dans la tête : et après ? Et si la suite de votre carrière, c'était de mettre enfin votre expertise commerciale au service d'un projet qui vous appartient vraimen…",
+   "contactEmail": null,
+   "contract": "",
+   "salary": "50000–100000 €",
+   "salaryMin": 50000,
+   "salaryMax": 100000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-19T04:25:25Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 78,
+   "reasons": [
+    "Compétences : Direction commerciale",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Direction commerciale"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-27T15:15:20.810Z",
+   "salaryAnnual": {
+    "min": 50000,
+    "max": 100000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "50 k–100 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "cabinet / agence de recrutement connu",
+   "reference": null,
+   "summary": "Directeur(trice) commercial(e) : et si votre prochaine direction était celle de votre propre entreprise ? Vous avez porté des objectifs, managé des équipes, développé des portefeuilles clients, tenu des comptes de résultats. Mais aujourd'hui, une question vous trotte dans la tête : et après ?"
   },
   {
    "id": "adzuna-5978997182",
@@ -4280,7 +4236,7 @@
    "company": "Temporis Experts et Cadres",
    "location": "Thyez, Bonneville",
    "remote": false,
-   "url": "https://www.adzuna.fr/land/ad/5980260315?se=XMZ7XnXq8RGPKfIUkWfQjg&utm_medium=api&utm_source=d81896fb&v=6DA983DC9AC753FD8E8F7DF65048C9E21016720E",
+   "url": "https://www.adzuna.fr/details/5980260315?utm_medium=api&utm_source=d81896fb",
    "description": "Vous êtes un commercial dans l'âme, avec une véritable connaissance du secteur industriel ? Vous aimez conquérir de nouveaux marchés, négocier et développer des relations clients durables ? Cette opportunité est faite pour vous ! Votre agence Temporis Annemasse recherche pour l'un de ses clients, une entreprise spécialisée dans le secteur industriel, un Commercial B2B - Développement commercial et gestion d'affaires. Votre objectif ? Développer le chiffre d'affaires, conquérir de nouveaux clien…",
    "contactEmail": null,
    "contract": "",
@@ -4566,51 +4522,6 @@
    "summary": "Description du poste : Responsable du développement commercial BtoB - Informatique & Logiciels (H/F) Poste basé à Lyon ou dans le Grand Lyon 69 / 42 / 38 / 63 - Démarrage le 4 janvier 2027 Qui sommes-nous ? Également organisme de formation certifié QUALIOPI, nous accompagnons les entreprises dans …"
   },
   {
-   "id": "adzuna-5971877949",
-   "source": "Adzuna",
-   "title": "Business Developer / commercial terrain H/F",
-   "company": "Cogepart",
-   "location": "Vénissieux, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5971877949?utm_medium=api&utm_source=d81896fb",
-   "description": "À propos de COGEPART COGEPART renforce sa force de vente Business Developer / Commercial terrain H/F – Auvergne-Rhône-Alpes COGEPART, leader français de la livraison de précision et du dernier kilomètre, poursuit sa croissance dans un secteur dynamique et en pleine transformation. Fondé à Marseille il y a 40 ans, le Groupe compte aujourd’hui 95 agences, 3 300 collaborateurs et une présence nationale et au Benelux. COGEPART intervient sur des marchés à forte valeur ajoutée : pièces automobiles e…",
-   "contactEmail": null,
-   "contract": "full_time",
-   "salary": "75000–85000 €",
-   "salaryMin": 75000,
-   "salaryMax": 85000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-19T18:02:19Z",
-   "tags": [
-    "Emplois Informatique"
-   ],
-   "score": 78,
-   "reasons": [
-    "Compétences : Business development",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "min": 75000,
-    "max": 85000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "75 k–85 k € / an"
-   },
-   "viaAgency": false,
-   "viaPlatform": false,
-   "recruiterWhy": "employeur direct",
-   "reference": null,
-   "summary": "Fondé à Marseille il y a 40 ans, le Groupe compte aujourd’hui 95 agences, 3 300 collaborateurs et une présence nationale et au Benelux. COGEPART intervient sur des marchés à forte valeur ajoutée : pièces automobiles e…"
-  },
-  {
    "id": "adzuna-5980338706",
    "source": "Adzuna",
    "title": "Business Developer - Chargé.e de relations entreprises",
@@ -4824,7 +4735,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=UoKkZXXq8RG9W_-Ykbvwuw&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=Rv6A35_q8RG9S4jfcVf4Cw&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",
@@ -4909,7 +4820,7 @@
    "location": "Paris, France; Bordeaux, France; Lyon, France; Marseille, France; Biarritz, France; Nantes, France; Annecy, France",
    "remote": false,
    "url": "https://www.arbeitnow.fr/jobs/companies/alan/enterprise-account-executive-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-france-annecy-france-227427",
-   "description": "Health can’t wait . \n Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n Alan exists to end the wait.\n Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n Disclaimer: We're open to hire Account Executives across our Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes and Biarritz offices. \n\n ⭐️ The Enterprise Account Executive job\n We’re expanding our Sales team in France and are looking for a ‘full-stack’ Enterprise Sales to engage with prospects and turn them into happy Alan customers. You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs.\n\n Why is this segment interesting? \n • Diverse workforce : Mix of 60% cadres / 40% non-cadres, often with subsidiaries or multi-site operations, ranging from highly tech-savvy employees to those requiring digital adoption support.\n\n• Critical challenges : Multi-stakeholder decision processes involving HRD, CFO, CEO, Payroll, CSE, Legal, Purchasing, Comp & Ben, Accounting, Brokers (creating multiple potential blockers), long sales cycles (multi-year conversations), RFP processes requiring deep audits and product customization, and strong influence from unions/CSE who can co-manage health insurance topics;\n\n• Company profiles : Flagship companies (widely known brands), groups with standalone entities or subsidiaries, often with focus on employee wellbeing (QVT programs, Great Place to Work), modern company culture, and strategic communication about digitization or employer brand attractiveness;\n\n• HR priorities : Increasing productivity, obtaining fair and competitive pricing, contributing to employee well-being through customized health plans, simplifying HR processes with digital platforms, and managing change management concerns when implementing new health insurance (biggest fear for large companies)\n\n• Critical business characteristics : This segment requires breadth & depth of expertise to navigate complex organizations, account-based strategies with Key Account Management approach, early engagement in company roadmaps, face-to-face meetings, co-creation of insurance and digital products (tailored offers considering past results, specific regimes, demographics, payroll system integration), and ability to work through RFPs and with brokers. Sales cycles are volatile with high stakes: 1 deal = 50% of annual target for Enterprise AEs.\n\n Our approach for Enterprise companies positions Alan as a strategic partner in health rather than just an insurance provider, emphasizing our digital platform for fluid UX, customized health plans at fair pricing, and health/well-being services. Success requires leveraging high-level connections, building professional materials, and potentially creating exclusive \"Health Clubs\" or labels for early adopters.\n\n What will you do with us? \n You’ll own the entire sales cycle, from prospecting to closing. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies. \n At Alan, Account Executives drive deals and close strategic opportunities with prospects . We sometimes handle some customer relationships to ensure the best possible onboarding. You’ll educate prospects, provide inspiring product demos, and onboard key stakeholders, making the transition from prospect to customer seamless.\n We expect you to understand and apply the Alan Smart & Soft selling method . This method ensures the prospect experience is an integral part of the overall Alan customer experience—making it pleasant and delightful for everyone. We expect you to be instructive to prospects (Smart), as well as to define the best personalized high-touch strategy that suits best each prospect (Soft).\n You’ll also help us grow and improve as a company , challenging us to enhance our product(s), methods, and strategy, and getting involved in initiatives to expand our customer base.\n Take a look at this testimonial from Emilie Quellec and watch Julien Plessis , both part of the Enterprise Sales team 👀 \n\n ⭐ Is it you we’re looking for?\n You’ll be a great fit for the Enterprise team at Alan if you: \n • Have at least 8 years of experience in Sales, including at least 2 years managing the whole Enterprise Sales cycle, from prospecting to closing.\n\n• Have full working proficiency in French (C2 and above) and an advanced level in English .\n\n• Are highly organized with exceptional follow-up skills ;\n\n• Have empathy and are passionate about understanding and solving prospects' problems;\n\n• Can influence through persuasion, negotiation, and consensus-building;\n\n• Have a deep understanding of value drivers in recurring revenue business models;\n\n• Have a great attitude and ability to collaborate in a small team;\n\n• Are eager to learn fast and make an impact from day 1;\n\n• Are based in (or willing to relocate to) Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz. \n\n For this opportunity, we are aiming to hire within the D-F level range .\n If you're still wondering whether this could be the best move for you, take a look at this article from Lucie Leflour, our Sales Lead in France. \n\nEverything else is a plus. We care about having a diversity of experiences, profiles and backgrounds in our team.\n\n🙌 Perks & Benefits \n At Alan, we believe that being in good health is a basic need , and it starts with our employees. This is why Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n Therefore, we offer: \n • Fair rewards . Generous equity packages complement your base salary, for permanent contracts only. \n\n• Flexible office with hybrid setup . Amazing office space at our Paris HQ or sponsored co-working hubs in Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz.\n\n• All the tools you need . Top of the range equipment: Macbook Air, keyboard, laptop stand, monitor, and Bose noise-canceling headphones.\n\n• Flexible vacation policy and flexible working hours . Organize your time as you wish.\n\n• Delightful healthcare insurance: Extremely comprehensive health insurance - 100% for you and your children, 90-100% for partners depending on your country (permanent contracts only). \n\n• Transport . Generous transit benefit\n\n• Learning & Training opportunities . A highly flexible training policy free books and budget to attend and speak at conferences if the opportunity arises.\n\n• Personal growth through coaching : At Alan, coaching isn't just a perk - it's core to who we are. Every Alaner is paired with a dedicated coach from day one, who helps maximize their impact, nurture engagement, and navigate Alan's values to develop their full potential. Learn more about our coaching culture . \n\n• Parental leave . Extended parental leave for all new parents, for permanent contracts only. \n\n Important note: we hire people, not roles. \n If you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply as it can only bring learnings or success.\n If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?\n Remember, this is just a guide, not a checklist. \n We'll be thrilled to receive your application!\n 🔖 Check out our About Alan and Career pages, as well as our Medium , blog and Glassdoor page for more info.\n\n #LI-DNP\n Find Jobs in France on Arbeitnow",
+   "description": "Health can’t wait . \n Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n Alan exists to end the wait.\n Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n Disclaimer: We're open to hire Account Executives across our Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes and Biarritz offices. \n\n ⭐️ The Enterprise Account Executive job\n We’re expanding our Sales team in France and are looking for a ‘full-stack’ Enterprise Sales to engage with prospects and turn them into happy Alan customers. You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs.\n\n Why is this segment interesting? \n • Diverse workforce : Mix of 60% cadres / 40% non-cadres, often with subsidiaries or multi-site operations, ranging from highly tech-savvy employees to those requiring digital adoption support.\n\n• Critical challenges : Multi-stakeholder decision processes involving HRD, CFO, CEO, Payroll, CSE, Legal, Purchasing, Comp & Ben, Accounting, Brokers (creating multiple potential blockers), long sales cycles (multi-year conversations), RFP processes requiring deep audits and product customization, and strong influence from unions/CSE who can co-manage health insurance topics;\n\n• Company profiles : Flagship companies (widely known brands), groups with standalone entities or subsidiaries, often with focus on employee wellbeing (QVT programs, Great Place to Work), modern company culture, and strategic communication about digitization or employer brand attractiveness;\n\n• HR priorities : Increasing productivity, obtaining fair and competitive pricing, contributing to employee well-being through customized health plans, simplifying HR processes with digital platforms, and managing change management concerns when implementing new health insurance (biggest fear for large companies)\n\n• Critical business characteristics : This segment requires breadth & depth of expertise to navigate complex organizations, account-based strategies with Key Account Management approach, early engagement in company roadmaps, face-to-face meetings, co-creation of insurance and digital products (tailored offers considering past results, specific regimes, demographics, payroll system integration), and ability to work through RFPs and with brokers. Sales cycles are volatile with high stakes: 1 deal = 50% of annual target for Enterprise AEs.\n\n Our approach for Enterprise companies positions Alan as a strategic partner in health rather than just an insurance provider, emphasizing our digital platform for fluid UX, customized health plans at fair pricing, and health/well-being services. Success requires leveraging high-level connections, building professional materials, and potentially creating exclusive \"Health Clubs\" or labels for early adopters.\n\n What will you do with us? \n You’ll own the entire sales cycle, from prospecting to closing. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies. \n At Alan, Account Executives drive deals and close strategic opportunities with prospects . We sometimes handle some customer relationships to ensure the best possible onboarding. You’ll educate prospects, provide inspiring product demos, and onboard key stakeholders, making the transition from prospect to customer seamless.\n We expect you to understand and apply the Alan Smart & Soft selling method . This method ensures the prospect experience is an integral part of the overall Alan customer experience—making it pleasant and delightful for everyone. We expect you to be instructive to prospects (Smart), as well as to define the best personalized high-touch strategy that suits best each prospect (Soft).\n You’ll also help us grow and improve as a company , challenging us to enhance our product(s), methods, and strategy, and getting involved in initiatives to expand our customer base.\n Take a look at this testimonial from Emilie Quellec and watch Julien Plessis , both part of the Enterprise Sales team 👀 \n\n ⭐ Is it you we’re looking for?\n You’ll be a great fit for the Enterprise team at Alan if you: \n • Have at least 8 years of experience in Sales, including at least 2 years managing the whole Enterprise Sales cycle, from prospecting to closing.\n\n• Have full working proficiency in French (C2 and above) and an advanced level in English .\n\n• Are highly organized with exceptional follow-up skills ;\n\n• Have empathy and are passionate about understanding and solving prospects' problems;\n\n• Can influence through persuasion, negotiation, and consensus-building;\n\n• Have a deep understanding of value drivers in recurring revenue business models;\n\n• Have a great attitude and ability to collaborate in a small team;\n\n• Are eager to learn fast and make an impact from day 1;\n\n• Are based in (or willing to relocate to) Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz. \n\n For this opportunity, we are aiming to hire within the D-F level range .\n If you're still wondering whether this could be the best move for you, take a look at this article from Lucie Leflour, our Sales Lead in France. \n\nEverything else is a plus. We care about having a diversity of experiences, profiles and backgrounds in our team.\n\n🙌 Perks & Benefits \n At Alan, we believe that being in good health is a basic need , and it starts with our employees. This is why Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n Therefore, we offer: \n • Fair rewards . Generous equity packages complement your base salary, for permanent contracts only. \n\n• Flexible office with hybrid setup . Amazing office space at our Paris HQ or sponsored co-working hubs in Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz.\n\n• All the tools you need . Top of the range equipment: Macbook Air, keyboard, laptop stand, monitor, and Bose noise-canceling headphones.\n\n• Flexible vacation policy and flexible working hours . Organize your time as you wish.\n\n• Delightful healthcare insurance: Extremely comprehensive health insurance - 100% for you and your children, 90-100% for partners depending on your country (permanent contracts only). \n\n• Transport . Generous transit benefit\n\n• Learning & Training opportunities . A highly flexible training policy free books and budget to attend and speak at conferences if the opportunity arises.\n\n• Personal growth through coaching : At Alan, coaching isn't just a perk - it's core to who we are. Every Alaner is paired with a dedicated coach from day one, who helps maximize their impact, nurture engagement, and navigate Alan's values to develop their full potential. Learn more about our coaching culture . \n\n• Parental leave . Extended parental leave for all new parents, for permanent contracts only. \n\n Important note: we hire people, not roles. \n If you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply as it can only bring learnings or success.\n If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?\n Remember, this is just a guide, not a checklist. \n We'll be thrilled to receive your application!\n 🔖 Check out our About Alan and Career pages, as well as our Medium , blog and Glassdoor page for more info.\n\n #LI-DNP\n Find more English Speaking Jobs in France on Arbeitnow",
    "contactEmail": null,
    "contract": "Full Time",
    "salary": "",

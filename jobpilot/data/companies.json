@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T15:17:17.316Z",
+ "updatedAt": "2026-11-27T20:21:21.366Z",
  "companies": [
   {
    "id": "lbb-83059066700028",
@@ -2061,11 +2061,13 @@
    "sector": "Autres intermédiaires du commerce en produits divers",
    "headcount": "",
    "score": 3.6799984395,
-   "email": "",
+   "email": "info@spineway.com",
    "phone": "",
-   "website": "",
+   "website": "https://spineway.com/fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://spineway.com/en/contact-en",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-87791217000033",
@@ -2157,11 +2159,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 3.5066365937999997,
-   "email": "",
+   "email": "contact@monde-nouveau.fr",
    "phone": "",
-   "website": "",
+   "website": "https://monde-nouveau.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://monde-nouveau.fr/contact/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-93147742600023",
@@ -2479,11 +2483,13 @@
    "sector": "Activités des organisations patronales et consulaires",
    "headcount": "",
    "score": 3.182248528,
-   "email": "",
+   "email": "direction@uimmlyon.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.uimmlyon.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.uimmlyon.com/mentions-legales/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-47914541900079",
@@ -2563,11 +2569,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 3.0895043629499996,
-   "email": "",
+   "email": "rh@square.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.square.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.square.fr/recrutement/",
+   "emailWhy": "adresse de recrutement"
   },
   {
    "id": "lbb-98082550900014",
@@ -2579,11 +2587,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 3.0805870051000004,
-   "email": "",
+   "email": "contact@proxima-it.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.proxima-it.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.proxima-it.fr/",
+   "emailWhy": "petite entreprise (3 à 9 salariés)"
   },
   {
    "id": "lbb-44132792100041",
@@ -2613,11 +2623,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 3.0134662607999996,
-   "email": "",
+   "email": "contact@logsystem.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.logsystem.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.logsystem.fr/contact",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-84154010700049",
@@ -2629,11 +2641,13 @@
    "sector": "Production de films institutionnels et publicitaires",
    "headcount": "",
    "score": 2.987668962,
-   "email": "",
+   "email": "contact@digitalbornproducers.com",
    "phone": "",
-   "website": "",
+   "website": "https://digitalbornproducers.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://digitalbornproducers.com/",
+   "emailWhy": "petite entreprise (1 à 9 salariés)"
   },
   {
    "id": "lbb-43960745800023",
@@ -2709,11 +2723,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 2.90778071895,
-   "email": "",
+   "email": "contact@empirik.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.empirik.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.empirik.fr/contact/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-52989413100018",
@@ -2905,11 +2921,13 @@
    "sector": "Production de films institutionnels et publicitaires",
    "headcount": "",
    "score": 2.787629775,
-   "email": "",
+   "email": "contact@alunites.com",
    "phone": "",
-   "website": "",
+   "website": "https://alunites.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://alunites.com/contact/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-49414141900056",
@@ -3081,11 +3099,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 2.6169217270000003,
-   "email": "",
+   "email": "contact@jmjcom.fr",
    "phone": "",
-   "website": "",
+   "website": "https://jmjcom.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://jmjcom.fr/contact",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-42153824000035",
