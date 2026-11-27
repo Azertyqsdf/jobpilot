@@ -3349,5 +3349,415 @@
     "sirens": [],
     "generic": null,
     "checkedAt": "2026-11-27T01:04:53.733Z"
+  },
+  "dlsi france": {
+    "name": "DLSI France",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:19.769Z"
+  },
+  "m j trusted recruitment": {
+    "name": "M&J TRUSTED RECRUITMENT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:24.625Z"
+  },
+  "elodie sumeire": {
+    "name": "Elodie Sumeire",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:25.712Z"
+  },
+  "temporis experts et cadres": {
+    "name": "Temporis Experts et Cadres",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:29.092Z"
+  },
+  "groupagora": {
+    "name": "Groupagora",
+    "website": "https://www.groupagora.fr/",
+    "email": "drh@groupagora.fr",
+    "source": "https://www.groupagora.fr/contact",
+    "verified": "nom",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "378016604"
+    ],
+    "generic": {
+      "email": "contact@groupagora.fr",
+      "source": "https://www.groupagora.fr/Mentions"
+    },
+    "checkedAt": "2026-11-27T15:17:30.984Z"
+  },
+  "genius talent": {
+    "name": "Genius Talent",
+    "website": "https://geniustalent.fr/",
+    "email": "contact@geniustalent.fr",
+    "source": "https://geniustalent.fr/contact",
+    "verified": "nom",
+    "kind": "recrutement",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "879433399",
+      "424761419"
+    ],
+    "generic": {
+      "email": "contact@geniustalent.fr",
+      "source": "https://geniustalent.fr/contact"
+    },
+    "checkedAt": "2026-11-27T15:17:33.004Z"
+  },
+  "novahe": {
+    "name": "Novahé",
+    "website": "https://www.novahe.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "423458504",
+      "327733184"
+    ],
+    "generic": {
+      "email": "contact@novahe.fr",
+      "source": "https://www.novahe.fr/mentions-legales"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T15:17:33.038Z"
+  },
+  "exens ingenierie": {
+    "name": "Exens Ingénierie",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:49.612Z"
+  },
+  "fiderim": {
+    "name": "Fidérim",
+    "website": "https://www.fiderim.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:17:52.049Z"
+  },
+  "3h distribution": {
+    "name": "3H DISTRIBUTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:17:52.099Z"
+  },
+  "medialex": {
+    "name": "Medialex",
+    "website": "https://www.medialex.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:17:52.778Z"
+  },
+  "magnet genius talent": {
+    "name": "Magnet Genius Talent",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:08.221Z"
+  },
+  "lama france": {
+    "name": "LAMA FRANCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:12.535Z"
+  },
+  "caisse federale de credit mutuel societe": {
+    "name": "CAISSE FEDERALE DE CREDIT MUTUEL SOCIETE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:20.187Z"
+  },
+  "groupe progres sa": {
+    "name": "GROUPE PROGRES SA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:25.172Z"
+  },
+  "my little invest": {
+    "name": "MY LITTLE INVEST",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:27.455Z"
+  },
+  "metronomi": {
+    "name": "METRONOMI",
+    "website": "https://metronomi.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:18:31.119Z"
+  },
+  "supernatifs": {
+    "name": "SUPERNATIFS",
+    "website": "https://supernatifs.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "bonjour@supernatifs.com",
+      "source": "https://supernatifs.com/contacts/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "bonjour@supernatifs.com",
+    "source": "https://supernatifs.com/contacts/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T15:18:36.483Z"
+  },
+  "caisse de credit municipal de lyon": {
+    "name": "CAISSE DE CREDIT MUNICIPAL DE LYON",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:38.587Z"
+  },
+  "histoire de points de vue": {
+    "name": "HISTOIRE DE POINTS DE VUE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:43.545Z"
+  },
+  "simplifia": {
+    "name": "SIMPLIFIA",
+    "website": "https://www.simplifia.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@simplifia.fr",
+      "source": "https://www.simplifia.fr/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T15:18:46.041Z"
+  },
+  "rse 360": {
+    "name": "RSE 360",
+    "website": "https://www.rse360.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "881721583"
+    ],
+    "generic": {
+      "email": "contact@rse360.fr",
+      "source": "https://www.rse360.fr/content/2-mentions-legales"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T15:18:46.478Z"
+  },
+  "le lab des energies": {
+    "name": "LE LAB' DES ENERGIES",
+    "website": "https://www.lab-energies.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "892742933"
+    ],
+    "generic": {
+      "email": "contact@lab-energies.fr",
+      "source": "https://www.lab-energies.fr/nous-contacter"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@lab-energies.fr",
+    "source": "https://www.lab-energies.fr/nous-contacter",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T15:18:49.184Z"
+  },
+  "onlyce": {
+    "name": "ONLYCE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:18:59.029Z"
+  },
+  "cembre sarl": {
+    "name": "CEMBRE SARL",
+    "website": "https://www.cembre.com/en",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@cembre.com",
+      "source": "https://www.cembre.com/en/contact-us"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-27T15:19:12.638Z"
+  },
+  "woonoz": {
+    "name": "WOONOZ",
+    "website": "https://www.woonoz.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "839541802",
+      "419623152"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:19:14.366Z"
+  },
+  "la compagnie des sens": {
+    "name": "LA COMPAGNIE DES SENS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:19:17.201Z"
+  },
+  "king jouet": {
+    "name": "KING JOUET",
+    "website": "https://www.king-jouet.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "057502726",
+      "347926719",
+      "482286424",
+      "351996079",
+      "109275609"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:19:21.517Z"
+  },
+  "platurne": {
+    "name": "PLATURNE",
+    "website": "https://www.platurne.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [
+      "894065903"
+    ],
+    "generic": {
+      "email": "contact@platurne.fr",
+      "source": "https://www.platurne.fr/contact"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@platurne.fr",
+    "source": "https://www.platurne.fr/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T15:19:23.105Z"
+  },
+  "bego france": {
+    "name": "BEGO FRANCE",
+    "website": "https://www.bego.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:19:29.871Z"
+  },
+  "stormshield": {
+    "name": "STORMSHIELD",
+    "website": "https://www.stormshield.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "428173975"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:19:31.249Z"
+  },
+  "softway medical developpement": {
+    "name": "SOFTWAY MEDICAL DEVELOPPEMENT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:19:42.543Z"
+  },
+  "komia": {
+    "name": "KOMIA",
+    "website": "https://www.komia.io/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "925010639"
+    ],
+    "generic": {
+      "email": "contact@komia.io",
+      "source": "https://www.komia.io/"
+    },
+    "genericVerdict": "petite entreprise (1 à 9 salariés)",
+    "email": "contact@komia.io",
+    "source": "https://www.komia.io/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (1 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-27T15:19:44.288Z"
+  },
+  "flow line integration": {
+    "name": "FLOW LINE INTEGRATION",
+    "website": "https://www.flowlineintegration.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "801330606",
+      "510909807"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:19:45.330Z"
+  },
+  "asian concept": {
+    "name": "ASIAN CONCEPT",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:19:59.685Z"
+  },
+  "arkane studios": {
+    "name": "ARKANE STUDIOS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:20:05.510Z"
+  },
+  "descasystem sas": {
+    "name": "DESCASYSTEM SAS",
+    "website": "https://www.descasystem.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-27T15:20:09.197Z"
+  },
+  "lr health beauty systems sas": {
+    "name": "LR HEALTH & BEAUTY SYSTEMS SAS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:20:11.527Z"
+  },
+  "sungrow power france": {
+    "name": "SUNGROW POWER (FRANCE)",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:20:13.665Z"
+  },
+  "ebra medias bourgogne rhone alpes": {
+    "name": "EBRA MEDIAS BOURGOGNE RHONE-ALPES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-27T15:20:20.580Z"
   }
 }

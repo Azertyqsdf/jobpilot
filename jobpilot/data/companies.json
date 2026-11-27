@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T01:01:54.617Z",
+ "updatedAt": "2026-11-27T15:17:17.316Z",
  "companies": [
   {
    "id": "lbb-83059066700028",
@@ -1077,11 +1077,13 @@
    "sector": "Conseil en relations publiques et communication",
    "headcount": "",
    "score": 6.17821655,
-   "email": "",
+   "email": "bonjour@supernatifs.com",
    "phone": "",
-   "website": "",
+   "website": "https://supernatifs.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://supernatifs.com/contacts/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-30930461605414",
@@ -1221,11 +1223,13 @@
    "sector": "Intermédiaires spécialisés dans le commerce d'autres produits spécifiques",
    "headcount": "",
    "score": 5.6747681527000005,
-   "email": "",
+   "email": "contact@lab-energies.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.lab-energies.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.lab-energies.fr/nous-contacter",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-40031331800026",
@@ -1397,11 +1401,13 @@
    "sector": "Autres activités informatiques",
    "headcount": "",
    "score": 5.109318711499999,
-   "email": "",
+   "email": "contact@platurne.fr",
    "phone": "",
-   "website": "",
+   "website": "https://www.platurne.fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.platurne.fr/contact",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-60652041900031",
@@ -1765,11 +1771,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 4.29566178,
-   "email": "",
+   "email": "contact@komia.io",
    "phone": "",
-   "website": "",
+   "website": "https://www.komia.io/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.komia.io/",
+   "emailWhy": "petite entreprise (1 à 9 salariés)"
   },
   {
    "id": "lbb-40770189500028",
