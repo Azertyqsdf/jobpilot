@@ -4225,5 +4225,422 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-27T20:24:49.922Z"
+  },
+  "system med": {
+    "name": "SYSTEM MED",
+    "website": "https://system-med.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:35:39.561Z"
+  },
+  "groupe 361": {
+    "name": "GROUPE 361",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:35:50.135Z"
+  },
+  "nomade productions": {
+    "name": "NOMADE PRODUCTIONS",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:35:50.304Z"
+  },
+  "ever team software": {
+    "name": "EVER TEAM SOFTWARE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:35:50.478Z"
+  },
+  "happyneuron": {
+    "name": "HAPPYNEURON",
+    "website": "https://www.happyneuron.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "432681427"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:35:54.270Z"
+  },
+  "kaffkey": {
+    "name": "KAFFKEY",
+    "website": "https://kaffkey.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@kaffkey.fr",
+      "source": "https://kaffkey.fr/"
+    },
+    "genericVerdict": "petite entreprise (1 à 9 salariés)",
+    "email": "contact@kaffkey.fr",
+    "source": "https://kaffkey.fr/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (1 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:35:56.205Z"
+  },
+  "requea": {
+    "name": "REQUEA",
+    "website": "https://www.requea.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "490246774"
+    ],
+    "generic": {
+      "email": "info@requea.com",
+      "source": "https://www.requea.com/"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info@requea.com",
+    "source": "https://www.requea.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:35:57.605Z"
+  },
+  "noiise": {
+    "name": "NOIISE",
+    "website": "https://www.noiise.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:35:58.418Z"
+  },
+  "greenbuddy": {
+    "name": "GREENBUDDY",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:03.303Z"
+  },
+  "old skull games": {
+    "name": "OLD SKULL GAMES",
+    "website": "https://www.oldskullgames.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@oldskullgames.com",
+      "source": "https://www.oldskullgames.com/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-28T00:36:03.671Z"
+  },
+  "cosmo tech": {
+    "name": "COSMO TECH",
+    "website": "https://cosmotech.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@cosmotech.com",
+      "source": "https://cosmotech.com/solutions/contact-us/"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-28T00:36:05.876Z"
+  },
+  "promotion l et h": {
+    "name": "PROMOTION L ET H",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:07.505Z"
+  },
+  "eab construction": {
+    "name": "EAB CONSTRUCTION",
+    "website": "https://eabconstruction.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:36:09.780Z"
+  },
+  "influence society": {
+    "name": "INFLUENCE SOCIETY",
+    "website": "https://www.influence-society.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:36:11.274Z"
+  },
+  "better stronger": {
+    "name": "BETTER & STRONGER",
+    "website": "https://www.better-stronger.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@better-stronger.com",
+      "source": "https://www.better-stronger.com/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@better-stronger.com",
+    "source": "https://www.better-stronger.com/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:36:12.161Z"
+  },
+  "fosfor": {
+    "name": "FOSFOR",
+    "website": "https://fosfor.nl/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info@fosfor.nl",
+      "source": "https://fosfor.nl/contact/"
+    },
+    "genericVerdict": "petite entreprise (6 à 9 salariés)",
+    "email": "info@fosfor.nl",
+    "source": "https://fosfor.nl/contact/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (6 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:36:16.758Z"
+  },
+  "oligo": {
+    "name": "OLIGO",
+    "website": "https://www.oligo.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "901737312"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:36:18.166Z"
+  },
+  "blueway": {
+    "name": "BLUEWAY",
+    "website": "https://www.blueway.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "444212807"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:36:20.369Z"
+  },
+  "advanced bionics": {
+    "name": "ADVANCED BIONICS",
+    "website": "https://www.advancedbionics.com/fr/fr/home",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "info.switzerland@advancedbionics.com",
+      "source": "https://www.advancedbionics.com/com/en/home/contact-us/f/ab-global-offices"
+    },
+    "genericVerdict": "petite entreprise (20 à 49 salariés)",
+    "email": "info.switzerland@advancedbionics.com",
+    "source": "https://www.advancedbionics.com/com/en/home/contact-us/f/ab-global-offices",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (20 à 49 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:36:24.702Z"
+  },
+  "ocellus services": {
+    "name": "OCELLUS SERVICES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:26.980Z"
+  },
+  "deepidoo": {
+    "name": "DEEPIDOO",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:29.554Z"
+  },
+  "le1817": {
+    "name": "LE1817",
+    "website": "https://www.le1817.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "902731348"
+    ],
+    "generic": {
+      "email": "contact@le1817.com",
+      "source": "https://www.le1817.com/contact"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@le1817.com",
+    "source": "https://www.le1817.com/contact",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:36:30.926Z"
+  },
+  "miam company": {
+    "name": "MIAM COMPANY",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:32.514Z"
+  },
+  "go2cam international": {
+    "name": "GO2CAM INTERNATIONAL",
+    "website": "https://go2cam.net/fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@go2cam.net",
+      "source": "https://go2cam.net/fr/contacter-go2cam/"
+    },
+    "genericVerdict": "petite entreprise (10 à 19 salariés)",
+    "email": "contact@go2cam.net",
+    "source": "https://go2cam.net/fr/contacter-go2cam/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (10 à 19 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T00:36:41.453Z"
+  },
+  "katall": {
+    "name": "KATALL",
+    "website": "https://katall.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "903801041"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:36:47.607Z"
+  },
+  "aldi marche": {
+    "name": "ALDI MARCHE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:49.185Z"
+  },
+  "riso france sa": {
+    "name": "RISO FRANCE SA",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:51.393Z"
+  },
+  "merck serono": {
+    "name": "MERCK SERONO",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:36:54.766Z"
+  },
+  "l auxiliaire vie": {
+    "name": "L'AUXILIAIRE-VIE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:08.084Z"
+  },
+  "abd europe": {
+    "name": "ABD EUROPE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:18.420Z"
+  },
+  "prim x technologies": {
+    "name": "PRIM'X TECHNOLOGIES",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:19.781Z"
+  },
+  "data galaxy": {
+    "name": "DATA GALAXY",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:20.501Z"
+  },
+  "audio video integration": {
+    "name": "AUDIO VIDEO INTEGRATION",
+    "website": "https://www.audiovideointegration.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:37:21.850Z"
+  },
+  "domadoo": {
+    "name": "DOMADOO",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:23.310Z"
+  },
+  "kreactive studio": {
+    "name": "KREACTIVE STUDIO",
+    "website": "https://www.kreactive.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "883137531"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:37:25.548Z"
+  },
+  "my little house": {
+    "name": "MY LITTLE HOUSE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:32.677Z"
+  },
+  "hackuity": {
+    "name": "HACKUITY",
+    "website": "https://www.hackuity.io/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:37:34.571Z"
+  },
+  "imadis": {
+    "name": "IMADIS",
+    "website": "https://www.imadis-groupe.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": {
+      "email": "contact@imadis-groupe.fr",
+      "source": "https://www.imadis-groupe.fr/contact"
+    },
+    "genericVerdict": "taille inconnue et activité hors recrutement : on préfère ne pas écrire à l'adresse générale",
+    "checkedAt": "2026-11-28T00:37:42.072Z"
+  },
+  "electro therm": {
+    "name": "ELECTRO THERM",
+    "website": "http://electro-therm.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T00:37:48.157Z"
+  },
+  "e g active": {
+    "name": "E.G. ACTIVE",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T00:37:59.935Z"
   }
 }

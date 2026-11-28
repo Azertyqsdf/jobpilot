@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T20:21:21.366Z",
+ "updatedAt": "2026-11-28T00:35:24.164Z",
  "companies": [
   {
    "id": "lbb-83059066700028",
@@ -3295,11 +3295,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 2.4020999531999996,
-   "email": "",
+   "email": "info@requea.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.requea.com/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.requea.com/",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-83815747700012",
@@ -3359,11 +3361,13 @@
    "sector": "Commerce de gros (commerce interentreprises) d'ordinateurs, d'équipements informatiques périphériques et de logiciels",
    "headcount": "",
    "score": 2.37004236,
-   "email": "",
+   "email": "contact@kaffkey.fr",
    "phone": "",
-   "website": "",
+   "website": "https://kaffkey.fr/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://kaffkey.fr/",
+   "emailWhy": "petite entreprise (1 à 9 salariés)"
   },
   {
    "id": "lbb-83439225000041",
@@ -3603,11 +3607,13 @@
    "sector": "Activités des agences de publicité",
    "headcount": "",
    "score": 2.20600635525,
-   "email": "",
+   "email": "contact@better-stronger.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.better-stronger.com/",
    "distance": null,
-   "rome": "D1402"
+   "rome": "D1402",
+   "emailSource": "https://www.better-stronger.com/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-49172811900018",
@@ -3699,11 +3705,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 2.1055960221000003,
-   "email": "",
+   "email": "info@fosfor.nl",
    "phone": "",
-   "website": "",
+   "website": "https://fosfor.nl/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://fosfor.nl/contact/",
+   "emailWhy": "petite entreprise (6 à 9 salariés)"
   },
   {
    "id": "lbb-34941309600026",
@@ -3895,11 +3903,13 @@
    "sector": "Commerce de gros (commerce interentreprises) de produits pharmaceutiques",
    "headcount": "",
    "score": 2.0130381630000005,
-   "email": "",
+   "email": "info.switzerland@advancedbionics.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.advancedbionics.com/fr/fr/home",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.advancedbionics.com/com/en/home/contact-us/f/ab-global-offices",
+   "emailWhy": "petite entreprise (20 à 49 salariés)"
   },
   {
    "id": "lbb-90273134800014",
@@ -3911,11 +3921,13 @@
    "sector": "Programmation informatique",
    "headcount": "",
    "score": 1.9966578666,
-   "email": "",
+   "email": "contact@le1817.com",
    "phone": "",
-   "website": "",
+   "website": "https://www.le1817.com/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://www.le1817.com/contact",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-83845552500033",
@@ -3943,11 +3955,13 @@
    "sector": "Edition de logiciels applicatifs",
    "headcount": "",
    "score": 1.9926943056,
-   "email": "",
+   "email": "contact@go2cam.net",
    "phone": "",
-   "website": "",
+   "website": "https://go2cam.net/fr/",
    "distance": null,
-   "rome": "M1707"
+   "rome": "M1707",
+   "emailSource": "https://go2cam.net/fr/contacter-go2cam/",
+   "emailWhy": "petite entreprise (10 à 19 salariés)"
   },
   {
    "id": "lbb-34894025500287",

@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T20:21:21.367Z",
+ "updatedAt": "2026-11-28T00:35:24.165Z",
  "jobs": [
   {
    "tags": [
@@ -489,6 +489,50 @@
    "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
+   "id": "adzuna-5976120783",
+   "source": "Adzuna",
+   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
+   "company": "VOLUNTAE",
+   "location": "1er-Arrondissement, Lyon",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
+   "description": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un(e) Responsable d'Agenc…",
+   "contactEmail": "contact@voluntae.fr",
+   "contract": "permanent, full_time",
+   "salary": "",
+   "salaryMin": null,
+   "salaryMax": null,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-23T14:11:48Z",
+   "tags": [
+    "Emplois Vente"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Business development, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Recrutement"
+   ],
+   "status": "sent",
+   "firstSeen": "2026-11-23T15:33:21.348Z",
+   "application": "adzuna-5976120783",
+   "salaryAnnual": {
+    "label": "Salaire annuel non indiqué",
+    "known": false
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
+   "contactEmailSource": "https://voluntae.fr/contact/",
+   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
+  },
+  {
    "id": "arbeitnow-senior-account-executive-france-lyon-366320",
    "source": "Arbeitnow",
    "title": "Senior Account Executive - FRANCE",
@@ -531,50 +575,6 @@
    "viaAgency": false,
    "viaPlatform": false,
    "recruiterWhy": "employeur direct",
-   "reference": null
-  },
-  {
-   "id": "adzuna-5976120783",
-   "source": "Adzuna",
-   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
-   "company": "VOLUNTAE",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5976120783?utm_medium=api&utm_source=d81896fb",
-   "description": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un(e) Responsable d'Agenc…",
-   "contactEmail": "contact@voluntae.fr",
-   "contract": "permanent, full_time",
-   "salary": "",
-   "salaryMin": null,
-   "salaryMax": null,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-23T14:11:48Z",
-   "tags": [
-    "Emplois Vente"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Business development, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Recrutement"
-   ],
-   "status": "sent",
-   "firstSeen": "2026-11-23T15:33:21.348Z",
-   "application": "adzuna-5976120783",
-   "salaryAnnual": {
-    "label": "Salaire annuel non indiqué",
-    "known": false
-   },
-   "summary": "VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
-   "contactEmailSource": "https://voluntae.fr/contact/",
-   "contactEmailWhy": "petite entreprise (6 à 9 salariés)",
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null
   },
   {
@@ -2951,54 +2951,6 @@
    "summary": "Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en France et dans les DOM. Dans le cadre de son organisation et de son développement commercial, notre client recherche un…"
   },
   {
-   "id": "adzuna-5976088279",
-   "source": "Adzuna",
-   "title": "Responsable d'Agence – Développement Commercial & Conseil aux Entreprises H/F",
-   "company": "Voluntae",
-   "location": "1er-Arrondissement, Lyon",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5976088279?utm_medium=api&utm_source=d81896fb",
-   "description": "Billancourt (près de Paris) a accompagné plus de 200 clients dans près de 800 recrutements dans des métiers très variés. POSTE / MISSIONS VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale. Fort de plus de 30 ans d'expertise, le Groupe accompagne plus de 6 000 clients grâce à ses 11 agences réparties en Fran…",
-   "contactEmail": "contact@voluntae.fr",
-   "contract": "contract",
-   "salary": "45000–50000 €",
-   "salaryMin": 45000,
-   "salaryMax": 50000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-23T13:46:15Z",
-   "tags": [
-    "Unknown"
-   ],
-   "score": 85,
-   "reasons": [
-    "Compétences : Business development, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Business development",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-25T23:02:33.617Z",
-   "salaryAnnual": {
-    "min": 45000,
-    "max": 50000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "45 k–50 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null,
-   "summary": "POSTE / MISSIONS VOLUNTAE, cabinet de recrutement spécialisé dans les fonctions comptables, financières et commerciales, accompagne un acteur reconnu du conseil aux entreprises, spécialisé dans l'optimisation de la performance financière, sociale et fiscale.",
-   "contactEmailSource": "https://voluntae.fr/contact/",
-   "contactEmailWhy": "petite entreprise (6 à 9 salariés)"
-  },
-  {
    "id": "adzuna-5975769998",
    "source": "Adzuna",
    "title": "Consultant en Recrutement - Business Developer (F/H)",
@@ -3079,6 +3031,54 @@
    "recruiterWhy": "publiée sur un site d'annonces, employeur non nommé",
    "reference": null,
    "summary": "Description du poste : Leader du recrutement spécialisé, Michael Page défend chaque jour un recrutement éthique, exigeant et responsable. Notre mission : concilier les réalités des client·e·s avec les aspirations des candidat·e·s, de manière humaine, transparente et durable."
+  },
+  {
+   "id": "adzuna-5980280521",
+   "source": "Adzuna",
+   "title": "Ingénieur Commercial H/F",
+   "company": "Red Hot Talents",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5980280521?utm_medium=api&utm_source=d81896fb",
+   "description": "Business Developer - Énergie & IA (H/F) Rejoignez une entreprise innovante qui transforme la gestion de l'énergie grâce à l'intelligence artificielle. Notre client Dans un contexte de forte croissance, ils recherchent un(e) Ingénieur pour renforcer leur équipe commerciale. Vos missions En tant que Business Developer, vous êtes au coeur du développement commercial : Prospection & développement de portefeuille Identifier et cibler des prospects à fort potentiel (GMS, logistique, industrie) via de…",
+   "contactEmail": null,
+   "contract": "full_time",
+   "salary": "38000–51000 €",
+   "salaryMin": 38000,
+   "salaryMax": 51000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-27T04:39:23Z",
+   "tags": [
+    "Unknown"
+   ],
+   "score": 85,
+   "reasons": [
+    "Compétences : Business development, Prospection B2B, Gestion de portefeuille clients, Supply chain & logistique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Business development",
+    "Prospection B2B",
+    "Gestion de portefeuille clients",
+    "Supply chain & logistique"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-28T00:31:15.058Z",
+   "salaryAnnual": {
+    "min": 38000,
+    "max": 51000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "38 k–51 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Vos missions En tant que Business Developer, vous êtes au coeur du développement commercial : Prospection & développement de portefeuille Identifier et cibler des prospects à fort potentiel (GMS, logistique, industrie) via de…"
   },
   {
    "id": "adzuna-5973551365",
@@ -3207,52 +3207,6 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Entreprise : 'Fidérim Lyon Anvers, est un véritable acteur de l'emploi local : une équipe accueillante, experte et réactive qui est à votre écoute, nous avons pour objectif de vous accompagner dans votre parcours professionnel."
-  },
-  {
-   "id": "adzuna-5979650358",
-   "source": "Adzuna",
-   "title": "Chargé de Recrutement (H/F)",
-   "company": "Domino RH - Recrutement interne",
-   "location": "Marignier, Bonneville",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5979650358?utm_medium=api&utm_source=d81896fb",
-   "description": "Domino RH recrute son futur Chargé de Recrutement passionné et dynamique pour rejoindre notre équipe en pleine expansion au sein de notre agence Domino Missions (logistique). Sous la responsabilité du responsable d'agence, vous travaillerez en collaboration directe avec l'ensemble de l'équipe. Vous serez en relation permanente avec les intérimaires. Vos missions seront : Accueillir nos clients et prospects avec le sourire, que ce soit physiquement ou au téléphone Comprendre et identifier leurs …",
-   "contactEmail": null,
-   "contract": "permanent, full_time",
-   "salary": "25000–30000 €",
-   "salaryMin": 25000,
-   "salaryMax": 30000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-26T14:17:03Z",
-   "tags": [
-    "Emplois RH et Recrutement"
-   ],
-   "score": 83,
-   "reasons": [
-    "Compétences : Supply chain & logistique, Recrutement",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Supply chain & logistique",
-    "Recrutement"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-27T20:19:26.382Z",
-   "salaryAnnual": {
-    "min": 25000,
-    "max": 30000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "25 k–30 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null,
-   "summary": "Domino RH recrute son futur Chargé de Recrutement passionné et dynamique pour rejoindre notre équipe en pleine expansion au sein de notre agence Domino Missions (logistique). Vous serez en relation permanente avec les intérimaires."
   },
   {
    "id": "adzuna-5980212778",
@@ -3433,6 +3387,55 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Description Scalers accompagne l’un de ses clients, un cabinet d’expertise comptable, dans le recrutement d’un Responsable d’Agence Comptable H/F dans le cadre de l’ouverture d’une nouvelle agence à Megève . Rattaché au Responsable du Développement, vous évolue…"
+  },
+  {
+   "id": "adzuna-5979026754",
+   "source": "Adzuna",
+   "title": "Business Unit Manager H/F",
+   "company": "Skaelia",
+   "location": "Lyon, Rhône",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5979026754?utm_medium=api&utm_source=d81896fb",
+   "description": "Notre client, une agence de conseil en transformation digitale, recherche un(e) Business Unit Manager. Cette structure de 220 collaborateurs, implantée à Lyon, accompagne des grands comptes, des ETI et des PME dans leurs projets technologiques. Dans le cadre d'une création de poste en CDI sous le statut cadre, vous rejoignez l'entreprise pour structurer et développer un centre de profit autonome. Ce poste conserve un fort ancrage terrain. Vous combinez le pilotage de la stratégie globale de vot…",
+   "contactEmail": "contact@skaelia.com",
+   "contract": "full_time",
+   "salary": "80000–110000 €",
+   "salaryMin": 80000,
+   "salaryMax": 110000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-26T04:39:29Z",
+   "tags": [
+    "Emplois Informatique"
+   ],
+   "score": 80,
+   "reasons": [
+    "Compétences : Management d'équipe, Négociation grands comptes, Pilotage stratégique",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Management d'équipe",
+    "Négociation grands comptes",
+    "Pilotage stratégique"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-26T15:27:04.050Z",
+   "salaryAnnual": {
+    "min": 80000,
+    "max": 110000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "80 k–110 k € / an"
+   },
+   "viaAgency": true,
+   "viaPlatform": false,
+   "recruiterWhy": "l'annonce indique un recrutement pour un client",
+   "reference": null,
+   "summary": "Notre client, une agence de conseil en transformation digitale, recherche un(e) Business Unit Manager. Cette structure de 220 collaborateurs, implantée à Lyon, accompagne des grands comptes, des ETI et des PME dans leurs projets technologiques. Ce poste conserve un fort ancrage terrain.",
+   "contactEmailSource": "https://www.skaelia.com/contact",
+   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5978297430",
@@ -3871,55 +3874,6 @@
    "recruiterWhy": "employeur direct",
    "reference": null,
    "summary": "Dans cadre du renforcement de notre équipe, IMPAC Ingénierie® recherche un Business Manager H/F , votre rôle sera d'accompagner notre Groupe dans son développement commercial. Vous serez en charge de reprendre les clients de votre secteur, et par des actions de prospection, fidélisation et une fo…"
-  },
-  {
-   "id": "adzuna-5979026754",
-   "source": "Adzuna",
-   "title": "Business Unit Manager H/F",
-   "company": "Skaelia",
-   "location": "Lyon, Rhône",
-   "remote": false,
-   "url": "https://www.adzuna.fr/details/5979026754?utm_medium=api&utm_source=d81896fb",
-   "description": "Notre client, une agence de conseil en transformation digitale, recherche un(e) Business Unit Manager. Cette structure de 220 collaborateurs, implantée à Lyon, accompagne des grands comptes, des ETI et des PME dans leurs projets technologiques. Dans le cadre d'une création de poste en CDI sous le statut cadre, vous rejoignez l'entreprise pour structurer et développer un centre de profit autonome. Ce poste conserve un fort ancrage terrain. Vous combinez le pilotage de la stratégie globale de vot…",
-   "contactEmail": "contact@skaelia.com",
-   "contract": "full_time",
-   "salary": "80000–110000 €",
-   "salaryMin": 80000,
-   "salaryMax": 110000,
-   "salaryPredicted": false,
-   "salaryCurrency": "EUR",
-   "postedAt": "2026-11-26T04:39:29Z",
-   "tags": [
-    "Emplois Informatique"
-   ],
-   "score": 80,
-   "reasons": [
-    "Compétences : Management d'équipe, Négociation grands comptes, Pilotage stratégique",
-    "Intitulé proche de ton profil"
-   ],
-   "matchedSkills": [
-    "Management d'équipe",
-    "Négociation grands comptes",
-    "Pilotage stratégique"
-   ],
-   "status": "new",
-   "firstSeen": "2026-11-26T15:27:04.050Z",
-   "salaryAnnual": {
-    "min": 80000,
-    "max": 110000,
-    "currency": "EUR",
-    "from": "year",
-    "estimated": false,
-    "known": true,
-    "label": "80 k–110 k € / an"
-   },
-   "viaAgency": true,
-   "viaPlatform": false,
-   "recruiterWhy": "l'annonce indique un recrutement pour un client",
-   "reference": null,
-   "summary": "Notre client, une agence de conseil en transformation digitale, recherche un(e) Business Unit Manager. Cette structure de 220 collaborateurs, implantée à Lyon, accompagne des grands comptes, des ETI et des PME dans leurs projets technologiques. Ce poste conserve un fort ancrage terrain.",
-   "contactEmailSource": "https://www.skaelia.com/contact",
-   "contactEmailWhy": "cabinet de recrutement : l'adresse est lue par les recruteurs"
   },
   {
    "id": "adzuna-5973771416",
@@ -4735,7 +4689,7 @@
    "company": "Michael Page Switzerland",
    "location": "Kanton Genf, Schweiz",
    "remote": false,
-   "url": "https://www.adzuna.ch/land/ad/5970787746?se=Rv6A35_q8RG9S4jfcVf4Cw&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
+   "url": "https://www.adzuna.ch/land/ad/5970787746?se=mOuQDcPq8RGYwPzFuXGAoA&utm_medium=api&utm_source=d81896fb&v=6CB7D19AECE6D9E712F2FD338860D9A9EE6E5FEC",
    "description": "Ref 2583842 | Date: 18 Nov 2026 Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations and customer-facing services worldwide. IT Project Manager Our client is an international company located in Geneva. Description Our client is seeking an experienced IT Project Manager to lead the delivery and continuous improvement of strategic software initiatives supporting business operations …",
    "contactEmail": null,
    "contract": "",
@@ -4820,7 +4774,7 @@
    "location": "Paris, France; Bordeaux, France; Lyon, France; Marseille, France; Biarritz, France; Nantes, France; Annecy, France",
    "remote": false,
    "url": "https://www.arbeitnow.fr/jobs/companies/alan/enterprise-account-executive-paris-france-bordeaux-france-lyon-france-marseille-france-biarritz-france-nantes-france-annecy-france-227427",
-   "description": "Health can’t wait . \n Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n Alan exists to end the wait.\n Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n Disclaimer: We're open to hire Account Executives across our Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes and Biarritz offices. \n\n ⭐️ The Enterprise Account Executive job\n We’re expanding our Sales team in France and are looking for a ‘full-stack’ Enterprise Sales to engage with prospects and turn them into happy Alan customers. You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs.\n\n Why is this segment interesting? \n • Diverse workforce : Mix of 60% cadres / 40% non-cadres, often with subsidiaries or multi-site operations, ranging from highly tech-savvy employees to those requiring digital adoption support.\n\n• Critical challenges : Multi-stakeholder decision processes involving HRD, CFO, CEO, Payroll, CSE, Legal, Purchasing, Comp & Ben, Accounting, Brokers (creating multiple potential blockers), long sales cycles (multi-year conversations), RFP processes requiring deep audits and product customization, and strong influence from unions/CSE who can co-manage health insurance topics;\n\n• Company profiles : Flagship companies (widely known brands), groups with standalone entities or subsidiaries, often with focus on employee wellbeing (QVT programs, Great Place to Work), modern company culture, and strategic communication about digitization or employer brand attractiveness;\n\n• HR priorities : Increasing productivity, obtaining fair and competitive pricing, contributing to employee well-being through customized health plans, simplifying HR processes with digital platforms, and managing change management concerns when implementing new health insurance (biggest fear for large companies)\n\n• Critical business characteristics : This segment requires breadth & depth of expertise to navigate complex organizations, account-based strategies with Key Account Management approach, early engagement in company roadmaps, face-to-face meetings, co-creation of insurance and digital products (tailored offers considering past results, specific regimes, demographics, payroll system integration), and ability to work through RFPs and with brokers. Sales cycles are volatile with high stakes: 1 deal = 50% of annual target for Enterprise AEs.\n\n Our approach for Enterprise companies positions Alan as a strategic partner in health rather than just an insurance provider, emphasizing our digital platform for fluid UX, customized health plans at fair pricing, and health/well-being services. Success requires leveraging high-level connections, building professional materials, and potentially creating exclusive \"Health Clubs\" or labels for early adopters.\n\n What will you do with us? \n You’ll own the entire sales cycle, from prospecting to closing. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies. \n At Alan, Account Executives drive deals and close strategic opportunities with prospects . We sometimes handle some customer relationships to ensure the best possible onboarding. You’ll educate prospects, provide inspiring product demos, and onboard key stakeholders, making the transition from prospect to customer seamless.\n We expect you to understand and apply the Alan Smart & Soft selling method . This method ensures the prospect experience is an integral part of the overall Alan customer experience—making it pleasant and delightful for everyone. We expect you to be instructive to prospects (Smart), as well as to define the best personalized high-touch strategy that suits best each prospect (Soft).\n You’ll also help us grow and improve as a company , challenging us to enhance our product(s), methods, and strategy, and getting involved in initiatives to expand our customer base.\n Take a look at this testimonial from Emilie Quellec and watch Julien Plessis , both part of the Enterprise Sales team 👀 \n\n ⭐ Is it you we’re looking for?\n You’ll be a great fit for the Enterprise team at Alan if you: \n • Have at least 8 years of experience in Sales, including at least 2 years managing the whole Enterprise Sales cycle, from prospecting to closing.\n\n• Have full working proficiency in French (C2 and above) and an advanced level in English .\n\n• Are highly organized with exceptional follow-up skills ;\n\n• Have empathy and are passionate about understanding and solving prospects' problems;\n\n• Can influence through persuasion, negotiation, and consensus-building;\n\n• Have a deep understanding of value drivers in recurring revenue business models;\n\n• Have a great attitude and ability to collaborate in a small team;\n\n• Are eager to learn fast and make an impact from day 1;\n\n• Are based in (or willing to relocate to) Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz. \n\n For this opportunity, we are aiming to hire within the D-F level range .\n If you're still wondering whether this could be the best move for you, take a look at this article from Lucie Leflour, our Sales Lead in France. \n\nEverything else is a plus. We care about having a diversity of experiences, profiles and backgrounds in our team.\n\n🙌 Perks & Benefits \n At Alan, we believe that being in good health is a basic need , and it starts with our employees. This is why Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n Therefore, we offer: \n • Fair rewards . Generous equity packages complement your base salary, for permanent contracts only. \n\n• Flexible office with hybrid setup . Amazing office space at our Paris HQ or sponsored co-working hubs in Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz.\n\n• All the tools you need . Top of the range equipment: Macbook Air, keyboard, laptop stand, monitor, and Bose noise-canceling headphones.\n\n• Flexible vacation policy and flexible working hours . Organize your time as you wish.\n\n• Delightful healthcare insurance: Extremely comprehensive health insurance - 100% for you and your children, 90-100% for partners depending on your country (permanent contracts only). \n\n• Transport . Generous transit benefit\n\n• Learning & Training opportunities . A highly flexible training policy free books and budget to attend and speak at conferences if the opportunity arises.\n\n• Personal growth through coaching : At Alan, coaching isn't just a perk - it's core to who we are. Every Alaner is paired with a dedicated coach from day one, who helps maximize their impact, nurture engagement, and navigate Alan's values to develop their full potential. Learn more about our coaching culture . \n\n• Parental leave . Extended parental leave for all new parents, for permanent contracts only. \n\n Important note: we hire people, not roles. \n If you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply as it can only bring learnings or success.\n If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?\n Remember, this is just a guide, not a checklist. \n We'll be thrilled to receive your application!\n 🔖 Check out our About Alan and Career pages, as well as our Medium , blog and Glassdoor page for more info.\n\n #LI-DNP\n Find more English Speaking Jobs in France on Arbeitnow",
+   "description": "Health can’t wait . \n Not for symptoms to get worse. Not for a six‑month appointment. Not for a system to catch up. But that’s exactly how healthcare works today. You wait, until you can’t.\n Alan exists to end the wait.\n Health is a universal right, and we believe this right can only become real when it’s coupled with prevention. We need to stop treating health as something we repair and start treating it as something we build, every day. It’s not solely a question of willpower. It’s the healthcare system itself that needs to work for everyone, in a sustainable way.\n So we are building the new standard in prevention insurance. Alan is the first company that integrates insurance, prevention, and care into a single, acclaimed user experience.\n We are on an incredible journey to build a global leading company, with a unique culture . We already partner with 40K+ companies of all sizes, serving more than 1M+ members, and have reached €800M+ in ARR.\n Prevention as the new norm. That's what we're building with our team of 1000+ people. If it speaks to you: we're hiring across France, Spain, Belgium, and Canada. And beyond.\n\n Disclaimer: We're open to hire Account Executives across our Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes and Biarritz offices. \n\n ⭐️ The Enterprise Account Executive job\n We’re expanding our Sales team in France and are looking for a ‘full-stack’ Enterprise Sales to engage with prospects and turn them into happy Alan customers. You will join a team that mostly focuses on large or very large companies from Tech, Syntec, HCR, and B2B services, interacting with everyone from HR executives to CEOs.\n\n Why is this segment interesting? \n • Diverse workforce : Mix of 60% cadres / 40% non-cadres, often with subsidiaries or multi-site operations, ranging from highly tech-savvy employees to those requiring digital adoption support.\n\n• Critical challenges : Multi-stakeholder decision processes involving HRD, CFO, CEO, Payroll, CSE, Legal, Purchasing, Comp & Ben, Accounting, Brokers (creating multiple potential blockers), long sales cycles (multi-year conversations), RFP processes requiring deep audits and product customization, and strong influence from unions/CSE who can co-manage health insurance topics;\n\n• Company profiles : Flagship companies (widely known brands), groups with standalone entities or subsidiaries, often with focus on employee wellbeing (QVT programs, Great Place to Work), modern company culture, and strategic communication about digitization or employer brand attractiveness;\n\n• HR priorities : Increasing productivity, obtaining fair and competitive pricing, contributing to employee well-being through customized health plans, simplifying HR processes with digital platforms, and managing change management concerns when implementing new health insurance (biggest fear for large companies)\n\n• Critical business characteristics : This segment requires breadth & depth of expertise to navigate complex organizations, account-based strategies with Key Account Management approach, early engagement in company roadmaps, face-to-face meetings, co-creation of insurance and digital products (tailored offers considering past results, specific regimes, demographics, payroll system integration), and ability to work through RFPs and with brokers. Sales cycles are volatile with high stakes: 1 deal = 50% of annual target for Enterprise AEs.\n\n Our approach for Enterprise companies positions Alan as a strategic partner in health rather than just an insurance provider, emphasizing our digital platform for fluid UX, customized health plans at fair pricing, and health/well-being services. Success requires leveraging high-level connections, building professional materials, and potentially creating exclusive \"Health Clubs\" or labels for early adopters.\n\n What will you do with us? \n You’ll own the entire sales cycle, from prospecting to closing. In our Enterprise Sales team, you will deal with companies with more than 300 employees, including all CAC40 companies. \n At Alan, Account Executives drive deals and close strategic opportunities with prospects . We sometimes handle some customer relationships to ensure the best possible onboarding. You’ll educate prospects, provide inspiring product demos, and onboard key stakeholders, making the transition from prospect to customer seamless.\n We expect you to understand and apply the Alan Smart & Soft selling method . This method ensures the prospect experience is an integral part of the overall Alan customer experience—making it pleasant and delightful for everyone. We expect you to be instructive to prospects (Smart), as well as to define the best personalized high-touch strategy that suits best each prospect (Soft).\n You’ll also help us grow and improve as a company , challenging us to enhance our product(s), methods, and strategy, and getting involved in initiatives to expand our customer base.\n Take a look at this testimonial from Emilie Quellec and watch Julien Plessis , both part of the Enterprise Sales team 👀 \n\n ⭐ Is it you we’re looking for?\n You’ll be a great fit for the Enterprise team at Alan if you: \n • Have at least 8 years of experience in Sales, including at least 2 years managing the whole Enterprise Sales cycle, from prospecting to closing.\n\n• Have full working proficiency in French (C2 and above) and an advanced level in English .\n\n• Are highly organized with exceptional follow-up skills ;\n\n• Have empathy and are passionate about understanding and solving prospects' problems;\n\n• Can influence through persuasion, negotiation, and consensus-building;\n\n• Have a deep understanding of value drivers in recurring revenue business models;\n\n• Have a great attitude and ability to collaborate in a small team;\n\n• Are eager to learn fast and make an impact from day 1;\n\n• Are based in (or willing to relocate to) Paris, Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz. \n\n For this opportunity, we are aiming to hire within the D-F level range .\n If you're still wondering whether this could be the best move for you, take a look at this article from Lucie Leflour, our Sales Lead in France. \n\nEverything else is a plus. We care about having a diversity of experiences, profiles and backgrounds in our team.\n\n🙌 Perks & Benefits \n At Alan, we believe that being in good health is a basic need , and it starts with our employees. This is why Alaners are provided with a stimulating environment and perks ensuring they are happy, efficient and spend only high-quality time with co-workers.\n Therefore, we offer: \n • Fair rewards . Generous equity packages complement your base salary, for permanent contracts only. \n\n• Flexible office with hybrid setup . Amazing office space at our Paris HQ or sponsored co-working hubs in Bordeaux, Marseille, Lyon, Annecy, Nantes or Biarritz.\n\n• All the tools you need . Top of the range equipment: Macbook Air, keyboard, laptop stand, monitor, and Bose noise-canceling headphones.\n\n• Flexible vacation policy and flexible working hours . Organize your time as you wish.\n\n• Delightful healthcare insurance: Extremely comprehensive health insurance - 100% for you and your children, 90-100% for partners depending on your country (permanent contracts only). \n\n• Transport . Generous transit benefit\n\n• Learning & Training opportunities . A highly flexible training policy free books and budget to attend and speak at conferences if the opportunity arises.\n\n• Personal growth through coaching : At Alan, coaching isn't just a perk - it's core to who we are. Every Alaner is paired with a dedicated coach from day one, who helps maximize their impact, nurture engagement, and navigate Alan's values to develop their full potential. Learn more about our coaching culture . \n\n• Parental leave . Extended parental leave for all new parents, for permanent contracts only. \n\n Important note: we hire people, not roles. \n If you're excited about this opportunity but don't check every box, we'd love to hear from you. Everyone, no matter how underrepresented, should feel free to apply as it can only bring learnings or success.\n If you identify yourself as a woman : Did you know that research shows women often apply only when meeting 100% of requirements?\n Remember, this is just a guide, not a checklist. \n We'll be thrilled to receive your application!\n 🔖 Check out our About Alan and Career pages, as well as our Medium , blog and Glassdoor page for more info.\n\n #LI-DNP\n Find Jobs in France on Arbeitnow",
    "contactEmail": null,
    "contract": "Full Time",
    "salary": "",
@@ -4897,6 +4851,52 @@
    "recruiterWhy": "l'annonce indique un recrutement pour un client",
    "reference": null,
    "summary": "Manpower CABINET DE RECRUTEMENT DE LA HAUTE-SAVOIE recherche pour son client, un Business Developer (H/F) Vous aimez développer un portefeuille clients, créer de nouvelles opportunités d'affaires et évoluer en toute autonomie sur le terrain ?"
+  },
+  {
+   "id": "adzuna-5974347732",
+   "source": "Adzuna",
+   "title": "Customer Operations Manager F/H",
+   "company": "Vivacy",
+   "location": "Archamps, Saint-Julien-en-Genevois",
+   "remote": false,
+   "url": "https://www.adzuna.fr/details/5974347732?utm_medium=api&utm_source=d81896fb",
+   "description": "L'entreprise Vivacy, acteur de premier plan dans le domaine de l’esthétique médicale et de l’anti-âge a été fondée en 2007. Cette société française de renom s’est rapidement spécialisée dans la création, la production et la distribution de dispositifs médicaux de pointe à base d’acide hyaluronique. Entreprise dynamique de plus de 350 collaborateurs dans le monde, nous recherchons de nouveaux talents pour intégrer nos équipes qui sauront apporter une réelle valeur ajoutée. Description du poste P…",
+   "contactEmail": null,
+   "contract": "full_time",
+   "salary": "48000–52000 €",
+   "salaryMin": 48000,
+   "salaryMax": 52000,
+   "salaryPredicted": false,
+   "salaryCurrency": "EUR",
+   "postedAt": "2026-11-21T17:59:13Z",
+   "tags": [
+    "Emplois RH et Recrutement"
+   ],
+   "score": 75,
+   "reasons": [
+    "Compétences : Management d'équipe, Recrutement",
+    "Intitulé proche de ton profil"
+   ],
+   "matchedSkills": [
+    "Management d'équipe",
+    "Recrutement"
+   ],
+   "status": "new",
+   "firstSeen": "2026-11-28T00:31:15.058Z",
+   "salaryAnnual": {
+    "min": 48000,
+    "max": 52000,
+    "currency": "EUR",
+    "from": "year",
+    "estimated": false,
+    "known": true,
+    "label": "48 k–52 k € / an"
+   },
+   "viaAgency": false,
+   "viaPlatform": false,
+   "recruiterWhy": "employeur direct",
+   "reference": null,
+   "summary": "L'entreprise Vivacy, acteur de premier plan dans le domaine de l’esthétique médicale et de l’anti-âge a été fondée en 2007. Entreprise dynamique de plus de 350 collaborateurs dans le monde, nous recherchons de nouveaux talents pour intégrer nos équipes qui sauront apporter une réelle valeur ajoutée."
   },
   {
    "id": "adzuna-5979683518",
