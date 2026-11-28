@@ -4642,5 +4642,91 @@
     "reason": "site officiel introuvable",
     "v": 3,
     "checkedAt": "2026-11-28T00:37:59.935Z"
+  },
+  "camo groupe": {
+    "name": "Camo Groupe",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T14:21:25.620Z"
+  },
+  "emile maurin fixation": {
+    "name": "Emile Maurin Fixation",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T14:21:27.295Z"
+  },
+  "sovitrat": {
+    "name": "Sovitrat",
+    "website": "https://www.sovitrat.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "314887126"
+    ],
+    "generic": {
+      "email": "contact.dpo@www.sovitrat.fr",
+      "source": "https://www.sovitrat.fr/mentions-legales/"
+    },
+    "genericVerdict": "petite entreprise (3 à 9 salariés)",
+    "email": "contact.dpo@www.sovitrat.fr",
+    "source": "https://www.sovitrat.fr/mentions-legales/",
+    "kind": "contact-pertinent",
+    "why": "petite entreprise (3 à 9 salariés)",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T14:21:29.330Z"
+  },
+  "maaf": {
+    "name": "MAAF",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T14:21:38.959Z"
+  },
+  "dicma": {
+    "name": "DICMA",
+    "website": "https://www.dicma.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [
+      "325752566"
+    ],
+    "generic": null,
+    "checkedAt": "2026-11-28T14:21:41.540Z"
+  },
+  "moulin roty la boutique": {
+    "name": "MOULIN ROTY LA BOUTIQUE",
+    "website": "https://www.moulinroty.com/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": false,
+    "sirens": [],
+    "generic": null,
+    "checkedAt": "2026-11-28T14:21:45.724Z"
+  },
+  "proaxion": {
+    "name": "PROAXION",
+    "website": "https://proaxion.fr/",
+    "reason": "aucune adresse de recrutement publiée sur le site",
+    "v": 3,
+    "isRecruiter": true,
+    "sirens": [],
+    "generic": {
+      "email": "contact@proaxion.fr",
+      "source": "https://proaxion.fr/contact/"
+    },
+    "genericVerdict": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "email": "contact@proaxion.fr",
+    "source": "https://proaxion.fr/contact/",
+    "kind": "contact-pertinent",
+    "why": "cabinet de recrutement : l'adresse est lue par les recruteurs",
+    "verified": "nom",
+    "checkedAt": "2026-11-28T14:21:51.200Z"
+  },
+  "bonhomme de bois distribution": {
+    "name": "BONHOMME DE BOIS DISTRIBUTION",
+    "reason": "site officiel introuvable",
+    "v": 3,
+    "checkedAt": "2026-11-28T14:21:51.759Z"
   }
 }
